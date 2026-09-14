@@ -33,18 +33,7 @@ class DemoDataSeeder extends Seeder
 
     public function run(): void
     {
-        // #region agent log
-        $this->debugLog('DemoDataSeeder.php:run', 'DemoDataSeeder started', [
-            'hypothesisId' => 'H4',
-            'app_env' => app()->environment(),
-            'base_path' => base_path(),
-        ]);
-        // #endregion
-
         if (app()->environment('production')) {
-            // #region agent log
-            $this->debugLog('DemoDataSeeder.php:run', 'Skipped production', ['hypothesisId' => 'H4']);
-            // #endregion
             $this->command?->warn('DemoDataSeeder skipped in production.');
 
             return;
@@ -52,20 +41,10 @@ class DemoDataSeeder extends Seeder
 
         $path = $this->resolveSeedPath();
         if ($path === null) {
-            // #region agent log
-            $this->debugLog('DemoDataSeeder.php:run', 'demo_seed.json not resolved', ['hypothesisId' => 'H2']);
-            // #endregion
             $this->command?->warn('demo_seed.json not found — skipping demo data.');
 
             return;
         }
-
-        // #region agent log
-        $this->debugLog('DemoDataSeeder.php:run', 'demo_seed.json resolved', [
-            'hypothesisId' => 'H2',
-            'path' => $path,
-        ]);
-        // #endregion
 
         /** @var array<string, mixed> $payload */
         $payload = json_decode(File::get($path), true, 512, JSON_THROW_ON_ERROR);
@@ -386,35 +365,7 @@ class DemoDataSeeder extends Seeder
     private function resolveSeedPath(): ?string
     {
         $path = database_path('seeders/demo/demo_seed.json');
-        $exists = File::isFile($path);
 
-        // #region agent log
-        $this->debugLog('DemoDataSeeder.php:resolveSeedPath', 'Resolve demo_seed path', [
-            'hypothesisId' => 'H2',
-            'path' => $path,
-            'exists' => $exists,
-        ]);
-        // #endregion
-
-        return $exists ? $path : null;
-    }
-
-    /**
-     * @param  array<string, mixed>  $data
-     */
-    private function debugLog(string $location, string $message, array $data = []): void
-    {
-        $payload = array_merge([
-            'sessionId' => '936aec',
-            'timestamp' => (int) round(microtime(true) * 1000),
-            'location' => $location,
-            'message' => $message,
-        ], $data);
-
-        @file_put_contents(
-            '/home/bienvenu/Documents/CHRIS/.cursor/debug-936aec.log',
-            json_encode($payload, JSON_UNESCAPED_SLASHES)."\n",
-            FILE_APPEND | LOCK_EX,
-        );
+        return File::isFile($path) ? $path : null;
     }
 }
