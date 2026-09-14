@@ -1,0 +1,965 @@
+{
+  "trackId": "track_1",
+  "title": {
+    "fr": "Niveau 1 : Fondation",
+    "rn": "Urwego rwa 1 : Ishingiro",
+    "en": "Level 1: Foundation"
+  },
+  "description": {
+    "fr": "Les fondements de la vie chrétienne : l'amour et le pardon de Dieu, la vie remplie et conduite par le Saint-Esprit, et les premiers pas du témoignage personnel et du ministère à partir des Quatre Lois Spirituelles.",
+    "rn": "Ishingiro ry'ubugingo rukristo : urukundo n'ikigongwe c'Imana, kwuzuzwa no kurongorwa na Mpwemu Yera, hamwe n'intango zo gushinga intahe no gutegura umurimo bwite biciye ku Ngingo Zine z'ivy'Impwemu.",
+    "en": "The foundations of the Christian life: God's love and forgiveness, a life filled and led by the Holy Spirit, and the first steps of personal witness and ministry built on the Four Spiritual Laws."
+  },
+  "lessons": [
+    {
+      "id": "track_1_lesson_01",
+      "code": "1M01",
+      "type": "main",
+      "order": 1,
+      "title": {
+        "fr": "Comment expérimenter l'amour et le pardon de Dieu",
+        "rn": "Uko wonyura mu rukundo n'ikigongwe c'Imana",
+        "en": "How to experience God's love and forgiveness"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Apprendre à confesser ses péchés pour vivre concrètement l'amour et le pardon de Dieu au quotidien.",
+          "objectives": [
+            "Comprendre qui est Jésus-Christ et pourquoi il est venu.",
+            "Distinguer les trois attitudes possibles face à Christ, à partir de 1 Corinthiens 2.14–3.3.",
+            "Comprendre et mettre en pratique la confession comme « respiration spirituelle »."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Jean 1.9", "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner et nous purifier de toute injustice."},
+            {"reference": "Psaume 32.1", "text": "Heureux celui à qui la transgression est remise, à qui le péché est pardonné !"}
+          ],
+          "summaryPoints": [
+            "Connaître Jésus comme le Dieu qui pardonne.",
+            "Reconnaître qui occupe la première place dans sa vie : soi-même ou Christ.",
+            "Pratiquer la « respiration spirituelle » : confesser le péché, puis recevoir à nouveau la plénitude de l'Esprit."
+          ],
+          "reflectionQuestions": [
+            "Qui est Jésus pour vous : un simple enseignant, ou le Dieu qui pardonne ?",
+            "Qui occupe la première place dans votre vie aujourd'hui ?",
+            "Y a-t-il un péché que vous avez besoin de confesser maintenant ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenya ingene watura ivyaha vyawe, ukanyura mu rukundo n'ikigongwe c'Imana mu buzima bwa misi yose.",
+          "objectives": [
+            "Gutahura Yesu uwo ari we n'igituma yaje.",
+            "Gutandukanya ubwoko butatu bw'abantu. (1 Abakorinto 2.14 – 3.3)",
+            "Gutahura no gushira mu ngiro « gusohora impwemu » — kwatura."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Yohana 1.9", "text": "Twatuye ivyaha vyacu, ni umwizigirwa kandi w'ubutungane, aduharira ivyaha vyacu, akatwoza akabi kose."},
+            {"reference": "Zaburi 32.1", "text": "Hahiriwe uwuhariwe ibigabitanyo, uwo icaha ciwe gitwikiriwe !"}
+          ],
+          "summaryPoints": [
+            "Kumenya — Yesu, Imana iharira.",
+            "Kwitegereza — ndi umuntu w'ubuhe : ni nde ku ntebe ?",
+            "Guhema — gusohora icaha, kwinjiza Mpwemu."
+          ],
+          "reflectionQuestions": [
+            "Yesu, kuri wewe, ni nde ? Umwigisha gusa — canke Imana iharira ?",
+            "Ni nde ari ku ntebe y'ubugingo bwawe ? Umuntu, canke Kristo ?",
+            "Hari icaha co kwatura uno musi ? Kisohore, uheze wakire ikigongwe."
+          ]
+        },
+        "en": {
+          "centralIdea": "Learn to confess sin so you can experience God's love and forgiveness in everyday life.",
+          "objectives": [
+            "Understand who Jesus Christ is and why he came.",
+            "Distinguish three possible postures toward Christ, from 1 Corinthians 2:14–3:3.",
+            "Understand and practice confession as 'spiritual breathing.'"
+          ],
+          "keyScriptures": [
+            {"reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."},
+            {"reference": "Psalm 32:1", "text": "Blessed is he whose transgression is forgiven, whose sin is covered."}
+          ],
+          "summaryPoints": [
+            "Know Jesus as the God who forgives.",
+            "Recognize who is on the throne of your life: yourself, or Christ.",
+            "Practice 'spiritual breathing': confess sin, then receive the Spirit's fullness again."
+          ],
+          "reflectionQuestions": [
+            "Who is Jesus to you — just a teacher, or the God who forgives?",
+            "Who is on the throne of your life today?",
+            "Is there a sin you need to confess right now?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_02",
+      "code": "1M02",
+      "type": "main",
+      "order": 2,
+      "title": {
+        "fr": "Comment être rempli du Saint-Esprit",
+        "rn": "Uko wokwuzuzwa Mpwemu Yera",
+        "en": "How to be filled with the Holy Spirit"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre comment être rempli du Saint-Esprit par la foi, en tant qu'acte de la volonté.",
+          "objectives": [
+            "Comprendre qui est le Saint-Esprit et pourquoi il est venu.",
+            "Comprendre ce que veut dire être rempli de l'Esprit.",
+            "Savoir « inspirer » — être rempli par la foi.",
+            "Citer deux versets clés et leur mot-clé."
+          ],
+          "keyScriptures": [
+            {"reference": "Éphésiens 5.18", "text": "Ne vous enivrez pas de vin, mais soyez remplis de l'Esprit."},
+            {"reference": "1 Jean 5.14-15", "text": "Si nous demandons quelque chose selon sa volonté, il nous écoute ; et nous savons que nous obtenons ce que nous demandons."}
+          ],
+          "summaryPoints": [
+            "Comprendre — qui est l'Esprit et pourquoi il est venu.",
+            "Obéir — au commandement d'être rempli. (Éphésiens 5.18)",
+            "Croire — la promesse ; être rempli par la foi. (1 Jean 5.14-15)"
+          ],
+          "reflectionQuestions": [
+            "Qui dirige votre vie en ce moment ? Le moi, ou l'Esprit ?",
+            "Y a-t-il un obstacle à confesser ? Ignorance, incrédulité ou péché ?",
+            "Voulez-vous être rempli maintenant ? Demandez par la foi — et croyez la promesse."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Ingene umuntu yokwuzuzwa Mpwemu Yera mu kwizera, ari igikorwa c'ugushaka kwiwe.",
+          "objectives": [
+            "Gusobanura Mpwemu Yera uwo ari we n'igituma yaje.",
+            "Gusobanura ico kwuzura Mpwemu Yera bisobanura.",
+            "Kumenya « kwinjiza impwemu » — kwuzuzwa mu kwizera.",
+            "Kuvuga imirongo ibiri nshimikiro n'amajambo yayo."
+          ],
+          "keyScriptures": [
+            {"reference": "Abanyefeso 5.18", "text": "Ntimuborerwe inzoga… ariko muzuzwe Mpwemu."},
+            {"reference": "1 Yohana 5.14-15", "text": "Yumva ivyo dusaba bihuye n'ugushaka kwiwe."}
+          ],
+          "summaryPoints": [
+            "Gutahura — Mpwemu uwo ari we n'igituma yaje.",
+            "Kwumvira — itegeko ryo kuzuzwa. (Abanyefeso 5.18)",
+            "Kwizera — isezerano ; kuzuzwa mu kwizera. (1 Yohana 5.14-15)"
+          ],
+          "reflectionQuestions": [
+            "Ni nde arongora ubugingo bwawe ubu ? Wewe, canke Mpwemu ?",
+            "Hari intambamyi yo kwatura ? Ukutamenya, ukutizera, canke icaha ?",
+            "Woshaka kuzuzwa ubu ? Saba mu kwizera — wizere isezerano."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand how to be filled with the Holy Spirit by faith, as an act of the will.",
+          "objectives": [
+            "Understand who the Holy Spirit is and why he came.",
+            "Understand what it means to be filled with the Spirit.",
+            "Know how to 'inhale' — to be filled by faith.",
+            "State two key verses and their key word."
+          ],
+          "keyScriptures": [
+            {"reference": "Ephesians 5:18", "text": "Do not be drunk with wine, in which is excess, but be filled with the Spirit."},
+            {"reference": "1 John 5:14-15", "text": "If we ask anything according to his will, he hears us, and we know that we have what we asked of him."}
+          ],
+          "summaryPoints": [
+            "Understand — who the Spirit is and why he came.",
+            "Obey — the command to be filled. (Ephesians 5:18)",
+            "Believe — the promise; be filled by faith. (1 John 5:14-15)"
+          ],
+          "reflectionQuestions": [
+            "Who is directing your life right now — yourself, or the Spirit?",
+            "Is there an obstacle you need to confess — ignorance, unbelief, or sin?",
+            "Do you want to be filled right now? Ask in faith, and believe the promise."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_03",
+      "code": "1M03",
+      "type": "main",
+      "order": 3,
+      "title": {
+        "fr": "Comment marcher par l'Esprit",
+        "rn": "Uko worongorwa na Mpwemu Yera",
+        "en": "How to walk by the Spirit"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre comment marcher par l'Esprit à tout moment, et vivre la vie pleine et fructueuse que Christ promet.",
+          "objectives": [
+            "Comprendre comment vous êtes rempli de l'Esprit.",
+            "Vous préparer pour la bataille spirituelle.",
+            "Connaître vos ressources en tant qu'enfant de Dieu.",
+            "Comprendre ce que signifie vivre par la foi."
+          ],
+          "keyScriptures": [
+            {"reference": "Galates 2.20", "text": "Ce n'est plus moi qui vis, c'est Christ qui vit en moi."},
+            {"reference": "Romains 1.17", "text": "Le juste vivra par la foi."}
+          ],
+          "summaryPoints": [
+            "Rempli — assuré d'être dirigé par le Saint-Esprit.",
+            "Préparé — conscient de la bataille et de mes ressources.",
+            "Par la foi — en croyant les promesses de Dieu, non mes sentiments."
+          ],
+          "reflectionQuestions": [
+            "Êtes-vous rempli de l'Esprit en ce moment ? Sinon, pratiquez la respiration spirituelle.",
+            "Quel adversaire vous éprouve le plus ? Le monde, la chair ou le diable ?",
+            "Sur quoi repose votre marche ? Sur vos sentiments, ou sur la foi ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene umuntu yokwama arongorwa na Mpwemu — akabaho ubugingo bwuzuye kandi bwama imbuto Kristo yasezeranye.",
+          "objectives": [
+            "Gusobanura uko mwuzuzwa Mpwemu Yera.",
+            "Kwitegurira intambara yo mu buryo bw'impwemu.",
+            "Gutahura uburenganzira bwo kuba umwana w'Imana.",
+            "Gusobanura ico ari co kubaho mu kwizera."
+          ],
+          "keyScriptures": [
+            {"reference": "Abagalatiya 2.20", "text": "Nabambanywe na Kristo… ariho muri jewe."},
+            {"reference": "Abaroma 1.17", "text": "Umutungane azobaho mu kwizera."}
+          ],
+          "summaryPoints": [
+            "Kuzuzwa — kwizera ko urongorwa na Mpwemu.",
+            "Kwitegura — kumenya intambara n'ivyiza vyawe.",
+            "Mu kwizera — kwemera amasezerano y'Imana, si ibigumbagumba."
+          ],
+          "reflectionQuestions": [
+            "Woba wujujwe Mpwemu ubu ? Bitari uko, hema mu buryo bw'impwemu.",
+            "Ni uwuhe mwansi ukugora kuruta ? Isi, umubiri, canke Shetani ?",
+            "Ingendo yawe ishimikiye kuki ? Ku bigumbagumba, canke ku kwizera ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand how to walk by the Spirit at every moment, and live the full, fruitful life Christ promises.",
+          "objectives": [
+            "Understand how you are filled with the Spirit.",
+            "Prepare for spiritual battle.",
+            "Know your resources as a child of God.",
+            "Understand what it means to live by faith."
+          ],
+          "keyScriptures": [
+            {"reference": "Galatians 2:20", "text": "I am crucified with Christ; nevertheless I live, yet not I, but Christ lives in me."},
+            {"reference": "Romans 1:17", "text": "The righteous shall live by faith."}
+          ],
+          "summaryPoints": [
+            "Filled — confident that the Holy Spirit is leading me.",
+            "Prepared — aware of the battle and of my resources.",
+            "By faith — trusting God's promises, not my feelings."
+          ],
+          "reflectionQuestions": [
+            "Are you filled with the Spirit right now? If not, practice spiritual breathing.",
+            "Which adversary troubles you most — the world, the flesh, or the devil?",
+            "What is your walk resting on — your feelings, or faith?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_04",
+      "code": "1M04",
+      "type": "main",
+      "order": 4,
+      "title": {
+        "fr": "Comment témoigner par l'Esprit",
+        "rn": "Uko woshinga intahe biciye kuri Mpwemu",
+        "en": "How to witness by the Spirit"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Communiquer le sens du succès dans le témoignage : témoigner par l'Esprit et laisser les résultats à Dieu.",
+          "objectives": [
+            "Comprendre et appliquer la préparation personnelle pour témoigner.",
+            "Comprendre et appliquer le fait de prendre l'initiative de témoigner."
+          ],
+          "keyScriptures": [
+            {"reference": "Actes 1.8", "text": "Vous recevrez une puissance, celle du Saint-Esprit survenant sur vous, et vous serez mes témoins… jusqu'aux extrémités de la terre."},
+            {"reference": "2 Pierre 3.9", "text": "Le Seigneur use de patience envers vous, ne voulant pas qu'aucun périsse, mais voulant que tous arrivent à la repentance."}
+          ],
+          "summaryPoints": [
+            "Se préparer — être chrétien, pur, rempli et prêt.",
+            "Prendre l'initiative — prier, aller, témoigner, s'attendre à Dieu.",
+            "Le succès — témoigner par l'Esprit ; les résultats appartiennent à Dieu."
+          ],
+          "reflectionQuestions": [
+            "Où en est votre préparation personnelle ? Chrétien, pur, rempli, prêt ?",
+            "À qui Dieu vous envoie-t-il ? Une personne à qui parler de Christ cette semaine.",
+            "Qu'est-ce que le succès, pour vous ? Des résultats, ou l'obéissance fidèle ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha insobanuro y'intsinzi mu gushinga intahe : gushinga intahe biciye kuri Mpwemu, inyishu tukazireka ku Mana.",
+          "objectives": [
+            "Gutahura no gushira mu ngiro iyitegurwa ryawe bwite.",
+            "Gutahura no gushira mu ngiro gufata iya mbere mu gushinga intahe."
+          ],
+          "keyScriptures": [
+            {"reference": "Yohana 15.16", "text": "Si mwebwe mwatoye, ariko ni jewe nabatoye, kandi ndabashinga ngo mugende mwame ivyamwa."},
+            {"reference": "Ivyak 1.8", "text": "Muzoba ivyabona vyanje… gushika ku mpera y'isi."}
+          ],
+          "summaryPoints": [
+            "Kwitegura — kuba umukristo, uwutyoroye, wujujwe, witeguye.",
+            "Gufata iya mbere — gusenga, kugenda, gushinga intahe, kwitega Imana.",
+            "Intsinzi — gushinga intahe biciye kuri Mpwemu ; inyishu n'iz'Imana."
+          ],
+          "reflectionQuestions": [
+            "Iyitegurwa ryawe rigeze he ? Umukristo, uwutyoroye, wujujwe, witeguye ?",
+            "Imana ikurungika kuri nde ? Umuntu wo kubwira Kristo iyi ndwi.",
+            "Intsinzi kuri wewe ni iki ? Inyishu, canke ukwumvira mu kwizigirwa ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Communicate the meaning of success in witnessing: witness by the Spirit and leave the results to God.",
+          "objectives": [
+            "Understand and apply personal preparation for witnessing.",
+            "Understand and apply taking the initiative to witness."
+          ],
+          "keyScriptures": [
+            {"reference": "John 15:16", "text": "You did not choose me, but I chose you and appointed you to go and bear fruit."},
+            {"reference": "Acts 1:8", "text": "You shall be my witnesses... to the uttermost parts of the earth."}
+          ],
+          "summaryPoints": [
+            "Prepare — be a Christian, be pure, be filled, be ready.",
+            "Take the initiative — pray, go, witness, expect God to act.",
+            "Success — witness by the Spirit; the results belong to God."
+          ],
+          "reflectionQuestions": [
+            "Where does your personal preparation stand — Christian, pure, filled, ready?",
+            "Who is God sending you to? Someone to tell about Christ this week.",
+            "What does success mean to you — results, or faithful obedience?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_05",
+      "code": "1M05",
+      "type": "main",
+      "order": 5,
+      "title": {
+        "fr": "Aider à accomplir l'Ordre Suprême",
+        "rn": "Uko wofasha gushitsa Itegeko Rikuru",
+        "en": "Helping fulfill the Great Commission"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous motiver à obéir au commandement de Dieu d'aller et de faire des disciples dans le monde.",
+          "objectives": [
+            "Comprendre le sens du terme « Ordre Suprême ».",
+            "Savoir pourquoi tout chrétien devrait le prendre au sérieux.",
+            "Savoir comment être engagé personnellement."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 28.18-20", "text": "Tout pouvoir m'a été donné dans le ciel et sur la terre. Allez, faites de toutes les nations des disciples… et voici, je suis avec vous tous les jours, jusqu'à la fin du monde."},
+            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."}
+          ],
+          "summaryPoints": [
+            "Comprendre — l'Ordre Suprême vient de Jésus, pour tous.",
+            "Être motivé — par l'amour, la compassion et la patience de Dieu.",
+            "S'engager — rempli de l'Esprit, disponible, dès aujourd'hui."
+          ],
+          "reflectionQuestions": [
+            "L'Ordre Suprême vous concerne-t-il ? Il est donné à chaque croyant.",
+            "Qu'est-ce qui vous motive ? L'amour, la compassion, la patience de Dieu ?",
+            "Quel premier pas ferez-vous ? Une personne, un lieu, cette semaine."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kubatera umwete wo kwumvira itegeko ry'Imana ryo kugenda no guhindura abantu bo mw'isi abigishwa.",
+          "objectives": [
+            "Gusobanura Itegeko Rikuru ico ari co.",
+            "Kumenya igituma umukristo wese ategerezwa kurifata nka nkama.",
+            "Gusobanura ingene umukristo yokwitanga mu gushitsa Itegeko Rikuru."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 28.18-20", "text": "Nahawe ububasha bwose mw'ijuru no mw'isi. Nuko nimugende, muhindure amahanga yose abigishwa… Ndi kumwe namwe imisi yose, gushika ku muhero w'isi."},
+            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wumvise kuri jewe… ubishinge abantu b'abizigirwa, bashoboye no kuvyigisha abandi."}
+          ],
+          "summaryPoints": [
+            "Gutahura — Itegeko Rikuru rivuye kuri Yesu, ku bose.",
+            "Guterwa umwete — n'urukundo, imbabazi, ukwihangana kw'Imana.",
+            "Kwitanga — wujujwe Mpwemu, uri maso, uno musi."
+          ],
+          "reflectionQuestions": [
+            "Itegeko Rikuru rikuraba ? Ryahawe uwizera wese.",
+            "Ni iki kigutera umwete ? Urukundo, imbabazi, ukwihangana kw'Imana ?",
+            "Ni iyihe ntambwe ya mbere uzofata ? Umuntu umwe, ahantu hamwe, iyi ndwi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Motivate you to obey God's command to go and make disciples in the world.",
+          "objectives": [
+            "Understand the meaning of the term 'Great Commission.'",
+            "Know why every Christian should take it seriously.",
+            "Know how to be personally involved."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 28:18-20", "text": "All authority has been given to me in heaven and on earth. Go and make disciples of all nations... and I am with you always, even to the end of the age."},
+            {"reference": "2 Timothy 2:2", "text": "The things you have heard from me, entrust to faithful people who will be able to teach others also."}
+          ],
+          "summaryPoints": [
+            "Understand — the Great Commission comes from Jesus, for everyone.",
+            "Be motivated — by God's love, compassion, and patience.",
+            "Commit — filled with the Spirit, available, starting today."
+          ],
+          "reflectionQuestions": [
+            "Does the Great Commission apply to you? It is given to every believer.",
+            "What motivates you — God's love, compassion, patience?",
+            "What first step will you take? One person, one place, this week."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_06",
+      "code": "1M0A",
+      "type": "main",
+      "order": 6,
+      "title": {
+        "fr": "Comment savoir avec certitude si vous êtes chrétien",
+        "rn": "Ni gute womenya udakekeranya ko uri umukristo",
+        "en": "How to know for certain that you are a Christian"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Expliquer comment devenir chrétien et comment savoir avec certitude que l'on est enfant de Dieu.",
+          "objectives": [
+            "Savoir comment inviter personnellement Christ dans votre vie.",
+            "Citer deux raisons d'avoir confiance dans vos rapports avec Dieu.",
+            "Citer quatre choses qui arrivent quand vous recevez Christ."
+          ],
+          "keyScriptures": [
+            {"reference": "Apocalypse 3.20", "text": "Voici, je me tiens à la porte, et je frappe : si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui."},
+            {"reference": "Hébreux 13.5", "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."}
+          ],
+          "summaryPoints": [
+            "Recevoir — inviter Christ par un engagement total.",
+            "Savoir — quatre choses arrivent quand on le reçoit.",
+            "Se reposer — sur sa promesse et sa fidélité, non sur l'émotion."
+          ],
+          "reflectionQuestions": [
+            "Avez-vous reçu Christ dans votre vie ? Selon Apocalypse 3.20, où se trouve-t-il maintenant ?",
+            "Sur quoi repose votre assurance ? Sur vos sentiments, ou sur la promesse de Dieu ?",
+            "Comment le savez-vous ? Parce que Dieu l'a dit dans sa Parole."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gusigura neza ingene umuntu aba umukristo, n'ingene womenya udakekeranya ko uri umwana w'Imana.",
+          "objectives": [
+            "Kumenya ingene umuntu yakira Yesu Kristo mu bugingo bwiwe.",
+            "Kugira urutonde rw'imvo zibiri zotuma wizigira imigenderanire yawe n'Imana.",
+            "Kumenya ibintu bine bibashikira iyo mwakiriye Kristo."
+          ],
+          "keyScriptures": [
+            {"reference": "Ivyah 3.20", "text": "Yasezeranye kwinjira iyo umwugururiye."},
+            {"reference": "Abaheburayo 13.5", "text": "Sinzokureka namba."}
+          ],
+          "summaryPoints": [
+            "Kwakira — gusaba Kristo ku kwitanga kwuzuye.",
+            "Kumenya — ibintu bine biba iyo umwakiriye.",
+            "Kuruhukira — ku isezerano ryiwe n'ukwizigirwa kwiwe, si ibigumbagumba."
+          ],
+          "reflectionQuestions": [
+            "Waba warakiriye Kristo mu bugingo bwawe ? Nk'uko Ivyah 3.20 bivuga, ari he ubu ?",
+            "Ivyizigiro vyawe bishimikiye kuki ? Ku bigumbagumba, canke ku isezerano ry'Imana ?",
+            "Ubimenya gute ? Kuko Imana yabivuze mu Ijambo ryayo."
+          ]
+        },
+        "en": {
+          "centralIdea": "Explain how to become a Christian and how to know for certain that you are a child of God.",
+          "objectives": [
+            "Know how to personally invite Christ into your life.",
+            "State two reasons for confidence in your relationship with God.",
+            "State four things that happen when you receive Christ."
+          ],
+          "keyScriptures": [
+            {"reference": "Revelation 3:20", "text": "Behold, I stand at the door and knock; if anyone hears my voice and opens the door, I will come in to him."},
+            {"reference": "Hebrews 13:5", "text": "I will never leave you, nor forsake you."}
+          ],
+          "summaryPoints": [
+            "Receive — invite Christ through total commitment.",
+            "Know — four things happen when you receive him.",
+            "Rest — on his promise and faithfulness, not on emotion."
+          ],
+          "reflectionQuestions": [
+            "Have you received Christ into your life? According to Revelation 3:20, where is he now?",
+            "What is your assurance resting on — your feelings, or God's promise?",
+            "How do you know? Because God said so in his Word."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_07",
+      "code": "1S01",
+      "type": "supplementary",
+      "order": 7,
+      "title": {
+        "fr": "Présenter les Quatre Lois Spirituelles I",
+        "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu I",
+        "en": "Presenting the Four Spiritual Laws I"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper pour l'évangélisation personnelle en vous familiarisant avec la brochure des Quatre Lois Spirituelles.",
+          "objectives": [
+            "Citer quelques avantages de la brochure des Quatre Lois.",
+            "Présenter la brochure en donnant l'occasion d'accepter Christ.",
+            "Citer les objectifs de la formation de base."
+          ],
+          "keyScriptures": [
+            {"reference": "Jean 3.16", "text": "Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ait la vie éternelle."},
+            {"reference": "Romains 1.16", "text": "Je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit."}
+          ],
+          "summaryPoints": [
+            "Connaître — la progression des Quatre Lois.",
+            "Présenter — avec clarté, en offrant d'accepter Christ.",
+            "Se souvenir — le succès, c'est témoigner et laisser les résultats à Dieu."
+          ],
+          "reflectionQuestions": [
+            "Connaissez-vous la progression des 4 Lois ? Amour, péché, solution, réponse.",
+            "À qui pourriez-vous la présenter ? Une personne cette semaine.",
+            "Êtes-vous rempli de l'Esprit ? C'est la clé d'un témoignage fructueux."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha ingene wokoresha akatabo k'Ingingo Zine z'ivy'Impwemu mu kubwira abandi ubutumwa bwiza mu buryo bweruye.",
+          "objectives": [
+            "Gutahura akamaro ko gukoresha uburyo bwoshwe neza.",
+            "Kumenya ingingo zine zigize ubutumwa bwiza.",
+            "Kwitegura gushikiriza abandi Ingingo Zine mu kwizera."
+          ],
+          "keyScriptures": [
+            {"reference": "Abaroma 5.8", "text": "Imana yerekana urukundo rwayo, kuko igihe twari abacumuzi Kristo yadupfiriye."},
+            {"reference": "Ivyahishuriwe 3.20", "text": "Ehe mpagaze ku rugi, ndakomanga : umuntu niyumva ijwi ryanje, akingura urugi, nzokwinjira."}
+          ],
+          "summaryPoints": [
+            "Ingingo enye — urukundo, icaha, Yesu, kwakira.",
+            "Gusoma — akatabo nk'uko kanditse, uterekeza ku isengesho.",
+            "Kwizera — ni Mpwemu Yera wemeza umutima."
+          ],
+          "reflectionQuestions": [
+            "Uzokoresha akatabo gute ? Ukagasoma n'ijwi ryumvikana, nk'uko kanditse.",
+            "Woba warakiriye Kristo ubwawe ? Ntushobora gutanga ico udafise.",
+            "Ni nde uzoshikiriza iyi ndwi ? Umuntu umwe, mu isengesho."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you for personal evangelism by becoming familiar with the Four Spiritual Laws booklet.",
+          "objectives": [
+            "State some advantages of the Four Laws booklet.",
+            "Present the booklet, giving the person a chance to accept Christ.",
+            "State the objectives of the basic training."
+          ],
+          "keyScriptures": [
+            {"reference": "John 3:16", "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him should have eternal life."},
+            {"reference": "Romans 1:16", "text": "I am not ashamed of the gospel of Christ, for it is the power of God unto salvation for everyone who believes."}
+          ],
+          "summaryPoints": [
+            "Know — the progression of the Four Laws.",
+            "Present — clearly, offering the chance to accept Christ.",
+            "Remember — success is witnessing and leaving the results to God."
+          ],
+          "reflectionQuestions": [
+            "Do you know the progression of the Four Laws? Love, sin, solution, response.",
+            "Who could you present it to? One person this week.",
+            "Are you filled with the Spirit? It is the key to fruitful witnessing."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_08",
+      "code": "1S02",
+      "type": "supplementary",
+      "order": 8,
+      "title": {
+        "fr": "Présenter les Quatre Lois Spirituelles II",
+        "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu II",
+        "en": "Presenting the Four Spiritual Laws II"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre le contenu des Quatre Lois, avec un accent sur l'assurance initiale du salut du nouveau croyant.",
+          "objectives": [
+            "Résumer l'enseignement et la progression de la brochure.",
+            "Communiquer comment un nouveau croyant a l'assurance de son salut."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Jean 5.13", "text": "Cela, je vous l'ai écrit afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu."},
+            {"reference": "Hébreux 13.5", "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."}
+          ],
+          "summaryPoints": [
+            "Résumer — la progression claire des Quatre Lois.",
+            "Assurer — par la promesse, la fidélité et la Parole.",
+            "Fonder — la foi sur les faits, non sur les sentiments."
+          ],
+          "reflectionQuestions": [
+            "« Où est Christ maintenant ? » En moi, il l'a promis. (Apocalypse 3.20)",
+            "« Vous quittera-t-il ? » Jamais. (Hébreux 13.5)",
+            "« Avez-vous la vie éternelle ? » Oui, car j'ai le Fils. (1 Jean 5.12-13)"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha ingene wofasha umuntu ahejeje kwakira Kristo kwizigira agakiza kiwe, no gushinga imizi mu Ijambo ry'Imana.",
+          "objectives": [
+            "Kumenya ingene wemeza umuntu ku gakiza kiwe.",
+            "Gukoresha Ijambo ry'Imana nk'ishimikiro ry'ukwizigira.",
+            "Kwereka umuntu mushasha intambwe za mbere zo gukura."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Yohana 5.11-13", "text": "Uwufise Umwana afise ubugingo… Ivyo nabandikiye kugira mumenye ko mufise ubugingo budashira."},
+            {"reference": "Abaheburayo 13.5", "text": "Sinzokureka namba, kandi sinzogusiga namba."}
+          ],
+          "summaryPoints": [
+            "Kwemeza — ku Ijambo ry'Imana, si ku bigumbagumba.",
+            "Kwereka — ivyaba iyo umuntu yakiriye Kristo.",
+            "Kurongora — mu ntambwe za mbere zo gukura."
+          ],
+          "reflectionQuestions": [
+            "Ukwizigira kwawe gushingiye he ? Ku bigumbagumba, canke ku Ijambo ?",
+            "Uwo wafashije wamwereka iki ? Amasezerano, si ivyiyumviro.",
+            "Ni iyihe ntambwe umufasha gufata ? Gusoma, gusenga, gushengera, kubwira abandi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the content of the Four Laws, with a focus on giving a new believer initial assurance of salvation.",
+          "objectives": [
+            "Summarize the teaching and progression of the booklet.",
+            "Communicate how a new believer can have assurance of salvation."
+          ],
+          "keyScriptures": [
+            {"reference": "1 John 5:13", "text": "I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life."},
+            {"reference": "Hebrews 13:5", "text": "I will never leave you, nor forsake you."}
+          ],
+          "summaryPoints": [
+            "Summarize — the clear progression of the Four Laws.",
+            "Reassure — through God's promise, faithfulness, and Word.",
+            "Ground — faith on the facts, not on feelings."
+          ],
+          "reflectionQuestions": [
+            "'Where is Christ now?' In me, he promised it. (Revelation 3:20)",
+            "'Will he leave you?' Never. (Hebrews 13:5)",
+            "'Do you have eternal life?' Yes, because I have the Son. (1 John 5:12-13)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_09",
+      "code": "1S03",
+      "type": "supplementary",
+      "order": 9,
+      "title": {
+        "fr": "Présenter les Quatre Lois Spirituelles III",
+        "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu III",
+        "en": "Presenting the Four Spiritual Laws III"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper à utiliser efficacement la brochure, avec un accent sur les deux images de la page 9.",
+          "objectives": [
+            "Définir le succès dans le témoignage.",
+            "Résumer comment présenter les Quatre Lois.",
+            "Citer des principes d'une présentation efficace.",
+            "Répondre aux différentes réponses des personnes."
+          ],
+          "keyScriptures": [
+            {"reference": "Philémon 6", "text": "Que ta foi, partagée avec d'autres, porte du fruit, en faisant reconnaître tout le bien qui se fait parmi nous à cause de Christ."},
+            {"reference": "1 Pierre 3.15", "text": "Soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."}
+          ],
+          "summaryPoints": [
+            "Définir — le succès : témoigner et laisser Dieu agir.",
+            "Illustrer — les deux vies de la page 9.",
+            "Répondre — avec sagesse à chaque réaction."
+          ],
+          "reflectionQuestions": [
+            "Savez-vous expliquer la page 9 ? Les deux vies, clairement.",
+            "Savez-vous répondre aux 3 réactions ? Droite, milieu, gauche.",
+            "Êtes-vous prêt à guider la prière ? Avec douceur et confiance."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kubandanya kubaha ubuhinga bwo gukoresha neza akatabo k'Ingingo Zine, na canecane ku vyo gusigura ibishushanyo.",
+          "objectives": [
+            "Gusobanura intahe ishitse kandi iroranye ico ari co.",
+            "Kuvuga uburyo butandukanye bwo gushikiriza Ingingo Zine.",
+            "Kumenya ingene wifata ku bibazo bishikira."
+          ],
+          "keyScriptures": [
+            {"reference": "Abaroma 10.17", "text": "Ukwizera kuva ku kumva, no kumva kuva ku Ijambo ry'Imana."},
+            {"reference": "1 Abakorinto 3.6", "text": "Jewe nateye, Apolo yuhira, ariko Imana ni yo yamejeje."}
+          ],
+          "summaryPoints": [
+            "Gutangura — n'ibibazo vy'urwinjizo.",
+            "Gusoma — nk'uko kanditse, ata kugobera.",
+            "Kurongora — ku isengesho no ku bishushanyo."
+          ],
+          "reflectionQuestions": [
+            "Uzokwifata gute ku kibazo giteye kubiri ? Ukirangiza, hanyuma ugaruke ku kibazo.",
+            "Ni nde yemeza umutima ? Mpwemu Yera, si twebwe.",
+            "Intumbero yawe nyamukuru ni iyihe ? Kubwira umuntu uko yakira Kristo ubwiwe."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you to use the booklet effectively, with a focus on the two diagrams on page 9.",
+          "objectives": [
+            "Define success in witnessing.",
+            "Summarize how to present the Four Laws.",
+            "State principles of an effective presentation.",
+            "Respond to different reactions from people."
+          ],
+          "keyScriptures": [
+            {"reference": "Philemon 6", "text": "That your faith, shared with others, would bear fruit, as everyone recognizes the good that is done among us because of Christ."},
+            {"reference": "1 Peter 3:15", "text": "Always be ready to give an answer, with gentleness and respect, to everyone who asks you the reason for the hope that is in you."}
+          ],
+          "summaryPoints": [
+            "Define — success as witnessing and letting God act.",
+            "Illustrate — the two lives on page 9.",
+            "Respond — wisely to each reaction."
+          ],
+          "reflectionQuestions": [
+            "Can you explain page 9 clearly? The two lives, side by side.",
+            "Do you know how to respond to the three reactions? Right, middle, left.",
+            "Are you ready to guide someone in prayer? With gentleness and confidence."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_10",
+      "code": "1S04",
+      "type": "supplementary",
+      "order": 10,
+      "title": {
+        "fr": "Présenter le ministère de la vie remplie du Saint-Esprit",
+        "rn": "Ubugingo bwuzuye Mpwemu Yera",
+        "en": "Presenting the ministry of the Spirit-filled life"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper à présenter efficacement la vie remplie de l'Esprit aux chrétiens, à l'aide de la brochure.",
+          "objectives": [
+            "Rappeler les quatre points de la brochure sur la vie remplie de l'Esprit.",
+            "Faire la transition depuis la page 9 des Quatre Lois.",
+            "Utiliser la brochure pour expliquer la vie remplie de l'Esprit.",
+            "Utiliser les questions clés pour aider à l'application."
+          ],
+          "keyScriptures": [
+            {"reference": "Colossiens 1.28", "text": "C'est lui que nous annonçons, en avertissant tout homme et en instruisant tout homme, afin de rendre tout homme parfait en Christ."},
+            {"reference": "Éphésiens 5.18", "text": "Ne vous enivrez pas de vin… mais soyez remplis de l'Esprit."}
+          ],
+          "summaryPoints": [
+            "Rappeler — les quatre points de la brochure.",
+            "Faire la transition — depuis la page 9 des Quatre Lois.",
+            "Appliquer — par des questions clés, à la vie du croyant."
+          ],
+          "reflectionQuestions": [
+            "Connaissez-vous les 4 points ? Vie abondante, problème, solution, par la foi.",
+            "Savez-vous faire la transition ? Depuis la page 9 des Quatre Lois.",
+            "Avez-vous vos questions clés ? Pour aider à l'application."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene twobaho buri musi twuzuye kandi turongorwa na Mpwemu Yera, mu bushobozi bwiwe.",
+          "objectives": [
+            "Gutahura ico ubugingo bwuzuye Mpwemu ari co.",
+            "Gutandukanya ubwoko butatu bw'abantu.",
+            "Gushira mu ngiro guhema mu buryo bw'impwemu."
+          ],
+          "keyScriptures": [
+            {"reference": "Abanyefeso 5.18", "text": "Ntimuborerwe inzoga… ariko muzuzwe Mpwemu."},
+            {"reference": "Abagalatiya 5.16", "text": "Nimugendere muri Mpwemu, ntimuzoshitsa ivyo umubiri wipfuza."}
+          ],
+          "summaryPoints": [
+            "Gutahura — ubwoko butatu bw'abantu.",
+            "Kwuzuzwa — kureka Kristo ku ntebe.",
+            "Guhema — gusohora, kwinjiza, buri musi."
+          ],
+          "reflectionQuestions": [
+            "Uri umuntu w'ubuhe muri ubu ? Asanzwe, w'impwemu, aganzwa n'akameremere ?",
+            "Ni nde ku ntebe yawe ubu ? Wewe, canke Kristo ?",
+            "Woshaka guhema mu buryo bw'impwemu ? Sohora icaha, winjize Mpwemu."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you to effectively present the Spirit-filled life to Christians, using the booklet.",
+          "objectives": [
+            "Recall the four points of the booklet on the Spirit-filled life.",
+            "Make the transition from page 9 of the Four Laws.",
+            "Use the booklet to explain the Spirit-filled life.",
+            "Use key questions to help with application."
+          ],
+          "keyScriptures": [
+            {"reference": "Colossians 1:28", "text": "We proclaim him, warning everyone and teaching everyone, so that we may present everyone mature in Christ."},
+            {"reference": "Ephesians 5:18", "text": "Do not be drunk with wine, in which is excess, but be filled with the Spirit."}
+          ],
+          "summaryPoints": [
+            "Review — the four points of the booklet.",
+            "Transition — from page 9 of the Four Laws.",
+            "Apply — using key questions, to the believer's life."
+          ],
+          "reflectionQuestions": [
+            "Do you know the four points? Abundant life, the problem, the solution, by faith.",
+            "Do you know how to make the transition? From page 9 of the Four Laws.",
+            "Do you have your key questions ready? To help with application."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_1_lesson_11",
+      "code": "1S05",
+      "type": "supplementary",
+      "order": 11,
+      "title": {
+        "fr": "Planifier un ministère personnel",
+        "rn": "Gutegura umurimo bwite wo mu buryo bw'impwemu",
+        "en": "Planning a personal ministry"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Communiquer la priorité et le plan de Dieu pour votre vie, et établir une stratégie personnelle.",
+          "objectives": [
+            "Répéter de mémoire les énoncés des Quatre Lois.",
+            "Connaître la priorité et le plan de Dieu.",
+            "Distinguer l'addition et la multiplication spirituelle.",
+            "Compléter un tableau de stratégie personnelle."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."},
+            {"reference": "Jean 15.8", "text": "Si vous portez beaucoup de fruit, c'est ainsi que mon Père sera glorifié, et que vous serez mes disciples."}
+          ],
+          "summaryPoints": [
+            "Priorité — glorifier Dieu.",
+            "Plan — faire des disciples qui se multiplient.",
+            "Stratégie — des étapes concrètes, dès maintenant."
+          ],
+          "reflectionQuestions": [
+            "Où exercerez-vous votre ministère ? Église, quartier, campus, travail ?",
+            "Qui formerez-vous ? Une ou deux personnes à multiplier.",
+            "Quelle est votre première étape ? Datée, mesurable, portée dans la prière."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenya ingene wotegura umurimo bwite wo mu buryo bw'impwemu, ukagira intumbero n'imigambi bifadika.",
+          "objectives": [
+            "Gutahura akamaro k'umurimo bwite ufise intumbero.",
+            "Kwiyumvira intumbero n'imigambi yawe bwite.",
+            "Gutegura intambwe zoroshe zishoboka."
+          ],
+          "keyScriptures": [
+            {"reference": "Abanyefeso 5.15-16", "text": "Nimwitwararike neza ukuntu mugenda… mudakoresha nabi umwanya, kuko iyi misi ari mibi."},
+            {"reference": "Zaburi 90.12", "text": "Tumenyeshe kuharura imisi yacu, kugira ngo turonke umutima w'ubwenge."}
+          ],
+          "summaryPoints": [
+            "Kwiyumvira — intumbero Imana iguhamagariye.",
+            "Gutegura — imigambi ishoboka, ifise igihe.",
+            "Gukurikirana — gusuzuma, mu bushobozi bwa Mpwemu."
+          ],
+          "reflectionQuestions": [
+            "Intumbero yawe ni iyihe ? Imana igomba ko uba nde ?",
+            "Ni uwuhe mugambi umwe uzotangura ? Ushoboka kandi ufise igihe.",
+            "Uzowukurikirana gute ? Gusuzuma buri ndwi, mu isengesho."
+          ]
+        },
+        "en": {
+          "centralIdea": "Communicate God's priority and plan for your life, and establish a personal strategy.",
+          "objectives": [
+            "Recite from memory the statements of the Four Laws.",
+            "Know God's priority and plan.",
+            "Distinguish spiritual addition from spiritual multiplication.",
+            "Complete a personal strategy chart."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothy 2:2", "text": "The things you have heard from me, entrust to faithful people who will be able to teach others also."},
+            {"reference": "John 15:8", "text": "By this my Father is glorified: that you bear much fruit, and so show yourselves to be my disciples."}
+          ],
+          "summaryPoints": [
+            "Priority — glorify God.",
+            "Plan — make disciples who multiply.",
+            "Strategy — concrete steps, starting now."
+          ],
+          "reflectionQuestions": [
+            "Where will you carry out your ministry? Church, neighborhood, campus, work?",
+            "Who will you disciple? One or two people to multiply.",
+            "What is your first step? Dated, measurable, carried in prayer."
+          ]
+        }
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "id": "track_1_q1",
+        "prompt": {
+          "fr": "Selon ce niveau, la « respiration spirituelle » consiste en quoi ?",
+          "rn": "Nk'uko iki cigwa kibivuga, « guhema mu buryo bw'impwemu » ni ikiki ?",
+          "en": "According to this level, what does 'spiritual breathing' mean?"
+        },
+        "choices": [
+          {"fr": "Jeûner et prier chaque jour", "rn": "Gusiba kurya no gusenga imisi yose", "en": "Fasting and praying every day"},
+          {"fr": "Confesser le péché (expirer), puis recevoir de nouveau la plénitude de l'Esprit (inspirer)", "rn": "Gusohora icaha mu kwatura, hanyuma kwinjiza ukuzura kwa Mpwemu", "en": "Confessing sin (exhaling), then receiving the Spirit's fullness again (inhaling)"},
+          {"fr": "Lire un chapitre de la Bible chaque jour", "rn": "Gusoma igice kimwe ca Bibiliya ku musi", "en": "Reading one chapter of the Bible every day"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_1_q2",
+        "prompt": {
+          "fr": "D'après ce niveau, qu'est-ce que le « succès » dans le témoignage ?",
+          "rn": "Nk'uko iki cigwa kibivuga, intsinzi mu gushinga intahe ni iki ?",
+          "en": "According to this level, what does 'success' in witnessing mean?"
+        },
+        "choices": [
+          {"fr": "Faire en sorte que la personne dise oui à la prière", "rn": "Gutuma umuntu avuga « yego » ku isengesho ryo kwizera", "en": "Getting the person to say yes to the prayer"},
+          {"fr": "Prendre l'initiative de faire connaître Jésus-Christ par la puissance de l'Esprit, et laisser les résultats à Dieu", "rn": "Gufata iya mbere yo gushinga intahe biciye kuri Mpwemu, inyishu tukazireka ku Mana", "en": "Taking the initiative to make Jesus Christ known by the Spirit's power, and leaving the results to God"},
+          {"fr": "Convaincre la personne par de bons arguments logiques", "rn": "Kunesha impaka mu magambo menshi", "en": "Winning the person over with clever arguments"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_1_q3",
+        "prompt": {
+          "fr": "À qui l'Ordre Suprême (Matthieu 28.18-20) a-t-il été donné ?",
+          "rn": "Itegeko Rikuru ryahawe nde ?",
+          "en": "Who was the Great Commission (Matthew 28:18-20) given to?"
+        },
+        "choices": [
+          {"fr": "Seulement aux onze apôtres", "rn": "Intumwa cumi na zimwe gusa", "en": "Only the eleven apostles"},
+          {"fr": "Seulement aux pasteurs et missionnaires", "rn": "Abapasitori n'abamisiyonari gusa", "en": "Only pastors and missionaries"},
+          {"fr": "À chaque croyant, dans chaque génération", "rn": "Uwizera wese, mu runganwe rwose", "en": "Every believer, in every generation"}
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "track_1_q4",
+        "prompt": {
+          "fr": "Sur quoi doit se fonder l'assurance de son salut, d'après ce niveau ?",
+          "rn": "Nk'uko iki cigwa kibivuga, ukwizigira agakiza gushimikiye kuki ?",
+          "en": "According to this level, what should assurance of salvation be based on?"
+        },
+        "choices": [
+          {"fr": "Sur nos sentiments du moment", "rn": "Ku bigumbagumba vyacu", "en": "Our feelings in the moment"},
+          {"fr": "Sur la promesse et la fidélité de Dieu dans sa Parole", "rn": "Ku isezerano n'ukwizigirwa kw'Imana, gushimikiye ku Ijambo ryayo", "en": "God's promise and faithfulness in his Word"},
+          {"fr": "Sur la quantité de nos bonnes œuvres", "rn": "Ku bikorwa vyiza dukora", "en": "How many good works we do"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_1_q5",
+        "prompt": {
+          "fr": "Que signifie la « multiplication spirituelle », évoquée dans la leçon 1M05 ?",
+          "rn": "Kwigwiza mu buryo bw'impwemu (nk'uko 1M05 ibivuga) bisobanura iki ?",
+          "en": "What does 'spiritual multiplication' (from lesson 1M05) mean?"
+        },
+        "choices": [
+          {"fr": "Gagner une personne à la fois", "rn": "Kwongera umuntu umwe ku wundi", "en": "Winning one person at a time"},
+          {"fr": "Former des disciples qui forment à leur tour d'autres disciples", "rn": "Guhindura abigishwa, abandi bagira abandi abigishwa", "en": "Training disciples who in turn train other disciples"},
+          {"fr": "Étudier des manuels universitaires", "rn": "Kwiga mu bitabu vy'ubushakashatsi", "en": "Studying academic textbooks"}
+        ],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

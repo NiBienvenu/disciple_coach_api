@@ -1,0 +1,1032 @@
+{
+  "trackId": "track_2",
+  "title": {"fr": "Niveau 2 : Intermédiaire", "rn": "Urwego rwa 2 : Intermédiaire", "en": "Level 2: Intermediate"},
+  "description": {
+    "fr": "Ce niveau approfondit la relation avec Dieu — sa priorité, ses attributs, la prière, l'identité en Christ et l'autorité de sa Parole — puis équipe le disciple à affermir et accompagner les nouveaux croyants vers la maturité.",
+    "rn": "Uru rwego rufasha gushira imbere imigenderanire yawe n'Imana, gutahura ibiranga Imana n'Ijambo ryayo, kwiga gusenga, kumenya uwo uri we muri Kristo, no gukomeza abakristo bashasha kugira bakure muri Kristo.",
+    "en": "This level deepens the disciple's relationship with God — its priority, his attributes, prayer, identity in Christ, and the authority of his Word — then equips the disciple to help new believers grow toward maturity."
+  },
+  "lessons": [
+    {
+      "id": "track_2_lesson_01",
+      "code": "2M01",
+      "type": "main",
+      "order": 1,
+      "title": {
+        "fr": "La priorité de votre relation avec Dieu",
+        "rn": "Gushira imbere imigenderanire yawe n'Imana",
+        "en": "The priority of your relationship with God"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous motiver à faire de votre relation avec Dieu la première priorité de votre vie.",
+          "objectives": [
+            "Comprendre que Dieu lui-même établit et soutient votre relation avec lui.",
+            "Voir que la rechercher est une réponse à son amour.",
+            "Saisir la valeur suprême de croître en Christ.",
+            "Entreprendre des actions concrètes pour en faire la priorité."
+          ],
+          "keyScriptures": [
+            {"reference": "Marc 12.30", "text": "Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de toute ta pensée et de toute ta force."},
+            {"reference": "Jean 15.5", "text": "Je suis le cep, vous êtes les sarments. Celui qui demeure en moi porte beaucoup de fruit, car sans moi vous ne pouvez rien faire."}
+          ],
+          "summaryPoints": [
+            "Recevoir — Dieu établit et soutient la relation.",
+            "Répondre — à son amour, par amour.",
+            "Rechercher — Christ comme le trésor suprême, concrètement."
+          ],
+          "reflectionQuestions": [
+            "Qu'est-ce que votre agenda révèle ? Où va réellement votre temps ?",
+            "Aimez-vous Dieu comme au début, ou avez-vous quitté votre premier amour ?",
+            "Quelle action concrète prendrez-vous cette semaine, dès aujourd'hui ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ko imigenderanire yacu n'Imana igomba kuza imbere y'ibindi vyose mu buzima bwacu.",
+          "objectives": [
+            "Gutahura akamaro ko gushira Imana imbere.",
+            "Kumenya ico bisobanura kuguma muri Kristo.",
+            "Kwiyemeza umwanya wo kuyaga n'Imana buri musi."
+          ],
+          "keyScriptures": [
+            {"reference": "Yohana 15.5", "text": "Jewe ndi umuzabibu, mwebwe muri amashami : uguma muri jewe, nanje nkaguma muri we, ni we yama ivyamwa vyinshi ; kuko mudakoze ico namwe, nta co mushobora."},
+            {"reference": "Matayo 6.33", "text": "Rero mubanze murondere ubwami bw'Imana n'ukugororoka kwayo, ivyo vyose muzobyongerwa."}
+          ],
+          "summaryPoints": [
+            "Kuguma — muri Kristo, nk'ishami ku muzabibu.",
+            "Gutoya — iciza, nka Mariya.",
+            "Gushira imbere — ubwami bw'Imana, buri musi."
+          ],
+          "reflectionQuestions": [
+            "Ni iki kiza imbere mu buzima bwawe ? Imana, canke ibindi ?",
+            "Uri Marita, canke Mariya ? Urakora gusa, canke urabana na Yo ?",
+            "Uzotora ryari umwanya n'Imana ? Igihe kizima, buri musi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Motivate you to make your relationship with God the top priority of your life.",
+          "objectives": [
+            "Understand that God himself establishes and sustains your relationship with him.",
+            "See that seeking him is a response to his love, not a burden.",
+            "Grasp the supreme value of growing in Christ.",
+            "Take concrete action to make this relationship your priority."
+          ],
+          "keyScriptures": [
+            {"reference": "Mark 12:30", "text": "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength."},
+            {"reference": "John 15:5", "text": "I am the vine, ye are the branches: he that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."}
+          ],
+          "summaryPoints": [
+            "Receive — God establishes and sustains the relationship.",
+            "Respond — to his love, with love.",
+            "Seek — Christ as the supreme treasure, in concrete ways."
+          ],
+          "reflectionQuestions": [
+            "What does your calendar reveal? Where does your time actually go?",
+            "Do you love God as you once did, or have you left your first love?",
+            "What concrete action will you take this week, starting today?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_02",
+      "code": "2M02",
+      "type": "main",
+      "order": 2,
+      "title": {
+        "fr": "Les attributs de Dieu",
+        "rn": "Ibiranga Imana",
+        "en": "The attributes of God"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Explorer quelques-uns des attributs de Dieu — et y répondre par l'adoration et la foi.",
+          "objectives": [
+            "Comprendre ce qu'est un attribut.",
+            "Découvrir des attributs de Dieu et leur effet sur la vie quotidienne.",
+            "Répondre de façon appropriée à Dieu selon ces attributs."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Corinthiens 1.9", "text": "Dieu est fidèle, lui qui vous a appelés à la communion de son Fils."},
+            {"reference": "Psaume 89.15", "text": "La justice et le droit sont la base de son trône."}
+          ],
+          "summaryPoints": [
+            "Comprendre — ce qu'est chaque attribut.",
+            "Appliquer — à la vie de tous les jours.",
+            "Adorer — répondre à Dieu pour qui il est."
+          ],
+          "reflectionQuestions": [
+            "Quel attribut vous touche le plus, et pourquoi à ce moment de votre vie ?",
+            "Quel changement appelle-t-il, si cet attribut est absolument vrai ?",
+            "Comment l'adorer aujourd'hui ? Prenez un moment de louange."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenya neza kamere y'Imana n'ibiyiranga, kugira twizigire kandi tuyisenge tuzi uwo iri.",
+          "objectives": [
+            "Kumenya bimwe mu biranga Imana.",
+            "Gutahura ico ivyo biranga bivuze mu buzima bwacu.",
+            "Kwizigira Imana ku vyo iri, si ku vyo twiyumva."
+          ],
+          "keyScriptures": [
+            {"reference": "Zaburi 139.7-8", "text": "Noja hehe ngo mve kuri Mpwemu yawe ? Noja hehe ngo mpunge mu maso yawe ? Ndadutse mw'ijuru, uriho ; ngeze mu kuzimu, urahari."},
+            {"reference": "Kuvayo 34.6", "text": "Uhoraho Imana, w'imbabazi n'ineza…"}
+          ],
+          "summaryPoints": [
+            "Kumenya — ibiranga Imana biva mu Ijambo ryayo.",
+            "Kwizigira — ku vyo iri, si ku bigumbagumba.",
+            "Kwubaha — no gukunda Imana yeranda y'urukundo."
+          ],
+          "reflectionQuestions": [
+            "Ni ikihe kiranga c'Imana ukeneye uno musi ? Ishoboye, izi vyose, urukundo ?",
+            "Woba uyizigira ku vyo iri, canke ku vyo wiyumva ?",
+            "Ivyo bihindura iki mu isengesho ryawe ? Uvugisha Imana izi vyose, ikunda."
+          ]
+        },
+        "en": {
+          "centralIdea": "Explore some of God's attributes, and respond to them with worship and faith.",
+          "objectives": [
+            "Understand what an attribute is.",
+            "Discover attributes of God and their effect on daily life.",
+            "Respond appropriately to God according to these attributes."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Corinthians 1:9", "text": "God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord."},
+            {"reference": "Psalm 89:14", "text": "Justice and judgment are the habitation of thy throne."}
+          ],
+          "summaryPoints": [
+            "Understand — what each attribute means.",
+            "Apply — to everyday life.",
+            "Worship — respond to God for who he is."
+          ],
+          "reflectionQuestions": [
+            "Which attribute touches you most, and why at this point in your life?",
+            "What change does it call for, if this attribute is absolutely true?",
+            "How will you worship him today? Take a moment to praise him."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_03",
+      "code": "2M03",
+      "type": "main",
+      "order": 3,
+      "title": {
+        "fr": "Votre identité en Christ",
+        "rn": "Uwo uri we muri Kristo",
+        "en": "Your identity in Christ"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Expliquer les vérités bibliques concernant votre identité en Christ, sa présence en vous et la puissance de sa résurrection.",
+          "objectives": [
+            "Comprendre votre identité en Christ.",
+            "Saisir le rôle de la foi dans la réalisation de cette identité.",
+            "Découvrir les bienfaits personnels de cette identité."
+          ],
+          "keyScriptures": [
+            {"reference": "Galates 2.20", "text": "Je suis crucifié avec Christ… ce n'est plus moi qui vis, c'est Christ qui vit en moi ; je vis dans la foi au Fils de Dieu qui m'a aimé et s'est livré pour moi."},
+            {"reference": "2 Corinthiens 5.17", "text": "Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles."}
+          ],
+          "summaryPoints": [
+            "Mort — avec Christ, au péché et à la condamnation.",
+            "Vivant — de sa vie, par la puissance de sa résurrection.",
+            "Par la foi — vivre selon cette identité, chaque jour."
+          ],
+          "reflectionQuestions": [
+            "Sur quoi fondez-vous votre identité : vos succès, ou Christ ?",
+            "Quelle vérité avez-vous du mal à croire ? Demandez à Dieu de l'affermir par la foi.",
+            "Comment vivre en nouvelle créature ? Nommez un domaine concret cette semaine."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenya uwo turi twebwe muri Kristo, kugira tubeho mu kwizera bishingiye ku vyo Imana yavuze, si ku vyo twiyumva.",
+          "objectives": [
+            "Kumenya ivyo Imana ivuga ku wo uri we muri Kristo.",
+            "Gutandukanya ukuri kw'Imana n'ibinyoma vya Shetani.",
+            "Kubaho ukurikije uwo uri we koko muri Kristo."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Abakorinto 5.17", "text": "Niba umuntu ari muri Kristo, aba ari irema rishasha : ivya kera vyaragiye, ehe vyahindutse bishasha."},
+            {"reference": "Abaroma 8.16-17", "text": "Mpwemu ubwiwe ashinga intahe hamwe na Mpwemu wacu ko turi abana b'Imana. Kandi niba turi abana, turi n'abaraganwa."}
+          ],
+          "summaryPoints": [
+            "Kumenya — uwo Imana ivuga ko uri we.",
+            "Guhakana — ibinyoma vya Shetani, ukuresha ukuri.",
+            "Kubaho — ukurikije uwo umaze kuba muri Kristo."
+          ],
+          "reflectionQuestions": [
+            "Uri nde muri Kristo ? Umwana, wahariwe, wejejwe, wabohowe.",
+            "Ni ikihe kinyoma cya Shetani wemera ? Ni ukuhe kuri ukigereranya ?",
+            "Ubaho ukurikije iki ? Ivyo wumva, canke uwo uri koko ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Explain the biblical truths about your identity in Christ, his presence within you, and the power of his resurrection.",
+          "objectives": [
+            "Understand your identity in Christ.",
+            "Grasp the role faith plays in living out that identity.",
+            "Discover the personal benefits of this identity."
+          ],
+          "keyScriptures": [
+            {"reference": "Galatians 2:20", "text": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."},
+            {"reference": "2 Corinthians 5:17", "text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new."}
+          ],
+          "summaryPoints": [
+            "Dead — with Christ, to sin and to condemnation.",
+            "Alive — with his life, by the power of his resurrection.",
+            "By faith — living out this identity, every day."
+          ],
+          "reflectionQuestions": [
+            "What do you base your identity on: your achievements, or Christ?",
+            "Which truth do you find hardest to believe? Ask God to strengthen it in you through faith.",
+            "What would it look like to live as a new creation? Name one concrete area this week."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_04",
+      "code": "2M04",
+      "type": "main",
+      "order": 4,
+      "title": {
+        "fr": "Apprendre à prier",
+        "rn": "Kwiga gusenga",
+        "en": "Learning to pray"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Découvrir ce que signifie prier, et vous équiper à développer une vie de prière personnelle.",
+          "objectives": [
+            "Comprendre ce qu'est la prière.",
+            "Comprendre l'importance de la prière.",
+            "Savoir comment prier."
+          ],
+          "keyScriptures": [
+            {"reference": "Philippiens 4.6", "text": "Ne vous inquiétez de rien ; mais en toute chose, par la prière et la supplication, avec des actions de grâces, faites connaître vos besoins à Dieu."},
+            {"reference": "1 Jean 1.9", "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."}
+          ],
+          "summaryPoints": [
+            "Comprendre — prier, c'est parler à Dieu comme à un ami.",
+            "Élargir — adoration, confession, actions de grâces, supplication.",
+            "Persévérer — en tout temps, en tout lieu."
+          ],
+          "reflectionQuestions": [
+            "Comment décririez-vous votre vie de prière : régulière, épisodique, absente ?",
+            "Qu'est-ce qui vous empêche de prier : le temps, les distractions, le doute ?",
+            "Quel premier pas ferez-vous, dès demain matin ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ico isengesho ari co n'ingene twosenga, kugira tugire imigenderanire ihoraho n'Imana.",
+          "objectives": [
+            "Gutahura ico isengesho ari co.",
+            "Kumenya ibice bine bigize isengesho.",
+            "Gutsinda intambamyi z'isengesho."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 6.9-13", "text": "Data wa twese uri mw'ijuru, izina ryawe ninirwe… Uduhe uno musi umutsima wacu wa buri musi… Udukize akabi."},
+            {"reference": "1 Ab'i Tesalonike 5.17", "text": "Nimusenge ata guhengeshanya."}
+          ],
+          "summaryPoints": [
+            "Gutahura — isengesho ni ukuyaga n'Imana.",
+            "Gusenga — gushemeza, kwatura, gushimira, gusaba.",
+            "Gutsinda — intambamyi ; gusenga ata guhengeshanya."
+          ],
+          "reflectionQuestions": [
+            "Isengesho ryawe ringana gute ? Ukuyaga n'Imana, canke akamenyero ?",
+            "Ni iyihe ntambamyi ikubuza gusenga ? Umwanya, ibigumbagumba, ubunebwe ?",
+            "Uzosengera nde uno musi ? Andika amazina, usenge."
+          ]
+        },
+        "en": {
+          "centralIdea": "Discover what it means to pray, and be equipped to build a personal prayer life.",
+          "objectives": [
+            "Understand what prayer is.",
+            "Understand the importance of prayer.",
+            "Know how to pray."
+          ],
+          "keyScriptures": [
+            {"reference": "Philippians 4:6", "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."},
+            {"reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."}
+          ],
+          "summaryPoints": [
+            "Understand — prayer is speaking with God as a friend.",
+            "Widen it — worship, confession, thanksgiving, and requests.",
+            "Persevere — at all times, in every place."
+          ],
+          "reflectionQuestions": [
+            "How would you describe your prayer life: regular, occasional, or absent?",
+            "What keeps you from praying: time, distractions, doubt?",
+            "What first step will you take, starting tomorrow morning?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_05",
+      "code": "2M05",
+      "type": "main",
+      "order": 5,
+      "title": {
+        "fr": "Comprendre l'affermissement",
+        "rn": "Gutahura inyigisho zo gukomeza",
+        "en": "Understanding follow-up"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre les principes bibliques de l'affermissement des nouveaux croyants.",
+          "objectives": [
+            "Comprendre le rôle de l'affermissement vers la maturité.",
+            "Saisir la souveraineté de Dieu et notre responsabilité.",
+            "Connaître les éléments d'un affermissement efficace.",
+            "Découvrir les sujets des séries d'affermissement de base."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 28.19-20", "text": "Allez, faites de toutes les nations des disciples… et enseignez-leur à observer tout ce que je vous ai prescrit."},
+            {"reference": "1 Corinthiens 3.6", "text": "J'ai planté, Apollos a arrosé, mais c'est Dieu qui a fait croître."}
+          ],
+          "summaryPoints": [
+            "Le but — la maturité et la multiplication.",
+            "La part de Dieu — lui seul fait croître.",
+            "Notre part — aimer, nourrir, montrer l'exemple, persévérer."
+          ],
+          "reflectionQuestions": [
+            "Visez-vous l'addition ou la multiplication ? Formez-vous des multiplicateurs ?",
+            "Faites-vous confiance à Dieu pour la croissance, ou portez-vous un poids qui lui revient ?",
+            "Quel élément de l'affermissement — amour, Parole, exemple, régularité, prière — négligez-vous le plus ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura neza ico Bibiliya ivuga ku vyerekeye inyigisho zo gukomeza abakristo bashasha.",
+          "objectives": [
+            "Gutahura igikorwa co gukomeza mu kurongorera abakristo bashasha.",
+            "Gutahura ubukuru bw'Imana buhebuje mu gukomeza.",
+            "Gutahura uruhara rwacu n'ibice bigize inyigisho zo gukomeza."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 28.19-20", "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
+            {"reference": "1 Abakorinto 3.6", "text": "Jewe nateye imbuto, Apolo aravomera, ariko Imana ni yo yazikujije."}
+          ],
+          "summaryPoints": [
+            "Gutahura — intumbero zibiri zo gukomeza.",
+            "Kwibuka — ni Imana ikuza ; turi ibikoresho.",
+            "Gukomeza — mu isengesho, Ijambo, urukundo, ubumwe."
+          ],
+          "reflectionQuestions": [
+            "Urafasha nde gukura muri Kristo ? Umukristo mushasha umwe.",
+            "Uri umuvyeyi mu buryo bw'Impwemu ? Urakunda, ukosora, ukayaga ?",
+            "Ni iki ushimikira mu gukomeza ? Isengesho, Ijambo, urukundo, ubumwe."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the biblical principles for helping new believers grow to maturity.",
+          "objectives": [
+            "Understand the role of follow-up in growing toward maturity.",
+            "Grasp God's sovereignty alongside our responsibility.",
+            "Know the elements of effective follow-up.",
+            "Discover the core topics of a basic follow-up series."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 28:19-20", "text": "Go ye therefore, and teach all nations... teaching them to observe all things whatsoever I have commanded you."},
+            {"reference": "1 Corinthians 3:6", "text": "I have planted, Apollos watered; but God gave the increase."}
+          ],
+          "summaryPoints": [
+            "The goal — maturity and multiplication.",
+            "God's part — he alone causes growth.",
+            "Our part — love, nourish, model, and persevere."
+          ],
+          "reflectionQuestions": [
+            "Are you aiming for addition or multiplication? Are you raising up multipliers?",
+            "Are you trusting God for the growth, or carrying a weight that belongs to him?",
+            "Which element of follow-up — love, the Word, example, consistency, prayer — do you neglect most?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_06",
+      "code": "2M06",
+      "type": "main",
+      "order": 6,
+      "title": {
+        "fr": "La Parole de Dieu",
+        "rn": "Ijambo ry'Imana",
+        "en": "The Word of God"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Démontrer l'autorité de la Bible et sa puissance qui transforme la vie.",
+          "objectives": [
+            "Comprendre l'origine divine et l'autorité de la Parole de Dieu.",
+            "Comprendre le rôle de la Parole dans la vie du croyant.",
+            "Apprécier davantage la Parole et la mettre en pratique."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothée 3.16", "text": "Toute Écriture est inspirée de Dieu et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice."},
+            {"reference": "Hébreux 4.12", "text": "La parole de Dieu est vivante et efficace, plus tranchante qu'une épée à deux tranchants…"}
+          ],
+          "summaryPoints": [
+            "Son origine — inspirée de Dieu, pleine d'autorité.",
+            "Son rôle — elle fait naître, nourrit, purifie, guide.",
+            "Notre réponse — la saisir, et la mettre en pratique."
+          ],
+          "reflectionQuestions": [
+            "Quelle place la Parole a-t-elle dans vos journées : centrale, marginale, absente ?",
+            "Laquelle des cinq façons de la saisir vous manque le plus : entendre, lire, étudier, mémoriser, méditer ?",
+            "Qu'allez-vous mettre en pratique cette semaine ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kwereka neza ubukuru bwa Bibiliya n'ububasha bwayo buhindura ubugingo.",
+          "objectives": [
+            "Gutahura ububasha bw'Ijambo ry'Imana n'uko rivuye ku Mana.",
+            "Gutahura akamaro k'Ijambo mu bugingo bw'uwizera.",
+            "Guha agaciro Ijambo, no kurishira mu ngiro buri musi."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timoteyo 3.16", "text": "Ivyanditswe vyose vyahumetswe n'Imana, kandi bigira ikimazi co kwigisha, no guhana, no gutunganya, no gutoza indero nziza mu kugororoka."},
+            {"reference": "Abaheburayo 4.12", "text": "Ijambo ry'Imana ni rizima, rikagira ububasha, rikaba rikarishe kuruta inkota yose ityaye impande zibiri."}
+          ],
+          "summaryPoints": [
+            "Gutahura — Bibiliya ni Ijambo ry'Imana ryahumetswe.",
+            "Kwakira — kwumva, gusoma, kwiga, kwibuka, kuzirikana.",
+            "Gushira mu ngiro — kuba umukora w'Ijambo."
+          ],
+          "reflectionQuestions": [
+            "Uha agaciro ki Ijambo ry'Imana ? Urarisoma buri musi ?",
+            "Ni ubuhe buryo bwo kwakira Ijambo ukeneye ? Kwumva, gusoma, kwiga, kwibuka, kuzirikana ?",
+            "Ni irihe jambo uzoshira mu ngiro uno musi ? Umukora, si umwumvirizi gusa."
+          ]
+        },
+        "en": {
+          "centralIdea": "Demonstrate the Bible's authority and its life-transforming power.",
+          "objectives": [
+            "Understand the divine origin and authority of God's Word.",
+            "Understand the Word's role in the believer's life.",
+            "Value the Word more deeply and put it into practice."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothy 3:16", "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness."},
+            {"reference": "Hebrews 4:12", "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword..."}
+          ],
+          "summaryPoints": [
+            "Its origin — inspired by God, carrying full authority.",
+            "Its role — it gives new birth, nourishes, purifies, and guides.",
+            "Our response — take hold of it, and put it into practice."
+          ],
+          "reflectionQuestions": [
+            "What place does the Word have in your daily life: central, marginal, absent?",
+            "Which of the five ways of taking hold of it do you need most: hearing, reading, studying, memorizing, meditating?",
+            "What will you put into practice this week?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_07",
+      "code": "2S01",
+      "type": "supplementary",
+      "order": 7,
+      "title": {
+        "fr": "Développer votre relation avec Dieu",
+        "rn": "Guteza imbere imigenderanire yawe n'Imana",
+        "en": "Developing your relationship with God"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper à cultiver une relation vivante avec Dieu par un temps régulier avec lui.",
+          "objectives": [
+            "Comprendre la valeur du temps quotidien avec Dieu.",
+            "Savoir comment l'organiser et le nourrir.",
+            "Surmonter les obstacles à la régularité."
+          ],
+          "keyScriptures": [
+            {"reference": "Marc 1.35", "text": "Vers le matin, pendant qu'il faisait encore très sombre, il se leva et sortit pour aller dans un lieu désert où il pria."},
+            {"reference": "Jacques 4.8", "text": "Approchez-vous de Dieu, et il s'approchera de vous."}
+          ],
+          "summaryPoints": [
+            "Se retirer — un temps et un lieu réguliers.",
+            "Écouter et répondre — la Parole et la prière.",
+            "Persévérer — la constance bâtit l'intimité."
+          ],
+          "reflectionQuestions": [
+            "Quand vous rencontrerez-vous avec Dieu ? Fixez une heure, dès demain.",
+            "Où, et avec quoi ? Un lieu, une Bible, un carnet.",
+            "Par quel livre commencer ? Un évangile, par exemple Jean."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura uburyo bwo guteza imbere imigenderanire yacu n'Imana buri musi, kugira dukure mu vy'impwemu.",
+          "objectives": [
+            "Gutahura ico bisaba kugira imigenderanire ikure.",
+            "Kumenya ibikoresho vy'ugukura mu vy'impwemu.",
+            "Kwiyemeza intambwe zoroshe zo gukura."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Petero 3.18", "text": "Mukurire mu buntu no mu kumenya Umwami wacu n'Umukiza Yesu Kristo."},
+            {"reference": "Ab'i Filipi 1.6", "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera gushika ku musi wa Yesu Kristo."}
+          ],
+          "summaryPoints": [
+            "Gukoresha — Ijambo, isengesho, ubumwe, ivyabona.",
+            "Gukura — biciye ku kuguma muri Kristo.",
+            "Kwizigira — ko Imana izorangiza igikorwa yatanguye."
+          ],
+          "reflectionQuestions": [
+            "Ni ikihe kikoresho ukoresha buke ? Ijambo, isengesho, ubumwe, ivyabona ?",
+            "Ni iyihe ntambamyi ikubuza gukura ? Icaha, umwanya, ukwigunga ?",
+            "Ni iyihe ntambwe imwe uzofata ? Yoroshe kandi ishoboka, uno musi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you to cultivate a living relationship with God through regular time with him.",
+          "objectives": [
+            "Understand the value of daily time with God.",
+            "Know how to organize and nourish that time.",
+            "Overcome the obstacles to consistency."
+          ],
+          "keyScriptures": [
+            {"reference": "Mark 1:35", "text": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed."},
+            {"reference": "James 4:8", "text": "Draw nigh to God, and he will draw nigh to you."}
+          ],
+          "summaryPoints": [
+            "Withdraw — a regular time and place.",
+            "Listen and respond — through the Word and prayer.",
+            "Persevere — consistency builds intimacy."
+          ],
+          "reflectionQuestions": [
+            "When will you meet with God? Set a fixed time, starting tomorrow.",
+            "Where, and with what? A place, a Bible, a notebook.",
+            "Which book will you start with? A gospel, such as John."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_08",
+      "code": "2S02",
+      "type": "supplementary",
+      "order": 8,
+      "title": {
+        "fr": "Préparer et communiquer votre témoignage personnel",
+        "rn": "Gutegura no gushikiriza intahe yawe bwite",
+        "en": "Preparing and sharing your personal testimony"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous motiver et vous équiper à préparer et à utiliser votre témoignage pour parler de votre foi.",
+          "objectives": [
+            "Connaître la base biblique du témoignage personnel.",
+            "Connaître les avantages d'un témoignage préparé.",
+            "Composer votre témoignage selon un plan à trois points."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Pierre 3.15", "text": "Soyez toujours prêts à vous défendre… avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."},
+            {"reference": "Matthieu 5.16", "text": "Que votre lumière brille devant les hommes, afin qu'ils voient vos bonnes œuvres et glorifient votre Père qui est dans les cieux."}
+          ],
+          "summaryPoints": [
+            "La base — être prêt à rendre raison de l'espérance.",
+            "La structure — avant, comment, après.",
+            "La manière — avec naturel, dans la puissance de l'Esprit."
+          ],
+          "reflectionQuestions": [
+            "Avant : comment était votre vie ? Nommez une ou deux caractéristiques.",
+            "Comment avez-vous reçu Christ ? Qu'est-ce qui vous a conduit à lui ?",
+            "Après : qu'a-t-il changé ? Un changement concret et vrai."
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutera umwete no kwigisha gutegura no gukoresha intahe yawe mu kubarira abandi ivyo kwizera kwawe.",
+          "objectives": [
+            "Kumenya urufatiro rwo muri Bibiliya mu gushinga intahe.",
+            "Kumenya akamaro ko gutegura intahe yawe bwite.",
+            "Gutegura intahe yawe mu bice bitatu."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Petero 3.15", "text": "Muhore mwiteguye kwishura umuntu wese ababajije inyanduruko y'ivyizigiro biri muri mwebwe, ariko muri n'ubugwaneza mutinya."},
+            {"reference": "Matayo 5.16", "text": "Umuco wanyu nuce ukamurikira abantu, kugira ngo babone ibikorwa vyanyu vyiza, baheze bahayagize So wanyu ari mw'ijuru."}
+          ],
+          "summaryPoints": [
+            "Gutegura — ibice bitatu vy'intahe yawe.",
+            "Gushikiriza — mu bwitonzi, werekeza kuri Kristo.",
+            "Kwizigira — ni Mpwemu Yera yemeza umutima."
+          ],
+          "reflectionQuestions": [
+            "Intahe yawe iteguwe ? Ibice bitatu, mu minota itatu.",
+            "Yerekeza kuri nde ? Kuri Kristo, si ku idini.",
+            "Uzoyishikiriza nde iyi ndwi ? Umuntu umwe, mu bwitonzi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Motivate and equip you to prepare and use your testimony to talk about your faith.",
+          "objectives": [
+            "Know the biblical basis for personal testimony.",
+            "Know the advantages of a well-prepared testimony.",
+            "Compose your testimony using a three-point outline."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Peter 3:15", "text": "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear."},
+            {"reference": "Matthew 5:16", "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."}
+          ],
+          "summaryPoints": [
+            "The basis — being ready to give a reason for your hope.",
+            "The structure — before, how, after.",
+            "The manner — naturally, in the power of the Spirit."
+          ],
+          "reflectionQuestions": [
+            "Before: what was your life like? Name one or two traits.",
+            "How did you receive Christ? What led you to him?",
+            "After: what has he changed? Name one concrete, true change."
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_09",
+      "code": "2S03",
+      "type": "supplementary",
+      "order": 9,
+      "title": {
+        "fr": "Terminer la présentation des Quatre Lois Spirituelles",
+        "rn": "Kurangiza ishikirizwa ry'Ingingo Zine z'ivy'Impwemu",
+        "en": "Completing the Four Spiritual Laws presentation"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous permettre de conduire les nouveaux croyants à l'assurance de leur salut.",
+          "objectives": [
+            "Utiliser les questions clés pour vérifier la compréhension de l'assurance.",
+            "Discuter les versets bibliques qui consolident l'assurance."
+          ],
+          "keyScriptures": [
+            {"reference": "Apocalypse 3.20", "text": "Voici, je me tiens à la porte et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui."},
+            {"reference": "Hébreux 13.5", "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."}
+          ],
+          "summaryPoints": [
+            "Démontrer — les cinq points de la page 11.",
+            "Fonder — sur la promesse, la fidélité, la vie éternelle.",
+            "Vérifier — par les questions clés, avec douceur."
+          ],
+          "reflectionQuestions": [
+            "Savez-vous poser les questions clés, dans l'ordre, avec les versets ?",
+            "Savez-vous expliquer Hébreux 13.5, la fidélité de Dieu ?",
+            "Savez-vous distinguer faits et sentiments, pour rassurer solidement ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gufasha abakristo bashasha kuronka icemezo c'agakiza kabo, gushimikiye ku Ijambo ry'Imana.",
+          "objectives": [
+            "Gukoresha ibibazo vy'urufatiro kugira umenye ko batahura agakiza.",
+            "Kurabira hamwe n'abakristo bashasha imirongo ikomeza icemezo.",
+            "Gutsimbataza icemezo c'agakiza gishingiye ku Ijambo."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Yohana 5.11-13", "text": "Uwufise Umwana afise ubugingo… Ivyo nabandikiye kugira mumenye ko mufise ubugingo budashira."},
+            {"reference": "Yohana 10.28", "text": "Ndabaha ubugingo budashira, ntibazorandurwa rwose, kandi nta n'umwe azobanyaka mu kuboko."}
+          ],
+          "summaryPoints": [
+            "Kwemeza — gukoresha ibibazo vy'urufatiro.",
+            "Gushimikira — ku Ijambo, si ku bigumbagumba.",
+            "Gukurikirana — isango ryo gukomeza."
+          ],
+          "reflectionQuestions": [
+            "Icemezo cawe gishingiye he ? Ku Ijambo, canke ku bigumbagumba ?",
+            "Womenyesha uwundi ate ko akijijwe ? Ukoresheje amasezerano y'Imana.",
+            "Ni iyihe ntambwe umuha ? Isango ryo gukomeza, ijambo, ubumwe."
+          ]
+        },
+        "en": {
+          "centralIdea": "Enable you to lead new believers to the assurance of their salvation.",
+          "objectives": [
+            "Use key questions to check their understanding of assurance.",
+            "Discuss the Bible verses that reinforce that assurance."
+          ],
+          "keyScriptures": [
+            {"reference": "Revelation 3:20", "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him."},
+            {"reference": "Hebrews 13:5", "text": "...I will never leave thee, nor forsake thee."}
+          ],
+          "summaryPoints": [
+            "Demonstrate — the five points from page 11 of the booklet.",
+            "Ground it — in God's promise, faithfulness, and eternal life.",
+            "Verify — through key questions, asked gently."
+          ],
+          "reflectionQuestions": [
+            "Do you know how to ask the key questions, in order, with their verses?",
+            "Can you explain Hebrews 13:5 and God's faithfulness?",
+            "Can you distinguish facts from feelings, so as to give solid reassurance?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_10",
+      "code": "2S04",
+      "type": "supplementary",
+      "order": 10,
+      "title": {
+        "fr": "Motiver les nouveaux croyants",
+        "rn": "Gutera umwete abakristo bashasha ngo barushirize kwitanga",
+        "en": "Motivating new believers"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper à encourager et motiver les nouveaux croyants à croître et à persévérer dans leur marche avec Christ.",
+          "objectives": [
+            "Comprendre les besoins du nouveau croyant.",
+            "Savoir comment l'encourager à croître.",
+            "L'aider à surmonter les premiers obstacles."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Thessaloniciens 2.7-8", "text": "Nous avons été pleins de douceur au milieu de vous… nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie."},
+            {"reference": "Colossiens 1.28", "text": "C'est lui que nous annonçons… afin de présenter à Dieu tout homme, devenu parfait en Christ."}
+          ],
+          "summaryPoints": [
+            "Comprendre — les besoins du nouveau-né spirituel.",
+            "Encourager — avec chaleur, amitié et exemple.",
+            "Conduire — vers la maturité et la multiplication."
+          ],
+          "reflectionQuestions": [
+            "Qui accompagnez-vous en ce moment ? Un nouveau croyant à encourager.",
+            "Quel est son plus grand besoin : assurance, nourriture, communion ?",
+            "Comment lui montrer l'exemple cette semaine, de façon concrète ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ubuhinga bw'ugukomeza, no gutera umwete abakristo bashasha ngo barushirize kwitanga mu gikorwa co kugira intumwa.",
+          "objectives": [
+            "Kuvuga ico « ugukomeza kw'intango » ari co.",
+            "Kudondagura intumbero zitanu z'ugukomeza kw'intango.",
+            "Gutandukanya ingingo z'ugukomeza no gutera umwete abashasha."
+          ],
+          "keyScriptures": [
+            {"reference": "Ivyak 2.41-42", "text": "Bemeye amajambo yiwe barabatizwa… bashishikara mu vyo intumwa zigisha, no kugira ubumwe, no gusenga."},
+            {"reference": "Abanyefeso 3.17", "text": "Kristo abe mu mitima yanyu kubw'ukwizera, kugira mugire imizi ishinzwe mu rukundo."}
+          ],
+          "summaryPoints": [
+            "Gukomeza — kubashinga mu gakiza no kubigisha.",
+            "Kwunga ubucuti — guhinduka umugenzi wabo.",
+            "Gutera umwete — kwitanga mu gikorwa co kugira intumwa."
+          ],
+          "reflectionQuestions": [
+            "Urafasha umukristo mushasha ryari ? Mu masaha 24-48 inyuma yo kwakira Kristo ?",
+            "Uri umugenzi wabo ? Urabaramutsa, ukayaga, ukumviriza ?",
+            "Ni iki ubatera umwete gukora ? Kwitanga mu gikorwa co kugira intumwa."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you to encourage and motivate new believers to grow and persevere in their walk with Christ.",
+          "objectives": [
+            "Understand the needs of a new believer.",
+            "Know how to encourage their growth.",
+            "Help them overcome their first obstacles."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Thessalonians 2:7-8", "text": "We were gentle among you... we were willing to have imparted unto you, not the gospel of God only, but also our own souls."},
+            {"reference": "Colossians 1:28", "text": "Whom we preach... that we may present every man perfect in Christ Jesus."}
+          ],
+          "summaryPoints": [
+            "Understand — the needs of a spiritual newborn.",
+            "Encourage — with warmth, friendship, and example.",
+            "Lead — toward maturity and multiplication."
+          ],
+          "reflectionQuestions": [
+            "Who are you walking alongside right now? A new believer to encourage.",
+            "What is their greatest need: assurance, nourishment, fellowship?",
+            "How will you model this for them, concretely, this week?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_11",
+      "code": "2S05",
+      "type": "supplementary",
+      "order": 11,
+      "title": {
+        "fr": "Diriger le premier rendez-vous d'affermissement",
+        "rn": "Kurongora isango rya mbere ry'inyigisho zo gukomeza",
+        "en": "Leading the first follow-up meeting"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Vous équiper à diriger le premier rendez-vous d'affermissement à l'aide de la leçon N°1.",
+          "objectives": [
+            "Diriger le premier rendez-vous à l'aide de la leçon N°1.",
+            "Établir un rapport d'amitié avec le nouveau croyant.",
+            "Le motiver à vous rencontrer de nouveau."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Thessaloniciens 2.8", "text": "Nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie, tant vous nous étiez devenus chers."}
+          ],
+          "summaryPoints": [
+            "Accueillir — avec chaleur et amitié.",
+            "Affermir — l'assurance par la Parole.",
+            "Motiver — à se revoir et à continuer."
+          ],
+          "reflectionQuestions": [
+            "Connaissez-vous bien la leçon N°1, son objectif et sa procédure ?",
+            "Comment créerez-vous l'amitié ? Préparez vos premières questions d'accueil.",
+            "Comment conclurez-vous : une lecture, une prochaine rencontre, une prière ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kwigishwa kurongora isango rya mbere ry'inyigisho zo gukomeza, ukoresheje icigwa ca mbere co gukomeza.",
+          "objectives": [
+            "Kurongora isango rya mbere ukoresheje icigwa ca mbere co gukomeza.",
+            "Kwunga ubucuti n'abakristo bashasha.",
+            "Gutera umwete abakristo bashasha ngo mwongere gukorana."
+          ],
+          "keyScriptures": [
+            {"reference": "Mariko 4.14-15", "text": "Umubivyi abiba ijambo ry'Imana… Satani araza akabakuramwo iryo jambo ryabibwe muri bo."}
+          ],
+          "summaryPoints": [
+            "Kwitegura — intumbero, icemezo c'agakiza.",
+            "Kurongora — kwunga ubucuti, kwigira hamwe icigwa ca 1.",
+            "Gukurikirana — guhana isango rikurikira, guhuza n'abandi."
+          ],
+          "reflectionQuestions": [
+            "Witegura gute isango ry'ugukomeza ? Intumbero, ubucuti, icigwa ca 1.",
+            "Ni iyihe ntumbero nyamukuru ? Gufasha gutahura Bibiliya, si ukwigisha gusa.",
+            "Uzohana isango na nde ? Umukristo mushasha, mu masaha 24-48."
+          ]
+        },
+        "en": {
+          "centralIdea": "Equip you to lead the first follow-up meeting using Lesson 1.",
+          "objectives": [
+            "Lead the first meeting using Lesson 1.",
+            "Build a friendship with the new believer.",
+            "Motivate them to meet with you again."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Thessalonians 2:8", "text": "So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own souls, because ye were dear unto us."}
+          ],
+          "summaryPoints": [
+            "Welcome — with warmth and friendship.",
+            "Strengthen — assurance grounded in the Word.",
+            "Motivate — to meet again and keep going."
+          ],
+          "reflectionQuestions": [
+            "Do you know Lesson 1 well, its goal and its process?",
+            "How will you build friendship? Prepare your opening questions.",
+            "How will you conclude: a reading, a next meeting, a prayer?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_2_lesson_12",
+      "code": "2S06",
+      "type": "supplementary",
+      "order": 12,
+      "title": {
+        "fr": "Comment étudier la Parole de Dieu",
+        "rn": "Uko wokwiga Ijambo ry'Imana",
+        "en": "How to study God's Word"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Découvrir une méthode d'étude biblique qui aide à interpréter et à mettre en pratique la Parole de Dieu.",
+          "objectives": [
+            "Apprendre les trois étapes de la méthode inductive.",
+            "Pratiquer l'observation, l'interprétation et l'application.",
+            "Commencer une étude biblique régulière."
+          ],
+          "keyScriptures": [
+            {"reference": "Romains 12.2", "text": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence."},
+            {"reference": "Josué 1.8", "text": "Que ce livre de la loi ne s'éloigne point de ta bouche ; médite-le jour et nuit… car alors tu prospéreras dans tes voies."}
+          ],
+          "summaryPoints": [
+            "Observer — que dit le texte ?",
+            "Interpréter — que signifie-t-il ?",
+            "Appliquer — que signifie-t-il pour moi ?"
+          ],
+          "reflectionQuestions": [
+            "Quel passage étudierez-vous ? Choisissez-en un court et accessible pour commencer.",
+            "Quand et où ? Fixez une heure et un lieu réguliers.",
+            "Quelle sera votre application, concrète, dès cette semaine ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kwigisha uburyo bworoshe bwo kwiga Bibiliya ubwacu, kugira twungukire ku Ijambo ry'Imana buri musi.",
+          "objectives": [
+            "Gutahura akamaro ko kwiga Ijambo ubwacu.",
+            "Kumenya intambwe zoroshe zo kwiga umurongo canke igice.",
+            "Gushira mu ngiro ivyo twize."
+          ],
+          "keyScriptures": [
+            {"reference": "Yosuwa 1.8", "text": "Iki gitabo c'ivyagezwe ntikizova mu kanwa kawe, uzogizirikana ku murango no mw'ijoro… uzoheza uroranirwe."},
+            {"reference": "Yakobo 1.22", "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."}
+          ],
+          "summaryPoints": [
+            "Kwitegura — isengesho, igice, ikaye.",
+            "Kwiga — ivyabaye, insobanuro, gushira mu ngiro.",
+            "Kuzirikana — no kuba umukora w'Ijambo."
+          ],
+          "reflectionQuestions": [
+            "Uriyigisha Ijambo ubwawe ? Canke uronswa n'abandi gusa ?",
+            "Ni ubuhe buryo uzotangura ? Kwumva, gusoma, kwiga, kwibuka, kuzirikana.",
+            "Uzokwiga iki iyi ndwi ? Igitabo canke igice kimwe."
+          ]
+        },
+        "en": {
+          "centralIdea": "Discover a Bible study method that helps you interpret and put God's Word into practice.",
+          "objectives": [
+            "Learn the three steps of the inductive method.",
+            "Practice observation, interpretation, and application.",
+            "Begin a regular habit of Bible study."
+          ],
+          "keyScriptures": [
+            {"reference": "Romans 12:2", "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."},
+            {"reference": "Joshua 1:8", "text": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night... for then thou shalt make thy way prosperous."}
+          ],
+          "summaryPoints": [
+            "Observe — what does the text say?",
+            "Interpret — what does it mean?",
+            "Apply — what does it mean for me?"
+          ],
+          "reflectionQuestions": [
+            "Which passage will you study? Choose something short and accessible to start.",
+            "When and where? Set a regular time and place.",
+            "What will your application be, concretely, starting this week?"
+          ]
+        }
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "id": "track_2_q1",
+        "prompt": {
+          "fr": "D'après Jean 15.5, comment porte-t-on beaucoup de fruit ?",
+          "rn": "Nk'uko Yohana 15.5 abivuga, ni gute umuntu yama ivyamwa vyinshi ?",
+          "en": "According to John 15:5, how does one bear much fruit?"
+        },
+        "choices": [
+          {"fr": "En travaillant dur par ses propres forces", "rn": "Mu nkomezi zacu twebwe", "en": "By working hard in one's own strength"},
+          {"fr": "En demeurant en Christ, comme le sarment au cep", "rn": "Mu kuguma muri Kristo, nk'ishami ku muzabibu", "en": "By abiding in Christ, as a branch in the vine"},
+          {"fr": "En suivant des règles religieuses strictes", "rn": "Mu kwikorera gusa", "en": "By strictly following religious rules"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_2_q2",
+        "prompt": {
+          "fr": "Que signifie savoir que Dieu est « immuable », selon la leçon sur les attributs de Dieu ?",
+          "rn": "Bivuga iki ko Imana ari « Adahinduka » nk'uko incamake y'ibiranga Imana ibivuga ?",
+          "en": "What does it mean that God is unchanging, according to the lesson on the attributes of God?"
+        },
+        "choices": [
+          {"fr": "Qu'il change selon les circonstances", "rn": "Ko ihindagurika nk'ibigumbagumba vyacu", "en": "That he changes according to circumstances"},
+          {"fr": "Qu'il est le même hier, aujourd'hui et toujours", "rn": "Ko iri imwe ejo, uno musi, ibihe vyose", "en": "That he is the same yesterday, today, and forever"},
+          {"fr": "Que sa fidélité dépend de nos sentiments", "rn": "Ko idufasha ku bushake bwacu bwonyene", "en": "That his faithfulness depends on our feelings"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_2_q3",
+        "prompt": {
+          "fr": "Selon 2 Corinthiens 5.17, que devient celui qui est en Christ ?",
+          "rn": "Nk'uko 2 Abakorinto 5.17 ibivuga, umuntu ari muri Kristo aba ari iki ?",
+          "en": "According to 2 Corinthians 5:17, what does someone in Christ become?"
+        },
+        "choices": [
+          {"fr": "Il reste identique à ce qu'il était avant", "rn": "Uwuguma ari uko yahoze", "en": "Exactly the same as before"},
+          {"fr": "Il devient une nouvelle créature", "rn": "Irema rishasha", "en": "A new creature"},
+          {"fr": "Il doit encore mériter le pardon", "rn": "Uwukeneye kwikorera ikigongwe", "en": "Someone who must still earn forgiveness"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_2_q4",
+        "prompt": {
+          "fr": "Quelles sont les quatre dimensions du modèle A.C.A.S. présenté dans la leçon sur la prière ?",
+          "rn": "Ibice bine vy'isengesho biboneka mu cigwa co kwiga gusenga ni ibihe ?",
+          "en": "What are the four dimensions of the A.C.T.S. pattern taught in the prayer lesson?"
+        },
+        "choices": [
+          {"fr": "Adoration, Confession, Actions de grâces, Supplication", "rn": "Gushemeza, Kwatura, Gushimira, Gusaba", "en": "Adoration, Confession, Thanksgiving, Supplication"},
+          {"fr": "Assurance, Communion, Amour, Sagesse", "rn": "Kwigunga, Kwiheba, Kwihebura, Kwitwara", "en": "Assurance, Communion, Love, Wisdom"},
+          {"fr": "Attente, Calme, Ambition, Silence", "rn": "Gusinzira, Kurya, Gukora, Kuruhuka", "en": "Waiting, Calm, Ambition, Silence"}
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "track_2_q5",
+        "prompt": {
+          "fr": "D'après 1 Corinthiens 3.6, qui seul fait croître le nouveau croyant ?",
+          "rn": "Nk'uko 1 Abakorinto 3.6 ibivuga, ni nde yama uwukuza umukristo mushasha ?",
+          "en": "According to 1 Corinthians 3:6, who alone causes a new believer to grow?"
+        },
+        "choices": [
+          {"fr": "La personne qui l'affermit, par ses propres efforts", "rn": "Uwumugaburira ku bushobozi bwiwe", "en": "The person doing the follow-up, through their own effort"},
+          {"fr": "Dieu seul", "rn": "Imana ubwayo", "en": "God alone"},
+          {"fr": "Le temps qui passe", "rn": "Igihe kirenga", "en": "The mere passing of time"}
+        ],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

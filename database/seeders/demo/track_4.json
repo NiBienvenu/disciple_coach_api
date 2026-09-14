@@ -1,0 +1,571 @@
+{
+  "trackId": "track_4",
+  "title": {"fr": "Niveau 4 : Leadership", "rn": "Urwego rwa 4 : Leadership", "en": "Level 4: Leadership"},
+  "description": {
+    "fr": "Ce niveau forme les disciples à vivre avec une perspective éternelle, à discerner la volonté de Dieu, à aimer par la foi, et à s'engager dans l'édification d'un mouvement spirituel qui se multiplie.",
+    "rn": "Kumenyesha kubaho witegereje ibihe bidashira, gutahura ugushaka kw'Imana, gukunda mu kwizera, n'akamaro k'umuvyimba wo mu buryo bw'impwemu.",
+    "en": "This level trains disciples to live with an eternal perspective, discern God's will, love by faith, and commit to building a multiplying spiritual movement."
+  },
+  "lessons": [
+    {
+      "id": "track_4_lesson_01",
+      "code": "4M01",
+      "type": "main",
+      "order": 1,
+      "title": {
+        "fr": "Vivre avec une perspective éternelle",
+        "rn": "Kubaho witegereje ibihe bidashira",
+        "en": "Living with an eternal perspective"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre les principes d'une vie vécue selon une perspective éternelle plutôt que selon une perspective simplement temporelle.",
+          "objectives": [
+            "Comprendre ce qu'est une perspective éternelle.",
+            "Voir la nécessité de la vivre, par contraste avec une perspective purement temporelle.",
+            "Comprendre les avantages qu'elle procure.",
+            "Comprendre comment la développer."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 6.19-21", "text": "Amassez-vous des trésors dans le ciel… car là où est ton trésor, là aussi sera ton cœur."},
+            {"reference": "2 Corinthiens 4.18", "text": "Nous regardons non aux choses visibles, mais à celles qui sont invisibles ; car les visibles sont passagères, et les invisibles sont éternelles."},
+            {"reference": "Colossiens 3.1-2", "text": "Cherchez les choses d'en haut… affectionnez-vous aux choses d'en haut, et non à celles qui sont sur la terre."}
+          ],
+          "summaryPoints": [
+            "Voir la vie du point de vue de Dieu.",
+            "Choisir l'éternel plutôt que le temporel.",
+            "Investir dans ce qui dure toujours."
+          ],
+          "reflectionQuestions": [
+            "Où sont vos trésors : sur la terre, ou dans le ciel ?",
+            "Qu'est-ce qui vous inquiète ? Vu de l'éternité, quelle importance cela a-t-il vraiment ?",
+            "Quel choix avez-vous besoin de réorienter aujourd'hui vers ce qui demeure ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha ingene umuntu yobaho yisunga ivyiyumviro vy'ibihe bidashira, aho kwisunga ivy'akanya gusa.",
+          "objectives": [
+            "Gutahura ico ari co kubona ubuzima witegereje ibihe bidashira.",
+            "Kubona akamaro kabyo, ugereranije n'ukubona ivy'akanya gusa.",
+            "Gutahura ivyiza vyabyo.",
+            "Gutahura ingene wobiteza imbere."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 6.19-21", "text": "Nimwirundanirize ubutunzi mw'ijuru… kuko aho ubutunzi bwawe buri, ni ho n'umutima wawe uzoba."},
+            {"reference": "2 Abakorinto 4.18", "text": "Ntitwitegereza ibiboneka, ariko ibitaboneka ; kuko ibiboneka ari ivy'akanya, ariko ibitaboneka bikaba ibidashira."},
+            {"reference": "Abakolosayi 3.1-2", "text": "Nimurondere ivyo hejuru… Muzirikane ivyo hejuru, ntimuzirikane ivyo kw'isi."}
+          ],
+          "summaryPoints": [
+            "Kubona — ubuzima nk'uko Imana ibubona.",
+            "Guhitamwo — ibidashira aho ivy'akanya.",
+            "Gushira — mu bimara ibihe vyose."
+          ],
+          "reflectionQuestions": [
+            "Ubutunzi bwawe buri hehe ? Kw'isi, canke mw'ijuru ?",
+            "Ni iki kigutera amaganya ? Witegereje ibidashira, gifise agaciro ki ?",
+            "Ni iyihe ngingo woreka uno musi ? Werekeza ku bisigara."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the principles of living from an eternal perspective rather than a merely temporal one.",
+          "objectives": [
+            "Understand what an eternal perspective is.",
+            "See the need to live it out, in contrast to a purely temporal perspective.",
+            "Understand the benefits it brings.",
+            "Understand how to develop it."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 6:19-21", "text": "Lay not up for yourselves treasures upon earth... but lay up for yourselves treasures in heaven... for where your treasure is, there will your heart be also."},
+            {"reference": "2 Corinthians 4:18", "text": "We look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal."},
+            {"reference": "Colossians 3:1-2", "text": "Seek those things which are above... set your affection on things above, not on things on the earth."}
+          ],
+          "summaryPoints": [
+            "See life from God's point of view.",
+            "Choose the eternal rather than the temporal.",
+            "Invest in what lasts forever."
+          ],
+          "reflectionQuestions": [
+            "Where are your treasures: on earth, or in heaven?",
+            "What worries you? Seen from eternity, how much does it really matter?",
+            "What choice do you need to reorient today toward what lasts?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_4_lesson_02",
+      "code": "4M02",
+      "type": "main",
+      "order": 2,
+      "title": {
+        "fr": "Discerner la volonté de Dieu pour votre vie",
+        "rn": "Gutahura ugushaka kw'Imana ku bugingo bwawe",
+        "en": "Discerning God's will for your life"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre l'importance de rechercher la volonté de Dieu et la manière de la discerner dans ses décisions.",
+          "objectives": [
+            "Comprendre le désir de Dieu de nous conduire dans sa volonté.",
+            "Comprendre l'engagement du cœur nécessaire pour la connaître.",
+            "Connaître les ressources qui permettent de la discerner.",
+            "Mettre en pratique le principe de « l'esprit de sagesse »."
+          ],
+          "keyScriptures": [
+            {"reference": "Romains 12.2", "text": "Soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez la volonté de Dieu : ce qui est bon, agréable et parfait."},
+            {"reference": "Éphésiens 1.17", "text": "Qu'il vous donne un esprit de sagesse et de révélation, qui vous le fasse connaître."},
+            {"reference": "Jean 7.17", "text": "Si quelqu'un veut faire la volonté de Dieu, il reconnaîtra si mon enseignement vient de Dieu."}
+          ],
+          "summaryPoints": [
+            "Se remettre à Dieu avec un cœur disponible et confiant.",
+            "Chercher sa volonté par la Parole, la prière, l'Esprit, le conseil et les circonstances.",
+            "Décider avec sagesse, pour la gloire de Dieu."
+          ],
+          "reflectionQuestions": [
+            "Êtes-vous vraiment disponible, prêt à obéir avant même de connaître la volonté de Dieu ?",
+            "Qu'en dit la Parole de Dieu, votre première ressource ?",
+            "Avez-vous cherché le conseil de personnes mûres, et la paix de l'Esprit ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha akamaro ko kurondera ugushaka kw'Imana n'ingene wogutahura mu ngingo zawe.",
+          "objectives": [
+            "Gutahura ko Imana yipfuza kuturongora mu gushaka kwayo.",
+            "Gutahura ukwiyegura kw'umutima gukenewe kugira ukumenye.",
+            "Kumenya ibikoresho vyo gutahura ugushaka kwayo.",
+            "Gushira mu ngiro ingingo y'« impwemu y'ubwenge »."
+          ],
+          "keyScriptures": [
+            {"reference": "Abaroma 12.2", "text": "Muhindurwe bashasha mu kugira imizirikanyi misha… kugira ngo mumenye ugushaka kw'Imana : iciza, gihimbaye, kandi gitunganye."},
+            {"reference": "Abanyefeso 1.17", "text": "… kugira ngo abahe impwemu y'ubwenge n'iy'ukwivumbura, mu kumumenya."},
+            {"reference": "Yohana 7.17", "text": "Umuntu niyashaka gukora ugushaka kwayo, azomenya ko inyigisho yanje iva ku Mana."}
+          ],
+          "summaryPoints": [
+            "Kwiyegura — umutima uboneka kandi wizigira.",
+            "Kurondera — Ijambo, isengesho, Mpwemu, impanuro, ivyabaye.",
+            "Guhitamwo — n'ubwenge, ku buninahazwa bw'Imana."
+          ],
+          "reflectionQuestions": [
+            "Woba witeguriye koko ? Witeguriye kwumvira imbere yo kumenya ?",
+            "Ijambo ry'Imana rivuze iki ? Igikoresho cawe ca mbere.",
+            "Warondeye impanuro ? N'amahoro ya Mpwemu ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the importance of seeking God's will and how to discern it in your decisions.",
+          "objectives": [
+            "Understand God's desire to guide us in his will.",
+            "Understand the heart commitment needed to know it.",
+            "Know the resources that help discern it.",
+            "Practice the principle of the 'spirit of wisdom.'"
+          ],
+          "keyScriptures": [
+            {"reference": "Romans 12:2", "text": "Be transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."},
+            {"reference": "Ephesians 1:17", "text": "That he may give unto you the spirit of wisdom and revelation, in the knowledge of him."},
+            {"reference": "John 7:17", "text": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself."}
+          ],
+          "summaryPoints": [
+            "Surrender to God with an available, trusting heart.",
+            "Seek his will through the Word, prayer, the Spirit, counsel, and circumstances.",
+            "Decide with wisdom, for God's glory."
+          ],
+          "reflectionQuestions": [
+            "Are you truly available, ready to obey even before you know God's will?",
+            "What does God's Word, your first resource, say about it?",
+            "Have you sought the counsel of mature believers, and the Spirit's peace?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_4_lesson_03",
+      "code": "4M03",
+      "type": "main",
+      "order": 3,
+      "title": {
+        "fr": "L'importance d'un mouvement spirituel",
+        "rn": "Akamaro k'umuvyimba wo mu buryo bw'impwemu",
+        "en": "The importance of a spiritual movement"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre les caractéristiques d'un mouvement spirituel et les avantages de s'y engager.",
+          "objectives": [
+            "Comprendre les caractéristiques fondamentales d'un mouvement.",
+            "S'engager dans un mouvement spirituel sur une base biblique.",
+            "Percevoir le potentiel d'un tel mouvement dans sa région visée.",
+            "Expliquer les raisons de s'y engager."
+          ],
+          "keyScriptures": [
+            {"reference": "Actes 2.42-47", "text": "Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle… et le Seigneur ajoutait chaque jour à l'Église ceux qui étaient sauvés."},
+            {"reference": "1 Thessaloniciens 1.8", "text": "La parole du Seigneur a retenti… de sorte que vous n'avez pas besoin d'en parler."}
+          ],
+          "summaryPoints": [
+            "Comprendre ce qu'est un mouvement spirituel.",
+            "Reconnaître sa dépendance de l'Esprit et de la Parole.",
+            "S'engager pour un impact qui se multiplie."
+          ],
+          "reflectionQuestions": [
+            "Faites-vous partie d'un mouvement, ou d'un ministère isolé ?",
+            "Dépendez-vous réellement de l'Esprit et de la Parole, la marque décisive d'un mouvement spirituel ?",
+            "Quel potentiel imaginez-vous que Dieu pourrait accomplir dans votre région ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kumenyesha ibiranga umuvyimba wo mu buryo bw'impwemu n'ivyiza vyo kuwitangamwo.",
+          "objectives": [
+            "Gutahura ibiranga ngenderwako vy'umuvyimba.",
+            "Kwitangamwo umuvyimba wo mu buryo bw'impwemu wisunga Bibiliya.",
+            "Kubona ubushobozi bw'umuvyimba mu ntara yawe.",
+            "Gusigura igituma umuntu yowitangamwo."
+          ],
+          "keyScriptures": [
+            {"reference": "Ivyak 2.42-47", "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."},
+            {"reference": "1 Ab'i Tesalonike 1.8", "text": "Ijambo ry'Umwami ryumvikanye… ku buryo tutagira ico tuvuga."}
+          ],
+          "summaryPoints": [
+            "Gutahura — ico umuvyimba w'impwemu ari co.",
+            "Kwemera — wishimikiza Mpwemu n'Ijambo.",
+            "Kwitangamwo — kugira ico ukora kirigwiza."
+          ],
+          "reflectionQuestions": [
+            "Uri mu muvyimba, canke ukorera wenyene ? Uri mu gikorwa cigunze ?",
+            "Wishimikiza Mpwemu n'Ijambo ? Ikimenyamenya nyamukuru.",
+            "Ni ubuhe bushobozi mu ntara yawe ? Iyumvire ico Imana yokora."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the characteristics of a spiritual movement and the benefits of being engaged in one.",
+          "objectives": [
+            "Understand the fundamental characteristics of a movement.",
+            "Commit to a spiritual movement on a biblical basis.",
+            "Perceive the potential of such a movement in one's target area.",
+            "Explain the reasons for getting involved."
+          ],
+          "keyScriptures": [
+            {"reference": "Acts 2:42-47", "text": "They continued stedfastly in the apostles' doctrine and fellowship... and the Lord added to the church daily such as should be saved."},
+            {"reference": "1 Thessalonians 1:8", "text": "From you sounded out the word of the Lord... so that we need not to speak any thing."}
+          ],
+          "summaryPoints": [
+            "Understand what a spiritual movement is.",
+            "Recognize its dependence on the Spirit and the Word.",
+            "Get involved for an impact that multiplies."
+          ],
+          "reflectionQuestions": [
+            "Are you part of a movement, or an isolated ministry?",
+            "Do you truly depend on the Spirit and the Word, the decisive mark of a spiritual movement?",
+            "What potential do you imagine God could accomplish in your region?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_4_lesson_04",
+      "code": "4M04",
+      "type": "main",
+      "order": 4,
+      "title": {
+        "fr": "Aimer par la foi",
+        "rn": "Gukunda mu kwizera",
+        "en": "Loving by faith"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Découvrir comment aimer les autres par la foi, en réponse à l'amour de Dieu pour nous.",
+          "objectives": [
+            "Apprendre les cinq principes de l'amour révélés par la Bible.",
+            "Comprendre trois mots grecs désignant trois formes d'amour.",
+            "Expliquer les principes permettant d'aimer par la foi."
+          ],
+          "keyScriptures": [
+            {"reference": "Romains 5.8", "text": "Dieu prouve son amour envers nous en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous."},
+            {"reference": "Jean 13.34", "text": "Aimez-vous les uns les autres comme je vous ai aimés."},
+            {"reference": "1 Corinthiens 13.1-3", "text": "Quand je parlerais les langues des hommes et des anges, si je n'ai pas l'amour, je suis une cymbale qui retentit… je ne suis rien."}
+          ],
+          "summaryPoints": [
+            "Recevoir l'amour agapé de Dieu.",
+            "Croire sa promesse : il donne son amour à qui le demande.",
+            "Aimer par la foi, en passant à l'action."
+          ],
+          "reflectionQuestions": [
+            "Qui trouvez-vous difficile à aimer ? Dressez-en la liste, comme un défi à relever par la foi.",
+            "Essayez-vous d'aimer par vos propres forces, ou par la foi, en dépendance de Dieu ?",
+            "Demanderez-vous à Dieu son amour, puis agirez-vous en croyant qu'il vous le donne ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kuvumbura ingene twokunda abandi, mu kwizera, mu kwishura urukundo Imana idukunda.",
+          "objectives": [
+            "Kwiga ingingo zitanu z'urukundo.",
+            "Gutahura amajambo atatu y'ikigiriki y'ubwoko butatu bw'urukundo.",
+            "Gusigura ingingo zitatu zo gukunda mu kwizera."
+          ],
+          "keyScriptures": [
+            {"reference": "Abaroma 5.8", "text": "Imana yerekana urukundo rwayo kuri twebwe, kuko igihe twari abanyavyaha Kristo yadupfiriye."},
+            {"reference": "Yohana 13.34", "text": "Nimukundane."},
+            {"reference": "1 Abakorinto 13.1-3", "text": "Naho novuga indimi z'abantu n'iz'abamarayika, ariko ntagire urukundo, mba ndi icuma kivuga… nta co maze."}
+          ],
+          "summaryPoints": [
+            "Kwakira — urukundo agapé rw'Imana.",
+            "Kwizera — isezerano ryayo : iraha urukundo rwayo.",
+            "Gukunda — mu kwizera, mu gukora."
+          ],
+          "reflectionQuestions": [
+            "Ni nde ugusanga bigoye gukunda ? Wandike amazina, nk'akamo.",
+            "Ugerageza gukunda mu nkomezi zawe ? Canke mu kwizera ?",
+            "Uzosaba urukundo rw'Imana ? Uheze ukore, wizera ko iraruha."
+          ]
+        },
+        "en": {
+          "centralIdea": "Discover how to love others by faith, in response to God's love for us.",
+          "objectives": [
+            "Learn the five biblical principles of love.",
+            "Understand three Greek words for three forms of love.",
+            "Explain the principles for loving by faith."
+          ],
+          "keyScriptures": [
+            {"reference": "Romans 5:8", "text": "God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."},
+            {"reference": "John 13:34", "text": "A new commandment I give unto you, that ye love one another, as I have loved you."},
+            {"reference": "1 Corinthians 13:1-3", "text": "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal... and have not charity, I am nothing."}
+          ],
+          "summaryPoints": [
+            "Receive God's agape love.",
+            "Believe his promise: he gives his love to those who ask.",
+            "Love by faith, by putting it into action."
+          ],
+          "reflectionQuestions": [
+            "Who do you find hard to love? List them, as a challenge to take on by faith.",
+            "Are you trying to love in your own strength, or by faith, depending on God?",
+            "Will you ask God for his love, then act on it, believing he gives it to you?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_4_lesson_05",
+      "code": "4M06",
+      "type": "main",
+      "order": 5,
+      "title": {
+        "fr": "Édifier un mouvement I",
+        "rn": "Kwubaka umuvyimba I",
+        "en": "Building a movement I"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Apprendre les principes fondamentaux pour édifier un mouvement dans son ministère.",
+          "objectives": [
+            "Comprendre ce qu'est un mouvement.",
+            "Comprendre et expliquer sept principes pour l'édifier.",
+            "Appliquer ces principes à des études de cas concrets."
+          ],
+          "keyScriptures": [
+            {"reference": "Éphésiens 3.20", "text": "À celui qui peut faire infiniment au-delà de tout ce que nous demandons ou pensons… à lui soit la gloire !"},
+            {"reference": "1 Thessaloniciens 5.17", "text": "Priez sans cesse."}
+          ],
+          "summaryPoints": [
+            "Prier comme fondement de tout mouvement.",
+            "Semer et bâtir : trier le fruit, multiplier les disciples, cultiver la conviction.",
+            "Mobiliser la crédibilité et le leadership déjà présents."
+          ],
+          "reflectionQuestions": [
+            "Avez-vous une base de prière pour votre ministère, le premier principe d'un mouvement ?",
+            "Semez-vous assez largement pour pouvoir ensuite trier le fruit mûr ?",
+            "Mobilisez-vous les leaders que Dieu a déjà placés dans votre région ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kukumenyesha ingingo z'ishimikiro zo kwubaka umuvyimba mu gikorwa cawe.",
+          "objectives": [
+            "Gutahura ico umuvyimba ari co.",
+            "Gutahura no gusigura ingingo indwi zo kuwubaka.",
+            "Gushira izo ngingo mu ngiro mu turorero."
+          ],
+          "keyScriptures": [
+            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira… ni we ninahazwe !"},
+            {"reference": "1 Ab'i Tesalonike 5.17", "text": "Nimusenge ata guhengeshanya."}
+          ],
+          "summaryPoints": [
+            "Gusenga — ishimikiro ry'umuvyimba wose.",
+            "Kubiba & kwubaka — gutoranya, kwigwiza, kwizigirwa.",
+            "Guhagurutsa — ukwizigirwa n'uburongozi buhari."
+          ],
+          "reflectionQuestions": [
+            "Ufise ishimikiro ry'isengesho ? Ingingo ya mbere.",
+            "Ubiba bihagije ? Kugira uheze utoranye ivyeze.",
+            "Uhagurutsa abarongozi bahari ? Abo Imana yamaze gushira aho."
+          ]
+        },
+        "en": {
+          "centralIdea": "Learn the foundational principles for building a movement in your ministry.",
+          "objectives": [
+            "Understand what a movement is.",
+            "Understand and explain seven principles for building one.",
+            "Apply these principles to concrete case studies."
+          ],
+          "keyScriptures": [
+            {"reference": "Ephesians 3:20", "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think... unto him be glory."},
+            {"reference": "1 Thessalonians 5:17", "text": "Pray without ceasing."}
+          ],
+          "summaryPoints": [
+            "Pray as the foundation of every movement.",
+            "Sow and build: select the ripe fruit, multiply disciples, cultivate conviction.",
+            "Mobilize existing credibility and leadership."
+          ],
+          "reflectionQuestions": [
+            "Do you have a foundation of prayer for your ministry, the first principle of a movement?",
+            "Are you sowing widely enough to later select the ripe fruit?",
+            "Are you mobilizing the leaders God has already placed in your region?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_4_lesson_06",
+      "code": "4M07",
+      "type": "main",
+      "order": 6,
+      "title": {
+        "fr": "Édifier un mouvement II",
+        "rn": "Kwubaka umuvyimba II",
+        "en": "Building a movement II"
+      },
+      "content": {
+        "fr": {
+          "centralIdea": "Mettre en pratique concrètement les principes d'édification d'un mouvement.",
+          "objectives": [
+            "Comprendre et expliquer les cinq étapes chronologiques de l'édification d'un mouvement.",
+            "Évaluer le progrès de son propre ministère personnel."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothée 2.2", "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."}
+          ],
+          "summaryPoints": [
+            "Commencer par un ministère personnel.",
+            "Multiplier leaders et disciples qui se reproduisent.",
+            "Saturer sa région, puis s'étendre au monde."
+          ],
+          "reflectionQuestions": [
+            "À quelle étape en êtes-vous, de 1 (ministère personnel) à 5 (extension) ?",
+            "Quelle étape semble bloquée ? Que vous manque-t-il pour avancer ?",
+            "Quel est votre prochain pas concret, daté et porté dans la prière ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Kugushoboza gushira mu ngiro ingingo zo kwubaka umuvyimba.",
+          "objectives": [
+            "Gutahura no gusigura intambwe zitanu zikurikirana.",
+            "Kumenya aho igikorwa cawe bwite kigeze."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+          ],
+          "summaryPoints": [
+            "Gutangura — ku gikorwa bwite.",
+            "Kwigwiza — abarongozi n'abigishwa bigwiza.",
+            "Gukwira & kwaguka — intara, hanyuma isi."
+          ],
+          "reflectionQuestions": [
+            "Uri kuyihe ntambwe ? Kuva ku 1 (igikorwa bwite) ku 5 (kwaguka).",
+            "Ni iyihe ntambwe izitiye ? Ni iki gikenewe kugira wiyongere ?",
+            "Ni iyihe ntambwe ikurikira ? Itomoye, ifise igihe, mu isengesho."
+          ]
+        },
+        "en": {
+          "centralIdea": "Apply practically the principles for building a movement.",
+          "objectives": [
+            "Understand and explain the five chronological stages of building a movement.",
+            "Evaluate the progress of one's own personal ministry."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me... commit thou to faithful men, who shall be able to teach others also."}
+          ],
+          "summaryPoints": [
+            "Begin with a personal ministry.",
+            "Multiply leaders and self-reproducing disciples.",
+            "Saturate your region, then extend to the world."
+          ],
+          "reflectionQuestions": [
+            "What stage are you at, from 1 (personal ministry) to 5 (extension)?",
+            "Which stage seems stuck? What do you need in order to move forward?",
+            "What is your next concrete step, dated, and carried in prayer?"
+          ]
+        }
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "id": "track_4_q1",
+        "prompt": {
+          "fr": "Selon la leçon, où Jésus enseigne-t-il d'amasser nos trésors ?",
+          "rn": "Nk'uko iki cigwa kibivuga, Yesu yigisha ko dutegerezwa kwirundanyiriza ubutunzi hehe ?",
+          "en": "According to the lesson, where does Jesus teach us to store up our treasures?"
+        },
+        "choices": [
+          {"fr": "Sur la terre", "rn": "Kw'isi", "en": "On earth"},
+          {"fr": "Dans le ciel", "rn": "Mw'ijuru", "en": "In heaven"},
+          {"fr": "Cela n'a pas d'importance", "rn": "Ntibifise agaciro", "en": "It does not matter"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_4_q2",
+        "prompt": {
+          "fr": "Selon Romains 12.2, que faut-il pour discerner la volonté de Dieu ?",
+          "rn": "Nk'uko Abaroma 12.2 ibivuga, dutegerezwa gukora iki kugira tumenye ugushaka kw'Imana ?",
+          "en": "According to Romans 12:2, what is needed to discern God's will?"
+        },
+        "choices": [
+          {"fr": "Être transformé par le renouvellement de l'intelligence", "rn": "Guhindurwa bashasha mu kugira imizirikanyi misha", "en": "Being transformed by the renewing of the mind"},
+          {"fr": "Attendre un signe miraculeux", "rn": "Kurindira ikimenyetso gitangaje", "en": "Waiting for a miraculous sign"},
+          {"fr": "Suivre ses propres sentiments", "rn": "Gukurikira ivyiyumviro vyacu bwite", "en": "Following one's own feelings"}
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "track_4_q3",
+        "prompt": {
+          "fr": "Quelle est la différence fondamentale entre un mouvement spirituel et un mouvement purement humain ?",
+          "rn": "Ni igiki itandukaniro rikuru hagati y'umuvyimba w'impwemu n'umuvyimba w'abantu gusa ?",
+          "en": "What is the fundamental difference between a spiritual movement and a purely human movement?"
+        },
+        "choices": [
+          {"fr": "Sa taille", "rn": "Ubunini bwawo", "en": "Its size"},
+          {"fr": "Sa dépendance du Saint-Esprit et de la Parole", "rn": "Ukwishimikiza Mpwemu Yera n'Ijambo ry'Umwami", "en": "Its dependence on the Holy Spirit and the Word"},
+          {"fr": "Sa rapidité de croissance", "rn": "Umuvuduko wo gukura", "en": "How quickly it grows"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_4_q4",
+        "prompt": {
+          "fr": "Comment la leçon définit-elle l'amour « agapé » ?",
+          "rn": "Iki cigwa gisigura gute urukundo « agapé » ?",
+          "en": "How does the lesson define 'agape' love?"
+        },
+        "choices": [
+          {"fr": "Un amour qui prend et cherche son propre plaisir", "rn": "Urukundo rufata kandi rushaka ineza yarwo", "en": "A love that takes and seeks its own pleasure"},
+          {"fr": "Un amour qui donne sans rien attendre en retour", "rn": "Urukundo rutanga ata co rurindiriye", "en": "A love that gives without expecting anything in return"},
+          {"fr": "Un amour qui donne et reçoit en retour", "rn": "Urukundo rutanga kandi rugahabwa", "en": "A love that gives and receives in return"}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_4_q5",
+        "prompt": {
+          "fr": "Selon la leçon, quel est le premier fondement de l'édification d'un mouvement ?",
+          "rn": "Nk'uko iki cigwa kibivuga, ni igiki ishimikiro rya mbere ryo kwubaka umuvyimba ?",
+          "en": "According to the lesson, what is the first foundation for building a movement?"
+        },
+        "choices": [
+          {"fr": "Le financement", "rn": "Amahera", "en": "Funding"},
+          {"fr": "La prière", "rn": "Isengesho", "en": "Prayer"},
+          {"fr": "La crédibilité", "rn": "Ukwizigirwa", "en": "Credibility"}
+        ],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

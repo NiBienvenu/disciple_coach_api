@@ -1,0 +1,1319 @@
+{
+  "trackId": "track_5",
+  "title": {"fr": "Niveau 5 : Formation des Formateurs (5TT)", "rn": "Urwego rwa 5 : Formation des Formateurs (5TT)", "en": "Level 5: Training of Trainers (5TT)"},
+  "description": {
+    "fr": "Ce niveau — la Formation des Formateurs — apprend aux formateurs à transmettre fidèlement ce qu'ils ont reçu à des hommes de confiance capables de l'enseigner à d'autres, afin d'aider à accomplir l'Ordre Suprême dans la puissance du Saint-Esprit.",
+    "rn": "Uru ni urwego 'Imenyereza ry'Abamenyereza' : ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi, kugira gushitse Itegeko Rikuru mu bushobozi bwa Mpwemu Yera.",
+    "en": "This level — Training of Trainers — teaches trainers to faithfully pass on what they have received to trustworthy people who can in turn teach others, so as to help fulfill the Great Commission in the power of the Holy Spirit."
+  },
+  "lessons": [
+    {
+      "id": "track_5_lesson_01",
+      "code": "5TT01",
+      "type": "main",
+      "order": 1,
+      "title": {"fr": "La philosophie de la formation", "rn": "Iyerekwa ry'imenyereza", "en": "The philosophy of training"},
+      "content": {
+        "fr": {
+          "centralIdea": "Mieux comprendre la philosophie de formation du CFVN et comment elle contribue à notre appel d'aider à accomplir l'Ordre Suprême.",
+          "objectives": [
+            "Comprendre le point de vue biblique sur la formation, tel que Jésus l'a pratiqué avec ses disciples.",
+            "Énoncer la définition et la philosophie de la formation au CFVN.",
+            "Expliquer le but de la formation à la lumière de l'Ordre Suprême.",
+            "Énoncer les trois éléments principaux de la formation : la classe, la situation simulée et le terrain."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 7.24", "text": "Quiconque entend ces paroles que je dis et les met en pratique sera semblable à un homme prudent qui a bâti sa maison sur le roc."}
+          ],
+          "summaryPoints": [
+            "La formation développe des personnes capables de penser autant que de faire, qualifiées autant qu'informées.",
+            "Elle intègre trois dimensions — le quoi, le pourquoi et le comment — à travers la classe, la simulation et le terrain.",
+            "Son but est d'édifier assez de disciples multiplicateurs pour saturer une région visée."
+          ],
+          "reflectionQuestions": [
+            "Sommes-nous nous-mêmes des disciples qui se multiplient ?",
+            "Notre formation transmet-elle autant la technique que l'information — le quoi, le pourquoi et le comment ?",
+            "Cherchons-nous l'équilibre entre le contenu biblique en classe et la pratique sur le terrain ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ico imenyereza ari co n'igituma ridatandukana n'ukwigisha, kugira duhindure abakozi bashobora kwigisha abandi.",
+          "objectives": [
+            "Gutandukanya ukwigisha n'imenyereza.",
+            "Gutahura ingene abakuze biga : mu gukora.",
+            "Gutahura intambwe zine z'imenyereza rigwiza."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
+            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."}
+          ],
+          "summaryPoints": [
+            "Gutahura — imenyereza ntabwo ari ukwigisha gusa.",
+            "Gukurikiza — kwerekana, gufasha, kwitegereza, kurekura.",
+            "Kwigwiza — guhindura abashobora kumenyereza abandi."
+          ],
+          "reflectionQuestions": [
+            "Urigisha, canke urimenyereza ? Ushikiriza ubumenyi, canke ushoboza gukora ?",
+            "Uri ku yihe ntambwe n'uwo umenyereza ? Kwerekana, gufasha, kwitegereza, kurekura ?",
+            "Ni nde uzomenyereza ngo yigishe abandi ? Umuntu w'umwizigirwa."
+          ]
+        },
+        "en": {
+          "centralIdea": "Better understand CFVN's training philosophy and how it serves our calling to help fulfill the Great Commission.",
+          "objectives": [
+            "Understand the biblical view of training, as Jesus practiced it with his disciples.",
+            "State the definition and philosophy of training at the CFVN.",
+            "Explain the purpose of training in light of the Great Commission.",
+            "State the three main elements of training: the classroom, the simulated situation, and the field."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 7:24", "text": "Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."}
+          ],
+          "summaryPoints": [
+            "Training forms people able to think as well as to act — as skilled as they are informed.",
+            "It integrates three dimensions — the what, the why, and the how — through the classroom, simulation, and the field.",
+            "Its purpose is to build enough multiplying disciples to saturate a target region."
+          ],
+          "reflectionQuestions": [
+            "Are we ourselves disciples who multiply?",
+            "Does our training pass on technique as much as information — the what, the why, and the how?",
+            "Are we seeking balance between biblical content in the classroom and practice in the field?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_02",
+      "code": "5TT02",
+      "type": "main",
+      "order": 2,
+      "title": {"fr": "Le rôle du formateur d'un CFVN", "rn": "Uruhara rw'umumenyereza w'ikigo", "en": "The trainer's role in a CFVN"},
+      "content": {
+        "fr": {
+          "centralIdea": "Mieux comprendre le rôle et les responsabilités du formateur, et apprendre à créer un environnement propice à la formation.",
+          "objectives": [
+            "Définir le rôle du formateur.",
+            "Citer cinq caractéristiques d'un environnement propice à la formation.",
+            "Expliquer comment les mettre en pratique, et ce qui arrive si on les néglige.",
+            "Citer les responsabilités précises d'un formateur."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Le formateur développe ses stagiaires, les responsabilise, leur apporte des ressources et les aide à réfléchir.",
+            "L'environnement de formation doit à la fois éduquer et défier les stagiaires.",
+            "Ses piliers sont la prière, l'amour, la communion fraternelle, la vision et le mouvement."
+          ],
+          "reflectionQuestions": [
+            "Qu'est-ce qui peut m'empêcher d'être un bon formateur — égoïsme, crainte de l'échec, manque de temps, ou le fait de ne pas faire de mes stagiaires ma priorité ?",
+            "Qu'est-ce qui me motive à poursuivre l'excellence dans la formation ?",
+            "Ai-je fait de mes stagiaires la priorité de mes priorités ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura uruhara rw'umumenyereza mu Kigo c'inyigisho Ubugingo Bushasha, no kwitanga kururangura neza.",
+          "objectives": [
+            "Gutahura uruhara nyamukuru rw'umumenyereza.",
+            "Gutahura ibiranga umumenyereza mwiza.",
+            "Gusuzuma imenyereza ryawe kuri ivyo biranga."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Ab'i Tesalonike 2.8", "text": "Twashaka kubaha ubutumwa bwiza gusa atari kwo, ariko n'ubugingo bwacu bwite, kuko mwabaye abakundwa bacu."},
+            {"reference": "Yohana 13.15", "text": "Nabahaye icitegererezo, kugira mukore nk'uko nabagiriye."}
+          ],
+          "summaryPoints": [
+            "Kwerekana — icitegererezo mu buzima.",
+            "Gushoboza — gufasha abandi gushobora.",
+            "Gusukura — gushaka iterambere ryabo, si ubuninahazwa bwawe."
+          ],
+          "reflectionQuestions": [
+            "Uri icitegererezo c'ivyo wigisha ? Ubaho ivyo uvuga ?",
+            "Ni uruhe ruhara rukugora ? Icitegererezo, umumenyereza, umuremesha, umugenzuzi ?",
+            "Urashoboza abandi, canke urabakenerwa ? Ushaka ko bashobore bo nyene ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Better understand the trainer's role and responsibilities, and learn to create an environment where training can flourish.",
+          "objectives": [
+            "Define the trainer's role.",
+            "List five characteristics of an environment that fosters training.",
+            "Explain how to put them into practice, and what happens when they are neglected.",
+            "List the trainer's specific responsibilities."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "The trainer develops trainees, holds them accountable, brings them resources, and helps them think things through.",
+            "The training environment must both educate and challenge trainees.",
+            "Its pillars are prayer, love, fellowship, vision, and movement."
+          ],
+          "reflectionQuestions": [
+            "What might keep me from being a good trainer — selfishness, fear of failure, lack of time, or failing to make my trainees my top priority?",
+            "What motivates me to pursue excellence in training?",
+            "Have I made my trainees the priority of my priorities?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_03",
+      "code": "5TT03",
+      "type": "main",
+      "order": 3,
+      "title": {"fr": "Les éléments de base du contrôle", "rn": "Ibice nshingiro vy'igenzura", "en": "The basic elements of checking"},
+      "content": {
+        "fr": {
+          "centralIdea": "Faire comprendre aux formateurs le but, les méthodes et les principes du contrôle des stagiaires.",
+          "objectives": [
+            "Définir le mot « contrôle ».",
+            "Énoncer le but du contrôle.",
+            "Expliquer les responsabilités du formateur dans le contrôle.",
+            "Citer les méthodes, les principes et les problèmes courants du contrôle."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Timothée 4.7", "text": "Exerce-toi à la piété."},
+            {"reference": "Deutéronome 6.6-7", "text": "Tu inculqueras ces paroles à tes fils, quand tu seras dans ta maison et en chemin."}
+          ],
+          "summaryPoints": [
+            "Rester attentif au légalisme, au perfectionnisme, et à la tentation de se contenter de moins.",
+            "Le contrôle reflète notre engagement envers l'excellence, pas un simple règlement.",
+            "Son but est un ministère fructueux et un futur leadership, non un fardeau."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que je communique des attentes claires avant chaque contrôle ?",
+            "Est-ce que je commence par un encouragement précis avant de corriger ?",
+            "Est-ce que je choisis un point qui vaut la peine, plutôt que de tout corriger à la fois ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ico igenzura ari co n'ibice bigize, kugira dufashe abamenyerejwe gutera imbere mu gikorwa cabo.",
+          "objectives": [
+            "Gutahura ico igenzura ari co.",
+            "Kumenya ibice bine bigize igenzura.",
+            "Gutanga igenzura ryubaka."
+          ],
+          "keyScriptures": [
+            {"reference": "Imigani 27.17", "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."},
+            {"reference": "Ab'i Filipi 1.6", "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera."}
+          ],
+          "summaryPoints": [
+            "Kwitegereza — witonze, ushingiye ku bipimo.",
+            "Gushemeza & gukosora — ku ciza, hanyuma kimwe gitomoye.",
+            "Gutegura — intambwe ikurikira, mu rukundo."
+          ],
+          "reflectionQuestions": [
+            "Igenzura ryawe ritangura ku ki ? Ku ciza, canke ku makosa ?",
+            "Ukosora umuntu, canke igikorwa ? Ukoresha akarorero gatomoye ?",
+            "Urashikana ku ntambwe ikurikira ? Umuntu amenya ico akora ubu ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Help trainers understand the purpose, methods, and principles of checking trainees' progress.",
+          "objectives": [
+            "Define the word 'checking.'",
+            "State the purpose of checking.",
+            "Explain the trainer's responsibilities in checking.",
+            "List the methods, principles, and common problems of checking."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Timothy 4:7", "text": "Exercise thyself rather unto godliness."},
+            {"reference": "Deuteronomy 6:6-7", "text": "Teach these words diligently to your children, and talk of them when you sit in your house and when you walk by the way."}
+          ],
+          "summaryPoints": [
+            "Stay alert to legalism, perfectionism, and the temptation to settle for less.",
+            "Checking reflects our commitment to excellence, not a mere rule to enforce.",
+            "Its goal is a fruitful ministry and future leaders, not a burden."
+          ],
+          "reflectionQuestions": [
+            "Do I communicate clear expectations before each checking session?",
+            "Do I begin with specific encouragement before correcting?",
+            "Do I choose one point worth addressing, rather than correcting everything at once?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_04",
+      "code": "5TT04",
+      "type": "main",
+      "order": 4,
+      "title": {"fr": "La formation par la méthode de simulation", "rn": "Kwigisha biciye ku kwigana", "en": "Training through simulation"},
+      "content": {
+        "fr": {
+          "centralIdea": "Expliquer la formation par simulation et montrer comment l'utiliser efficacement pour l'acquisition des techniques.",
+          "objectives": [
+            "Définir la méthode de simulation comme méthode de formation.",
+            "Citer ses avantages.",
+            "Décrire la procédure d'une simulation et ses problèmes courants.",
+            "Observer et pratiquer une simulation."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Une bonne simulation comporte trois parties : une situation claire, un jeu de rôle supervisé, et une évaluation immédiate.",
+            "Elle porte du fruit — la confiance et la compétence — avant d'affronter le réel.",
+            "Elle doit rester sérieuse et agréable à la fois, sans jamais embarrasser le stagiaire."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que j'utilise la simulation dans ma formation, ou me contente-je d'expliquer ?",
+            "La situation que je propose est-elle assez précise pour que chacun connaisse son rôle ?",
+            "Est-ce que je m'intéresse à la personne autant qu'à sa performance ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene ukwigana gufasha abamenyerejwe kumenyerera igikorwa mu kigwati, imbere yo kugikora vy'ukuri.",
+          "objectives": [
+            "Gutahura ico ukwigana ari co n'akamaro kabyo.",
+            "Gutegura no kurongora umukino w'ukwigana.",
+            "Gutanga igenzura inyuma y'ukwigana."
+          ],
+          "keyScriptures": [
+            {"reference": "Imigani 27.17", "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."},
+            {"reference": "Ivyak 1.8", "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako."}
+          ],
+          "summaryPoints": [
+            "Gutegura — igikorwa, intumbero, uruhara.",
+            "Kwigana — gukora mu kigwati gitekanye.",
+            "Kugenzura — gushemeza, gukosora kimwe, kwongera."
+          ],
+          "reflectionQuestions": [
+            "Ukoresha ukwigana mu menyereza ryawe ? Canke uvuga gusa ?",
+            "Igenzura ryawe ritangura ku ki ? Ku ciza, uheze ukosore kimwe ?",
+            "Uzogerageza kwigana iki iyi ndwi ? Igikorwa kimwe c'ingenzi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Explain training by simulation and show how to use it effectively for learning ministry skills.",
+          "objectives": [
+            "Define the simulation method as a training method.",
+            "List its advantages.",
+            "Describe the procedure for a simulation and its common problems.",
+            "Observe and practice a simulation."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "A good simulation has three parts: a clear situation, a supervised role-play, and an immediate evaluation.",
+            "Its fruit is confidence and competence, gained before facing the real situation.",
+            "It should stay both serious and enjoyable, without ever embarrassing the trainee."
+          ],
+          "reflectionQuestions": [
+            "Do I use simulation in my training, or just explain things verbally?",
+            "Is the situation I set up specific enough that everyone knows their role?",
+            "Am I as interested in the person as I am in their performance?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_05",
+      "code": "5TT05",
+      "type": "main",
+      "order": 5,
+      "title": {"fr": "Procédure pour un atelier de contrôle", "rn": "Uburyo bw'inama y'igenzura", "en": "Procedure for a checking workshop"},
+      "content": {
+        "fr": {
+          "centralIdea": "Renforcer les techniques d'évaluation des formateurs par l'observation et la critique d'une simulation.",
+          "objectives": [
+            "Mieux comprendre la procédure à suivre dans une simulation.",
+            "Mieux comprendre le rôle du formateur pendant une simulation.",
+            "Évaluer un autre formateur dans une situation simulée."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Reproduire une séance de contrôle permet de repérer les erreurs ensemble.",
+            "On en dégage les principes d'atmosphère et de séance de contrôle.",
+            "Chaque formateur s'exerce à évaluer à son tour, puis répète l'exercice."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que je commence et termine mes séances de contrôle par la prière ?",
+            "Est-ce que je commence toujours par le positif avant de corriger ?",
+            "Est-ce que je crée une atmosphère de confiance où le stagiaire se sent aimé et accepté ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura intambwe zo kurongora inama y'igenzura, aho abamenyerejwe bamenyerera bakagenzurwa.",
+          "objectives": [
+            "Kumenya intambwe z'inama y'igenzura.",
+            "Gutegura no kurongora iyo nama.",
+            "Gutuma uwo ari we wese amenyerera akagenzurwa."
+          ],
+          "keyScriptures": [
+            {"reference": "Abaheburayo 10.24", "text": "Twitwararike, tugatererana intege mu rukundo no mu bikorwa vyiza."},
+            {"reference": "Zaburi 127.1", "text": "Uhoraho niyaba atubatse inzu, abayubaka baba bariko barishwa ubusa."}
+          ],
+          "summaryPoints": [
+            "Gutegura — igikorwa, ibipimo, umwanya.",
+            "Kumenyerera — babiri babiri, uwo ari we wese.",
+            "Kugenzura — gushemeza, gukosora, kwiyemeza."
+          ],
+          "reflectionQuestions": [
+            "Uwo ari we wese aramenyerera ? Canke bamwe gusa ?",
+            "Igenzura ryawe ryubaka ? Rishemeza imbere yo gukosora ?",
+            "Inama irangira ku ki ? Ku kwiyemeza gutomoye ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Strengthen trainers' evaluation skills through observing and critiquing a simulation.",
+          "objectives": [
+            "Better understand the procedure to follow in a simulation.",
+            "Better understand the trainer's role during a simulation.",
+            "Evaluate another trainer in a simulated situation."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Re-enacting a checking session lets everyone spot mistakes together.",
+            "From it, we draw out principles for atmosphere and for the checking session itself.",
+            "Each trainer takes a turn evaluating, then repeats the exercise."
+          ],
+          "reflectionQuestions": [
+            "Do I begin and end my checking sessions with prayer?",
+            "Do I always start with something positive before correcting?",
+            "Do I create an atmosphere of trust where the trainee feels loved and accepted?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_06",
+      "code": "5TT06",
+      "type": "main",
+      "order": 6,
+      "title": {"fr": "Comprendre la multiplication spirituelle", "rn": "Gutahura ukwigwiza mu buryo bw'impwemu", "en": "Understanding spiritual multiplication"},
+      "content": {
+        "fr": {
+          "centralIdea": "Communiquer l'approche du CFVN pour le discipolat et le rôle stratégique de la multiplication spirituelle.",
+          "objectives": [
+            "Donner une définition brève et biblique du discipolat.",
+            "Comprendre le lien entre discipolat et multiplication spirituelle.",
+            "Relier la multiplication à la saturation de la sous-région visée.",
+            "Appliquer 2 Timothée 2.1-10 à son propre ministère."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 28.20", "text": "Enseignez-leur à garder tout ce que je vous ai prescrit."},
+            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."}
+          ],
+          "summaryPoints": [
+            "Le discipolat n'est pas un programme, mais suivre Jésus et apprendre de lui.",
+            "L'accent est mis sur l'équipement des laïcs et des étudiants pour qu'ils deviennent des multiplicateurs.",
+            "La multiplication n'est pas une option : c'est une nécessité stratégique."
+          ],
+          "reflectionQuestions": [
+            "Suis-je moi-même un disciple qui se multiplie, ou seulement quelqu'un qui ajoute des convertis ?",
+            "Ai-je des personnes fidèles à qui confier ce que j'ai reçu, comme Paul l'a fait avec Timothée ?",
+            "Qu'est-ce que je fais aujourd'hui pour saturer ma sous-région visée ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ico ukwigwiza mu buryo bw'impwemu ari co n'igituma ari yo nzira yo gushikira isi yose.",
+          "objectives": [
+            "Gutandukanya ukwongera n'ukwigwiza.",
+            "Gutahura akarorero ka 2 Timoteyo 2.2.",
+            "Gusuzuma ukwitanga kwawe mu kwigwiza."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
+            {"reference": "Yohana 15.16", "text": "Ndabashinga ngo mugende mwame ivyamwa, kandi ivyamwa vyanyu bigume."}
+          ],
+          "summaryPoints": [
+            "Gutahura — itandukaniro ry'ukwongera n'ukwigwiza.",
+            "Gukurikiza — akarorero ka 2 Timoteyo 2.2.",
+            "Kwitanga — gutora abizigirwa no kubarera."
+          ],
+          "reflectionQuestions": [
+            "Urongera, canke urigwiza ? Wigisha abigisha ?",
+            "Ni bande bantu b'abizigirwa ufise ? Bipfuza kwiga, baboneka.",
+            "Ni nde uzotanguza mu kwigwiza ? Umuntu umwe iyi mezi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Communicate CFVN's approach to discipleship and the strategic role of spiritual multiplication.",
+          "objectives": [
+            "Give a brief, biblical definition of discipleship.",
+            "Understand the link between discipleship and spiritual multiplication.",
+            "Connect multiplication to saturating the target sub-region.",
+            "Apply 2 Timothy 2:1-10 to your own ministry."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 28:20", "text": "Teaching them to observe all things whatsoever I have commanded you."},
+            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."}
+          ],
+          "summaryPoints": [
+            "Discipleship is not a program — it is following Jesus and learning from him.",
+            "The emphasis is on equipping laypeople and students to become multipliers.",
+            "Multiplication is not optional — it is a strategic necessity."
+          ],
+          "reflectionQuestions": [
+            "Am I myself a disciple who multiplies, or just someone adding converts?",
+            "Do I have faithful people to entrust with what I have received, as Paul did with Timothy?",
+            "What am I doing today to saturate my target sub-region?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_07",
+      "code": "5TT07",
+      "type": "main",
+      "order": 7,
+      "title": {"fr": "Édifier des disciples multiplicateurs", "rn": "Kwubaka abigishwa bigwiza", "en": "Building multiplying disciples"},
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre les principes de l'édification de disciples multiplicateurs — le cœur de notre appel.",
+          "objectives": [
+            "Comprendre ce qu'est le discipolat de multiplication.",
+            "Apprendre les principes fondamentaux du discipolat de multiplication."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."}
+          ],
+          "summaryPoints": [
+            "Le socle, c'est la spiritualité : être rempli du Saint-Esprit.",
+            "Les outils sont les principes, les méthodes et les matériels, dans la simplicité.",
+            "Le transfert passe par la formation et la transmissibilité, sans rien déformer."
+          ],
+          "reflectionQuestions": [
+            "Ce que je fais est-il transmissible — assez simple pour que mes stagiaires puissent le refaire et l'enseigner à leur tour ?",
+            "Suis-je moi-même rempli du Saint-Esprit dans ce ministère de multiplication ?",
+            "Ai-je des principes, des méthodes ET des matériels concrets, ou seulement des principes ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene twubaka abigishwa bashobora guhindura abandi abigishwa.",
+          "objectives": [
+            "Gutahura ingene watora abigishwa bashoboka.",
+            "Kumenya ingene wobubaka no kubarera.",
+            "Kubarekura ngo na bo bahindure abandi."
+          ],
+          "keyScriptures": [
+            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."},
+            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+          ],
+          "summaryPoints": [
+            "Gutora — abizigirwa, mu isengesho.",
+            "Kubarera — mu jambo n'akarorero.",
+            "Kubarekura — ngo na bo bahindure abandi."
+          ],
+          "reflectionQuestions": [
+            "Ni bande wubaka ubu ? Abizigirwa, bipfuza kwiga, baboneka.",
+            "Ubarera mu jambo n'akarorero ? Ubaho ivyo ubigisha ?",
+            "Urabarekura ngo bahindure abandi ? Canke baguma bakwishimikiza ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the principles for building multiplying disciples — the heart of our calling.",
+          "objectives": [
+            "Understand what multiplication discipleship is.",
+            "Learn the foundational principles of multiplication discipleship."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."}
+          ],
+          "summaryPoints": [
+            "The foundation is spirituality: being filled with the Holy Spirit.",
+            "The tools are principles, methods, and materials, kept simple.",
+            "The handoff happens through training and transmissibility, without distorting anything."
+          ],
+          "reflectionQuestions": [
+            "Is what I do transmissible — simple enough that my trainees can do it again and teach it to others?",
+            "Am I myself filled with the Holy Spirit in this ministry of multiplication?",
+            "Do I have principles, methods, AND concrete materials, or only principles?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_08",
+      "code": "5TT08",
+      "type": "main",
+      "order": 8,
+      "title": {"fr": "Cibler votre évangélisation", "rn": "Gutumbereza ivyabona vyawe", "en": "Targeting your evangelism"},
+      "content": {
+        "fr": {
+          "centralIdea": "Communiquer l'importance et les avantages de choisir avec sagesse une sous-région cible comme contexte du ministère et de la formation.",
+          "objectives": [
+            "Définir région visée, sous-région visée et sous-région visée personnelle.",
+            "Expliquer pourquoi cibler nos efforts d'évangélisation.",
+            "Expliquer ce que signifie saturer une sous-région visée.",
+            "Identifier et prioriser les groupes d'affinité de sa région."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Choisir une sous-région visée avec sagesse, selon des critères précis.",
+            "Cibler l'évangélisation vers les groupes naturels d'affinité.",
+            "Saturer, c'est exposer tout le monde, en gagner plusieurs, et en former au moins 1 % comme multiplicateurs."
+          ],
+          "reflectionQuestions": [
+            "Ma sous-région visée est-elle assez grande pour exiger la multiplication, et assez petite pour qu'on y voie un élan réel ?",
+            "Est-ce que je sature vraiment ce groupe, ou me contente-je d'une seule présentation sans suite ?",
+            "Mes membres sont-ils naturellement motivés à atteindre ce groupe précis ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene twotumbereza igikorwa cacu co kuvuga ubutumwa mu ntara ntoya, ku bantu Imana iriko irategura.",
+          "objectives": [
+            "Gutahura iciyumviro c'intara ntoya itumberewe.",
+            "Gukoresha ubuyunguruzo mu kumenya ababinezererwa.",
+            "Gushikira imirwi kama n'abantu b'ijwi."
+          ],
+          "keyScriptures": [
+            {"reference": "Yohana 4.35", "text": "Ramvya amaso yanyu, murabe imirima : yamaze kwera, ni iyimburwa."},
+            {"reference": "Matayo 9.37-38", "text": "Iyimbura ni ryinshi, ariko abimbuzi ni bake. Musenge nyene iyimbura ngo arungike abimbuzi."}
+          ],
+          "summaryPoints": [
+            "Gutumbera — intara ntoya n'imirwi kama yayo.",
+            "Kuyungurura — kumenya imitima yiteguye.",
+            "Gushikira — abantu b'ijwi, mu isengesho."
+          ],
+          "reflectionQuestions": [
+            "Utumbereye intara imwe ? Canke urakwiragiza gusa ata ntumbero ?",
+            "Ukoresha ubuyunguruzo ? Kugira umenye ababinezererwa.",
+            "Ni nde woshikira uno musi ? Umuntu Imana iriko irategura."
+          ]
+        },
+        "en": {
+          "centralIdea": "Communicate the importance and benefits of wisely choosing a target sub-region as the context for ministry and training.",
+          "objectives": [
+            "Define target region, target sub-region, and personal target sub-region.",
+            "Explain why we should target our evangelism efforts.",
+            "Explain what it means to saturate a target sub-region.",
+            "Identify and prioritize the affinity groups in your region."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Wisely choose a target sub-region, using clear criteria.",
+            "Target evangelism toward natural affinity groups.",
+            "Saturating means exposing everyone, winning several, and training at least 1% as multipliers."
+          ],
+          "reflectionQuestions": [
+            "Is my target sub-region large enough to require multiplication, yet small enough for real momentum to be visible?",
+            "Am I truly saturating this group, or settling for a single presentation with no follow-up?",
+            "Are my members naturally motivated to reach this particular group?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_09",
+      "code": "5TT09",
+      "type": "main",
+      "order": 9,
+      "title": {"fr": "Les éléments d'un mouvement Vie Nouvelle", "rn": "Ibice vy'umuvyimba Ubugingo Bushasha", "en": "The elements of a Vie Nouvelle movement"},
+      "content": {
+        "fr": {
+          "centralIdea": "Expliquer les éléments essentiels d'un mouvement Vie Nouvelle.",
+          "objectives": [
+            "Définir un mouvement, un mouvement biblique, et un mouvement Vie Nouvelle.",
+            "Citer, définir et décrire les cinq éléments d'un mouvement.",
+            "Décrire ce qu'un mouvement n'est pas.",
+            "Évaluer son propre ministère à la lumière de ces définitions."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "L'élan et la multiplication donnent la vie au mouvement.",
+            "La gestion et la main d'œuvre soutiennent sa croissance.",
+            "La mobilisation le pousse à s'étendre vers le monde."
+          ],
+          "reflectionQuestions": [
+            "Mon ministère montre-t-il de l'élan : des risques par la foi, de l'unité, un réel enthousiasme pour l'évangélisation ?",
+            "Est-ce que je forme un nombre croissant de disciples multiplicateurs, ou seulement quelques personnes stables ?",
+            "Est-ce que je garde une vision mondiale, ou seulement locale ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ibice ngenderwako bigize umuvyimba wo mu buryo bw'impwemu.",
+          "objectives": [
+            "Gutahura ibiranga umuvyimba w'impwemu.",
+            "Kubona ibice bikwiye kuba muri wo.",
+            "Gusuzuma umurwi wawe kuri ivyo bice."
+          ],
+          "keyScriptures": [
+            {"reference": "Ivyak 2.42-47", "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."},
+            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."}
+          ],
+          "summaryPoints": [
+            "Intumbero & ubushobozi — Itegeko Rikuru, Mpwemu Yera.",
+            "Uburyo & ubumwe — ukwigwiza no gukundana.",
+            "Uburongozi & ibikoresho — vyigwiza kandi bigashikirizwa."
+          ],
+          "reflectionQuestions": [
+            "Umurwi wawe ufise intumbero imwe ? Itegeko Rikuru ?",
+            "Mwishimikiza Mpwemu n'Ijambo ? Ikimenyamenya nyamukuru.",
+            "Ibikoresho vyanyu virigwiza ? Umwigishwa wese ashobora kuvyigisha ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Explain the essential elements of a Vie Nouvelle (New Life) movement.",
+          "objectives": [
+            "Define a movement, a biblical movement, and a Vie Nouvelle movement.",
+            "List, define, and describe the five elements of a movement.",
+            "Describe what a movement is not.",
+            "Evaluate your own ministry in light of these definitions."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Momentum and multiplication give the movement life.",
+            "Management and workforce sustain its growth.",
+            "Mobilization pushes it to expand toward the world."
+          ],
+          "reflectionQuestions": [
+            "Does my ministry show momentum — faith risks, unity, real enthusiasm for evangelism?",
+            "Am I raising up a growing number of multiplying disciples, or just a few stable members?",
+            "Do I keep a worldwide vision, or only a local one?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_10",
+      "code": "5TT10",
+      "type": "main",
+      "order": 10,
+      "title": {"fr": "Les cinq phases d'édification d'un mouvement", "rn": "Ibice bitanu vyo kwubaka umuvyimba", "en": "The five phases of building a movement"},
+      "content": {
+        "fr": {
+          "centralIdea": "Comprendre les cinq phases d'édification d'un mouvement dans sa région visée, et identifier où l'on en est.",
+          "objectives": [
+            "Citer et définir les cinq phases d'édification d'un mouvement.",
+            "Énoncer les objectifs et activités principales de chaque phase.",
+            "Identifier la phase actuelle de son mouvement et la prochaine étape."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Il y a cinq phases : préparation, pénétration, concentration, saturation et continuation.",
+            "Chaque phase se bâtit sur la précédente, sans jamais s'arrêter.",
+            "On avance au rythme où les ressources le permettent."
+          ],
+          "reflectionQuestions": [
+            "Quelle phase décrit le mieux mon mouvement aujourd'hui, et quels en sont les indices ?",
+            "Ai-je négligé une étape antérieure qu'il faudrait renforcer ?",
+            "Quelle est la prochaine étape : renforcer la phase actuelle, ou commencer la suivante ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura intambwe zitanu zikurikirana zo kwubaka umuvyimba wo mu buryo bw'impwemu.",
+          "objectives": [
+            "Kumenya intambwe zitanu zikurikirana.",
+            "Gutahura ko zigenda mu rutonde.",
+            "Kumenya aho igikorwa cawe kigeze."
+          ],
+          "keyScriptures": [
+            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
+            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."}
+          ],
+          "summaryPoints": [
+            "Gutangura — ku gikorwa bwite.",
+            "Kwigwiza — abarongozi n'abigishwa bigwiza.",
+            "Gukwira & kwaguka — intara, hanyuma isi."
+          ],
+          "reflectionQuestions": [
+            "Uri kuyihe ntambwe ? Kuva ku 1 gushika ku 5.",
+            "Ni iki gikenewe kugira wiyongere ? Iyo izitiye.",
+            "Ni iyihe ntambwe ikurikira ? Itomoye, ifise igihe, mu isengesho."
+          ]
+        },
+        "en": {
+          "centralIdea": "Understand the five phases of building a movement in your target region, and identify where you currently stand.",
+          "objectives": [
+            "List and define the five phases of building a movement.",
+            "State the main objectives and activities of each phase.",
+            "Identify your movement's current phase and its next step."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "There are five phases: preparation, penetration, concentration, saturation, and continuation.",
+            "Each phase builds on the one before it, and none ever fully stops.",
+            "You move forward at the pace your resources allow."
+          ],
+          "reflectionQuestions": [
+            "Which phase best describes my movement today, and what are the signs of it?",
+            "Have I neglected an earlier step that needs strengthening?",
+            "What is the next step — strengthening the current phase, or beginning the next one?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_11",
+      "code": "5TT11",
+      "type": "main",
+      "order": 11,
+      "title": {"fr": "Le leadership serviteur", "rn": "Uburongozi bw'umusuku", "en": "Servant leadership"},
+      "content": {
+        "fr": {
+          "centralIdea": "Mieux comprendre le leadership que vous devez démontrer avec les stagiaires que Dieu vous a confiés.",
+          "objectives": [
+            "Comprendre le point de vue biblique du leadership.",
+            "Définir le leadership serviteur.",
+            "Expliquer les valeurs qu'un leader serviteur doit démontrer.",
+            "Décrire les implications de diriger en tant que serviteur."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthieu 20.28", "text": "Le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie."}
+          ],
+          "summaryPoints": [
+            "Le leader serviteur doit à la fois diriger et servir : c'est un équilibre.",
+            "Son socle : servir Dieu, le sacrifice, être un modèle, une autorité juste.",
+            "Son style : modeler par l'imitation, non contrôler."
+          ],
+          "reflectionQuestions": [
+            "Quel modèle tends-je à démontrer le plus — moissonneur, berger ou gestionnaire ?",
+            "Quels changements dois-je faire pour mieux servir ?",
+            "Comment puis-je mieux servir mes stagiaires — leur donner du temps, leur demander leurs besoins, prier pour eux ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura uburongozi Yesu yigishije : kurongora mu gukorera abandi, si mu kubaganza.",
+          "objectives": [
+            "Gutahura ico uburongozi bw'umusuku ari co.",
+            "Gutandukanya uburongozi bwa Yesu n'ubw'isi.",
+            "Gushira mu ngiro uburongozi bw'umusuku."
+          ],
+          "keyScriptures": [
+            {"reference": "Mariko 10.43-45", "text": "Uwushaka kuba mukuru muri mwebwe, abe umusuku wanyu… Kuko n'Umwana w'umuntu ataje gukorerwa, ariko gukorera no gutanga ubugingo bwiwe."},
+            {"reference": "Ab'i Filipi 2.5-7", "text": "Mugire iyi mizirikanyi Kristo Yesu yagize… yiyambura, yigira nk'umushumba."}
+          ],
+          "summaryPoints": [
+            "Gukorera — aho kuganza.",
+            "Kwicisha bugufi — nka Kristo yozanye amaguru.",
+            "Gufasha — abo urongoye gukura no gushobora."
+          ],
+          "reflectionQuestions": [
+            "Urongora mu kuganza, canke mu gukorera ? Urondera ubukuru bwawe, canke iterambere ryabo ?",
+            "Uri icitegererezo, canke uvuga gusa ? Urongora mu buzima ?",
+            "Ni nde woshobora gukorera uno musi ? Mu bwicishe bugufi."
+          ]
+        },
+        "en": {
+          "centralIdea": "Better understand the leadership you must show toward the trainees God has entrusted to you.",
+          "objectives": [
+            "Understand the biblical view of leadership.",
+            "Define servant leadership.",
+            "Explain the values a servant leader must show.",
+            "Describe the implications of leading as a servant."
+          ],
+          "keyScriptures": [
+            {"reference": "Matthew 20:28", "text": "The Son of man came not to be ministered unto, but to minister, and to give his life."}
+          ],
+          "summaryPoints": [
+            "A servant leader must both lead and serve — it is a balance.",
+            "Its foundation: serving God, sacrifice, being a model, and just use of authority.",
+            "Its style: modeling through example, not controlling."
+          ],
+          "reflectionQuestions": [
+            "Which model do I tend to show most — harvester, shepherd, or manager?",
+            "What changes do I need to make in order to serve better?",
+            "How can I better serve my trainees — giving them time, asking about their needs, praying for them?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_12",
+      "code": "5TT12",
+      "type": "main",
+      "order": 12,
+      "title": {"fr": "Notre but : glorifier Dieu", "rn": "Intumbero yacu : guhayagiza Imana", "en": "Our purpose: glorifying God"},
+      "content": {
+        "fr": {
+          "centralIdea": "Rechercher notre premier but, en tant que mouvement et en tant qu'individus : glorifier Dieu.",
+          "objectives": [
+            "Définir « glorifier Dieu ».",
+            "Comprendre comment on glorifie Dieu.",
+            "Faire la différence entre notre but et notre objectif."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Corinthiens 10.31", "text": "Soit que vous mangiez, soit que vous buviez, faites tout pour la gloire de Dieu."}
+          ],
+          "summaryPoints": [
+            "Révéler sa gloire au monde en marchant par l'Esprit.",
+            "Lui attribuer la gloire dans l'adoration, et parler de lui aux autres.",
+            "Distinguer notre but — le glorifier — de notre objectif — l'Ordre Suprême."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que je vis de manière à révéler la gloire de Dieu, ou à me mettre moi-même en valeur ?",
+            "Marche-je par l'Esprit de façon à ce que son caractère se voie dans mes actions et mes paroles ?",
+            "Est-ce que je distingue clairement mon but ultime — glorifier Dieu — de mes objectifs concrets ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ko intumbero nkuru y'ubuzima bwacu n'igikorwa cacu ari uguhayagiza Imana.",
+          "objectives": [
+            "Gutahura ico guhayagiza Imana bisobanura.",
+            "Kubona ko ari yo ntumbero nkuru y'ubuzima bwose.",
+            "Kubaho uhayagiza Imana muri vyose."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Abakorinto 10.31", "text": "Nimwaba murya canke munywa, canke ikindi cose mukora, mukore vyose ku buninahazwa bw'Imana."},
+            {"reference": "Abaroma 11.36", "text": "Kuko vyose bivuye kuri yo, biciye kuri yo, kandi bigana kuri yo. Ubuninahazwa bube ubwayo ibihe bidashira."}
+          ],
+          "summaryPoints": [
+            "Gutahura — guhayagiza Imana ni intumbero nkuru.",
+            "Kubaho — uyihaye muri vyose.",
+            "Gukora — vyose ku buninahazwa bwayo."
+          ],
+          "reflectionQuestions": [
+            "Intumbero yawe nkuru ni iyihe ? Guhayagiza Imana ?",
+            "Uhayagiza Imana mu bikorwa vyawe ? Ukora nk'aho ubikorera yo ?",
+            "Ni ikihe kintu wohindura ngo uyihe ? Muri buri kintu."
+          ]
+        },
+        "en": {
+          "centralIdea": "Pursue our first purpose, both as a movement and as individuals: to glorify God.",
+          "objectives": [
+            "Define 'glorifying God.'",
+            "Understand how we glorify God.",
+            "Distinguish our purpose from our objective."
+          ],
+          "keyScriptures": [
+            {"reference": "1 Corinthians 10:31", "text": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God."}
+          ],
+          "summaryPoints": [
+            "Reveal his glory to the world by walking in the Spirit.",
+            "Give him glory in worship, and speak of him to others.",
+            "Distinguish our purpose — glorifying him — from our objective — the Great Commission."
+          ],
+          "reflectionQuestions": [
+            "Do I live in a way that reveals God's glory, or that puts myself forward?",
+            "Do I walk by the Spirit so that his character shows in my actions and words?",
+            "Do I clearly distinguish my ultimate purpose — glorifying God — from my concrete objectives?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_13",
+      "code": "5TT13",
+      "type": "main",
+      "order": 13,
+      "title": {"fr": "Notre objectif : L'Ordre Suprême", "rn": "Ihangiro ryacu : Itegeko Rikuru", "en": "Our objective: the Great Commission"},
+      "content": {
+        "fr": {
+          "centralIdea": "Renforcer notre engagement envers notre objectif en tant que mouvement : aider à accomplir l'Ordre Suprême.",
+          "objectives": [
+            "Comprendre pourquoi nous sommes impliqués dans l'accomplissement de l'Ordre Suprême.",
+            "Examiner des exemples bibliques d'hommes que Dieu a employés pour porter son message au monde.",
+            "S'engager à nouveau à l'accomplissement de l'Ordre Suprême dans sa propre vie."
+          ],
+          "keyScriptures": [
+            {"reference": "Marc 16.15", "text": "Allez dans le monde entier et prêchez la Bonne Nouvelle à toute la création."},
+            {"reference": "Matthieu 28.18-20", "text": "Tout pouvoir m'a été donné… Allez, faites de toutes les nations des disciples… Je suis avec vous tous les jours."},
+            {"reference": "Ésaïe 6.8", "text": "Me voici, envoie-moi."}
+          ],
+          "summaryPoints": [
+            "Le défi : Dieu nous a bénis et nous confie une part de ce qu'il tient à cœur.",
+            "Le choix : devenir formateur, responsable d'une sous-région, ou mobiliser d'autres.",
+            "L'engagement : nous réengager à l'accomplissement de l'Ordre Suprême dans notre vie."
+          ],
+          "reflectionQuestions": [
+            "Suis-je prêt à répondre comme Ésaïe : « Me voici, envoie-moi » ?",
+            "Qu'est-ce qui pousse mon engagement dans l'Ordre Suprême — l'obéissance, l'amour, ou vraiment ma réponse à qui Dieu est ?",
+            "Quel choix concret vais-je faire : devenir formateur, responsable d'une sous-région, ou mobiliser d'autres pour cette tâche ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ko ihangiro ry'igikorwa cacu ari uguhindura amahanga yose abigishwa, nk'uko Yesu yadutegetse.",
+          "objectives": [
+            "Gutahura ico Itegeko Rikuru ari co.",
+            "Kubona ko ari ryo hangiro ry'igikorwa cacu.",
+            "Kwitanga mu gushitsa Itegeko Rikuru."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 28.18-20", "text": "Nahawe ububasha bwose mw'ijuru no mw'isi. Nuko nimugende, muhindure amahanga yose abigishwa… Ndi kumwe namwe imisi yose."},
+            {"reference": "Ivyak 1.8", "text": "Muzoba ivyabona vyanje i Yeruzalemu… gushika ku mpera y'isi."}
+          ],
+          "summaryPoints": [
+            "Gutahura — Itegeko Rikuru : guhindura amahanga abigishwa.",
+            "Kwibuka — ryahawe uwizera wese.",
+            "Kwitanga — mu bushobozi bwa Yesu ari kumwe natwe."
+          ],
+          "reflectionQuestions": [
+            "Ihangiro ryawe ni iryihe ? Guhindura abigishwa ?",
+            "Uhindura abigishwa, canke abemera gusa ? Urabashikana ku bukuze ?",
+            "Ni iyihe ntambwe uzofata ? Mu gushitsa Itegeko Rikuru."
+          ]
+        },
+        "en": {
+          "centralIdea": "Strengthen our commitment, as a movement, to our objective: helping to fulfill the Great Commission.",
+          "objectives": [
+            "Understand why we are involved in fulfilling the Great Commission.",
+            "Examine biblical examples of men God used to carry his message to the world.",
+            "Recommit to fulfilling the Great Commission in your own life."
+          ],
+          "keyScriptures": [
+            {"reference": "Mark 16:15", "text": "Go ye into all the world, and preach the gospel to every creature."},
+            {"reference": "Matthew 28:18-20", "text": "All power is given unto me... Go ye therefore, and teach all nations... I am with you always."},
+            {"reference": "Isaiah 6:8", "text": "Here am I; send me."}
+          ],
+          "summaryPoints": [
+            "The challenge: God has blessed us and entrusted us with a share of what matters most to him.",
+            "The choice: become a trainer, take responsibility for a sub-region, or mobilize others.",
+            "The commitment: recommit to fulfilling the Great Commission in our own lives."
+          ],
+          "reflectionQuestions": [
+            "Am I ready to answer as Isaiah did: 'Here am I; send me'?",
+            "What drives my involvement in the Great Commission — obedience, love, or truly my response to who God is?",
+            "What concrete choice will I make: becoming a trainer, taking responsibility for a sub-region, or mobilizing others for this task?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_14",
+      "code": "5TT14",
+      "type": "main",
+      "order": 14,
+      "title": {"fr": "Notre puissance : le Saint-Esprit", "rn": "Ubushobozi bwacu : Mpwemu Yera", "en": "Our power: the Holy Spirit"},
+      "content": {
+        "fr": {
+          "centralIdea": "Évaluer sa relation présente avec le Seigneur, et s'assurer d'être rempli et rendu puissant par le Saint-Esprit.",
+          "objectives": [
+            "Se rappeler que le Saint-Esprit est la base de tout ministère.",
+            "Prendre conscience des entraves à la marche par l'Esprit.",
+            "Examiner sa propre marche et s'assurer d'être rempli de l'Esprit."
+          ],
+          "keyScriptures": [
+            {"reference": "Colossiens 2.6", "text": "Comme vous avez reçu le Christ Jésus, le Seigneur, marchez en lui."},
+            {"reference": "Éphésiens 5.18", "text": "Soyez remplis de l'Esprit."},
+            {"reference": "1 Jean 1.9", "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et nous purifier de toute injustice."}
+          ],
+          "summaryPoints": [
+            "Ne changeons pas de Dieu : il est pleinement disponible en tout temps.",
+            "Ne reposons pas notre foi sur des activités, mais sur lui et sa fidélité.",
+            "Si nous ne sommes pas remplis, demandons-le par la foi ; si nous le sommes, remercions-le."
+          ],
+          "reflectionQuestions": [
+            "Y a-t-il un péché que je dois confesser en ce moment, pour respirer spirituellement à nouveau ?",
+            "Est-ce que je repose ma foi sur une expérience passée, ou sur Christ lui-même, aujourd'hui ?",
+            "Suis-je actuellement rempli de l'Esprit — et si non, l'ai-je demandé par la foi ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ko Mpwemu Yera ari we bushobozi bw'igikorwa cacu, kandi ko ata we tudashobora na kimwe.",
+          "objectives": [
+            "Gutahura uruhara rwa Mpwemu Yera mu gikorwa.",
+            "Kumenya ico kuzuzwa Mpwemu bisobanura.",
+            "Kubaho no gukorera mu bushobozi bwiwe."
+          ],
+          "keyScriptures": [
+            {"reference": "Ivyak 1.8", "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako, kandi muzoba ivyabona vyanje… gushika ku mpera y'isi."},
+            {"reference": "Abanyefeso 5.18", "text": "Muzuzwe Mpwemu."},
+            {"reference": "Zekariya 4.6", "text": "Si ku bushobozi, si ku nkomezi, ariko ni ku Mpwemu wanje, ni ko Uhoraho avuze."}
+          ],
+          "summaryPoints": [
+            "Gutahura — ata Mpwemu nta co dushobora.",
+            "Kuzuzwa — kureka Kristo ku ntebe.",
+            "Guhema — gusohora, kwinjiza, buri musi."
+          ],
+          "reflectionQuestions": [
+            "Ni nde arongora igikorwa cawe ? Inkomezi zawe, canke Mpwemu ?",
+            "Woba wujujwe Mpwemu ubu ? Bitari uko, hema mu buryo bw'impwemu.",
+            "Wishimikiza nde mu gikorwa ? Ubushobozi bwawe, canke ubwa Mpwemu ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Evaluate your present relationship with the Lord, and make sure you are filled and empowered by the Holy Spirit.",
+          "objectives": [
+            "Remember that the Holy Spirit is the basis of all ministry.",
+            "Become aware of what hinders walking by the Spirit.",
+            "Examine your own walk and make sure you are filled with the Spirit."
+          ],
+          "keyScriptures": [
+            {"reference": "Colossians 2:6", "text": "As ye have therefore received Christ Jesus the Lord, so walk ye in him."},
+            {"reference": "Ephesians 5:18", "text": "Be filled with the Spirit."},
+            {"reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."}
+          ],
+          "summaryPoints": [
+            "Do not change gods: he is fully available at all times.",
+            "Do not rest your faith on activities, but on him and his faithfulness.",
+            "If you are not filled, ask in faith; if you are, thank him."
+          ],
+          "reflectionQuestions": [
+            "Is there a sin I need to confess right now, so I can breathe spiritually again?",
+            "Am I resting my faith on a past experience, or on Christ himself, today?",
+            "Am I currently filled with the Spirit — and if not, have I asked for it in faith?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_15",
+      "code": "5TT15",
+      "type": "main",
+      "order": 15,
+      "title": {"fr": "La stratégie du Centre de Formation Vie Nouvelle", "rn": "Ingamba z'ikigo Ubugingo Bushasha", "en": "The strategy of the New Life Training Center"},
+      "content": {
+        "fr": {
+          "centralIdea": "Donner une vue d'ensemble des objectifs et des opérations de la stratégie du Centre de Formation Vie Nouvelle.",
+          "objectives": [
+            "Définir un Centre de Formation Vie Nouvelle.",
+            "Citer cinq buts et objectifs de la stratégie.",
+            "Comprendre les détails du fonctionnement du CFVN."
+          ],
+          "keyScriptures": [
+            {"reference": "Actes 19.9-10", "text": "Paul enseignait chaque jour à l'école de Tyrannus ; toute l'Asie entendit la parole."}
+          ],
+          "summaryPoints": [
+            "L'objectif est de créer un mouvement d'évangélisation et de discipolat.",
+            "Le moyen est de former des chrétiens à devenir des multiplicateurs.",
+            "La fin est de saturer les régions visées et d'aider à accomplir l'Ordre Suprême."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que je considère ma formation comme un mouvement continu, ou comme un programme qui a une fin ?",
+            "Mon temps de formation est-il équilibré entre la théorie en classe et la pratique sur le terrain ?",
+            "Est-ce que j'utilise le curriculum comme un filtre pour repérer et développer de futurs dirigeants ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingamba z'ikigo : kuzana abantu kuri Kristo, kubakomeza, no kubatuma.",
+          "objectives": [
+            "Gutahura ingamba zitatu z'igikorwa.",
+            "Kubona ingene zikorana.",
+            "Gusuzuma igikorwa cawe kuri izo ngamba."
+          ],
+          "keyScriptures": [
+            {"reference": "Matayo 28.19-20", "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
+            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+          ],
+          "summaryPoints": [
+            "Kuzana — kuvuga ubutumwa.",
+            "Gukomeza — kubaka mu kwizera.",
+            "Gutuma — kurungika mu iyimbura."
+          ],
+          "reflectionQuestions": [
+            "Uzana abantu kuri Kristo ? Uravuga ubutumwa ?",
+            "Urakomeza abakristo bashasha ? Ngo bakure mu kwizera ?",
+            "Uratuma abakozi ? Ngo na bo bagire abandi abigishwa ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Give an overview of the goals and operations of the New Life Training Center's strategy.",
+          "objectives": [
+            "Define a New Life Training Center.",
+            "List five goals and objectives of the strategy.",
+            "Understand the details of how the CFVN operates."
+          ],
+          "keyScriptures": [
+            {"reference": "Acts 19:9-10", "text": "Paul taught daily in the school of Tyrannus, and all of Asia heard the word of the Lord."}
+          ],
+          "summaryPoints": [
+            "The objective is to create a movement of evangelism and discipleship.",
+            "The means is training Christians to become multipliers.",
+            "The end is saturating target regions and helping fulfill the Great Commission."
+          ],
+          "reflectionQuestions": [
+            "Do I see my training as an ongoing movement, or as a program with an end date?",
+            "Is my training time balanced between classroom theory and field practice?",
+            "Am I using the curriculum as a filter to identify and develop future leaders?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_16",
+      "code": "5TT16",
+      "type": "main",
+      "order": 16,
+      "title": {"fr": "Préparer et enseigner les cours du CFVN", "rn": "Uko wotegura ukigisha inyigisho", "en": "Preparing and teaching CFVN courses"},
+      "content": {
+        "fr": {
+          "centralIdea": "Apprendre à préparer et enseigner efficacement les cours du CFVN, pour que l'auditoire comprenne, adopte et mette en pratique les vérités fondamentales.",
+          "objectives": [
+            "Comprendre comment se préparer pour dispenser les cours du CFVN.",
+            "Connaître les principes et directives pour enseigner efficacement."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Vivre soi-même une vie remplie de l'Esprit avant d'enseigner.",
+            "Viser la mise en pratique des vérités dans la vie de l'auditoire.",
+            "Se rappeler le potentiel de ces vérités : elles peuvent révolutionner des vies à travers le monde."
+          ],
+          "reflectionQuestions": [
+            "Ai-je prié avant, pendant et après la préparation de ce cours ?",
+            "Connais-je le cours assez bien pour l'enseigner sans lire mes notes mot à mot ?",
+            "Mes illustrations sont-elles toujours reliées clairement au point que je veux faire comprendre ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura ingene wotegura kandi ukigisha inyigisho z'ikigo, kugira hahinduke ubugingo bw'abigishwa.",
+          "objectives": [
+            "Gutahura intumbero nyakuri yo kwigisha.",
+            "Kumenya intambwe zo gutegura icigwa.",
+            "Kwigisha mu buryo butuma abantu bagira uruhara."
+          ],
+          "keyScriptures": [
+            {"reference": "Ezira 7.10", "text": "Ezira yari yashinze umutima wiwe kwiga ivyagezwe vy'Uhoraho, no kubishira mu ngiro, no kubigisha."},
+            {"reference": "Yakobo 1.22", "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."}
+          ],
+          "summaryPoints": [
+            "Gutegura — gusenga, kwiga, intumbero, ibibazo, ingiro.",
+            "Kwigisha — gutuma abantu bavumbura.",
+            "Gushikana — ku kwiyemeza no gushira mu ngiro."
+          ],
+          "reflectionQuestions": [
+            "Utumbereye amakuru, canke impinduka ? Ubumenyi, canke ubugingo ?",
+            "Wuzuza icibo, canke ucana umuriro ? Urasuka, canke utuma bavumbura ?",
+            "Icigwa cawe kirangira ku ki ? Ku kwiyemeza gutomoye ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Learn to prepare and teach CFVN courses effectively, so the audience understands, embraces, and puts the foundational truths into practice.",
+          "objectives": [
+            "Understand how to prepare yourself to deliver CFVN courses.",
+            "Know the principles and guidelines for teaching effectively."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Live a Spirit-filled life yourself before you teach.",
+            "Aim for the audience to put these truths into practice in their lives.",
+            "Remember the potential of these truths: they can transform lives around the world."
+          ],
+          "reflectionQuestions": [
+            "Have I prayed before, during, and after preparing this course?",
+            "Do I know the course well enough to teach it without reading my notes word for word?",
+            "Are my illustrations always clearly tied to the point I want the audience to grasp?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "track_5_lesson_17",
+      "code": "5TT17",
+      "type": "main",
+      "order": 17,
+      "title": {"fr": "La direction du Centre de Formation Vie Nouvelle", "rn": "Ubuyobozi bw'ikigo Ubugingo Bushasha", "en": "Leading the New Life Training Center"},
+      "content": {
+        "fr": {
+          "centralIdea": "Mieux comprendre le rôle du dirigeant et la philosophie du ministère que doivent maîtriser le directeur et les formateurs.",
+          "objectives": [
+            "Comprendre le style de leadership berger et visionnaire attendu du directeur et des formateurs.",
+            "Revoir les quatre accents du ministère : gagner, édifier, former et envoyer.",
+            "Identifier des changements sages et progressifs à apporter à son propre ministère."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Revoir ce cours en équipe, avec les formateurs, avant tout changement.",
+            "N'apporter que trois ou quatre changements à la fois, tous les quatre à six mois.",
+            "Commencer par l'essentiel : régions visées, tableaux de vision, temps de qualité et formation."
+          ],
+          "reflectionQuestions": [
+            "Est-ce que je donne à chacun une région visée personnelle, avec responsabilité et prière ?",
+            "Ma vision de multiplication vise-t-elle des disciples engagés, ou seulement un grand groupe ?",
+            "Est-ce que je forme le caractère et les convictions, ou seulement les techniques ?"
+          ]
+        },
+        "rn": {
+          "centralIdea": "Gutahura uruhara rw'ubuyobozi bw'ikigo, no kurongora mu buryo bw'umusuku bwigwiza abarongozi.",
+          "objectives": [
+            "Gutahura uruhara rw'umuyobozi w'ikigo.",
+            "Kumenya ibikorwa nyamukuru vy'ubuyobozi.",
+            "Kurongora mu buryo bwigwiza abandi barongozi."
+          ],
+          "keyScriptures": [
+            {"reference": "Abanyefeso 4.11-12", "text": "Yatanze… abungere n'abigisha, kugira ngo abera bahabwe indero ku gikorwa co gukorera, kugira ngo umubiri wa Kristo wubakwe."},
+            {"reference": "1 Petero 5.2-3", "text": "Muragire umukuku w'Imana… mube uturorero tw'umukuku."}
+          ],
+          "summaryPoints": [
+            "Kwerekana — iyerekwa n'ingamba.",
+            "Gushoboza — abandi, mu buryo bw'umusuku.",
+            "Kwigwiza — guhagurutsa abandi barongozi."
+          ],
+          "reflectionQuestions": [
+            "Ukora vyose ubwawe, canke ushoboza abandi ? Uha abandi uruhara ?",
+            "Urongora mu kuganza, canke mu gukorera ? Nk'Umusuku ?",
+            "Urigwiza abarongozi ? Ngo na bo bagire abandi ?"
+          ]
+        },
+        "en": {
+          "centralIdea": "Better understand the leader's role and the ministry philosophy that the director and trainers must grasp.",
+          "objectives": [
+            "Understand the shepherd-and-visionary leadership style expected of the director and trainers.",
+            "Review the four ministry emphases: winning, building, training, and sending.",
+            "Identify wise, gradual changes to make in your own ministry."
+          ],
+          "keyScriptures": [],
+          "summaryPoints": [
+            "Review this course as a team, with the trainers, before making any changes.",
+            "Make only three or four changes at a time, every four to six months.",
+            "Start with the essentials: target regions, vision boards, quality time, and training."
+          ],
+          "reflectionQuestions": [
+            "Do I give each person a personal target region, with responsibility and prayer?",
+            "Does my vision for multiplication aim at committed disciples, or just a large group?",
+            "Am I building character and convictions, or only skills?"
+          ]
+        }
+      }
+    }
+  ],
+  "quiz": {
+    "questions": [
+      {
+        "id": "track_5_q1",
+        "prompt": {
+          "fr": "Selon ce niveau, quelle est la différence essentielle entre « enseigner » et « former » ?",
+          "rn": "Nk'uko iki cigwa kibivuga, itandukaniro ry'ukwigisha n'ukumenyereza ni iki ?",
+          "en": "According to this level, what is the essential difference between 'teaching' and 'training'?"
+        },
+        "choices": [
+          {"fr": "Il n'y a aucune différence : les deux mots signifient la même chose.", "rn": "Nta tandukaniro ririho hagati y'ukwigisha n'ukumenyereza.", "en": "There is no difference — the two words mean the same thing."},
+          {"fr": "Enseigner transmet des informations ; former rend capable d'agir, puis de transmettre à d'autres.", "rn": "Kwigisha gushikiriza ubumenyi ; kumenyereza gushoboza gukora, hanyuma bikigisha abandi.", "en": "Teaching passes on information; training makes someone able to act, and then to pass it on to others."},
+          {"fr": "Enseigner se fait sur le terrain ; former se fait uniquement en classe.", "rn": "Kwigisha gukorerwa ku murima ; kumenyereza gukorerwa mu nyumba gusa.", "en": "Teaching happens in the field; training happens only in the classroom."}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_5_q2",
+        "prompt": {
+          "fr": "Quelles sont les quatre étapes de la formation présentées dans ce niveau ?",
+          "rn": "Ni izihe ntambwe zine z'imenyereza zerekanwa muri iki cigwa ?",
+          "en": "What are the four steps of training presented in this level?"
+        },
+        "choices": [
+          {"fr": "Lire, mémoriser, réciter, examiner.", "rn": "Gusenga, kuraba, kurya, kuruhuka.", "en": "Read, memorize, recite, take an exam."},
+          {"fr": "Planifier, financer, construire, inaugurer.", "rn": "Kwandika, gusoma, kwibuka, kwibagira.", "en": "Plan, fund, build, open."},
+          {"fr": "Montrer, aider, observer, relâcher — « je le fais, nous le faisons, tu le fais, puis tu vas le faire ».", "rn": "Kwerekana, gufasha, kwitegereza, kurekura.", "en": "Show, help, observe, release — 'I do it, we do it, you do it, then you go do it.'"}
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "track_5_q3",
+        "prompt": {
+          "fr": "Quelle est la différence entre « addition » et « multiplication spirituelle » ?",
+          "rn": "Nk'uko 5TT06 ibivuga, itandukaniro ry'ukwongera n'ukwigwiza ni iki ?",
+          "en": "What is the difference between 'addition' and 'spiritual multiplication'?"
+        },
+        "choices": [
+          {"fr": "L'addition et la multiplication désignent exactement la même stratégie.", "rn": "Kwongera n'ukwigwiza birasa, nta tandukaniro na rimwe.", "en": "Addition and multiplication are exactly the same strategy."},
+          {"fr": "L'addition gagne des personnes une à une ; la multiplication forme des disciples qui, à leur tour, en forment d'autres.", "rn": "Kwongera ni ukwongera abemera umwe umwe ; kwigwiza ni ukwigisha abigisha, umwigishwa wese akaza ahindura abandi.", "en": "Addition wins people one by one; multiplication trains disciples who, in turn, train others."},
+          {"fr": "La multiplication consiste seulement à organiser de plus grands événements évangéliques.", "rn": "Kwigwiza ni ukwubaka inzu z'amashengero menshi gusa.", "en": "Multiplication simply means organizing bigger evangelistic events."}
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "track_5_q4",
+        "prompt": {
+          "fr": "Ce niveau distingue notre « but » de notre « objectif ». Comment ?",
+          "rn": "Nk'uko ibi bigwa bibivuga, ni iki gitandukanya 'intumbero yacu' na 'ihangiro ry'igikorwa cacu' ?",
+          "en": "This level distinguishes our 'purpose' from our 'objective.' How?"
+        },
+        "choices": [
+          {"fr": "Notre but est de glorifier Dieu ; notre objectif est d'aider à accomplir l'Ordre Suprême.", "rn": "Intumbero yacu ni uguhayagiza Imana ; ihangiro ry'igikorwa cacu ni Itegeko Rikuru.", "en": "Our purpose is to glorify God; our objective is to help fulfill the Great Commission."},
+          {"fr": "Notre but est l'Ordre Suprême ; notre objectif est de bâtir des bâtiments pour l'Église.", "rn": "Intumbero yacu ni ukwubaka amazu ; ihangiro ni ugutunga amatongo.", "en": "Our purpose is the Great Commission; our objective is building church buildings."},
+          {"fr": "But et objectif signifient exactement la même chose dans ce niveau.", "rn": "Intumbero n'ihangiro birasa, nta tandukaniro na rimwe.", "en": "Purpose and objective mean exactly the same thing in this level."}
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "track_5_q5",
+        "prompt": {
+          "fr": "Selon le leadership serviteur enseigné dans ce niveau, en quoi consiste diriger ?",
+          "rn": "Nk'uko uburongozi bw'umusuku bwigishwa muri iki cigwa, kurongora bisobanura iki ?",
+          "en": "According to the servant leadership taught in this level, what does it mean to lead?"
+        },
+        "choices": [
+          {"fr": "Diriger, c'est dominer et se faire servir par ceux qu'on dirige.", "rn": "Kurongora ni ukuganza no gukoreshwa n'abo urongoye.", "en": "To lead is to dominate and be served by those you lead."},
+          {"fr": "Diriger, c'est éviter toute responsabilité envers les autres.", "rn": "Kurongora ni ukwirinda inshingano zose ku bandi.", "en": "To lead is to avoid any responsibility toward others."},
+          {"fr": "Diriger, c'est servir ceux que l'on conduit, comme Jésus qui est venu servir et donner sa vie.", "rn": "Kurongora ni ugukorera abo urongoye, nk'uko Yesu yaje gukorera no gutanga ubugingo bwiwe.", "en": "To lead is to serve those you lead, as Jesus came to serve and give his life."}
+        ],
+        "correctIndex": 2
+      }
+    ]
+  }
+}

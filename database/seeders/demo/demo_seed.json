@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "description": "Données de démo DiscipleCoach (API Laravel + tests locaux). Mot de passe par défaut : voir DEMO_SEED_PASSWORD dans .env (défaut: password).",
+  "default_password_hint": "password",
+  "users": [
+    {
+      "key": "admin",
+      "name": "Admin DiscipleCoach",
+      "email": "admin@disciplecoach.local",
+      "phone": "+25770000001",
+      "preferred_language": "fr",
+      "roles": ["admin"]
+    },
+    {
+      "key": "editor",
+      "name": "Éditeur Curriculum",
+      "email": "editor@disciplecoach.local",
+      "preferred_language": "fr",
+      "roles": ["editor"]
+    },
+    {
+      "key": "mentor",
+      "name": "Mentor Organisation",
+      "email": "mentor@disciplecoach.local",
+      "preferred_language": "fr",
+      "roles": ["mentor"]
+    },
+    {
+      "key": "coach",
+      "name": "Coach Jean",
+      "email": "coach@disciplecoach.local",
+      "phone": "+25770000010",
+      "preferred_language": "fr",
+      "roles": ["coach"]
+    },
+    {
+      "key": "disciple_paired",
+      "name": "Disciple Marie",
+      "email": "disciple@disciplecoach.local",
+      "phone": "+25770000020",
+      "preferred_language": "rn",
+      "roles": ["disciple"]
+    },
+    {
+      "key": "disciple_new",
+      "name": "Disciple Paul",
+      "email": "disciple.new@disciplecoach.local",
+      "preferred_language": "en",
+      "roles": ["disciple"]
+    }
+  ],
+  "relationships": [
+    {
+      "key": "pair_main",
+      "coach": "coach",
+      "disciple": "disciple_paired",
+      "status": "active",
+      "invite_code": "PAIR01"
+    }
+  ],
+  "invites": [
+    {
+      "code": "GROW01",
+      "coach": "coach",
+      "used": false,
+      "expires_in_days": 7
+    }
+  ],
+  "lesson_progress": [
+    {
+      "user": "disciple_paired",
+      "lesson_code": "1M01",
+      "status": "completed"
+    },
+    {
+      "user": "disciple_paired",
+      "lesson_code": "1M02",
+      "status": "completed"
+    },
+    {
+      "user": "disciple_paired",
+      "lesson_code": "1M03",
+      "status": "in_progress"
+    }
+  ],
+  "coaching_sessions": [
+    {
+      "relationship": "pair_main",
+      "created_by": "coach",
+      "title": "Premier entretien — Niveau 1",
+      "scheduled_at": "+3 days",
+      "duration_min": 60,
+      "status": "scheduled",
+      "agenda": "Revoir les leçons 1M01–1M03 et fixer un objectif pour la semaine."
+    }
+  ],
+  "goals": [
+    {
+      "relationship": "pair_main",
+      "created_by": "coach",
+      "title": "Lire la Bible chaque jour",
+      "description": "15 minutes de lecture et prière, matin ou soir.",
+      "status": "in_progress",
+      "target_date": "+14 days",
+      "milestones": [
+        { "title": "Semaine 1 : évangile de Jean ch. 1–7", "done": true },
+        { "title": "Semaine 2 : évangile de Jean ch. 8–14", "done": false }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "relationship": "pair_main",
+      "sender": "coach",
+      "body": "Muraho Marie ! Content de t'accompagner sur le Niveau 1.",
+      "sent_at": "-2 days"
+    },
+    {
+      "relationship": "pair_main",
+      "sender": "disciple_paired",
+      "body": "Murakoze coach, j'ai terminé les deux premières leçons.",
+      "sent_at": "-1 day"
+    }
+  ],
+  "notes": [
+    {
+      "relationship": "pair_main",
+      "author": "coach",
+      "disciple": "disciple_paired",
+      "body": "Note privée coach : à suivre sur la régularité de la prière.",
+      "is_shared": false
+    },
+    {
+      "relationship": "pair_main",
+      "author": "coach",
+      "disciple": "disciple_paired",
+      "body": "Objectif partagé : continuer le journal de lecture cette semaine.",
+      "is_shared": true
+    }
+  ]
+}

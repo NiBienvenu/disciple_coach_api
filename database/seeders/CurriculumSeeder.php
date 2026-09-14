@@ -140,17 +140,8 @@ class CurriculumSeeder extends Seeder
 
     private function resolveSeedPath(): ?string
     {
-        $candidates = [
-            base_path('../disciple_coach/seed/curriculum_seed.json'),
-            '/home/bienvenu/Documents/CHRIS/disciple_coach/seed/curriculum_seed.json',
-        ];
+        $path = database_path('seeders/demo/curriculum_seed.json');
 
-        foreach ($candidates as $candidate) {
-            if (is_string($candidate) && File::isFile($candidate)) {
-                return $candidate;
-            }
-        }
-
-        return null;
+        return File::isFile($path) ? $path : null;
     }
 }
