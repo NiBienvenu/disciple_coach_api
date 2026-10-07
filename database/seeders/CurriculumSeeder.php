@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use App\Enums\ContentStatus;
 use App\Enums\LessonType;
-use App\Models\Lesson;
 use App\Models\Level;
 use App\Models\Quiz;
 use Illuminate\Database\Seeder;
@@ -61,25 +60,6 @@ class CurriculumSeeder extends Seeder
             // Drop obsolete lessons BEFORE upsert so reused slugs (e.g. track_1_lesson_01
             // moving from 1M01 → 1A01) do not hit lessons_slug_unique.
             if ($keptLessonCodes !== []) {
-                $removed = $level->lessons()->whereNotIn('code', $keptLessonCodes)->get(['id', 'code', 'slug']);
-                // #region agent log
-                file_put_contents('/home/bienvenu/Documents/CHRIS/.cursor/debug-936aec.log', json_encode([
-                    'sessionId' => '936aec',
-                    'runId' => 'post-fix',
-                    'hypothesisId' => 'B',
-                    'location' => 'CurriculumSeeder.php:cleanup-before-upsert',
-                    'message' => 'Deleting obsolete lessons before upsert',
-                    'data' => [
-                        'trackId' => $trackId,
-                        'levelId' => $level->id,
-                        'keptCodes' => $keptLessonCodes,
-                        'removed' => $removed->map(fn ($l) => [
-                            'id' => $l->id, 'code' => $l->code, 'slug' => $l->slug,
-                        ])->all(),
-                    ],
-                    'timestamp' => (int) (microtime(true) * 1000),
-                ], JSON_UNESCAPED_UNICODE)."\n", FILE_APPEND);
-                // #endregion
                 $level->lessons()->whereNotIn('code', $keptLessonCodes)->delete();
             }
 
@@ -88,75 +68,16 @@ class CurriculumSeeder extends Seeder
                 $type = LessonType::tryFrom((string) ($lessonData['type'] ?? 'main')) ?? LessonType::Main;
                 $code = (string) $lessonData['code'];
 
-                // #region agent log
-                $byCode = Lesson::query()->where('code', $code)->first(['id', 'code', 'slug', 'level_id']);
-                $bySlug = Lesson::query()->where('slug', $lessonId)->first(['id', 'code', 'slug', 'level_id']);
-                file_put_contents('/home/bienvenu/Documents/CHRIS/.cursor/debug-936aec.log', json_encode([
-                    'sessionId' => '936aec',
-                    'runId' => 'post-fix',
-                    'hypothesisId' => 'A',
-                    'location' => 'CurriculumSeeder.php:before-upsert',
-                    'message' => 'Lesson upsert preflight after cleanup',
-                    'data' => [
-                        'trackId' => $trackId,
-                        'levelId' => $level->id,
-                        'wantedCode' => $code,
-                        'wantedSlug' => $lessonId,
-                        'byCode' => $byCode?->toArray(),
-                        'bySlug' => $bySlug?->toArray(),
-                        'slugOwnedByOtherCode' => $bySlug !== null && $bySlug->code !== $code,
+                $lesson = $level->lessons()->updateOrCreate(
+                    ['code' => $code],
+                    [
+                        'slug' => $lessonId,
+                        'type' => $type,
+                        'order' => (int) $lessonData['order'],
+                        'status' => ContentStatus::Published,
+                        'resource_url' => $lessonData['resource_url'] ?? null,
                     ],
-                    'timestamp' => (int) (microtime(true) * 1000),
-                ], JSON_UNESCAPED_UNICODE)."\n", FILE_APPEND);
-                // #endregion
-
-                try {
-                    $lesson = $level->lessons()->updateOrCreate(
-                        ['code' => $code],
-                        [
-                            'slug' => $lessonId,
-                            'type' => $type,
-                            'order' => (int) $lessonData['order'],
-                            'status' => ContentStatus::Published,
-                            'resource_url' => $lessonData['resource_url'] ?? null,
-                        ],
-                    );
-                } catch (\Throwable $e) {
-                    // #region agent log
-                    file_put_contents('/home/bienvenu/Documents/CHRIS/.cursor/debug-936aec.log', json_encode([
-                        'sessionId' => '936aec',
-                        'runId' => 'post-fix',
-                        'hypothesisId' => 'B',
-                        'location' => 'CurriculumSeeder.php:upsert-failed',
-                        'message' => 'Lesson upsert threw',
-                        'data' => [
-                            'wantedCode' => $code,
-                            'wantedSlug' => $lessonId,
-                            'exception' => $e->getMessage(),
-                            'slugOwnerCode' => $bySlug?->code,
-                            'slugOwnerId' => $bySlug?->id,
-                        ],
-                        'timestamp' => (int) (microtime(true) * 1000),
-                    ], JSON_UNESCAPED_UNICODE)."\n", FILE_APPEND);
-                    // #endregion
-                    throw $e;
-                }
-
-                // #region agent log
-                file_put_contents('/home/bienvenu/Documents/CHRIS/.cursor/debug-936aec.log', json_encode([
-                    'sessionId' => '936aec',
-                    'runId' => 'post-fix',
-                    'hypothesisId' => 'A',
-                    'location' => 'CurriculumSeeder.php:after-upsert',
-                    'message' => 'Lesson upsert succeeded',
-                    'data' => [
-                        'lessonId' => $lesson->id,
-                        'code' => $lesson->code,
-                        'slug' => $lesson->slug,
-                    ],
-                    'timestamp' => (int) (microtime(true) * 1000),
-                ], JSON_UNESCAPED_UNICODE)."\n", FILE_APPEND);
-                // #endregion
+                );
 
                 foreach (['fr', 'rn', 'en'] as $language) {
                     $content = $lessonData['content'][$language] ?? $lessonData['content']['fr'] ?? [];
