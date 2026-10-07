@@ -8,1083 +8,705 @@
         "en": "Level 1: Foundation"
       },
       "description": {
-        "fr": "Les fondements de la vie chrétienne : l'amour et le pardon de Dieu, la vie remplie et conduite par le Saint-Esprit, et les premiers pas du témoignage personnel et du ministère à partir des Quatre Lois Spirituelles.",
-        "rn": "Ishingiro ry'ubugingo rukristo : urukundo n'ikigongwe c'Imana, kwuzuzwa no kurongorwa na Mpwemu Yera, hamwe n'intango zo gushinga intahe no gutegura umurimo bwite biciye ku Ngingo Zine z'ivy'Impwemu.",
-        "en": "The foundations of the Christian life: God's love and forgiveness, a life filled and led by the Holy Spirit, and the first steps of personal witness and ministry built on the Four Spiritual Laws."
+        "fr": "Les Affermissements 1–6 : commencer votre vie nouvelle en Jésus-Christ — relation, communion, Saint-Esprit, croissance, Parole et prière. Ressource : Quatre Lois Spirituelles (QLS).",
+        "en": "Affermissements 1–6: begin your new life in Jesus Christ — relationship, fellowship, Holy Spirit, growth, Word, and prayer. Resource: Four Spiritual Laws (QLS).",
+        "rn": "Affermissements 1–6: gutangura ubugingo busha muri Yesu Kristo — umubano, ugusangira, Mpwemu Yera, gukura, Ijambo n'ugusenga. Igikoresho: Amategeko ane y'Impwemu (QLS)."
       },
       "order": 1,
       "previousTrackId": null,
       "lessons": [
         {
           "id": "track_1_lesson_01",
-          "code": "1M01",
+          "code": "1A01",
           "type": "main",
           "order": 1,
           "title": {
-            "fr": "Comment expérimenter l'amour et le pardon de Dieu",
-            "rn": "Uko wonyura mu rukundo n'ikigongwe c'Imana",
-            "en": "How to experience God's love and forgiveness"
+            "fr": "Comment commencer votre vie nouvelle en Jésus-Christ",
+            "en": "How to begin your new life in Jesus Christ",
+            "rn": "Uko wotangura ubugingo busha muri Yesu Kristo"
           },
           "content": {
             "fr": {
-              "centralIdea": "Apprendre à confesser ses péchés pour vivre concrètement l'amour et le pardon de Dieu au quotidien.",
+              "centralIdea": "Chaque chrétien peut avoir la certitude d’une bonne relation avec Dieu. Sans cette confiance, il est impossible pour quelqu’un d’éprouver le vrai bonheur et le contentement complet dans la vie. Au moment où, par un acte de foi, vous avez reçu Jésus-Christ dans votre vie pour être votre Seigneur et Sauveur, il y est entré.",
               "objectives": [
-                "Comprendre qui est Jésus-Christ et pourquoi il est venu.",
-                "Distinguer les trois attitudes possibles face à Christ, à partir de 1 Corinthiens 2.14–3.3.",
-                "Comprendre et mettre en pratique la confession comme « respiration spirituelle »."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "1. Selon Romains 1 : 4 Que prouva la résurrection en ce qui concerne Jésus Christ ? _______________________________________",
+                "2. Et selon 1 Jean 5 : 20 Qui est Jésus-Christ ? _______________________________________",
+                "2. Selon le verset 12 En qui (où) trouve-t-on la vie éternelle ? _________________________________"
               ],
               "keyScriptures": [
                 {
-                  "reference": "1 Jean 1.9",
-                  "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner et nous purifier de toute injustice."
+                  "reference": "Apocalypse 3 : 20",
+                  "text": "Voici : je me tiens à la porte et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui…"
                 },
                 {
-                  "reference": "Psaume 32.1",
-                  "text": "Heureux celui à qui la transgression est remise, à qui le péché est pardonné !"
+                  "reference": "Romains 1 : 4",
+                  "text": ""
+                },
+                {
+                  "reference": "1 Jean 5 : 20",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthiens 15 : 13",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Connaître Jésus comme le Dieu qui pardonne.",
-                "Reconnaître qui occupe la première place dans sa vie : soi-même ou Christ.",
-                "Pratiquer la « respiration spirituelle » : confesser le péché, puis recevoir à nouveau la plénitude de l'Esprit."
+                "Chaque chrétien peut avoir la certitude d’une bonne relation avec Dieu. Sans cette confiance, il est impossible pour quelqu’un d’éprouver le vrai bonheur et le contentement complet dans la vie. Au moment où, par un acte de foi, vous avez reçu Jésus-Christ dans votre vie pour être",
+                "Voici ce qu’il a promis dans Apocalypse 3 : 20 : «Voici : je me tiens à la porte et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui… »",
+                "Maintenant que vous avez reçu Jésus-Christ dans votre vie, vous avez une relation personnelle avec Lui. Vous êtes devenu un vrai chrétien. Vous ne devenez pas un chrétien en vivant une vie exemplaire ou en étant né d’une famille chrétienne. Le mot « chrétien » veut dire « Christ ",
+                "Dans cette leçon, nous voulons aborder ces choses sous 3 aspects. Une Relation Nouvelle Une Vie Nouvelle Une Aventure (Histoire) Nouvelle Dans chaque aspect, nous vous demanderons de consulter ta Bible et répondre à un certain nombre de questions. Nous aimerions que ce soit vous-",
+                "Comprenez donc que le salut est la faveur de Dieu donné gratuitement à l’homme lorsqu’il met sa confiance en Jésus-Christ comme Sauveur, il en résulte le pardon de ses péchés."
               ],
               "reflectionQuestions": [
-                "Qui est Jésus pour vous : un simple enseignant, ou le Dieu qui pardonne ?",
-                "Qui occupe la première place dans votre vie aujourd'hui ?",
-                "Y a-t-il un péché que vous avez besoin de confesser maintenant ?"
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kumenya ingene watura ivyaha vyawe, ukanyura mu rukundo n'ikigongwe c'Imana mu buzima bwa misi yose.",
-              "objectives": [
-                "Gutahura Yesu uwo ari we n'igituma yaje.",
-                "Gutandukanya ubwoko butatu bw'abantu. (1 Abakorinto 2.14 – 3.3)",
-                "Gutahura no gushira mu ngiro « gusohora impwemu » — kwatura."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "1 Yohana 1.9",
-                  "text": "Twatuye ivyaha vyacu, ni umwizigirwa kandi w'ubutungane, aduharira ivyaha vyacu, akatwoza akabi kose."
-                },
-                {
-                  "reference": "Zaburi 32.1",
-                  "text": "Hahiriwe uwuhariwe ibigabitanyo, uwo icaha ciwe gitwikiriwe !"
-                }
-              ],
-              "summaryPoints": [
-                "Kumenya — Yesu, Imana iharira.",
-                "Kwitegereza — ndi umuntu w'ubuhe : ni nde ku ntebe ?",
-                "Guhema — gusohora icaha, kwinjiza Mpwemu."
-              ],
-              "reflectionQuestions": [
-                "Yesu, kuri wewe, ni nde ? Umwigisha gusa — canke Imana iharira ?",
-                "Ni nde ari ku ntebe y'ubugingo bwawe ? Umuntu, canke Kristo ?",
-                "Hari icaha co kwatura uno musi ? Kisohore, uheze wakire ikigongwe."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "Pouvez-vous me donner des réponses à ces 3 questions précises ?",
+                "Avez-vous reçu Jésus-Christ dans votre vie de cette manière ?",
+                "1. Selon Romains 1 : 4 Que prouva la résurrection en ce qui concerne Jésus Christ ?"
               ]
             },
             "en": {
-              "centralIdea": "Learn to confess sin so you can experience God's love and forgiveness in everyday life.",
+              "centralIdea": "Every Christian can be sure of a good relationship with God. Without this confidence, it is impossible for someone to experience true happiness and complete contentment in life. The moment you, by an act of faith, received Jesus Christ into your life to be your Lord and Savior, He entered it.",
               "objectives": [
-                "Understand who Jesus Christ is and why he came.",
-                "Distinguish three possible postures toward Christ, from 1 Corinthians 2:14–3:3.",
-                "Understand and practice confession as 'spiritual breathing.'"
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "I . How to start your new life in Jesus Christ",
+                "1. According to Romans 1: 4 What does the resurrection prove about Jesus Christ? _______________________________________",
+                "2. And according to 1 John 5:20 Who is Jesus Christ? _______________________________________"
               ],
               "keyScriptures": [
                 {
-                  "reference": "1 John 1:9",
-                  "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+                  "reference": "Revelation 3:20",
+                  "text": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will walk into their home ..."
                 },
                 {
-                  "reference": "Psalm 32:1",
-                  "text": "Blessed is he whose transgression is forgiven, whose sin is covered."
+                  "reference": "Romans 1: 4",
+                  "text": ""
+                },
+                {
+                  "reference": "1 John 5:20",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthians 15: 13",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Know Jesus as the God who forgives.",
-                "Recognize who is on the throne of your life: yourself, or Christ.",
-                "Practice 'spiritual breathing': confess sin, then receive the Spirit's fullness again."
+                "Every Christian can be sure of a good relationship with God. Without this confidence, it is impossible for someone to experience true happiness and complete contentment in life. The moment you, by an act of faith, received Jesus Christ into your life to be your Lord and Savior, H",
+                "This is what he promised in Revelation 3:20: “Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will walk into their home ... \"",
+                "Now that you have received Jesus Christ into your life, you have a personal relationship with Him. You have become a real Christian. You do not become a Christian by living an exemplary life or by being born into a Christian family. The word \"Christian\" means \"Christ in you\" - Je",
+                "In this lesson we want to approach these things from 3 aspects. A New Relationship A New Life A New Adventure (Story) In each aspect, we will ask you to consult your Bible and answer a number of questions. We would like it to be you yourself who find out the things that have happ",
+                "Understand therefore that salvation is the favor of God given freely to man when he puts his trust in Jesus Christ as Savior, the result is the forgiveness of his sins."
               ],
               "reflectionQuestions": [
-                "Who is Jesus to you — just a teacher, or the God who forgives?",
-                "Who is on the throne of your life today?",
-                "Is there a sin you need to confess right now?"
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "Can you give me answers to these 3 specific questions?",
+                "Have you received Jesus Christ into your life in this way?",
+                "1. According to Romans 1: 4 What does the resurrection prove about Jesus Christ?"
+              ]
+            },
+            "rn": {
+              "centralIdea": "Umukristo wese ashobora kumenya adakekeranya ko afitaniye ubucuti bwiza n’Imana. Ata cizigiro nk’ico, umuntu ntashobora kugira amahirwe nyakuri no guhimbarwa kwuzuye mu bugingo bwiwe. Igihe kubwo kwizera wakiriye Yesu Kristo nk’Umwami n’Umukiza mu bugingo bwawe. yesu kristo yarinjiye.",
+              "objectives": [
+                "1. Twisunze Abaroma 1 : 4 Ukuzuka kwa Yesu Kristo kwerekanye iki ? _______________________________________",
+                "2. Twisunze 1 Yohana 5 : 20 Yesu Kristo ni nde ? _______________________________________",
+                "2. Umurongo wa 12 Ubugingo budashira tuburonka hehe ? _________________________________",
+                "1. None ubu ko wakiriye Yesu Kristo mu bugingo bwawe, wahindutse iki ? (2 Ab’i Korinto 5 : 17) ________________________________"
+              ],
+              "keyScriptures": [
+                {
+                  "reference": "Yohana 3 : 20",
+                  "text": "Ehe mpagaze ku rugi, ndaramukije. Umuntu niyumva ijwi ryanje, akugurura urugi, ndinjira iwe dusangire"
+                },
+                {
+                  "reference": "Yohana 3:20",
+                  "text": ""
+                },
+                {
+                  "reference": "1 Yohana 5 : 20",
+                  "text": ""
+                },
+                {
+                  "reference": "Yohana 1 : 12",
+                  "text": ""
+                }
+              ],
+              "summaryPoints": [
+                "Umukristo wese ashobora kumenya adakekeranya ko afitaniye ubucuti bwiza n’Imana. Ata cizigiro nk’ico, umuntu ntashobora kugira amahirwe nyakuri no guhimbarwa kwuzuye mu bugingo bwiwe. Igihe kubwo kwizera wakiriye Yesu Kristo nk’Umwami n’Umukiza mu bugingo bwawe. yesu kristo yarin",
+                "Raba ivyo yasezeranye mu Vyahishuriwe Yohana 3 : 20 : «Ehe mpagaze ku rugi, ndaramukije. Umuntu niyumva ijwi ryanje, akugurura urugi, ndinjira iwe dusangire »",
+                "Ubu ko wamaze kwakira Yesu Kristo mu bugingo bwawe, ufitaniye ubucuti na we. Wabaye umukristo nyakuri. Kubaho ubugingo bw’akarorero canke kuvukira mu muryango w’abakristo sivyo vyoguhindura umukristo. Ijambo « umukristo » risobanurwa ngo « Kristo muri wewe ». Kristo aba ari muri ",
+                "Muri kino cigwa, dushaka kurabamwo ibi bintu bitatu. Ubucuti bushasha Ubugingo busha Ukubaho gushasha Muri aspect imwe imwe yose, turaza kugusaba gukoresha Bibiliya mu kwishura ibibazo bimwe bimwe. Twifuza ko ari wewe ubwawe wimenyera ibintu vyagushikiye umaze kwakira Yesu Kristo",
+                "Tahura yuko agakiza ari ingabire y’Imana, umuntu aronka ku buntu, igihe yizeye Yesu Kristo nk’Umukiza wiwe, aca aharirwa ivyaha vyiwe."
+              ],
+              "reflectionQuestions": [
+                "Woshobora kumpa inyishu y’ibi bibazo bitatu ?",
+                "Mbega warakiriye Yesu Kristo mu bugingo bwawe muri ubwo buryo ?",
+                "1. Twisunze Abaroma 1 : 4 Ukuzuka kwa Yesu Kristo kwerekanye iki ?",
+                "2. Twisunze 1 Yohana 5 : 20 Yesu Kristo ni nde ?"
               ]
             }
-          }
+          },
+          "resource_url": "/storage/curriculum/qls.pdf"
         },
         {
           "id": "track_1_lesson_02",
-          "code": "1M02",
+          "code": "1A02",
           "type": "main",
           "order": 2,
           "title": {
-            "fr": "Comment être rempli du Saint-Esprit",
-            "rn": "Uko wokwuzuzwa Mpwemu Yera",
-            "en": "How to be filled with the Holy Spirit"
+            "fr": "Comment commencer votre vie nouvelle de communion avec Jésus-Christ",
+            "en": "How to begin your new life of fellowship with Jesus Christ",
+            "rn": "Uko wotangura ubugingo busha bwo gusangira na Yesu Kristo"
           },
           "content": {
             "fr": {
-              "centralIdea": "Comprendre comment être rempli du Saint-Esprit par la foi, en tant qu'acte de la volonté.",
+              "centralIdea": "En apprenant à confesser les péchés dans sa vie, tout chrétien peut faire l’expérience d’une communion avec Dieu à chaque moment. Vivre en communion avec Jésus-Christ, c’est jouir d’une vie pleine et abondante. Quand vous avez reçu Jésus-Christ, une relation personnelle a été établie entre vous et lui. Vous êtes devenu enfant de Dieu (Jean 1 : 12). Vous avez reçu sa vie et maintenant vous portez son nom dans votre appellation de « chrétien ».",
               "objectives": [
-                "Comprendre qui est le Saint-Esprit et pourquoi il est venu.",
-                "Comprendre ce que veut dire être rempli de l'Esprit.",
-                "Savoir « inspirer » — être rempli par la foi.",
-                "Citer deux versets clés et leur mot-clé."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Éphésiens 5.18",
-                  "text": "Ne vous enivrez pas de vin, mais soyez remplis de l'Esprit."
+                  "reference": "Jean 1 : 12",
+                  "text": "chrétien"
                 },
                 {
-                  "reference": "1 Jean 5.14-15",
-                  "text": "Si nous demandons quelque chose selon sa volonté, il nous écoute ; et nous savons que nous obtenons ce que nous demandons."
+                  "reference": "Corinthiens 2 : 14",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthiens 2:14",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthiens 2:15",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Comprendre — qui est l'Esprit et pourquoi il est venu.",
-                "Obéir — au commandement d'être rempli. (Éphésiens 5.18)",
-                "Croire — la promesse ; être rempli par la foi. (1 Jean 5.14-15)"
+                "En apprenant à confesser les péchés dans sa vie, tout chrétien peut faire l’expérience d’une communion avec Dieu à chaque moment. Vivre en communion avec Jésus-Christ, c’est jouir d’une vie pleine et abondante. Quand vous avez reçu Jésus-Christ, une relation personnelle a été éta",
+                "Beaucoup de chrétiens se posent ces questions : « Que se passe-t-il quand je pèche et que je fais des choses qui déplaisent à Dieu ? », C’est-à-dire : « Ma relation avec Dieu, est-elle brisée ? », ou, « Jésus, quitte-t-il ma vie ? » Nous comprendrons mieux les réponses à ces ques",
+                "Nous pouvons illustrer cette différence entre notre relation avec Dieu et notre communion avec Dieu en parlant de la relation père fils dans une famille . Quand un garçon est né dans une famille, il est le fils de son père, parce que la vie de son père est en lui. Alors il porte ",
+                "Mais, Supposons, maintenant que ce fils prenne la décision de quitter son père et qu’il fasse des choses qui déshonorent son père. Serait-il toujours le fils de son père? (Votre Réponse)",
+                "Exactement !!! Car la relation père - fils est une relation permanente malgré le comportement du fils."
               ],
               "reflectionQuestions": [
-                "Qui dirige votre vie en ce moment ? Le moi, ou l'Esprit ?",
-                "Y a-t-il un obstacle à confesser ? Ignorance, incrédulité ou péché ?",
-                "Voulez-vous être rempli maintenant ? Demandez par la foi — et croyez la promesse."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Ingene umuntu yokwuzuzwa Mpwemu Yera mu kwizera, ari igikorwa c'ugushaka kwiwe.",
-              "objectives": [
-                "Gusobanura Mpwemu Yera uwo ari we n'igituma yaje.",
-                "Gusobanura ico kwuzura Mpwemu Yera bisobanura.",
-                "Kumenya « kwinjiza impwemu » — kwuzuzwa mu kwizera.",
-                "Kuvuga imirongo ibiri nshimikiro n'amajambo yayo."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Abanyefeso 5.18",
-                  "text": "Ntimuborerwe inzoga… ariko muzuzwe Mpwemu."
-                },
-                {
-                  "reference": "1 Yohana 5.14-15",
-                  "text": "Yumva ivyo dusaba bihuye n'ugushaka kwiwe."
-                }
-              ],
-              "summaryPoints": [
-                "Gutahura — Mpwemu uwo ari we n'igituma yaje.",
-                "Kwumvira — itegeko ryo kuzuzwa. (Abanyefeso 5.18)",
-                "Kwizera — isezerano ; kuzuzwa mu kwizera. (1 Yohana 5.14-15)"
-              ],
-              "reflectionQuestions": [
-                "Ni nde arongora ubugingo bwawe ubu ? Wewe, canke Mpwemu ?",
-                "Hari intambamyi yo kwatura ? Ukutamenya, ukutizera, canke icaha ?",
-                "Woshaka kuzuzwa ubu ? Saba mu kwizera — wizere isezerano."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "Beaucoup de chrétiens se posent ces questions : « Que se passe-t-il quand je pèche et que je fais des choses qui déplaisent à Dieu ?",
+                "», C’est-à-dire : « Ma relation avec Dieu, est-elle brisée ?",
+                "», ou, « Jésus, quitte-t-il ma vie ?"
               ]
             },
             "en": {
-              "centralIdea": "Understand how to be filled with the Holy Spirit by faith, as an act of the will.",
+              "centralIdea": "By learning to confess sins in their life, every Christian can experience good relation ship with God at any time. To live in communion with Jesus Christ is to enjoy a full and abundant life. When you received Jesus Christ, a personal relationship was established between you and him. You have become a child of God (John 1:12). You received his life and now you bear his name in your name of \"Christian\".",
               "objectives": [
-                "Understand who the Holy Spirit is and why he came.",
-                "Understand what it means to be filled with the Spirit.",
-                "Know how to 'inhale' — to be filled by faith.",
-                "State two key verses and their key word."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "THE RELATIONSHIP",
+                "THE THREE KINDS OF MEN Not Christian Christian l ed by Jesus Christ Self-directed Christian"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Ephesians 5:18",
-                  "text": "Do not be drunk with wine, in which is excess, but be filled with the Spirit."
+                  "reference": "John 1:12",
+                  "text": "Christian"
                 },
                 {
-                  "reference": "1 John 5:14-15",
-                  "text": "If we ask anything according to his will, he hears us, and we know that we have what we asked of him."
+                  "reference": "Corinthians 2:14",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthians 2: 15",
+                  "text": ""
+                },
+                {
+                  "reference": "Corinthians 2:15",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Understand — who the Spirit is and why he came.",
-                "Obey — the command to be filled. (Ephesians 5:18)",
-                "Believe — the promise; be filled by faith. (1 John 5:14-15)"
+                "By learning to confess sins in their life, every Christian can experience good relation ship with God at any time. To live in communion with Jesus Christ is to enjoy a full and abundant life. When you received Jesus Christ, a personal relationship was established between you and ",
+                "Many Christians ask themselves these questions: “ What happens when I sin and do things that are displeasing to God? \", That is ,\" Is my relationship with God broken ? Or, \" Jesus, is he leaving my life ? We will better understand the answers to these questions if we distinguish ",
+                "We can illustrate this difference between our relationship with God and our fellowship with God by talking about the father and son relationship in a family . When boy is born into a family, he is his father's son, because his father's life is in him. So he's got his father's nam",
+                "But, suppose, now that this son t akes the decision to leave his father and does things that dishonor his father. Would he still being his father's son? (Your answer)",
+                "Exactly !!! Because the father-son relationship is a permanent relationship despite the behavior of the son."
               ],
               "reflectionQuestions": [
-                "Who is directing your life right now — yourself, or the Spirit?",
-                "Is there an obstacle you need to confess — ignorance, unbelief, or sin?",
-                "Do you want to be filled right now? Ask in faith, and believe the promise."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "Many Christians ask themselves these questions: “ What happens when I sin and do things that are displeasing to God?",
+                "\", That is ,\" Is my relationship with God broken ?",
+                "Or, \" Jesus, is he leaving my life ?"
+              ]
+            },
+            "rn": {
+              "centralIdea": "Umukristo wese ashobora kwuzura n’Imana umwanya wose mu kubaho kwiwe. Ivyo abishobozwa no kwatura icaha cose mu bugingo bwiwe. Kubaho ubugingo bwo kwuzura na Yesu Kristo, ni ukunezerererwa no kubaho ubugingo bwuzuye kandi busagutse. Igihe wakira Yesuk Kristo mu bugingo bwawe, watanguye ubucuti hagati yawe na we, wahindutse umwana w’Imana (Yohana 1:12). Waronse ubugingo bwiwe kandi mw’izina witwa « umukristo ».",
+              "objectives": [
+                "Umukristo wese ashobora kwuzura n’Imana umwanya wose mu kubaho kwiwe. Ivyo abishobozwa no kwatura icaha cose mu bugingo bwiwe. Kubaho ubugingo bwo kwuzura na Yesu Kristo, ni ukunezerererwa no kubaho ubugingo bwuzuye kandi busagutse. Igihe wakira Yesuk Kristo mu bugingo bwawe, wat",
+                "Abakristo benshi baribaza ibi bibazo: « Mbega haba iki igihe ncumuye, nkoze ibitandukanye n’ivyo Imana igomba? », Ni ukuvuga ko : « Ubucuti dufitaniye n’Imana busambuka ? », canke, « Yesu aca asohoka akava mu bugingo bwanje? » Kugira ngo dutahure inyishu z’ibi bibazo, dukwiye kum",
+                "Mu gutandukanya ubucuti n’ukwuzura dufitaniye n’Imana, tubigereranya n’ubucuti hagati y’umwana na se mu rugo . Igihe umwana avutse mu muryango, aba umwana wa senaka kuko ubugingo bwa se buri muri we. Rero ico gihe aca yitwa umwana wa naka. Siko?"
+              ],
+              "keyScriptures": [
+                {
+                  "reference": "Yohana 1:12",
+                  "text": "umukristo"
+                },
+                {
+                  "reference": "Yohana 1 : 9",
+                  "text": ""
+                }
+              ],
+              "summaryPoints": [
+                "Umukristo wese ashobora kwuzura n’Imana umwanya wose mu kubaho kwiwe. Ivyo abishobozwa no kwatura icaha cose mu bugingo bwiwe. Kubaho ubugingo bwo kwuzura na Yesu Kristo, ni ukunezerererwa no kubaho ubugingo bwuzuye kandi busagutse. Igihe wakira Yesuk Kristo mu bugingo bwawe, wat",
+                "Abakristo benshi baribaza ibi bibazo: « Mbega haba iki igihe ncumuye, nkoze ibitandukanye n’ivyo Imana igomba? », Ni ukuvuga ko : « Ubucuti dufitaniye n’Imana busambuka ? », canke, « Yesu aca asohoka akava mu bugingo bwanje? » Kugira ngo dutahure inyishu z’ibi bibazo, dukwiye kum",
+                "Mu gutandukanya ubucuti n’ukwuzura dufitaniye n’Imana, tubigereranya n’ubucuti hagati y’umwana na se mu rugo . Igihe umwana avutse mu muryango, aba umwana wa senaka kuko ubugingo bwa se buri muri we. Rero ico gihe aca yitwa umwana wa naka. Siko?",
+                "Igihe uwo mwana yigiriye inama yo kuva mu muryango, agakora ibintu bitukisha se, mbega aguma yitwa rya zina « Umwana wa naka »? (Inyushu yawe)",
+                "Nivyo !!! Kuko ubucuti buri hagati y’ umwana na se bwamaho ibihe bidashira. Uko uwo mwana yigenza kwose, ubwo bucuti bugumaho, ntibupfa."
+              ],
+              "reflectionQuestions": [
+                "Abakristo benshi baribaza ibi bibazo: « Mbega haba iki igihe ncumuye, nkoze ibitandukanye n’ivyo Imana igomba?",
+                "», Ni ukuvuga ko : « Ubucuti dufitaniye n’Imana busambuka ?",
+                "», canke, « Yesu aca asohoka akava mu bugingo bwanje?",
+                "Igihe uwo mwana yigiriye inama yo kuva mu muryango, agakora ibintu bitukisha se, mbega aguma yitwa rya zina « Umwana wa naka »?"
               ]
             }
           }
         },
         {
           "id": "track_1_lesson_03",
-          "code": "1M03",
+          "code": "1A03",
           "type": "main",
           "order": 3,
           "title": {
-            "fr": "Comment marcher par l'Esprit",
-            "rn": "Uko worongorwa na Mpwemu Yera",
-            "en": "How to walk by the Spirit"
+            "fr": "Comment commencer votre vie nouvelle dans le Saint-Esprit",
+            "en": "How to begin your new life in the Holy Spirit",
+            "rn": "Uko wotangura ubugingo busha muri Mpwemu Yera"
           },
           "content": {
             "fr": {
-              "centralIdea": "Comprendre comment marcher par l'Esprit à tout moment, et vivre la vie pleine et fructueuse que Christ promet.",
+              "centralIdea": "Chaque jour peut être une aventure passionnante pour le chrétien qui expérimente la réalité d’être rempli du Saint-Esprit et qui vit constamment et à chaque instant sous sa direction bienveillante. Pendant trois ans, les disciples avaient marché, travaillé et parlé avec Jésus. Ils le connaissaient, ils avaient confiance en lui, ils l’aimaient. Cependant, une certaine soirée, Jésus leur a appris une nouvelle bouleversante : il allait bientôt mourir !",
               "objectives": [
-                "Comprendre comment vous êtes rempli de l'Esprit.",
-                "Vous préparer pour la bataille spirituelle.",
-                "Connaître vos ressources en tant qu'enfant de Dieu.",
-                "Comprendre ce que signifie vivre par la foi."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "2. Le chrétien spirituel, sur qui compte-t-il pour vivre la vie chrétienne ? (Pg.4 - 5) ________________________ ________________________",
+                "3. Quels sont les deux aspects de la respiration Spirituelle ?(Pg.13) ______________________ ______________________"
               ],
-              "keyScriptures": [
-                {
-                  "reference": "Galates 2.20",
-                  "text": "Ce n'est plus moi qui vis, c'est Christ qui vit en moi."
-                },
-                {
-                  "reference": "Romains 1.17",
-                  "text": "Le juste vivra par la foi."
-                }
-              ],
+              "keyScriptures": [],
               "summaryPoints": [
-                "Rempli — assuré d'être dirigé par le Saint-Esprit.",
-                "Préparé — conscient de la bataille et de mes ressources.",
-                "Par la foi — en croyant les promesses de Dieu, non mes sentiments."
+                "Chaque jour peut être une aventure passionnante pour le chrétien qui expérimente la réalité d’être rempli du Saint-Esprit et qui vit constamment et à chaque instant sous sa direction bienveillante. Pendant trois ans, les disciples avaient marché, travaillé et parlé avec Jésus. Il",
+                "Mettez-vous à la place des disciples. Quelles émotions éprouveriez-vous ? Seriez-vous confus ? Auriez-vous peur ? Vous sentiriez-vous désemparée ? Ils ont probablement éprouvé ces mêmes sentiments.",
+                "Mais alors, supposez que vous êtes en train d’écouter Jésus vous dire que comme résultat de son retour auprès de Dieu le Père, un autre Ami viendra – un Ami qui sera avec vous – un Ami qui sera en vous. L’ami qui allait venir, c’est le Saint-Esprit. Jésus a dit une chose étonnant",
+                "Ainsi, les disciples n’étaient pas laissés seuls avec la tâche impossible d’essayer d’imiter le caractère de Christ et de continuer sa mission. Au contraire, par le Saint-Esprit, la vie même de Christ avec tout son caractère, son autorité et sa force, pourra être vécue à travers ",
+                "Au lieu que nous soyons frustrés par la faillite inévitable de nos efforts pour vivre selon un niveau spirituel trop haut, un niveau de moralité et d’éthique trop haut, Jésus, la seule Personne qui a atteint parfaitement ce niveau, nous offre la possibilité de le réaliser encore "
               ],
               "reflectionQuestions": [
-                "Êtes-vous rempli de l'Esprit en ce moment ? Sinon, pratiquez la respiration spirituelle.",
-                "Quel adversaire vous éprouve le plus ? Le monde, la chair ou le diable ?",
-                "Sur quoi repose votre marche ? Sur vos sentiments, ou sur la foi ?"
-              ]
-            },
-            "rn": {
-              "centralIdea": "Gutahura ingene umuntu yokwama arongorwa na Mpwemu — akabaho ubugingo bwuzuye kandi bwama imbuto Kristo yasezeranye.",
-              "objectives": [
-                "Gusobanura uko mwuzuzwa Mpwemu Yera.",
-                "Kwitegurira intambara yo mu buryo bw'impwemu.",
-                "Gutahura uburenganzira bwo kuba umwana w'Imana.",
-                "Gusobanura ico ari co kubaho mu kwizera."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Abagalatiya 2.20",
-                  "text": "Nabambanywe na Kristo… ariho muri jewe."
-                },
-                {
-                  "reference": "Abaroma 1.17",
-                  "text": "Umutungane azobaho mu kwizera."
-                }
-              ],
-              "summaryPoints": [
-                "Kuzuzwa — kwizera ko urongorwa na Mpwemu.",
-                "Kwitegura — kumenya intambara n'ivyiza vyawe.",
-                "Mu kwizera — kwemera amasezerano y'Imana, si ibigumbagumba."
-              ],
-              "reflectionQuestions": [
-                "Woba wujujwe Mpwemu ubu ? Bitari uko, hema mu buryo bw'impwemu.",
-                "Ni uwuhe mwansi ukugora kuruta ? Isi, umubiri, canke Shetani ?",
-                "Ingendo yawe ishimikiye kuki ? Ku bigumbagumba, canke ku kwizera ?"
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "Mettez-vous à la place des disciples. Quelles émotions éprouveriez-vous ?",
+                "Seriez-vous confus ?",
+                "Vous sentiriez-vous désemparée ?"
               ]
             },
             "en": {
-              "centralIdea": "Understand how to walk by the Spirit at every moment, and live the full, fruitful life Christ promises.",
+              "centralIdea": "Each day can be an exciting adventure for the Christian who experiences the reality of being filled with the Holy Spirit and who lives constantly and at every moment under his loving guidance. For three years the disciples had walked, worked, and talked with Jesus. They knew him, they trusted him, they loved him. However, one evening Jesus told them a shocking news: he was going to die soon!",
               "objectives": [
-                "Understand how you are filled with the Spirit.",
-                "Prepare for spiritual battle.",
-                "Know your resources as a child of God.",
-                "Understand what it means to live by faith."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "2. The spiritual Christian, on whom does he count to live the Christian life? (Pg. 4 - 5) ________________________ ________________________",
+                "The spiritual Christian becomes carnal when he refuses to confess the sins in his life.",
+                "3. What are the two aspects of Spiritual breathing? (Pg.13) ______________________ ______________________"
               ],
-              "keyScriptures": [
-                {
-                  "reference": "Galatians 2:20",
-                  "text": "I am crucified with Christ; nevertheless I live, yet not I, but Christ lives in me."
-                },
-                {
-                  "reference": "Romans 1:17",
-                  "text": "The righteous shall live by faith."
-                }
-              ],
+              "keyScriptures": [],
               "summaryPoints": [
-                "Filled — confident that the Holy Spirit is leading me.",
-                "Prepared — aware of the battle and of my resources.",
-                "By faith — trusting God's promises, not my feelings."
+                "Each day can be an exciting adventure for the Christian who experiences the reality of being filled with the Holy Spirit and who lives constantly and at every moment under his loving guidance. For three years the disciples had walked, worked, and talked with Jesus. They knew him,",
+                "Put yourself in the shoes of the disciples. What emotions would you experience? Would you be confused? Are you afraid? Would you feel helpless? They probably had those same feelings.",
+                "But then, suppose you are listening to Jesus tell you that as a result of his return to God the Father, another Friend will come - a Friend who will be with you - a Friend who will be in you. The friend who was going to come is the Holy Spirit. Jesus said an amazing thing to thos",
+                "Thus, the disciples were not left alone with the impossible task of trying to imitate Christ's character and continue his mission. Rather, through the Holy Spirit, the very life of Christ with all of its character, authority and strength can be lived through their own lives and p",
+                "Instead of being frustrated by the inevitable bankruptcy of our efforts to live too high a spiritual standard, too high a standard of morality and ethics, Jesus, the only Person who has reached that level perfectly, offers us the opportunity to realize it again - through each of "
               ],
               "reflectionQuestions": [
-                "Are you filled with the Spirit right now? If not, practice spiritual breathing.",
-                "Which adversary troubles you most — the world, the flesh, or the devil?",
-                "What is your walk resting on — your feelings, or faith?"
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "Put yourself in the shoes of the disciples. What emotions would you experience?",
+                "Would you be confused?",
+                "Would you feel helpless?"
+              ]
+            },
+            "rn": {
+              "centralIdea": "Kubaho ubugingo bwuzuye Mpwemu Yera kandi burongowe na we ku musi ku musi, ni ikintu gitera umunezero umukristo. Abigishwa bamaranye imyaka itatu na Yesu Kristo, bagendana, bakorana, kandi baganira na we. Bari bamuzi, bari bamwizeye, baramukunda. Igihe kimwe ku mugoroba, Yesu yababwiye inkuru ica ivutu; ko agiye gupfa mu gihe kiri imbere.",
+              "objectives": [
+                "2. Mbega umukristo w’impwemu, we yizigira iki mu kubaho ubugingo rukristo? (Urupapuro rwa 6-7) ________________________ ________________________",
+                "3. Vuga ibintu bibiri utegerezwa gukora kugira ngo wongere kwuzuzwa Mpwemu Yera (Urupapuro rwa 17) ______________________ ______________________"
+              ],
+              "keyScriptures": [],
+              "summaryPoints": [
+                "Kubaho ubugingo bwuzuye Mpwemu Yera kandi burongowe na we ku musi ku musi, ni ikintu gitera umunezero umukristo. Abigishwa bamaranye imyaka itatu na Yesu Kristo, bagendana, bakorana, kandi baganira na we. Bari bamuzi, bari bamwizeye, baramukunda. Igihe kimwe ku mugoroba, Yesu yab",
+                "Niwishire mu kibanza c’abigishwa. Wari kwiyumvira gute? Wari kubura iyo uva n’iyo uja! Wari kugira ubwoba? Wari kudendebukirwa. Uko wari kumererwa, nabo ni ko bamerewe.",
+                "Ariko ubu ibaze Yesu Kristo ariko arakubwira ko kuko asubiye kwa Data Imana, ko azorungika uwundi mugenzi. Umugenzi azohorana nawe. Umugenzi azoba muri wewe. Uyo mugenzi yari agiye kuza ni Mpwemu Year. Yesu yabwiye abamukurikira ikintu gitangaje, cari uko Mpwemu Year azobana nabo",
+                "Muri ubwo buryo, ntizatawe nk’impfuvyi mu gikorwa gihambaye co kugenda bagera ikirenge mu ca Yesu Kristo no kubandanya igikorwa ciwe. Ariko bashobojwe na Mpwemu Yera kubaho ubugingo bwa Kristo, n’imigenzo yabwo, n’ubushobozi bwabwo, n’inyifato bijanye. Haraheze ibinjana mirongo i",
+                "Hako ducibwa ivutu n’ukudashobora gushikira urwo rugero rwo hejuru rw’ivy’impwemu, rw’ukubaho mu ngeso nziza, Yesu Kristo we yashoboye kubishitsa ataco ahajije na kimwe, aradushoboza kubishitsa natwe, muri umwe wese muri twebwe. Igihe Yesu yinjiye mu bugingo bw’umuntu, uwo muntu "
+              ],
+              "reflectionQuestions": [
+                "Niwishire mu kibanza c’abigishwa. Wari kwiyumvira gute?",
+                "Wari kubura iyo uva n’iyo uja! Wari kugira ubwoba?",
+                "Ikibazo gica kiboneka ni: “Mbega noshobora kubaho gute nka Yesu Kristo yazutse, ubugingo bwiwe bugahinduka ubwanje?",
+                "RABA AGATABO KITWA: Mbega urazi ubugingo bwuzuye Mpwemu Yera?"
               ]
             }
           }
         },
         {
           "id": "track_1_lesson_04",
-          "code": "1M04",
+          "code": "1A04",
           "type": "main",
           "order": 4,
           "title": {
-            "fr": "Comment témoigner par l'Esprit",
-            "rn": "Uko woshinga intahe biciye kuri Mpwemu",
-            "en": "How to witness by the Spirit"
+            "fr": "Comment commencer votre vie nouvelle de croissance en Jésus-Christ",
+            "en": "How to begin your new life of growth in Jesus Christ",
+            "rn": "Uko wotangura ubugingo busha bwo gukura muri Yesu Kristo"
           },
           "content": {
             "fr": {
-              "centralIdea": "Communiquer le sens du succès dans le témoignage : témoigner par l'Esprit et laisser les résultats à Dieu.",
+              "centralIdea": "La décision la plus importante de notre vie est celle de recevoir Jésus-Christ comme Seigneur et Sauveur personnel. Une toute nouvelle vie commence avec l’acte de recevoir Jésus-Christ par la foi. Comme notre vie physique a besoin de l’air, de la nourriture, du repos et de l’exercice, de même notre vie spirituelle a ses besoins pour sa croissance et son développement.",
               "objectives": [
-                "Comprendre et appliquer la préparation personnelle pour témoigner.",
-                "Comprendre et appliquer le fait de prendre l'initiative de témoigner."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Actes 1.8",
-                  "text": "Vous recevrez une puissance, celle du Saint-Esprit survenant sur vous, et vous serez mes témoins… jusqu'aux extrémités de la terre."
+                  "reference": "Hébreux 10 : 38",
+                  "text": "Et mon juste vivra par la foi…"
                 },
                 {
-                  "reference": "2 Pierre 3.9",
-                  "text": "Le Seigneur use de patience envers vous, ne voulant pas qu'aucun périsse, mais voulant que tous arrivent à la repentance."
+                  "reference": "Philippiens 4 : 6-7",
+                  "text": ""
+                },
+                {
+                  "reference": "Timothée 3 : 16",
+                  "text": ""
+                },
+                {
+                  "reference": "Romains 10 : 17",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Se préparer — être chrétien, pur, rempli et prêt.",
-                "Prendre l'initiative — prier, aller, témoigner, s'attendre à Dieu.",
-                "Le succès — témoigner par l'Esprit ; les résultats appartiennent à Dieu."
+                "La décision la plus importante de notre vie est celle de recevoir Jésus-Christ comme Seigneur et Sauveur personnel. Une toute nouvelle vie commence avec l’acte de recevoir Jésus-Christ par la foi. Comme notre vie physique a besoin de l’air, de la nourriture, du repos et de l’exer",
+                "Au moment où vous avez reçu Christ, vous êtes né dans la famille de Dieu et vous avez reçu tout ce dont vous aurez besoin pour vivre la vie chrétienne abondante. La croissance spirituelle est le résultat d’une confiance constante en Jésus-Christ. « Et mon juste vivra par la foi… ",
+                "La nourriture de votre bien-être spirituel est fournie dans les principes de croissance suivants : La prière L’étude de la Bible. L’obéissance",
+                "Prier, c’est parler avec Dieu. Prier, c’est aussi écouter Dieu. Le fait de ne pas prier est souvent la source des échecs dans la vie chrétienne.",
+                "Examinons ces textes Bibliques et repondez à ces questions"
               ],
               "reflectionQuestions": [
-                "Où en est votre préparation personnelle ? Chrétien, pur, rempli, prêt ?",
-                "À qui Dieu vous envoie-t-il ? Une personne à qui parler de Christ cette semaine.",
-                "Qu'est-ce que le succès, pour vous ? Des résultats, ou l'obéissance fidèle ?"
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kumenyesha insobanuro y'intsinzi mu gushinga intahe : gushinga intahe biciye kuri Mpwemu, inyishu tukazireka ku Mana.",
-              "objectives": [
-                "Gutahura no gushira mu ngiro iyitegurwa ryawe bwite.",
-                "Gutahura no gushira mu ngiro gufata iya mbere mu gushinga intahe."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Yohana 15.16",
-                  "text": "Si mwebwe mwatoye, ariko ni jewe nabatoye, kandi ndabashinga ngo mugende mwame ivyamwa."
-                },
-                {
-                  "reference": "Ivyak 1.8",
-                  "text": "Muzoba ivyabona vyanje… gushika ku mpera y'isi."
-                }
-              ],
-              "summaryPoints": [
-                "Kwitegura — kuba umukristo, uwutyoroye, wujujwe, witeguye.",
-                "Gufata iya mbere — gusenga, kugenda, gushinga intahe, kwitega Imana.",
-                "Intsinzi — gushinga intahe biciye kuri Mpwemu ; inyishu n'iz'Imana."
-              ],
-              "reflectionQuestions": [
-                "Iyitegurwa ryawe rigeze he ? Umukristo, uwutyoroye, wujujwe, witeguye ?",
-                "Imana ikurungika kuri nde ? Umuntu wo kubwira Kristo iyi ndwi.",
-                "Intsinzi kuri wewe ni iki ? Inyishu, canke ukwumvira mu kwizigirwa ?"
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "Comment l’homme parle-t-il avec Dieu ?",
+                "Comme nous l’indique ce dessin nous parlons avec Dieu dans la prière. Dieu nous parle à travers la Bible. DIEU La Prière La ?",
+                "1. Comment la lecture de la Bible nous aide-t-elle?"
               ]
             },
             "en": {
-              "centralIdea": "Communicate the meaning of success in witnessing: witness by the Spirit and leave the results to God.",
+              "centralIdea": "After receiving Christ you are born into God's family with everything needed for an abundant Christian life. Spiritual growth comes through prayer, Bible study, and obedience.",
               "objectives": [
-                "Understand and apply personal preparation for witnessing.",
-                "Understand and apply taking the initiative to witness."
+                "Practice prayer as conversation with God (Philippians 4:6-7).",
+                "Feed on Scripture for spiritual growth.",
+                "Walk in obedience as a mark of love for Christ."
               ],
               "keyScriptures": [
                 {
-                  "reference": "John 15:16",
-                  "text": "You did not choose me, but I chose you and appointed you to go and bear fruit."
+                  "reference": "Philippians 4:6-7",
+                  "text": "Do not be anxious about anything, but in everything by prayer and petition, with thanksgiving, present your requests to God."
                 },
                 {
-                  "reference": "Acts 1:8",
-                  "text": "You shall be my witnesses... to the uttermost parts of the earth."
+                  "reference": "2 Timothy 3:16-17",
+                  "text": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."
                 }
               ],
               "summaryPoints": [
-                "Prepare — be a Christian, be pure, be filled, be ready.",
-                "Take the initiative — pray, go, witness, expect God to act.",
-                "Success — witness by the Spirit; the results belong to God."
+                "Receiving Christ starts a brand-new life.",
+                "Growth rests on prayer, the Word, and obedience.",
+                "God already gave what you need to grow."
               ],
               "reflectionQuestions": [
-                "Where does your personal preparation stand — Christian, pure, filled, ready?",
-                "Who is God sending you to? Someone to tell about Christ this week.",
-                "What does success mean to you — results, or faithful obedience?"
+                "How is your prayer life today?",
+                "How regularly do you read Scripture?",
+                "Where is God inviting fresh obedience?"
+              ]
+            },
+            "rn": {
+              "centralIdea": "Ukwakira Yesu Kristo nk’Umwami n’Umukiza wawe bwite nikwo guhitamwo guhambaye kw’umuntu mu bugingo bwiwe, kuruta ibindi vyose. Ubugingo busha bwose butangurwa n’ukwakira Yesu Kristo mu bugingo bwacu kubwo kwizera. Nk’uko ubugingo bw’umubiri wacu bukeneye umuyaga, ivyo kurya, ukuruhuka, n’ugukora, niko n’ubugingo bw’impwemu bukeneye imfungurwa z’umutima kugira ngo bushobore gukura no gutera imbere.",
+              "objectives": [
+                "Ukwakira Yesu Kristo nk’Umwami n’Umukiza wawe bwite nikwo guhitamwo guhambaye kw’umuntu mu bugingo bwiwe, kuruta ibindi vyose. Ubugingo busha bwose butangurwa n’ukwakira Yesu Kristo mu bugingo bwacu kubwo kwizera. Nk’uko ubugingo bw’umubiri wacu bukeneye umuyaga, ivyo kurya, ukur",
+                "Igihe wakiriye Yesu Kristo wavukiye mu muryango w’Imana kandi waronse ibikenewe vyose kugira ngo ubeho ubugingo rukristo bunengesereye. Ugukura kwawe mu bugingo bw’impwemu kuva ku buryo wizeye, wizigira Yesu Kristo. “… umugororotsi wanje wzobeshwaho n’ukwizera…” (Abaheburayo 10:3",
+                "ibi bikurikira vyogufasha gukura mu vy’impwemu : Ugusenga Ukwiga Ijambo ry’Imana (Bibiliya) Ukwumvira"
+              ],
+              "keyScriptures": [
+                {
+                  "reference": "Abaheburayo 10:38",
+                  "text": "… umugororotsi wanje wzobeshwaho n’ukwizera…"
+                },
+                {
+                  "reference": "Timoteyo 3 : 16",
+                  "text": ""
+                },
+                {
+                  "reference": "Actes 17 : 11",
+                  "text": ""
+                },
+                {
+                  "reference": "Yakobo 1 : 22",
+                  "text": ""
+                }
+              ],
+              "summaryPoints": [
+                "Ukwakira Yesu Kristo nk’Umwami n’Umukiza wawe bwite nikwo guhitamwo guhambaye kw’umuntu mu bugingo bwiwe, kuruta ibindi vyose. Ubugingo busha bwose butangurwa n’ukwakira Yesu Kristo mu bugingo bwacu kubwo kwizera. Nk’uko ubugingo bw’umubiri wacu bukeneye umuyaga, ivyo kurya, ukur",
+                "Igihe wakiriye Yesu Kristo wavukiye mu muryango w’Imana kandi waronse ibikenewe vyose kugira ngo ubeho ubugingo rukristo bunengesereye. Ugukura kwawe mu bugingo bw’impwemu kuva ku buryo wizeye, wizigira Yesu Kristo. “… umugororotsi wanje wzobeshwaho n’ukwizera…” (Abaheburayo 10:3",
+                "ibi bikurikira vyogufasha gukura mu vy’impwemu : Ugusenga Ukwiga Ijambo ry’Imana (Bibiliya) Ukwumvira",
+                "Ugusenga ni ukuganira n’Imana. Ugusenga ni ukwumviriza ivy’Imana ikubwira. Kenshi na kenshi, gutsindwa kwacu mu bugingo rukristo bikomoka ku kudasenga.",
+                "Twihweze bino bisomwa vyo muri Bibiliya hanyuma wishure kuri bino bibazo"
+              ],
+              "reflectionQuestions": [
+                "Mbega umuntu yoganira n’Imana ate?",
+                "Nk’uko tubibona mu gicapu, tuganira n’Imana mu gusenga. Imana ivugana natwe mw’Ijambo. IMANA Ugusenga ?",
+                "1. Mbega Imana iganira n’umuntu gute?",
+                "1. Soma Yakobo 1 : 22 Ukurikije uyo murongo, mbega birahagije gusoma Bibiliya gusa?"
               ]
             }
           }
         },
         {
           "id": "track_1_lesson_05",
-          "code": "1M05",
+          "code": "1A05",
           "type": "main",
           "order": 5,
           "title": {
-            "fr": "Aider à accomplir l'Ordre Suprême",
-            "rn": "Uko wofasha gushitsa Itegeko Rikuru",
-            "en": "Helping fulfill the Great Commission"
+            "fr": "Comment commencer votre vie nouvelle dans la Parole de Dieu",
+            "en": "How to begin your new life in the Word of God",
+            "rn": "Uko wotangura ubugingo busha mu Ijambo ry'Imana"
           },
           "content": {
             "fr": {
-              "centralIdea": "Vous motiver à obéir au commandement de Dieu d'aller et de faire des disciples dans le monde.",
+              "centralIdea": "Dieu a inspiré la Bible, sa Parole à l’homme. Il a quelque chose à vous dire. Plusieurs aventures de la vie chrétienne viennent en découvrant davantage, à travers la Bible, qui est Dieu et quels sont ses plans pour vous. Pendant toute l’histoire, Dieu a désiré communiquer avec les hommes qu’il a créés. Avant l’arrivée de Jésus, Dieu a parlé par les hommes engagés de l’Ancien Testament qui ont écrit sa Parole. Puis, Dieu a envoyé sa Parole dans le monde personnellement, par la personne de Jésus-C",
               "objectives": [
-                "Comprendre le sens du terme « Ordre Suprême ».",
-                "Savoir pourquoi tout chrétien devrait le prendre au sérieux.",
-                "Savoir comment être engagé personnellement."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Matthieu 28.18-20",
-                  "text": "Tout pouvoir m'a été donné dans le ciel et sur la terre. Allez, faites de toutes les nations des disciples… et voici, je suis avec vous tous les jours, jusqu'à la fin du monde."
+                  "reference": "Jean 1 : 14",
+                  "text": ""
                 },
                 {
-                  "reference": "2 Timothée 2.2",
-                  "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
+                  "reference": "Pierre5:7",
+                  "text": "Déchargez-vous sur lui de tous vos soucis, car il prend soin de vous."
+                },
+                {
+                  "reference": "Philippiens 4 : 6",
+                  "text": "soucis"
+                },
+                {
+                  "reference": "Jean 15 : 10",
+                  "text": "Si vous gardez mes commandements, vous demeurerez dans mon amour, comme j’ai gardé les commandements de mon Père et que je demeure dans son amour. Je vous ai parlé ainsi, afin que ma joie soit en vous et que votre joie soit complète. Voici mon commandement : Aimez-vous les uns les autres, comme je vous ai aimés."
                 }
               ],
               "summaryPoints": [
-                "Comprendre — l'Ordre Suprême vient de Jésus, pour tous.",
-                "Être motivé — par l'amour, la compassion et la patience de Dieu.",
-                "S'engager — rempli de l'Esprit, disponible, dès aujourd'hui."
+                "Dieu a inspiré la Bible, sa Parole à l’homme. Il a quelque chose à vous dire. Plusieurs aventures de la vie chrétienne viennent en découvrant davantage, à travers la Bible, qui est Dieu et quels sont ses plans pour vous. Pendant toute l’histoire, Dieu a désiré communiquer avec le",
+                "Pendant que Jésus était dans le monde, aussi bien qu’après sa mort et sa résurrection, Dieu a encore dirigé des hommes engagés à consigner dans la Bible les paroles et l’oeuvres du Fils de Dieu. Nous trouvons dans le Nouveau Testament le résultat de leur fidélité et de leur dispo",
+                "Cette leçon vous expliquera comment comprendre et aimer la Bible.",
+                "APPRENDRE À ECOUTER DIEU La Bible est le livre le plus important qu’on puisse lire. Beaucoup de gens ne savent pas comment écouter ce que Dieu est en train de leur dire à travers sa Parole. Pour avoir une bonne communion avec le Seigneur, il nous faut écouter et comprendre ce qu’",
+                "Sachez que la lecture de la Bible n’est comme la lecture d’aucun autre livre. La Bible est pour l’homme la Parole inspirée de Dieu. Dans ce livre, Dieu a quelque chose à vous dire. Ainsi, lisez la Bible avec cette attitude : « Seigneur, voici la lettre d’amour et d’instructions q"
               ],
               "reflectionQuestions": [
-                "L'Ordre Suprême vous concerne-t-il ? Il est donné à chaque croyant.",
-                "Qu'est-ce qui vous motive ? L'amour, la compassion, la patience de Dieu ?",
-                "Quel premier pas ferez-vous ? Une personne, un lieu, cette semaine."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kubatera umwete wo kwumvira itegeko ry'Imana ryo kugenda no guhindura abantu bo mw'isi abigishwa.",
-              "objectives": [
-                "Gusobanura Itegeko Rikuru ico ari co.",
-                "Kumenya igituma umukristo wese ategerezwa kurifata nka nkama.",
-                "Gusobanura ingene umukristo yokwitanga mu gushitsa Itegeko Rikuru."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Matayo 28.18-20",
-                  "text": "Nahawe ububasha bwose mw'ijuru no mw'isi. Nuko nimugende, muhindure amahanga yose abigishwa… Ndi kumwe namwe imisi yose, gushika ku muhero w'isi."
-                },
-                {
-                  "reference": "2 Timoteyo 2.2",
-                  "text": "Ivyo wumvise kuri jewe… ubishinge abantu b'abizigirwa, bashoboye no kuvyigisha abandi."
-                }
-              ],
-              "summaryPoints": [
-                "Gutahura — Itegeko Rikuru rivuye kuri Yesu, ku bose.",
-                "Guterwa umwete — n'urukundo, imbabazi, ukwihangana kw'Imana.",
-                "Kwitanga — wujujwe Mpwemu, uri maso, uno musi."
-              ],
-              "reflectionQuestions": [
-                "Itegeko Rikuru rikuraba ? Ryahawe uwizera wese.",
-                "Ni iki kigutera umwete ? Urukundo, imbabazi, ukwihangana kw'Imana ?",
-                "Ni iyihe ntambwe ya mbere uzofata ? Umuntu umwe, ahantu hamwe, iyi ndwi."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "II. L’interprétation La deuxième étape implique la question : « Que veulent dire ces idées principales que vous avez relevées dans ce texte ?",
+                "” Demandez-vous : «Quelles sont les vérités de Dieu qui se trouvent dans ce passage ?",
+                "III. Application Dans cette étape vous vous posez la question : « Quelle leçon pour ma vie y at-il dans ce passage ?"
               ]
             },
             "en": {
-              "centralIdea": "Motivate you to obey God's command to go and make disciples in the world.",
+              "centralIdea": "God inspired the Bible, his Word to man. He has something to tell you. Many adventures in the Christian life come by discovering more, through the Bible, who God is and what His plans are for you. Throughout history, God has desired to communicate with the people he created. Before Jesus came, God spoke through the committed men of the Old Testament who wrote his Word. Then God sent his Word to the world personally, through the person of Jesus Christ (John 1:14)",
               "objectives": [
-                "Understand the meaning of the term 'Great Commission.'",
-                "Know why every Christian should take it seriously.",
-                "Know how to be personally involved."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Matthew 28:18-20",
-                  "text": "All authority has been given to me in heaven and on earth. Go and make disciples of all nations... and I am with you always, even to the end of the age."
+                  "reference": "John 1:14",
+                  "text": ""
                 },
                 {
-                  "reference": "2 Timothy 2:2",
-                  "text": "The things you have heard from me, entrust to faithful people who will be able to teach others also."
+                  "reference": "Peter 5:7",
+                  "text": ""
+                },
+                {
+                  "reference": "Philippians 4: 6",
+                  "text": "worry"
+                },
+                {
+                  "reference": "John 15: 10-12",
+                  "text": "If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and remain in his love. I have spoken to you thus, so that my joy may be in you and your joy may be complete. This is my commandment: Love one another, as I have loved you."
                 }
               ],
               "summaryPoints": [
-                "Understand — the Great Commission comes from Jesus, for everyone.",
-                "Be motivated — by God's love, compassion, and patience.",
-                "Commit — filled with the Spirit, available, starting today."
+                "God inspired the Bible, his Word to man. He has something to tell you. Many adventures in the Christian life come by discovering more, through the Bible, who God is and what His plans are for you. Throughout history, God has desired to communicate with the people he created. Befo",
+                "While Jesus was in the world, as well as after his death and resurrection, God still directed men committed to recording in the Bible the words and works of the Son of God. We find in the New Testament the result of their fidelity and their availability. The Bible is the complete",
+                "This lesson will teach you how to understand and love the Bible.",
+                "LEARN TO LISTEN TO GOD The Bible is the most important book you can read. Many people don't know how to listen to what God is saying to them through his Word. To have good fellowship with the Lord, we must listen and understand what he is telling us. Here are some suggestions for",
+                "Know that reading the Bible is not like reading any other book. The Bible is the inspired Word of God to man. In this book, God has something to tell you. So, read the Bible with this attitude: “Lord, this is the letter of love and instruction that you are addressing to me person"
               ],
               "reflectionQuestions": [
-                "Does the Great Commission apply to you? It is given to every believer.",
-                "What motivates you — God's love, compassion, patience?",
-                "What first step will you take? One person, one place, this week."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "II. The interpretation The second step involves the question: \"What do these main ideas that you have identified in this text mean?",
+                "\" Ask yourself, “What are some of the truths of God that are found in this passage?",
+                "III. Application In this step you ask yourself the question: “What lesson for my life is there in this passage?"
+              ]
+            },
+            "rn": {
+              "centralIdea": "Imana yahishuriye abantu Bibiliya , Ijambo ryayo . Irafise ico igomba kutubwira . Hari ibintu vyiza vyinshi bishika mu bugingo bw’umukristo , bivuye ku kumenya Imana rwose n’imigambi yayo kuri uwo muntu , biciye muri Bibiliya . Kuva kera na rindi , Imana yamye ishaka kugiriranira imigenderanire n’abantu yaremye . Yesu ataraza kw’isi , Imana yavugiye mu bavugishwa na yo , bo mw’Isezerano rya Kera banditse Ijambo Ryayo . Hanyuma Imana ubwayo , yarungitse Ijambo Ryayo kw’isi mu kurungika Yesu Krist",
+              "objectives": [
+                "IV YO GUKORA 1. Guheraheza gusoma Ubutumwa Bwiza uko bwanditswe na Yohana . 2. Kubwira ubutumwa abantu 10 n’imiburiburi ."
+              ],
+              "keyScriptures": [
+                {
+                  "reference": "Yohana 1:14",
+                  "text": ""
+                },
+                {
+                  "reference": "Petero 5:7",
+                  "text": "Muyikorere amanyanga yanyu yose , kukw’ibababara"
+                },
+                {
+                  "reference": "Yohana 15 : 10",
+                  "text": ""
+                }
+              ],
+              "summaryPoints": [
+                "Imana yahishuriye abantu Bibiliya , Ijambo ryayo . Irafise ico igomba kutubwira . Hari ibintu vyiza vyinshi bishika mu bugingo bw’umukristo , bivuye ku kumenya Imana rwose n’imigambi yayo kuri uwo muntu , biciye muri Bibiliya . Kuva kera na rindi , Imana yamye ishaka kugiriranira",
+                "Igihe cose Yesu yari akiri kw’isi n’inyuma y’izuka ryiwe , Imana yagumye irongora abantu bayo kwandika amajambo n’igikorwa c’Umwana wayo muri Bibiliya . Mw’Isezerano Risha dusangamwo imbuto z’ukwitanga n’ukwizigirwa kw’abo bantu. Bibiliya ni ibiganiro vyose bikwiye vy’Imana yasha",
+                "Iki cigwa kiragusigurira uko wotahura n’uko wokunda Bibiliya .",
+                "IGA KWUMVIRA IMANA Bibiliya ni igitabu nkenerwa umuntu akwiye gusoma . Abantu benshi ntibazi uburyo bwo kwumviriza ico Imana ibabwira mw’Ijambo ryayo . Kugira twuzure neza n’Imana , dutegerezwa kwumviriza no gutahura ico Imana iriko iratubwira . Kugira ngo dutangure kwiga Ijambo ",
+                "Menya ko udakwiye gusoma Bibiliya nk’uko usoma ibindi bitabu . Ku muntu , Bibiliya ni Ijambo ryahumetswe n’Imana . Muri ico gitabu , Imana irafise ico ikwigisha . Rero , gisome muri ubu buryo : “ Mwami , iri ni iteka ry’urukundo n’impanuro ushikirije . Mfasha gutahura n’ukwumviri"
+              ],
+              "reflectionQuestions": [
+                "II. INSOBANURO Ico wigako ca kabiri cerekeye ikibazo : « Ivyo nsomye bisobanura iki ?",
+                "” Ibaze : « Ibice vy’ivyo nsomye bivuga iki ku Mana no ku muntu ?",
+                "III. GUSHIRA MU NGIRO Muri iki gihimba wibaze iki kibazo : « Ni ikihe kintu binyigisha nkwiye gukurikiza mu bugingo bwanje ?",
+                "» Ushobora kwibaza ibi bikurikira : Mbega hari ibwirizwa nkwiye kwumvira ?"
               ]
             }
           }
         },
         {
           "id": "track_1_lesson_06",
-          "code": "1M0A",
+          "code": "1A06",
           "type": "main",
           "order": 6,
           "title": {
-            "fr": "Comment savoir avec certitude si vous êtes chrétien",
-            "rn": "Ni gute womenya udakekeranya ko uri umukristo",
-            "en": "How to know for certain that you are a Christian"
+            "fr": "Comment commencer votre vie nouvelle dans la prière",
+            "en": "How to begin your new life in prayer",
+            "rn": "Uko wotangura ubugingo busha mu gusenga"
           },
           "content": {
             "fr": {
-              "centralIdea": "Expliquer comment devenir chrétien et comment savoir avec certitude que l'on est enfant de Dieu.",
+              "centralIdea": "Cette session vient te montrer comment approfondir ton intimité avec Dieu par la Prière. Comme nous avons vu , à la leçon 4,il y a au moins 3 principes importants qui nous aident à grandir dans notre nouvelle relation avec Christ, à savoir : La Prière L’Etude de la Parole de Dieu L’Obéissance. Nous avons examiné en détail la leçon ayant trait sur l'étude de la parole de Dieu. A present, nous examinerons la session touchant la Prière. L'obéissance est donc la mise en Pratique de tout ce que tu ap",
               "objectives": [
-                "Savoir comment inviter personnellement Christ dans votre vie.",
-                "Citer deux raisons d'avoir confiance dans vos rapports avec Dieu.",
-                "Citer quatre choses qui arrivent quand vous recevez Christ."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Apocalypse 3.20",
-                  "text": "Voici, je me tiens à la porte, et je frappe : si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui."
+                  "reference": "Romains 12: 1-2",
+                  "text": ""
                 },
                 {
-                  "reference": "Hébreux 13.5",
-                  "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."
+                  "reference": "Psaumes 95 : 6",
+                  "text": ""
+                },
+                {
+                  "reference": "Psaumes 95 : 7",
+                  "text": ""
+                },
+                {
+                  "reference": "Psaumes 135 : 3",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Recevoir — inviter Christ par un engagement total.",
-                "Savoir — quatre choses arrivent quand on le reçoit.",
-                "Se reposer — sur sa promesse et sa fidélité, non sur l'émotion."
+                "Cette session vient te montrer comment approfondir ton intimité avec Dieu par la Prière. Comme nous avons vu , à la leçon 4,il y a au moins 3 principes importants qui nous aident à grandir dans notre nouvelle relation avec Christ, à savoir : La Prière L’Etude de la Parole de Dieu",
+                "Prier, c’est parler avec Dieu. Tout chrétien a le privilège de communiquer directement avec Dieu. Si nous désirons une vie chrétienne vivante et remplie de satisfaction, il nous faut apprendre à parler avec Dieu. Par la prière, nous pouvons nous approprier toutes les ressources q",
+                "Toute relation satisfaisante implique une communication mutuelle. Si vous jetez un coup d’oeil aux biographies enregistrées dans la Bible, vous verrez l’importance de la communication entre Dieu et son peuple. Aussi longtemps que ces individus ont écouté Dieu, lui ont obéi et lui",
+                "La même chose peut nous arriver de nos jours. Dieu communique avec nous à travers sa Parole, la Bible. Si nous désirons une vie chrétienne riche et satisfaisante, il nous faut apprendre à parler avec Dieu. Prier, c’est simplement causer ou parler avec Lui. Jésus-Christ dans sa pr",
+                "La prière comprend les éléments suivants : L’Adoration et Louange; Les Remerciements; La Confession; Les Requêtes précises ."
               ],
               "reflectionQuestions": [
-                "Avez-vous reçu Christ dans votre vie ? Selon Apocalypse 3.20, où se trouve-t-il maintenant ?",
-                "Sur quoi repose votre assurance ? Sur vos sentiments, ou sur la promesse de Dieu ?",
-                "Comment le savez-vous ? Parce que Dieu l'a dit dans sa Parole."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Gusigura neza ingene umuntu aba umukristo, n'ingene womenya udakekeranya ko uri umwana w'Imana.",
-              "objectives": [
-                "Kumenya ingene umuntu yakira Yesu Kristo mu bugingo bwiwe.",
-                "Kugira urutonde rw'imvo zibiri zotuma wizigira imigenderanire yawe n'Imana.",
-                "Kumenya ibintu bine bibashikira iyo mwakiriye Kristo."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Ivyah 3.20",
-                  "text": "Yasezeranye kwinjira iyo umwugururiye."
-                },
-                {
-                  "reference": "Abaheburayo 13.5",
-                  "text": "Sinzokureka namba."
-                }
-              ],
-              "summaryPoints": [
-                "Kwakira — gusaba Kristo ku kwitanga kwuzuye.",
-                "Kumenya — ibintu bine biba iyo umwakiriye.",
-                "Kuruhukira — ku isezerano ryiwe n'ukwizigirwa kwiwe, si ibigumbagumba."
-              ],
-              "reflectionQuestions": [
-                "Waba warakiriye Kristo mu bugingo bwawe ? Nk'uko Ivyah 3.20 bivuga, ari he ubu ?",
-                "Ivyizigiro vyawe bishimikiye kuki ? Ku bigumbagumba, canke ku isezerano ry'Imana ?",
-                "Ubimenya gute ? Kuko Imana yabivuze mu Ijambo ryayo."
+                "LA SERIE : COMMENT COMMENCER VOTRE VIE NOUVELLE ?",
+                "Par tes propres mots : Quelle nuance ou quelle difference peux – tu établir entre ces 2 mots ou , en d’autres termes, dis – nous en quoi chacune de mots se rapporte – t – il ?",
+                "4. Lisez 1Chroniques 29 : 11-12. Que dit ce passage concernant le Caractère de Dieu ?",
+                "REMERCIER DIEU POUR TOUTES CHOSES Lisez Psaumes 106 : 1 . Selon ce verset, que devons-nous faire ?"
               ]
             },
             "en": {
-              "centralIdea": "Explain how to become a Christian and how to know for certain that you are a child of God.",
+              "centralIdea": "This session will show you how to deepen your intimacy with God through Prayer. As we saw in lesson 4 there are at least 3 important principles that help us grow in our new relationship with Christ, namely: Prayer The Study of the Word of God Obedience . We have reviewed in detail the lesson on studying the word of God. Now we will look at the Prayer session. Obedience is therefore putting into Practice everything you learn to respond moment by moment to the will of God, which is perfect and ple",
               "objectives": [
-                "Know how to personally invite Christ into your life.",
-                "State two reasons for confidence in your relationship with God.",
-                "State four things that happen when you receive Christ."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?"
               ],
               "keyScriptures": [
                 {
-                  "reference": "Revelation 3:20",
-                  "text": "Behold, I stand at the door and knock; if anyone hears my voice and opens the door, I will come in to him."
+                  "reference": "Romans 12: 1-2",
+                  "text": ""
                 },
                 {
-                  "reference": "Hebrews 13:5",
-                  "text": "I will never leave you, nor forsake you."
+                  "reference": "Psalm 95: 6",
+                  "text": ""
+                },
+                {
+                  "reference": "Psalm 95: 7",
+                  "text": ""
+                },
+                {
+                  "reference": "Psalms 135: 3",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Receive — invite Christ through total commitment.",
-                "Know — four things happen when you receive him.",
-                "Rest — on his promise and faithfulness, not on emotion."
+                "This session will show you how to deepen your intimacy with God through Prayer. As we saw in lesson 4 there are at least 3 important principles that help us grow in our new relationship with Christ, namely: Prayer The Study of the Word of God Obedience . We have reviewed in detai",
+                "Praying is talking with God. Every Christian has the privilege of communicating directly with God. If we want a living and fulfilling Christian life, we must learn to speak with God. Through prayer, we can appropriate all the resources that God has for us in Jesus Christ.",
+                "Any satisfying relationship involves mutual communication. If you take a look at the biographies recorded in the Bible, you will see the importance of communication between God and His people. As long as these individuals listened to God, obeyed Him, and addressed their prayers t",
+                "The same can happen to us today. God communicates with us through his Word, the Bible. If we want a rich and fulfilling Christian life, we must learn to speak with God. To pray is simply to chat or talk with Him. Jesus Christ in his own life emphasized prayer. His desire to seek ",
+                "Prayer includes the following: Worship and Praise; Thanks; The confession; Specific Requests."
               ],
               "reflectionQuestions": [
-                "Have you received Christ into your life? According to Revelation 3:20, where is he now?",
-                "What is your assurance resting on — your feelings, or God's promise?",
-                "How do you know? Because God said so in his Word."
-              ]
-            }
-          }
-        },
-        {
-          "id": "track_1_lesson_07",
-          "code": "1S01",
-          "type": "supplementary",
-          "order": 7,
-          "title": {
-            "fr": "Présenter les Quatre Lois Spirituelles I",
-            "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu I",
-            "en": "Presenting the Four Spiritual Laws I"
-          },
-          "content": {
-            "fr": {
-              "centralIdea": "Vous équiper pour l'évangélisation personnelle en vous familiarisant avec la brochure des Quatre Lois Spirituelles.",
-              "objectives": [
-                "Citer quelques avantages de la brochure des Quatre Lois.",
-                "Présenter la brochure en donnant l'occasion d'accepter Christ.",
-                "Citer les objectifs de la formation de base."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Jean 3.16",
-                  "text": "Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ait la vie éternelle."
-                },
-                {
-                  "reference": "Romains 1.16",
-                  "text": "Je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit."
-                }
-              ],
-              "summaryPoints": [
-                "Connaître — la progression des Quatre Lois.",
-                "Présenter — avec clarté, en offrant d'accepter Christ.",
-                "Se souvenir — le succès, c'est témoigner et laisser les résultats à Dieu."
-              ],
-              "reflectionQuestions": [
-                "Connaissez-vous la progression des 4 Lois ? Amour, péché, solution, réponse.",
-                "À qui pourriez-vous la présenter ? Une personne cette semaine.",
-                "Êtes-vous rempli de l'Esprit ? C'est la clé d'un témoignage fructueux."
+                "THE SERIES: HOW TO START YOUR NEW LIFE?",
+                "In your own words: What nuance or difference can you make between these 2 words or, in other words, tell us how each word relates?",
+                "4. Read 1Chronicles 29: 11-12. What does this passage say about the character of God?",
+                "THANK GOD FOR EVERYTHING Read Psalm 106: 1. According to this verse, what should we do?"
               ]
             },
             "rn": {
-              "centralIdea": "Kumenyesha ingene wokoresha akatabo k'Ingingo Zine z'ivy'Impwemu mu kubwira abandi ubutumwa bwiza mu buryo bweruye.",
+              "centralIdea": "Ugusenga ni ukuganira n’Imana. Umukristo wese afise uburenganzira bwo kuganira n’Imana. Asangwa twifuza ubugingo rukristo buzima, kandi budukwiye, dukwiye kwiga kuganira n’Imana. Mu gusenga, twikwegerako ubutunzi bwose bw’Imana muri Yesu Kristo.",
               "objectives": [
-                "Gutahura akamaro ko gukoresha uburyo bwoshwe neza.",
-                "Kumenya ingingo zine zigize ubutumwa bwiza.",
-                "Kwitegura gushikiriza abandi Ingingo Zine mu kwizera."
+                "Ugusenga ni ukuganira n’Imana. Umukristo wese afise uburenganzira bwo kuganira n’Imana. Asangwa twifuza ubugingo rukristo buzima, kandi budukwiye, dukwiye kwiga kuganira n’Imana. Mu gusenga, twikwegerako ubutunzi bwose bw’Imana muri Yesu Kristo.",
+                "Ubucuti bwose bukwiye buzana ukuyaga mushira hamwe; mw’Ijambo ry’Imana, tubona akamaro ko kuyaga kw’Imana n’abantu bayo. Igihe cose abo bantu bumvirije ico Imana ibabwira, bakayumvira kandi bakayishikanira ivyo bifuza mu gusenga, ubugingo bwabo bw’impwemu bwabaye ubw’umunezero. A",
+                "No mu gihe cacu ivyo bishobora kudushikira. Imana iganira natwe biciye mw’Ijambo ryayo, Bibiliya. Asangwa twifuza ubugingo rukristo bwuzuye, kandi bushimishije, dukwiye kwiga kuvugana n’Iman. Gusenga ni ukuganira n’Imana. Mu bugingo bwiwe, Yesu Kristo yashize uruhara runini cane "
               ],
               "keyScriptures": [
                 {
-                  "reference": "Abaroma 5.8",
-                  "text": "Imana yerekana urukundo rwayo, kuko igihe twari abacumuzi Kristo yadupfiriye."
+                  "reference": "Zaburi 95 : 6",
+                  "text": ""
                 },
                 {
-                  "reference": "Ivyahishuriwe 3.20",
-                  "text": "Ehe mpagaze ku rugi, ndakomanga : umuntu niyumva ijwi ryanje, akingura urugi, nzokwinjira."
+                  "reference": "Zaburi 95 : 7",
+                  "text": ""
+                },
+                {
+                  "reference": "Zaburi 135 : 3",
+                  "text": ""
+                },
+                {
+                  "reference": "Zaburi 106 : 1",
+                  "text": ""
                 }
               ],
               "summaryPoints": [
-                "Ingingo enye — urukundo, icaha, Yesu, kwakira.",
-                "Gusoma — akatabo nk'uko kanditse, uterekeza ku isengesho.",
-                "Kwizera — ni Mpwemu Yera wemeza umutima."
+                "Ugusenga ni ukuganira n’Imana. Umukristo wese afise uburenganzira bwo kuganira n’Imana. Asangwa twifuza ubugingo rukristo buzima, kandi budukwiye, dukwiye kwiga kuganira n’Imana. Mu gusenga, twikwegerako ubutunzi bwose bw’Imana muri Yesu Kristo.",
+                "Ubucuti bwose bukwiye buzana ukuyaga mushira hamwe; mw’Ijambo ry’Imana, tubona akamaro ko kuyaga kw’Imana n’abantu bayo. Igihe cose abo bantu bumvirije ico Imana ibabwira, bakayumvira kandi bakayishikanira ivyo bifuza mu gusenga, ubugingo bwabo bw’impwemu bwabaye ubw’umunezero. A",
+                "No mu gihe cacu ivyo bishobora kudushikira. Imana iganira natwe biciye mw’Ijambo ryayo, Bibiliya. Asangwa twifuza ubugingo rukristo bwuzuye, kandi bushimishije, dukwiye kwiga kuvugana n’Iman. Gusenga ni ukuganira n’Imana. Mu bugingo bwiwe, Yesu Kristo yashize uruhara runini cane ",
+                "Ugusenga kugizwe n’ibice bikurikira: Guhimbaza no Gutazira; Gushima; Kwatura; Gusaba (gutura imitwaro) .",
+                "Ukoresheje amajambo yawe: Ni irihe tandukaniro woshira kuri aya majambo 2 ? canke, mu yandi majambo, tubwire ico rimwe rimwe ryose rivuga. Uguhimbaza Ugutazira (Inyishu yawe bwite)"
               ],
               "reflectionQuestions": [
-                "Uzokoresha akatabo gute ? Ukagasoma n'ijwi ryumvikana, nk'uko kanditse.",
-                "Woba warakiriye Kristo ubwawe ? Ntushobora gutanga ico udafise.",
-                "Ni nde uzoshikiriza iyi ndwi ? Umuntu umwe, mu isengesho."
-              ]
-            },
-            "en": {
-              "centralIdea": "Equip you for personal evangelism by becoming familiar with the Four Spiritual Laws booklet.",
-              "objectives": [
-                "State some advantages of the Four Laws booklet.",
-                "Present the booklet, giving the person a chance to accept Christ.",
-                "State the objectives of the basic training."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "John 3:16",
-                  "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him should have eternal life."
-                },
-                {
-                  "reference": "Romans 1:16",
-                  "text": "I am not ashamed of the gospel of Christ, for it is the power of God unto salvation for everyone who believes."
-                }
-              ],
-              "summaryPoints": [
-                "Know — the progression of the Four Laws.",
-                "Present — clearly, offering the chance to accept Christ.",
-                "Remember — success is witnessing and leaving the results to God."
-              ],
-              "reflectionQuestions": [
-                "Do you know the progression of the Four Laws? Love, sin, solution, response.",
-                "Who could you present it to? One person this week.",
-                "Are you filled with the Spirit? It is the key to fruitful witnessing."
-              ]
-            }
-          }
-        },
-        {
-          "id": "track_1_lesson_08",
-          "code": "1S02",
-          "type": "supplementary",
-          "order": 8,
-          "title": {
-            "fr": "Présenter les Quatre Lois Spirituelles II",
-            "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu II",
-            "en": "Presenting the Four Spiritual Laws II"
-          },
-          "content": {
-            "fr": {
-              "centralIdea": "Comprendre le contenu des Quatre Lois, avec un accent sur l'assurance initiale du salut du nouveau croyant.",
-              "objectives": [
-                "Résumer l'enseignement et la progression de la brochure.",
-                "Communiquer comment un nouveau croyant a l'assurance de son salut."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "1 Jean 5.13",
-                  "text": "Cela, je vous l'ai écrit afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu."
-                },
-                {
-                  "reference": "Hébreux 13.5",
-                  "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."
-                }
-              ],
-              "summaryPoints": [
-                "Résumer — la progression claire des Quatre Lois.",
-                "Assurer — par la promesse, la fidélité et la Parole.",
-                "Fonder — la foi sur les faits, non sur les sentiments."
-              ],
-              "reflectionQuestions": [
-                "« Où est Christ maintenant ? » En moi, il l'a promis. (Apocalypse 3.20)",
-                "« Vous quittera-t-il ? » Jamais. (Hébreux 13.5)",
-                "« Avez-vous la vie éternelle ? » Oui, car j'ai le Fils. (1 Jean 5.12-13)"
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kumenyesha ingene wofasha umuntu ahejeje kwakira Kristo kwizigira agakiza kiwe, no gushinga imizi mu Ijambo ry'Imana.",
-              "objectives": [
-                "Kumenya ingene wemeza umuntu ku gakiza kiwe.",
-                "Gukoresha Ijambo ry'Imana nk'ishimikiro ry'ukwizigira.",
-                "Kwereka umuntu mushasha intambwe za mbere zo gukura."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "1 Yohana 5.11-13",
-                  "text": "Uwufise Umwana afise ubugingo… Ivyo nabandikiye kugira mumenye ko mufise ubugingo budashira."
-                },
-                {
-                  "reference": "Abaheburayo 13.5",
-                  "text": "Sinzokureka namba, kandi sinzogusiga namba."
-                }
-              ],
-              "summaryPoints": [
-                "Kwemeza — ku Ijambo ry'Imana, si ku bigumbagumba.",
-                "Kwereka — ivyaba iyo umuntu yakiriye Kristo.",
-                "Kurongora — mu ntambwe za mbere zo gukura."
-              ],
-              "reflectionQuestions": [
-                "Ukwizigira kwawe gushingiye he ? Ku bigumbagumba, canke ku Ijambo ?",
-                "Uwo wafashije wamwereka iki ? Amasezerano, si ivyiyumviro.",
-                "Ni iyihe ntambwe umufasha gufata ? Gusoma, gusenga, gushengera, kubwira abandi."
-              ]
-            },
-            "en": {
-              "centralIdea": "Understand the content of the Four Laws, with a focus on giving a new believer initial assurance of salvation.",
-              "objectives": [
-                "Summarize the teaching and progression of the booklet.",
-                "Communicate how a new believer can have assurance of salvation."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "1 John 5:13",
-                  "text": "I have written these things to you who believe in the name of the Son of God, so that you may know that you have eternal life."
-                },
-                {
-                  "reference": "Hebrews 13:5",
-                  "text": "I will never leave you, nor forsake you."
-                }
-              ],
-              "summaryPoints": [
-                "Summarize — the clear progression of the Four Laws.",
-                "Reassure — through God's promise, faithfulness, and Word.",
-                "Ground — faith on the facts, not on feelings."
-              ],
-              "reflectionQuestions": [
-                "'Where is Christ now?' In me, he promised it. (Revelation 3:20)",
-                "'Will he leave you?' Never. (Hebrews 13:5)",
-                "'Do you have eternal life?' Yes, because I have the Son. (1 John 5:12-13)"
-              ]
-            }
-          }
-        },
-        {
-          "id": "track_1_lesson_09",
-          "code": "1S03",
-          "type": "supplementary",
-          "order": 9,
-          "title": {
-            "fr": "Présenter les Quatre Lois Spirituelles III",
-            "rn": "Gushikiriza Ingingo Zine z'ivy'Impwemu III",
-            "en": "Presenting the Four Spiritual Laws III"
-          },
-          "content": {
-            "fr": {
-              "centralIdea": "Vous équiper à utiliser efficacement la brochure, avec un accent sur les deux images de la page 9.",
-              "objectives": [
-                "Définir le succès dans le témoignage.",
-                "Résumer comment présenter les Quatre Lois.",
-                "Citer des principes d'une présentation efficace.",
-                "Répondre aux différentes réponses des personnes."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Philémon 6",
-                  "text": "Que ta foi, partagée avec d'autres, porte du fruit, en faisant reconnaître tout le bien qui se fait parmi nous à cause de Christ."
-                },
-                {
-                  "reference": "1 Pierre 3.15",
-                  "text": "Soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."
-                }
-              ],
-              "summaryPoints": [
-                "Définir — le succès : témoigner et laisser Dieu agir.",
-                "Illustrer — les deux vies de la page 9.",
-                "Répondre — avec sagesse à chaque réaction."
-              ],
-              "reflectionQuestions": [
-                "Savez-vous expliquer la page 9 ? Les deux vies, clairement.",
-                "Savez-vous répondre aux 3 réactions ? Droite, milieu, gauche.",
-                "Êtes-vous prêt à guider la prière ? Avec douceur et confiance."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kubandanya kubaha ubuhinga bwo gukoresha neza akatabo k'Ingingo Zine, na canecane ku vyo gusigura ibishushanyo.",
-              "objectives": [
-                "Gusobanura intahe ishitse kandi iroranye ico ari co.",
-                "Kuvuga uburyo butandukanye bwo gushikiriza Ingingo Zine.",
-                "Kumenya ingene wifata ku bibazo bishikira."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Abaroma 10.17",
-                  "text": "Ukwizera kuva ku kumva, no kumva kuva ku Ijambo ry'Imana."
-                },
-                {
-                  "reference": "1 Abakorinto 3.6",
-                  "text": "Jewe nateye, Apolo yuhira, ariko Imana ni yo yamejeje."
-                }
-              ],
-              "summaryPoints": [
-                "Gutangura — n'ibibazo vy'urwinjizo.",
-                "Gusoma — nk'uko kanditse, ata kugobera.",
-                "Kurongora — ku isengesho no ku bishushanyo."
-              ],
-              "reflectionQuestions": [
-                "Uzokwifata gute ku kibazo giteye kubiri ? Ukirangiza, hanyuma ugaruke ku kibazo.",
-                "Ni nde yemeza umutima ? Mpwemu Yera, si twebwe.",
-                "Intumbero yawe nyamukuru ni iyihe ? Kubwira umuntu uko yakira Kristo ubwiwe."
-              ]
-            },
-            "en": {
-              "centralIdea": "Equip you to use the booklet effectively, with a focus on the two diagrams on page 9.",
-              "objectives": [
-                "Define success in witnessing.",
-                "Summarize how to present the Four Laws.",
-                "State principles of an effective presentation.",
-                "Respond to different reactions from people."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Philemon 6",
-                  "text": "That your faith, shared with others, would bear fruit, as everyone recognizes the good that is done among us because of Christ."
-                },
-                {
-                  "reference": "1 Peter 3:15",
-                  "text": "Always be ready to give an answer, with gentleness and respect, to everyone who asks you the reason for the hope that is in you."
-                }
-              ],
-              "summaryPoints": [
-                "Define — success as witnessing and letting God act.",
-                "Illustrate — the two lives on page 9.",
-                "Respond — wisely to each reaction."
-              ],
-              "reflectionQuestions": [
-                "Can you explain page 9 clearly? The two lives, side by side.",
-                "Do you know how to respond to the three reactions? Right, middle, left.",
-                "Are you ready to guide someone in prayer? With gentleness and confidence."
-              ]
-            }
-          }
-        },
-        {
-          "id": "track_1_lesson_10",
-          "code": "1S04",
-          "type": "supplementary",
-          "order": 10,
-          "title": {
-            "fr": "Présenter le ministère de la vie remplie du Saint-Esprit",
-            "rn": "Ubugingo bwuzuye Mpwemu Yera",
-            "en": "Presenting the ministry of the Spirit-filled life"
-          },
-          "content": {
-            "fr": {
-              "centralIdea": "Vous équiper à présenter efficacement la vie remplie de l'Esprit aux chrétiens, à l'aide de la brochure.",
-              "objectives": [
-                "Rappeler les quatre points de la brochure sur la vie remplie de l'Esprit.",
-                "Faire la transition depuis la page 9 des Quatre Lois.",
-                "Utiliser la brochure pour expliquer la vie remplie de l'Esprit.",
-                "Utiliser les questions clés pour aider à l'application."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Colossiens 1.28",
-                  "text": "C'est lui que nous annonçons, en avertissant tout homme et en instruisant tout homme, afin de rendre tout homme parfait en Christ."
-                },
-                {
-                  "reference": "Éphésiens 5.18",
-                  "text": "Ne vous enivrez pas de vin… mais soyez remplis de l'Esprit."
-                }
-              ],
-              "summaryPoints": [
-                "Rappeler — les quatre points de la brochure.",
-                "Faire la transition — depuis la page 9 des Quatre Lois.",
-                "Appliquer — par des questions clés, à la vie du croyant."
-              ],
-              "reflectionQuestions": [
-                "Connaissez-vous les 4 points ? Vie abondante, problème, solution, par la foi.",
-                "Savez-vous faire la transition ? Depuis la page 9 des Quatre Lois.",
-                "Avez-vous vos questions clés ? Pour aider à l'application."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Gutahura ingene twobaho buri musi twuzuye kandi turongorwa na Mpwemu Yera, mu bushobozi bwiwe.",
-              "objectives": [
-                "Gutahura ico ubugingo bwuzuye Mpwemu ari co.",
-                "Gutandukanya ubwoko butatu bw'abantu.",
-                "Gushira mu ngiro guhema mu buryo bw'impwemu."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Abanyefeso 5.18",
-                  "text": "Ntimuborerwe inzoga… ariko muzuzwe Mpwemu."
-                },
-                {
-                  "reference": "Abagalatiya 5.16",
-                  "text": "Nimugendere muri Mpwemu, ntimuzoshitsa ivyo umubiri wipfuza."
-                }
-              ],
-              "summaryPoints": [
-                "Gutahura — ubwoko butatu bw'abantu.",
-                "Kwuzuzwa — kureka Kristo ku ntebe.",
-                "Guhema — gusohora, kwinjiza, buri musi."
-              ],
-              "reflectionQuestions": [
-                "Uri umuntu w'ubuhe muri ubu ? Asanzwe, w'impwemu, aganzwa n'akameremere ?",
-                "Ni nde ku ntebe yawe ubu ? Wewe, canke Kristo ?",
-                "Woshaka guhema mu buryo bw'impwemu ? Sohora icaha, winjize Mpwemu."
-              ]
-            },
-            "en": {
-              "centralIdea": "Equip you to effectively present the Spirit-filled life to Christians, using the booklet.",
-              "objectives": [
-                "Recall the four points of the booklet on the Spirit-filled life.",
-                "Make the transition from page 9 of the Four Laws.",
-                "Use the booklet to explain the Spirit-filled life.",
-                "Use key questions to help with application."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Colossians 1:28",
-                  "text": "We proclaim him, warning everyone and teaching everyone, so that we may present everyone mature in Christ."
-                },
-                {
-                  "reference": "Ephesians 5:18",
-                  "text": "Do not be drunk with wine, in which is excess, but be filled with the Spirit."
-                }
-              ],
-              "summaryPoints": [
-                "Review — the four points of the booklet.",
-                "Transition — from page 9 of the Four Laws.",
-                "Apply — using key questions, to the believer's life."
-              ],
-              "reflectionQuestions": [
-                "Do you know the four points? Abundant life, the problem, the solution, by faith.",
-                "Do you know how to make the transition? From page 9 of the Four Laws.",
-                "Do you have your key questions ready? To help with application."
-              ]
-            }
-          }
-        },
-        {
-          "id": "track_1_lesson_11",
-          "code": "1S05",
-          "type": "supplementary",
-          "order": 11,
-          "title": {
-            "fr": "Planifier un ministère personnel",
-            "rn": "Gutegura umurimo bwite wo mu buryo bw'impwemu",
-            "en": "Planning a personal ministry"
-          },
-          "content": {
-            "fr": {
-              "centralIdea": "Communiquer la priorité et le plan de Dieu pour votre vie, et établir une stratégie personnelle.",
-              "objectives": [
-                "Répéter de mémoire les énoncés des Quatre Lois.",
-                "Connaître la priorité et le plan de Dieu.",
-                "Distinguer l'addition et la multiplication spirituelle.",
-                "Compléter un tableau de stratégie personnelle."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "2 Timothée 2.2",
-                  "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
-                },
-                {
-                  "reference": "Jean 15.8",
-                  "text": "Si vous portez beaucoup de fruit, c'est ainsi que mon Père sera glorifié, et que vous serez mes disciples."
-                }
-              ],
-              "summaryPoints": [
-                "Priorité — glorifier Dieu.",
-                "Plan — faire des disciples qui se multiplient.",
-                "Stratégie — des étapes concrètes, dès maintenant."
-              ],
-              "reflectionQuestions": [
-                "Où exercerez-vous votre ministère ? Église, quartier, campus, travail ?",
-                "Qui formerez-vous ? Une ou deux personnes à multiplier.",
-                "Quelle est votre première étape ? Datée, mesurable, portée dans la prière."
-              ]
-            },
-            "rn": {
-              "centralIdea": "Kumenya ingene wotegura umurimo bwite wo mu buryo bw'impwemu, ukagira intumbero n'imigambi bifadika.",
-              "objectives": [
-                "Gutahura akamaro k'umurimo bwite ufise intumbero.",
-                "Kwiyumvira intumbero n'imigambi yawe bwite.",
-                "Gutegura intambwe zoroshe zishoboka."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "Abanyefeso 5.15-16",
-                  "text": "Nimwitwararike neza ukuntu mugenda… mudakoresha nabi umwanya, kuko iyi misi ari mibi."
-                },
-                {
-                  "reference": "Zaburi 90.12",
-                  "text": "Tumenyeshe kuharura imisi yacu, kugira ngo turonke umutima w'ubwenge."
-                }
-              ],
-              "summaryPoints": [
-                "Kwiyumvira — intumbero Imana iguhamagariye.",
-                "Gutegura — imigambi ishoboka, ifise igihe.",
-                "Gukurikirana — gusuzuma, mu bushobozi bwa Mpwemu."
-              ],
-              "reflectionQuestions": [
-                "Intumbero yawe ni iyihe ? Imana igomba ko uba nde ?",
-                "Ni uwuhe mugambi umwe uzotangura ? Ushoboka kandi ufise igihe.",
-                "Uzowukurikirana gute ? Gusuzuma buri ndwi, mu isengesho."
-              ]
-            },
-            "en": {
-              "centralIdea": "Communicate God's priority and plan for your life, and establish a personal strategy.",
-              "objectives": [
-                "Recite from memory the statements of the Four Laws.",
-                "Know God's priority and plan.",
-                "Distinguish spiritual addition from spiritual multiplication.",
-                "Complete a personal strategy chart."
-              ],
-              "keyScriptures": [
-                {
-                  "reference": "2 Timothy 2:2",
-                  "text": "The things you have heard from me, entrust to faithful people who will be able to teach others also."
-                },
-                {
-                  "reference": "John 15:8",
-                  "text": "By this my Father is glorified: that you bear much fruit, and so show yourselves to be my disciples."
-                }
-              ],
-              "summaryPoints": [
-                "Priority — glorify God.",
-                "Plan — make disciples who multiply.",
-                "Strategy — concrete steps, starting now."
-              ],
-              "reflectionQuestions": [
-                "Where will you carry out your ministry? Church, neighborhood, campus, work?",
-                "Who will you disciple? One or two people to multiply.",
-                "What is your first step? Dated, measurable, carried in prayer."
+                "Ukoresheje amajambo yawe: Ni irihe tandukaniro woshira kuri aya majambo 2 ?",
+                "4. Soma 1 Ngoma 29 : 11-12 . Ivyo dusomye bivuga iki ku Mana?",
+                "GUSHIMIRA IMANA KU BINTU VYOSE Soma Zaburi 106 : 1 . D ukurikije uyu murongo, dutegerezwa gukora iki?",
+                "UKWATURA KU MANA Dukurikije Zaburi 66 : 18 , iyo dusenze Imana hari icaha tutatuye, haba iki?"
               ]
             }
           }
@@ -1095,25 +717,25 @@
           {
             "id": "track_1_q1",
             "prompt": {
-              "fr": "Selon ce niveau, la « respiration spirituelle » consiste en quoi ?",
-              "rn": "Nk'uko iki cigwa kibivuga, « guhema mu buryo bw'impwemu » ni ikiki ?",
-              "en": "According to this level, what does 'spiritual breathing' mean?"
+              "fr": "Selon Affermissement 1, qu’est-ce qu’un vrai chrétien ?",
+              "en": "According to Affermissement 1, what makes someone a true Christian?",
+              "rn": "Nk'uko Affermissement 1 ibivuga, umukristo nyakuri ni nde?"
             },
             "choices": [
               {
-                "fr": "Jeûner et prier chaque jour",
-                "rn": "Gusiba kurya no gusenga imisi yose",
-                "en": "Fasting and praying every day"
+                "fr": "Quelqu’un qui suit un code moral et des cérémonies",
+                "en": "Someone who follows a moral code and ceremonies",
+                "rn": "Uwukurikiza amategeko n'imigenzo"
               },
               {
-                "fr": "Confesser le péché (expirer), puis recevoir de nouveau la plénitude de l'Esprit (inspirer)",
-                "rn": "Gusohora icaha mu kwatura, hanyuma kwinjiza ukuzura kwa Mpwemu",
-                "en": "Confessing sin (exhaling), then receiving the Spirit's fullness again (inhaling)"
+                "fr": "Quelqu’un qui a reçu Jésus-Christ et a une relation personnelle avec Lui",
+                "en": "Someone who has received Jesus Christ and has a personal relationship with Him",
+                "rn": "Uwakiriye Yesu Kristo kandi afise umubano bwite na We"
               },
               {
-                "fr": "Lire un chapitre de la Bible chaque jour",
-                "rn": "Gusoma igice kimwe ca Bibiliya ku musi",
-                "en": "Reading one chapter of the Bible every day"
+                "fr": "Quelqu’un qui va à l’église chaque dimanche",
+                "en": "Someone who goes to church every Sunday",
+                "rn": "Uja mu isengero ku cyumweru cose"
               }
             ],
             "correctIndex": 1
@@ -1121,25 +743,25 @@
           {
             "id": "track_1_q2",
             "prompt": {
-              "fr": "D'après ce niveau, qu'est-ce que le « succès » dans le témoignage ?",
-              "rn": "Nk'uko iki cigwa kibivuga, intsinzi mu gushinga intahe ni iki ?",
-              "en": "According to this level, what does 'success' in witnessing mean?"
+              "fr": "Affermissement 2 distingue relation et communion. Que se passe-t-il quand un chrétien pèche ?",
+              "en": "Affermissement 2 distinguishes relationship and fellowship. What happens when a Christian sins?",
+              "rn": "Affermissement 2 itandukanya umubano n'ugusangira. Igihe umukristo acumura, ni iki kibaho?"
             },
             "choices": [
               {
-                "fr": "Faire en sorte que la personne dise oui à la prière",
-                "rn": "Gutuma umuntu avuga « yego » ku isengesho ryo kwizera",
-                "en": "Getting the person to say yes to the prayer"
+                "fr": "Sa relation filiale avec Dieu est annulée",
+                "en": "His sonship relationship with God is cancelled",
+                "rn": "Umubano wiwe n'Imana nk'umuhungu urahagarara"
               },
               {
-                "fr": "Prendre l'initiative de faire connaître Jésus-Christ par la puissance de l'Esprit, et laisser les résultats à Dieu",
-                "rn": "Gufata iya mbere yo gushinga intahe biciye kuri Mpwemu, inyishu tukazireka ku Mana",
-                "en": "Taking the initiative to make Jesus Christ known by the Spirit's power, and leaving the results to God"
+                "fr": "Sa communion (joie de la relation) est brisée jusqu’à la confession",
+                "en": "His fellowship (enjoyment of the relationship) is broken until confession",
+                "rn": "Ugusangira (ibyishimo by'umubano) biracitse kugeza atuye"
               },
               {
-                "fr": "Convaincre la personne par de bons arguments logiques",
-                "rn": "Kunesha impaka mu magambo menshi",
-                "en": "Winning the person over with clever arguments"
+                "fr": "Il doit se faire rebaptiser",
+                "en": "He must be baptized again",
+                "rn": "Agomba gubatizwa kabiri"
               }
             ],
             "correctIndex": 1
@@ -1147,77 +769,77 @@
           {
             "id": "track_1_q3",
             "prompt": {
-              "fr": "À qui l'Ordre Suprême (Matthieu 28.18-20) a-t-il été donné ?",
-              "rn": "Itegeko Rikuru ryahawe nde ?",
-              "en": "Who was the Great Commission (Matthew 28:18-20) given to?"
+              "fr": "Selon Affermissement 3, pourquoi Jésus a-t-il promis le Saint-Esprit ?",
+              "en": "According to Affermissement 3, why did Jesus promise the Holy Spirit?",
+              "rn": "Nk'uko Affermissement 3 ibivuga, kuki Yesu yasezeranye Mpwemu Yera?"
             },
             "choices": [
               {
-                "fr": "Seulement aux onze apôtres",
-                "rn": "Intumwa cumi na zimwe gusa",
-                "en": "Only the eleven apostles"
+                "fr": "Pour que les disciples restent seuls à imiter Christ par leurs efforts",
+                "en": "So the disciples would imitate Christ by their own effort alone",
+                "rn": "Kugira ngo abigishwa bakomeze gukora binyuze mu mbaraga zabo gusa"
               },
               {
-                "fr": "Seulement aux pasteurs et missionnaires",
-                "rn": "Abapasitori n'abamisiyonari gusa",
-                "en": "Only pastors and missionaries"
+                "fr": "Pour que la vie même de Christ soit en eux et les dirige chaque jour",
+                "en": "So that Christ's own life would be in them and lead them daily",
+                "rn": "Kugira ngo ubugingo bwa Kristo buboneke muri bo kandi bubayobore buri musi"
               },
               {
-                "fr": "À chaque croyant, dans chaque génération",
-                "rn": "Uwizera wese, mu runganwe rwose",
-                "en": "Every believer, in every generation"
-              }
-            ],
-            "correctIndex": 2
-          },
-          {
-            "id": "track_1_q4",
-            "prompt": {
-              "fr": "Sur quoi doit se fonder l'assurance de son salut, d'après ce niveau ?",
-              "rn": "Nk'uko iki cigwa kibivuga, ukwizigira agakiza gushimikiye kuki ?",
-              "en": "According to this level, what should assurance of salvation be based on?"
-            },
-            "choices": [
-              {
-                "fr": "Sur nos sentiments du moment",
-                "rn": "Ku bigumbagumba vyacu",
-                "en": "Our feelings in the moment"
-              },
-              {
-                "fr": "Sur la promesse et la fidélité de Dieu dans sa Parole",
-                "rn": "Ku isezerano n'ukwizigirwa kw'Imana, gushimikiye ku Ijambo ryayo",
-                "en": "God's promise and faithfulness in his Word"
-              },
-              {
-                "fr": "Sur la quantité de nos bonnes œuvres",
-                "rn": "Ku bikorwa vyiza dukora",
-                "en": "How many good works we do"
+                "fr": "Uniquement pour des signes miraculeux publics",
+                "en": "Only for public miraculous signs",
+                "rn": "Gusa ku bimenyetso bidasanzwe mu ruhame"
               }
             ],
             "correctIndex": 1
           },
           {
-            "id": "track_1_q5",
+            "id": "track_1_q4",
             "prompt": {
-              "fr": "Que signifie la « multiplication spirituelle », évoquée dans la leçon 1M05 ?",
-              "rn": "Kwigwiza mu buryo bw'impwemu (nk'uko 1M05 ibivuga) bisobanura iki ?",
-              "en": "What does 'spiritual multiplication' (from lesson 1M05) mean?"
+              "fr": "D’après Affermissement 4, quels sont les trois principes de croissance spirituelle ?",
+              "en": "According to Affermissement 4, what are the three principles of spiritual growth?",
+              "rn": "Nk'uko Affermissement 4 ibivuga, ni izihe ngingo eshatu zo gukura mu buryo bw'impwemu?"
             },
             "choices": [
               {
-                "fr": "Gagner une personne à la fois",
-                "rn": "Kwongera umuntu umwe ku wundi",
-                "en": "Winning one person at a time"
+                "fr": "La prière, l’étude de la Bible, l’obéissance",
+                "en": "Prayer, Bible study, and obedience",
+                "rn": "Gusenga, kwiga Bibiliya, n'ubwitonzi"
               },
               {
-                "fr": "Former des disciples qui forment à leur tour d'autres disciples",
-                "rn": "Guhindura abigishwa, abandi bagira abandi abigishwa",
-                "en": "Training disciples who in turn train other disciples"
+                "fr": "Le jeûne, le chant, les voyages missionnaires",
+                "en": "Fasting, singing, and mission trips",
+                "rn": "Gusiba kurya, kuririmba, n'ugutembera mu mirimo"
               },
               {
-                "fr": "Étudier des manuels universitaires",
-                "rn": "Kwiga mu bitabu vy'ubushakashatsi",
-                "en": "Studying academic textbooks"
+                "fr": "Les dons, les titres, l’influence sociale",
+                "en": "Gifts, titles, and social influence",
+                "rn": "Impano, amazina, n'ububasha mu muryango"
+              }
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "track_1_q5",
+            "prompt": {
+              "fr": "Selon Affermissements 5 et 6, que sont la Bible et la prière pour le croyant ?",
+              "en": "According to Affermissements 5 and 6, what are the Bible and prayer for the believer?",
+              "rn": "Nk'uko Affermissements 5 na 6 bivuga, Bibiliya n'ugusenga ni iki ku wizera?"
+            },
+            "choices": [
+              {
+                "fr": "Des options utiles seulement pour les pasteurs",
+                "en": "Optional tools only for pastors",
+                "rn": "Ibikoresho bihagije gusa ku bapasitori"
+              },
+              {
+                "fr": "Écouter Dieu (Parole) et parler avec Dieu (prière) pour une vie abondante",
+                "en": "Listening to God (Word) and speaking with God (prayer) for an abundant life",
+                "rn": "Kumva Imana (Ijambo) no kuvugana nayo (gusenga) kugira ubugingo bushimisha"
+              },
+              {
+                "fr": "Des devoirs à faire une fois par an",
+                "en": "Duties to complete once a year",
+                "rn": "Imirimo yo gukora rimwe mu mwaka"
               }
             ],
             "correctIndex": 1
@@ -2400,25 +2022,25 @@
           {
             "id": "track_2_q1",
             "prompt": {
-              "fr": "D'après Jean 15.5, comment porte-t-on beaucoup de fruit ?",
-              "rn": "Nk'uko Yohana 15.5 abivuga, ni gute umuntu yama ivyamwa vyinshi ?",
-              "en": "According to John 15:5, how does one bear much fruit?"
+              "fr": "D’après le niveau 2, quel est le rôle central du Saint-Esprit dans la vie du disciple ?",
+              "en": "According to level 2, what is the Holy Spirit’s central role in a disciple’s life?",
+              "rn": "Nk'uko urwego rwa 2 rubivuga, uruhare nyamukuru rwa Mpwemu Yera mu bugingo bw'umwigishwa ni uruhe?"
             },
             "choices": [
               {
-                "fr": "En travaillant dur par ses propres forces",
-                "rn": "Mu nkomezi zacu twebwe",
-                "en": "By working hard in one's own strength"
+                "fr": "Remplacer complètement la Parole de Dieu",
+                "en": "Replace the Word of God entirely",
+                "rn": "Gusimbura Ijambo ry'Imana rwose"
               },
               {
-                "fr": "En demeurant en Christ, comme le sarment au cep",
-                "rn": "Mu kuguma muri Kristo, nk'ishami ku muzabibu",
-                "en": "By abiding in Christ, as a branch in the vine"
+                "fr": "Remplir, diriger et habiliter le croyant pour obéir et témoigner",
+                "en": "Fill, lead, and empower the believer to obey and witness",
+                "rn": "Kuzuza, kuyobora no guha imbaraga uwizera kugira ngo yumvire no gushinga intahe"
               },
               {
-                "fr": "En suivant des règles religieuses strictes",
-                "rn": "Mu kwikorera gusa",
-                "en": "By strictly following religious rules"
+                "fr": "Servir uniquement lors des cultes spectaculaires",
+                "en": "Serve only during spectacular services",
+                "rn": "Gukora gusa mu masengesho ashimishije"
               }
             ],
             "correctIndex": 1
@@ -2426,25 +2048,25 @@
           {
             "id": "track_2_q2",
             "prompt": {
-              "fr": "Que signifie savoir que Dieu est « immuable », selon la leçon sur les attributs de Dieu ?",
-              "rn": "Bivuga iki ko Imana ari « Adahinduka » nk'uko incamake y'ibiranga Imana ibivuga ?",
-              "en": "What does it mean that God is unchanging, according to the lesson on the attributes of God?"
+              "fr": "Selon ce niveau, comment un disciple marche-t-il « selon l’Esprit » au quotidien ?",
+              "en": "According to this level, how does a disciple walk “by the Spirit” daily?",
+              "rn": "Nk'uko uru rwego rubivuga, umwigishwa anyura ate « nk'uko Mpwemu ashaka » mu misi yose?"
             },
             "choices": [
               {
-                "fr": "Qu'il change selon les circonstances",
-                "rn": "Ko ihindagurika nk'ibigumbagumba vyacu",
-                "en": "That he changes according to circumstances"
+                "fr": "En vivant selon la chair et les désirs du moment",
+                "en": "By living according to the flesh and momentary desires",
+                "rn": "Mu kuba nk'uko umubiri n'ibiryo vy'akalimba bishaka"
               },
               {
-                "fr": "Qu'il est le même hier, aujourd'hui et toujours",
-                "rn": "Ko iri imwe ejo, uno musi, ibihe vyose",
-                "en": "That he is the same yesterday, today, and forever"
+                "fr": "En dépendant de l’Esprit par la foi, la confession et l’obéissance",
+                "en": "By depending on the Spirit through faith, confession, and obedience",
+                "rn": "Mu kwizigira Mpwemu biciye ku kwizera, kwatura n'ubwitonzi"
               },
               {
-                "fr": "Que sa fidélité dépend de nos sentiments",
-                "rn": "Ko idufasha ku bushake bwacu bwonyene",
-                "en": "That his faithfulness depends on our feelings"
+                "fr": "En accumulant des titres ministériels",
+                "en": "By collecting ministry titles",
+                "rn": "Mu gutoranya amazina y'ubuyobozi"
               }
             ],
             "correctIndex": 1
@@ -2452,25 +2074,25 @@
           {
             "id": "track_2_q3",
             "prompt": {
-              "fr": "Selon 2 Corinthiens 5.17, que devient celui qui est en Christ ?",
-              "rn": "Nk'uko 2 Abakorinto 5.17 ibivuga, umuntu ari muri Kristo aba ari iki ?",
-              "en": "According to 2 Corinthians 5:17, what does someone in Christ become?"
+              "fr": "Que enseigne ce niveau sur la victoire sur le péché ?",
+              "en": "What does this level teach about victory over sin?",
+              "rn": "Uru rwego rwigisha iki ku ntsinzi ku caha?"
             },
             "choices": [
               {
-                "fr": "Il reste identique à ce qu'il était avant",
-                "rn": "Uwuguma ari uko yahoze",
-                "en": "Exactly the same as before"
+                "fr": "Elle vient seulement de la volonté humaine",
+                "en": "It comes from human willpower alone",
+                "rn": "Iva ku bushake bw'umuntu gusa"
               },
               {
-                "fr": "Il devient une nouvelle créature",
-                "rn": "Irema rishasha",
-                "en": "A new creature"
+                "fr": "Elle s’appuie sur l’œuvre de Christ et la puissance de l’Esprit",
+                "en": "It rests on Christ’s work and the Spirit’s power",
+                "rn": "Ishimikiye ku bikorwa vya Kristo n'imbaraga za Mpwemu"
               },
               {
-                "fr": "Il doit encore mériter le pardon",
-                "rn": "Uwukeneye kwikorera ikigongwe",
-                "en": "Someone who must still earn forgiveness"
+                "fr": "Elle est impossible pour un chrétien ordinaire",
+                "en": "It is impossible for an ordinary Christian",
+                "rn": "Ntibishoboka ku mukristo usanzwe"
               }
             ],
             "correctIndex": 1
@@ -2478,51 +2100,51 @@
           {
             "id": "track_2_q4",
             "prompt": {
-              "fr": "Quelles sont les quatre dimensions du modèle A.C.A.S. présenté dans la leçon sur la prière ?",
-              "rn": "Ibice bine vy'isengesho biboneka mu cigwa co kwiga gusenga ni ibihe ?",
-              "en": "What are the four dimensions of the A.C.T.S. pattern taught in the prayer lesson?"
+              "fr": "Pourquoi le disciple doit-il être rempli de l’Esprit selon les leçons de ce niveau ?",
+              "en": "Why must a disciple be filled with the Spirit according to this level’s lessons?",
+              "rn": "Kuki umwigishwa agomba kuzuza Mpwemu nk'uko amasomo y'uru rwego abivuga?"
             },
             "choices": [
               {
-                "fr": "Adoration, Confession, Actions de grâces, Supplication",
-                "rn": "Gushemeza, Kwatura, Gushimira, Gusaba",
-                "en": "Adoration, Confession, Thanksgiving, Supplication"
+                "fr": "Pour impressionner les autres croyants",
+                "en": "To impress other believers",
+                "rn": "Kugira ngo bashimishwe n'abandi bizera"
               },
               {
-                "fr": "Assurance, Communion, Amour, Sagesse",
-                "rn": "Kwigunga, Kwiheba, Kwihebura, Kwitwara",
-                "en": "Assurance, Communion, Love, Wisdom"
+                "fr": "Pour porter du fruit et accomplir le ministère de Christ",
+                "en": "To bear fruit and carry out Christ’s ministry",
+                "rn": "Kugira ngo ave imbuto kandi akore umurimo wa Kristo"
               },
               {
-                "fr": "Attente, Calme, Ambition, Silence",
-                "rn": "Gusinzira, Kurya, Gukora, Kuruhuka",
-                "en": "Waiting, Calm, Ambition, Silence"
+                "fr": "Pour éviter de lire la Bible",
+                "en": "To avoid reading the Bible",
+                "rn": "Kugira ngo ntidusome Bibiliya"
               }
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "id": "track_2_q5",
             "prompt": {
-              "fr": "D'après 1 Corinthiens 3.6, qui seul fait croître le nouveau croyant ?",
-              "rn": "Nk'uko 1 Abakorinto 3.6 ibivuga, ni nde yama uwukuza umukristo mushasha ?",
-              "en": "According to 1 Corinthians 3:6, who alone causes a new believer to grow?"
+              "fr": "D’après ce niveau, quelle attitude caractérise une vie conduite par l’Esprit ?",
+              "en": "According to this level, what attitude marks a Spirit-led life?",
+              "rn": "Nk'uko uru rwego rubivuga, ni uwuhe mutima ugaragaza ubugingo buyoborwa na Mpwemu?"
             },
             "choices": [
               {
-                "fr": "La personne qui l'affermit, par ses propres efforts",
-                "rn": "Uwumugaburira ku bushobozi bwiwe",
-                "en": "The person doing the follow-up, through their own effort"
+                "fr": "L’orgueil spirituel",
+                "en": "Spiritual pride",
+                "rn": "Ubwinshi mu buryo bw'impwemu"
               },
               {
-                "fr": "Dieu seul",
-                "rn": "Imana ubwayo",
-                "en": "God alone"
+                "fr": "L’humilité, l’amour et la dépendance de Dieu",
+                "en": "Humility, love, and dependence on God",
+                "rn": "Ukwicisha bugufi, urukundo n'ukwizigira Imana"
               },
               {
-                "fr": "Le temps qui passe",
-                "rn": "Igihe kirenga",
-                "en": "The mere passing of time"
+                "fr": "L’indifférence envers les autres",
+                "en": "Indifference toward others",
+                "rn": "Ukwirengagiza abandi"
               }
             ],
             "correctIndex": 1
@@ -3736,25 +3358,25 @@
           {
             "id": "track_3_q1",
             "prompt": {
-              "fr": "Selon la leçon sur la grâce de Dieu, comment recevons-nous la faveur de Dieu ?",
-              "rn": "Nk'uko biboneka mu 'Ubuntu bw'Imana', twakira iteka ry'Imana gute ?",
-              "en": "According to the lesson on God's grace, how do we receive God's favor?"
+              "fr": "Selon le niveau 3, qu’est-ce que le témoignage personnel ?",
+              "en": "According to level 3, what is personal witnessing?",
+              "rn": "Nk'uko urwego rwa 3 rubivuga, gushinga intahe bwite ni iki?"
             },
             "choices": [
               {
-                "fr": "En méritant l'amour de Dieu par nos performances",
-                "rn": "Biciye ku bikorwa vyacu",
-                "en": "By earning God's love through our performance"
+                "fr": "Un débat pour gagner à tout prix",
+                "en": "A debate to win at all costs",
+                "rn": "Impaka zo gutsinda ku giciro cose"
               },
               {
-                "fr": "Par la grâce, au moyen de la foi en Christ",
-                "rn": "Ku buntu, biciye ku kwizera",
-                "en": "By grace, through faith in Christ"
+                "fr": "Faire connaître Jésus-Christ par la puissance de l’Esprit et laisser les résultats à Dieu",
+                "en": "Making Jesus Christ known by the Spirit’s power and leaving results to God",
+                "rn": "Gumenyesha Yesu Kristo biciye ku mbaraga za Mpwemu, inyishu tukazireka ku Mana"
               },
               {
-                "fr": "En observant parfaitement la loi",
-                "rn": "Biciye ku bikorane vyiza",
-                "en": "By perfectly keeping the law"
+                "fr": "Distribuer seulement des tracts sans conversation",
+                "en": "Only handing out tracts with no conversation",
+                "rn": "Gusa gutanga impapuro nta kuganira"
               }
             ],
             "correctIndex": 1
@@ -3762,77 +3384,77 @@
           {
             "id": "track_3_q2",
             "prompt": {
-              "fr": "Selon la leçon « Un appel biblique de faire des disciples », que demande l'Ordre Suprême de Matthieu 28 ?",
-              "rn": "Nk'uko 'Akamo ko guhindura abigishwa' kubivuga, Itegeko Rikuru risaba iki ?",
-              "en": "According to the lesson 'A Biblical Call to Make Disciples,' what does the Great Commission in Matthew 28 call us to do?"
+              "fr": "Que sont les Quatre Lois Spirituelles dans ce parcours ?",
+              "en": "What are the Four Spiritual Laws in this journey?",
+              "rn": "Amategeko ane y'Impwemu ni iki muri uru rugendo?"
             },
             "choices": [
               {
-                "fr": "Faire uniquement des convertis",
-                "rn": "Nimugire abemera gusa",
-                "en": "Make converts only"
+                "fr": "Un outil clair pour présenter l’Évangile",
+                "en": "A clear tool for presenting the Gospel",
+                "rn": "Igikoresho ciza co gutanga Inkuru Nziza"
               },
               {
-                "fr": "Faire des disciples : aller, baptiser, enseigner à obéir",
-                "rn": "Nimuhindure abigishwa : kugenda, kubatiza, kubigisha kwumvira",
-                "en": "Make disciples: go, baptize, and teach them to obey"
+                "fr": "Un remplacement de toute lecture biblique",
+                "en": "A replacement for all Bible reading",
+                "rn": "Igisimbura gusoma Bibiliya yose"
               },
               {
-                "fr": "Organiser de grandes campagnes d'évangélisation",
-                "rn": "Nimubake amashirahamwe manini",
-                "en": "Organize large evangelism campaigns"
+                "fr": "Une formule magique sans relation",
+                "en": "A magic formula without relationship",
+                "rn": "Ubuhanga budafise umubano"
               }
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "id": "track_3_q3",
             "prompt": {
-              "fr": "Selon la leçon sur le défi d'être un multiplicateur spirituel, quelle est la différence entre addition et multiplication ?",
-              "rn": "Nk'uko 'Uwigwiza mu buryo bw'impwemu' kubivuga, ni iki gitandukanya kwongera na kwigwiza ?",
-              "en": "According to the lesson on being a spiritual multiplier, what is the difference between addition and multiplication?"
+              "fr": "Pourquoi prier avant et pendant le témoignage ?",
+              "en": "Why pray before and during witnessing?",
+              "rn": "Kuki dusenga imbere no mu gihe co gushinga intahe?"
             },
             "choices": [
               {
-                "fr": "Il n'y a aucune différence",
-                "rn": "Nta gitandukanya kiriho",
-                "en": "There is no difference"
+                "fr": "Parce que Dieu seul prépare les cœurs",
+                "en": "Because God alone prepares hearts",
+                "rn": "Kuko Imana yonyene itegura imitima"
               },
               {
-                "fr": "L'addition gagne des personnes une à une ; la multiplication forme des formateurs",
-                "rn": "Kwongera ni ugutora abantu umwe umwe ; kwigwiza ni ugutuma umwigishwa wese ahindura abandi",
-                "en": "Addition wins people one by one; multiplication trains trainers who train others"
+                "fr": "Pour éviter de parler à quiconque",
+                "en": "To avoid speaking to anyone",
+                "rn": "Kugira ngo ntiduvugane n'umuntu"
               },
               {
-                "fr": "La multiplication est plus rapide au début",
-                "rn": "Kwigwiza birangoga ku ntango",
-                "en": "Multiplication is faster at the start"
+                "fr": "Pour impressionner la personne",
+                "en": "To impress the person",
+                "rn": "Kugira ngo umuntu ashime"
               }
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "id": "track_3_q4",
             "prompt": {
-              "fr": "D'après la leçon sur l'intendance biblique, à qui appartient tout ce que nous possédons ?",
-              "rn": "Nk'uko 'Ukubungabunga ivy'Imana' kubivuga, vyose ni ivya nde ?",
-              "en": "According to the lesson on biblical stewardship, who owns everything we have?"
+              "fr": "D’après ce niveau, que faire après qu’une personne a reçu Christ ?",
+              "en": "According to this level, what should you do after someone receives Christ?",
+              "rn": "Nk'uko uru rwego rubivuga, ni iki gukora umuntu amaze kwakira Kristo?"
             },
             "choices": [
               {
-                "fr": "À nous-mêmes, puisque nous l'avons gagné",
-                "rn": "Ni ivyacu, kuko twabikoreye",
-                "en": "We do, since we earned it"
+                "fr": "La laisser seule sans suivi",
+                "en": "Leave them alone with no follow-up",
+                "rn": "Kumureka wenyine nta gukurikirana"
               },
               {
-                "fr": "À Dieu ; nous en sommes les intendants",
-                "rn": "Vyose ni ivy'Imana ; turi ababungabunga",
-                "en": "God does; we are merely his stewards"
+                "fr": "L’aider à grandir : assurance, Parole, prière, communion, témoignage",
+                "en": "Help them grow: assurance, Word, prayer, fellowship, witness",
+                "rn": "Kumufasha gukura: ukwizigira, Ijambo, gusenga, gusangira, gushinga intahe"
               },
               {
-                "fr": "À notre famille et à nos descendants",
-                "rn": "Ni ivy'umuryango wacu n'abazoduseranira",
-                "en": "Our family and descendants do"
+                "fr": "Lui demander de l’argent immédiatement",
+                "en": "Ask them for money immediately",
+                "rn": "Kumusaba amahera ako kanya"
               }
             ],
             "correctIndex": 1
@@ -3840,25 +3462,25 @@
           {
             "id": "track_3_q5",
             "prompt": {
-              "fr": "Selon les leçons sur la direction de groupe, comment un bon leader de discipolat dirige-t-il, à la manière d'un berger ?",
-              "rn": "Nk'uko ibigwa vyerekeye kurongora imirwi kubivuga, umwungere arongora gute ?",
-              "en": "According to the lessons on leading a group, how does a good discipleship leader lead, like a shepherd?"
+              "fr": "Quel est le « succès » dans le témoignage selon ce niveau ?",
+              "en": "What is “success” in witnessing according to this level?",
+              "rn": "Intsinzi mu gushinga intahe ni iki nk'uko uru rwego rubivuga?"
             },
             "choices": [
               {
-                "fr": "Il parle beaucoup et les autres écoutent en silence",
-                "rn": "Aravuga vyinshi, abandi bakumviriza gusa",
-                "en": "By talking a lot while others listen silently"
+                "fr": "Obtenir toujours un « oui » immédiat",
+                "en": "Always getting an immediate “yes”",
+                "rn": "Kubona « yego » ako kanya buri gihe"
               },
               {
-                "fr": "Il pose de bonnes questions et fait découvrir la vérité",
-                "rn": "Abaza ibibazo, agatuma bavumbura ukuri",
-                "en": "By asking good questions and helping people discover truth"
+                "fr": "Prendre l’initiative dans la puissance de l’Esprit et confier les fruits à Dieu",
+                "en": "Taking initiative in the Spirit’s power and entrusting fruit to God",
+                "rn": "Gufata iya mbere mu mbaraga za Mpwemu no kwizigira Imana ku mbuto"
               },
               {
-                "fr": "Il évite de préparer la rencontre à l'avance",
-                "rn": "Yirinda kwitegura imbere y'umubonano",
-                "en": "By avoiding preparation before the meeting"
+                "fr": "Compter le nombre de tracts distribués seulement",
+                "en": "Only counting tracts distributed",
+                "rn": "Guharura gusa impapuro zatanzwe"
               }
             ],
             "correctIndex": 1
@@ -4499,25 +4121,25 @@
           {
             "id": "track_4_q1",
             "prompt": {
-              "fr": "Selon la leçon, où Jésus enseigne-t-il d'amasser nos trésors ?",
-              "rn": "Nk'uko iki cigwa kibivuga, Yesu yigisha ko dutegerezwa kwirundanyiriza ubutunzi hehe ?",
-              "en": "According to the lesson, where does Jesus teach us to store up our treasures?"
+              "fr": "Selon le niveau 4, qu’est-ce qu’un disciple selon Matthieu 28 ?",
+              "en": "According to level 4, what is a disciple in light of Matthew 28?",
+              "rn": "Nk'uko urwego rwa 4 rubivuga, umwigishwa ni nde hashingiye kuri Matayo 28?"
             },
             "choices": [
               {
-                "fr": "Sur la terre",
-                "rn": "Kw'isi",
-                "en": "On earth"
+                "fr": "Un spectateur occasionnel du culte",
+                "en": "An occasional church spectator",
+                "rn": "Umureretsi w'isengero rimwe na rimwe"
               },
               {
-                "fr": "Dans le ciel",
-                "rn": "Mw'ijuru",
-                "en": "In heaven"
+                "fr": "Quelqu’un qui suit Christ, obéit, et aide d’autres à en faire autant",
+                "en": "Someone who follows Christ, obeys, and helps others do the same",
+                "rn": "Uwakurikira Kristo, yumvira, kandi afasha abandi gukora kimwe"
               },
               {
-                "fr": "Cela n'a pas d'importance",
-                "rn": "Ntibifise agaciro",
-                "en": "It does not matter"
+                "fr": "Un expert en théologie académique seulement",
+                "en": "Only an academic theology expert",
+                "rn": "Impuguke y'ubwenge gusa"
               }
             ],
             "correctIndex": 1
@@ -4525,25 +4147,25 @@
           {
             "id": "track_4_q2",
             "prompt": {
-              "fr": "Selon Romains 12.2, que faut-il pour discerner la volonté de Dieu ?",
-              "rn": "Nk'uko Abaroma 12.2 ibivuga, dutegerezwa gukora iki kugira tumenye ugushaka kw'Imana ?",
-              "en": "According to Romans 12:2, what is needed to discern God's will?"
+              "fr": "Que signifie la multiplication spirituelle dans ce niveau ?",
+              "en": "What does spiritual multiplication mean in this level?",
+              "rn": "Kwigwiza mu buryo bw'impwemu bisobanura iki muri uru rwego?"
             },
             "choices": [
               {
-                "fr": "Être transformé par le renouvellement de l'intelligence",
-                "rn": "Guhindurwa bashasha mu kugira imizirikanyi misha",
-                "en": "Being transformed by the renewing of the mind"
+                "fr": "Former des disciples qui forment d’autres disciples",
+                "en": "Training disciples who train other disciples",
+                "rn": "Guhindura abigishwa, nabo bagire abandi abigishwa"
               },
               {
-                "fr": "Attendre un signe miraculeux",
-                "rn": "Kurindira ikimenyetso gitangaje",
-                "en": "Waiting for a miraculous sign"
+                "fr": "Augmenter seulement le budget d’une église",
+                "en": "Only increasing a church budget",
+                "rn": "Kongera gusa ingengo y'isengero"
               },
               {
-                "fr": "Suivre ses propres sentiments",
-                "rn": "Gukurikira ivyiyumviro vyacu bwite",
-                "en": "Following one's own feelings"
+                "fr": "Accumuler des followers sur les réseaux",
+                "en": "Accumulating social-media followers",
+                "rn": "Kongera abakurikira ku mbuga nkoranye"
               }
             ],
             "correctIndex": 0
@@ -4551,25 +4173,25 @@
           {
             "id": "track_4_q3",
             "prompt": {
-              "fr": "Quelle est la différence fondamentale entre un mouvement spirituel et un mouvement purement humain ?",
-              "rn": "Ni igiki itandukaniro rikuru hagati y'umuvyimba w'impwemu n'umuvyimba w'abantu gusa ?",
-              "en": "What is the fundamental difference between a spiritual movement and a purely human movement?"
+              "fr": "Pourquoi un disciple a-t-il besoin d’un plan de ministère personnel ?",
+              "en": "Why does a disciple need a personal ministry plan?",
+              "rn": "Kuki umwigishwa akeneye umugambi w'umurimo bwite?"
             },
             "choices": [
               {
-                "fr": "Sa taille",
-                "rn": "Ubunini bwawo",
-                "en": "Its size"
+                "fr": "Pour remplacer la prière",
+                "en": "To replace prayer",
+                "rn": "Kugira ngo hasimbure gusenga"
               },
               {
-                "fr": "Sa dépendance du Saint-Esprit et de la Parole",
-                "rn": "Ukwishimikiza Mpwemu Yera n'Ijambo ry'Umwami",
-                "en": "Its dependence on the Holy Spirit and the Word"
+                "fr": "Pour obéir concrètement à l’Ordre Suprême avec des pas mesurables",
+                "en": "To obey the Great Commission with concrete, measurable steps",
+                "rn": "Kugira ngo yumvire Itegeko Rikuru mu ntambwe zishobora gupimwa"
               },
               {
-                "fr": "Sa rapidité de croissance",
-                "rn": "Umuvuduko wo gukura",
-                "en": "How quickly it grows"
+                "fr": "Pour éviter toute relation de coaching",
+                "en": "To avoid any coaching relationship",
+                "rn": "Kugira ngo ntihagire umubano wo gufashwa"
               }
             ],
             "correctIndex": 1
@@ -4577,25 +4199,25 @@
           {
             "id": "track_4_q4",
             "prompt": {
-              "fr": "Comment la leçon définit-elle l'amour « agapé » ?",
-              "rn": "Iki cigwa gisigura gute urukundo « agapé » ?",
-              "en": "How does the lesson define 'agape' love?"
+              "fr": "Quel est un bon premier pas de multiplication selon ce niveau ?",
+              "en": "What is a good first multiplication step according to this level?",
+              "rn": "Ni iyihe ntambwe nziza y'ibanze yo kwigwiza nk'uko uru rwego rubivuga?"
             },
             "choices": [
               {
-                "fr": "Un amour qui prend et cherche son propre plaisir",
-                "rn": "Urukundo rufata kandi rushaka ineza yarwo",
-                "en": "A love that takes and seeks its own pleasure"
+                "fr": "Attendre d’être parfait avant de commencer",
+                "en": "Wait to be perfect before starting",
+                "rn": "G tegereza kuba uwuzuye imbere yo gutangura"
               },
               {
-                "fr": "Un amour qui donne sans rien attendre en retour",
-                "rn": "Urukundo rutanga ata co rurindiriye",
-                "en": "A love that gives without expecting anything in return"
+                "fr": "Investir dans une ou deux personnes avec un suivi régulier",
+                "en": "Invest in one or two people with regular follow-up",
+                "rn": "Gushora mu muntu umwe canke babiri hamwe n'ugukurikirana kenshi"
               },
               {
-                "fr": "Un amour qui donne et reçoit en retour",
-                "rn": "Urukundo rutanga kandi rugahabwa",
-                "en": "A love that gives and receives in return"
+                "fr": "Organiser uniquement de grands événements",
+                "en": "Only organize large events",
+                "rn": "Gutunganya gusa ibirori binini"
               }
             ],
             "correctIndex": 1
@@ -4603,28 +4225,28 @@
           {
             "id": "track_4_q5",
             "prompt": {
-              "fr": "Selon la leçon, quel est le premier fondement de l'édification d'un mouvement ?",
-              "rn": "Nk'uko iki cigwa kibivuga, ni igiki ishimikiro rya mbere ryo kwubaka umuvyimba ?",
-              "en": "According to the lesson, what is the first foundation for building a movement?"
+              "fr": "Sur quoi la stratégie de multiplication doit-elle reposer ?",
+              "en": "What should a multiplication strategy rest on?",
+              "rn": "Umugambi wo kwigwiza ushimikira kuki?"
             },
             "choices": [
               {
-                "fr": "Le financement",
-                "rn": "Amahera",
-                "en": "Funding"
+                "fr": "La prière, la Parole, et des relations intentionnelles",
+                "en": "Prayer, the Word, and intentional relationships",
+                "rn": "Gusenga, Ijambo, n'imibanire yateguwe"
               },
               {
-                "fr": "La prière",
-                "rn": "Isengesho",
-                "en": "Prayer"
+                "fr": "La popularité personnelle seule",
+                "en": "Personal popularity alone",
+                "rn": "Ubuziranenge bwite gusa"
               },
               {
-                "fr": "La crédibilité",
-                "rn": "Ukwizigirwa",
-                "en": "Credibility"
+                "fr": "Les méthodes sans dépendance de Dieu",
+                "en": "Methods without dependence on God",
+                "rn": "Ubuhinga budafise ukwizigira Imana"
               }
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -6147,25 +5769,25 @@
           {
             "id": "track_5_q1",
             "prompt": {
-              "fr": "Selon ce niveau, quelle est la différence essentielle entre « enseigner » et « former » ?",
-              "rn": "Nk'uko iki cigwa kibivuga, itandukaniro ry'ukwigisha n'ukumenyereza ni iki ?",
-              "en": "According to this level, what is the essential difference between 'teaching' and 'training'?"
+              "fr": "Selon le niveau 5, qu’est-ce qu’un leader-serviteur dans le discipulat ?",
+              "en": "According to level 5, what is a servant-leader in discipleship?",
+              "rn": "Nk'uko urwego rwa 5 rubivuga, umuyobozi-umugaragu mu kugira abigishwa ni nde?"
             },
             "choices": [
               {
-                "fr": "Il n'y a aucune différence : les deux mots signifient la même chose.",
-                "rn": "Nta tandukaniro ririho hagati y'ukwigisha n'ukumenyereza.",
-                "en": "There is no difference — the two words mean the same thing."
+                "fr": "Quelqu’un qui domine les autres pour son image",
+                "en": "Someone who dominates others for image",
+                "rn": "Uwegukira abandi kugira ngo yerekane isura yiwe"
               },
               {
-                "fr": "Enseigner transmet des informations ; former rend capable d'agir, puis de transmettre à d'autres.",
-                "rn": "Kwigisha gushikiriza ubumenyi ; kumenyereza gushoboza gukora, hanyuma bikigisha abandi.",
-                "en": "Teaching passes on information; training makes someone able to act, and then to pass it on to others."
+                "fr": "Quelqu’un qui sert, équipe et multiplie d’autres leaders",
+                "en": "Someone who serves, equips, and multiplies other leaders",
+                "rn": "Ubakora, ategura, kandi yigwiza abandi bayobozi"
               },
               {
-                "fr": "Enseigner se fait sur le terrain ; former se fait uniquement en classe.",
-                "rn": "Kwigisha gukorerwa ku murima ; kumenyereza gukorerwa mu nyumba gusa.",
-                "en": "Teaching happens in the field; training happens only in the classroom."
+                "fr": "Quelqu’un qui évite toute responsabilité",
+                "en": "Someone who avoids all responsibility",
+                "rn": "Uwirengagiza inshingano zose"
               }
             ],
             "correctIndex": 1
@@ -6173,77 +5795,77 @@
           {
             "id": "track_5_q2",
             "prompt": {
-              "fr": "Quelles sont les quatre étapes de la formation présentées dans ce niveau ?",
-              "rn": "Ni izihe ntambwe zine z'imenyereza zerekanwa muri iki cigwa ?",
-              "en": "What are the four steps of training presented in this level?"
+              "fr": "Pourquoi le coaching / accompagnement est-il essentiel à ce stade ?",
+              "en": "Why is coaching/accompaniment essential at this stage?",
+              "rn": "Kuki ugufasha / ugukurikirana ari ngombwa muri iki gihe?"
             },
             "choices": [
               {
-                "fr": "Lire, mémoriser, réciter, examiner.",
-                "rn": "Gusenga, kuraba, kurya, kuruhuka.",
-                "en": "Read, memorize, recite, take an exam."
+                "fr": "Pour contrôler les disciples sans les écouter",
+                "en": "To control disciples without listening",
+                "rn": "Kugira ngo dufate abigishwa nta kubumva"
               },
               {
-                "fr": "Planifier, financer, construire, inaugurer.",
-                "rn": "Kwandika, gusoma, kwibuka, kwibagira.",
-                "en": "Plan, fund, build, open."
+                "fr": "Pour aider chacun à grandir, rendre des comptes et persévérer",
+                "en": "To help each person grow, be accountable, and persevere",
+                "rn": "Kugira ngo umuntu wese akure, asigure, kandi akomeze"
               },
               {
-                "fr": "Montrer, aider, observer, relâcher — « je le fais, nous le faisons, tu le fais, puis tu vas le faire ».",
-                "rn": "Kwerekana, gufasha, kwitegereza, kurekura.",
-                "en": "Show, help, observe, release — 'I do it, we do it, you do it, then you go do it.'"
-              }
-            ],
-            "correctIndex": 2
-          },
-          {
-            "id": "track_5_q3",
-            "prompt": {
-              "fr": "Quelle est la différence entre « addition » et « multiplication spirituelle » ?",
-              "rn": "Nk'uko 5TT06 ibivuga, itandukaniro ry'ukwongera n'ukwigwiza ni iki ?",
-              "en": "What is the difference between 'addition' and 'spiritual multiplication'?"
-            },
-            "choices": [
-              {
-                "fr": "L'addition et la multiplication désignent exactement la même stratégie.",
-                "rn": "Kwongera n'ukwigwiza birasa, nta tandukaniro na rimwe.",
-                "en": "Addition and multiplication are exactly the same strategy."
-              },
-              {
-                "fr": "L'addition gagne des personnes une à une ; la multiplication forme des disciples qui, à leur tour, en forment d'autres.",
-                "rn": "Kwongera ni ukwongera abemera umwe umwe ; kwigwiza ni ukwigisha abigisha, umwigishwa wese akaza ahindura abandi.",
-                "en": "Addition wins people one by one; multiplication trains disciples who, in turn, train others."
-              },
-              {
-                "fr": "La multiplication consiste seulement à organiser de plus grands événements évangéliques.",
-                "rn": "Kwigwiza ni ukwubaka inzu z'amashengero menshi gusa.",
-                "en": "Multiplication simply means organizing bigger evangelistic events."
+                "fr": "Pour remplacer l’enseignement biblique",
+                "en": "To replace biblical teaching",
+                "rn": "Kugira ngo hasimbure inyigisho za Bibiliya"
               }
             ],
             "correctIndex": 1
           },
           {
-            "id": "track_5_q4",
+            "id": "track_5_q3",
             "prompt": {
-              "fr": "Ce niveau distingue notre « but » de notre « objectif ». Comment ?",
-              "rn": "Nk'uko ibi bigwa bibivuga, ni iki gitandukanya 'intumbero yacu' na 'ihangiro ry'igikorwa cacu' ?",
-              "en": "This level distinguishes our 'purpose' from our 'objective.' How?"
+              "fr": "Que vise la vision de mouvement dans ce niveau ?",
+              "en": "What does movement vision aim for in this level?",
+              "rn": "Iyerekwa ry'uguhinduka rishaka iki muri uru rwego?"
             },
             "choices": [
               {
-                "fr": "Notre but est de glorifier Dieu ; notre objectif est d'aider à accomplir l'Ordre Suprême.",
-                "rn": "Intumbero yacu ni uguhayagiza Imana ; ihangiro ry'igikorwa cacu ni Itegeko Rikuru.",
-                "en": "Our purpose is to glorify God; our objective is to help fulfill the Great Commission."
+                "fr": "Un mouvement de disciples qui se multiplient de génération en génération",
+                "en": "A movement of disciples multiplying generation to generation",
+                "rn": "Ugufatanya kw'abigishwa bigwiza ku runganwe ku rundi"
               },
               {
-                "fr": "Notre but est l'Ordre Suprême ; notre objectif est de bâtir des bâtiments pour l'Église.",
-                "rn": "Intumbero yacu ni ukwubaka amazu ; ihangiro ni ugutunga amatongo.",
-                "en": "Our purpose is the Great Commission; our objective is building church buildings."
+                "fr": "Une seule grande réunion annuelle",
+                "en": "A single large annual meeting",
+                "rn": "Inama nini imwe mu mwaka"
               },
               {
-                "fr": "But et objectif signifient exactement la même chose dans ce niveau.",
-                "rn": "Intumbero n'ihangiro birasa, nta tandukaniro na rimwe.",
-                "en": "Purpose and objective mean exactly the same thing in this level."
+                "fr": "Un ministère centré uniquement sur un bâtiment",
+                "en": "A ministry centered only on a building",
+                "rn": "Umurimo ushimikiye gusa ku nzu"
+              }
+            ],
+            "correctIndex": 0
+          },
+          {
+            "id": "track_5_q4",
+            "prompt": {
+              "fr": "Comment un leader mature gère-t-il les défis selon ce niveau ?",
+              "en": "How does a mature leader handle challenges according to this level?",
+              "rn": "Umuyobozi yakuze akemura ate ibibazo nk'uko uru rwego rubivuga?"
+            },
+            "choices": [
+              {
+                "fr": "Par la prière, la Parole, l’humilité et des relations saines",
+                "en": "Through prayer, the Word, humility, and healthy relationships",
+                "rn": "Biciye ku gusenga, Ijambo, ukwicisha bugufi n'imibanire myiza"
+              },
+              {
+                "fr": "En ignorant les conflits",
+                "en": "By ignoring conflicts",
+                "rn": "Mu kwirengagiza amakimbirane"
+              },
+              {
+                "fr": "En travaillant seul sans rendre de comptes",
+                "en": "By working alone with no accountability",
+                "rn": "Mu gukora wenyine nta gusigurira"
               }
             ],
             "correctIndex": 0
@@ -6251,28 +5873,28 @@
           {
             "id": "track_5_q5",
             "prompt": {
-              "fr": "Selon le leadership serviteur enseigné dans ce niveau, en quoi consiste diriger ?",
-              "rn": "Nk'uko uburongozi bw'umusuku bwigishwa muri iki cigwa, kurongora bisobanura iki ?",
-              "en": "According to the servant leadership taught in this level, what does it mean to lead?"
+              "fr": "Quelle est l’invitation finale de ce parcours (niveau 5) ?",
+              "en": "What is the final invitation of this journey (level 5)?",
+              "rn": "Ni iyihe nturikirane ya nyuma y'uru rugendo (urwego rwa 5)?"
             },
             "choices": [
               {
-                "fr": "Diriger, c'est dominer et se faire servir par ceux qu'on dirige.",
-                "rn": "Kurongora ni ukuganza no gukoreshwa n'abo urongoye.",
-                "en": "To lead is to dominate and be served by those you lead."
+                "fr": "S’arrêter après le certificat sans former personne",
+                "en": "Stop after the certificate without training anyone",
+                "rn": "Guhagarara inyuma y'icerti nta kugira uwo utegura"
               },
               {
-                "fr": "Diriger, c'est éviter toute responsabilité envers les autres.",
-                "rn": "Kurongora ni ukwirinda inshingano zose ku bandi.",
-                "en": "To lead is to avoid any responsibility toward others."
+                "fr": "Continuer à faire des disciples qui font des disciples, pour la gloire de Christ",
+                "en": "Keep making disciples who make disciples, for Christ’s glory",
+                "rn": "Gukomeza kugira abigishwa bagira abandi, ku ikuzo rya Kristo"
               },
               {
-                "fr": "Diriger, c'est servir ceux que l'on conduit, comme Jésus qui est venu servir et donner sa vie.",
-                "rn": "Kurongora ni ugukorera abo urongoye, nk'uko Yesu yaje gukorera no gutanga ubugingo bwiwe.",
-                "en": "To lead is to serve those you lead, as Jesus came to serve and give his life."
+                "fr": "Remplacer Christ par des méthodes",
+                "en": "Replace Christ with methods",
+                "rn": "Gusimbura Kristo n'ubuhinga"
               }
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }

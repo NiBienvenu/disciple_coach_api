@@ -18,13 +18,17 @@ use App\Models\QuizAttempt;
 use App\Models\QuizQuestion;
 use App\Models\User;
 use App\Services\Cache\UserCacheService;
+use App\Services\Certificates\CertificateService;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
 
 class LevelProgressionService
 {
-    public function __construct(private readonly UserCacheService $userCache) {}
+    public function __construct(
+        private readonly UserCacheService $userCache,
+        private readonly CertificateService $certificates,
+    ) {}
 
     /**
      * Level 1 available by default; other levels locked until previous advancement_approved.
@@ -356,6 +360,7 @@ class LevelProgressionService
             $level = Level::query()->findOrFail($attempt->level_id);
             $disciple = User::query()->findOrFail($attempt->user_id);
             $this->unlockNextLevel($disciple, $level);
+            $this->certificates->issueIfEligible($disciple, $attempt, $level);
 
             $this->userCache->forgetProgressRelated($attempt->user_id);
 

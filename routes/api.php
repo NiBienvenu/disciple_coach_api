@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\V1\AuthController;
+use App\Http\Controllers\Api\V1\CertificateController;
 use App\Http\Controllers\Api\V1\CoachDashboardController;
 use App\Http\Controllers\Api\V1\CoachingSessionController;
 use App\Http\Controllers\Api\V1\CurriculumController;
@@ -57,6 +58,9 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
     Route::put('/me/progress/lessons/{lesson}', [ProgressController::class, 'completeLesson'])->name('me.progress.lessons.update');
     Route::get('/me/level-progress', [ProgressController::class, 'levelProgress'])->name('me.level-progress');
     Route::get('/me/dashboard', [ProgressController::class, 'dashboard'])->name('me.dashboard');
+
+    Route::get('/me/certificate', [CertificateController::class, 'show'])->name('me.certificate');
+    Route::get('/me/certificate/download', [CertificateController::class, 'download'])->name('me.certificate.download');
 
     Route::post('/levels/{level}/quiz-attempts', [QuizAttemptController::class, 'store'])->name('levels.quiz-attempts.store');
     Route::get('/me/quiz-attempts', [QuizAttemptController::class, 'mine'])->name('me.quiz-attempts');

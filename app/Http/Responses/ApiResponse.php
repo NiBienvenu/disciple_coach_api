@@ -11,13 +11,26 @@ class ApiResponse
         ?string $message = null,
         array $meta = [],
         int $status = 200,
+        array $headers = [],
     ): JsonResponse {
         return response()->json([
             'success' => true,
             'data' => $data,
             'message' => $message,
             'meta' => $meta === [] ? (object) [] : $meta,
-        ], $status);
+        ], $status, $headers);
+    }
+
+    /**
+     * Public curriculum / quiz responses — browser & CDN friendly.
+     *
+     * @return array<string, string>
+     */
+    public static function publicCurriculumHeaders(int $maxAgeSeconds = 3600): array
+    {
+        return [
+            'Cache-Control' => "public, max-age={$maxAgeSeconds}, stale-while-revalidate=86400",
+        ];
     }
 
     public static function error(

@@ -1,11 +1,17 @@
 {
-  "trackId": "track_2",
-  "title": {"fr": "Niveau 2 : Intermédiaire", "rn": "Urwego rwa 2 : Intermédiaire", "en": "Level 2: Intermediate"},
+  "id": "track_2",
+  "title": {
+    "fr": "Niveau 2 : Intermédiaire",
+    "rn": "Urwego rwa 2 : Intermédiaire",
+    "en": "Level 2: Intermediate"
+  },
   "description": {
     "fr": "Ce niveau approfondit la relation avec Dieu — sa priorité, ses attributs, la prière, l'identité en Christ et l'autorité de sa Parole — puis équipe le disciple à affermir et accompagner les nouveaux croyants vers la maturité.",
     "rn": "Uru rwego rufasha gushira imbere imigenderanire yawe n'Imana, gutahura ibiranga Imana n'Ijambo ryayo, kwiga gusenga, kumenya uwo uri we muri Kristo, no gukomeza abakristo bashasha kugira bakure muri Kristo.",
     "en": "This level deepens the disciple's relationship with God — its priority, his attributes, prayer, identity in Christ, and the authority of his Word — then equips the disciple to help new believers grow toward maturity."
   },
+  "order": 2,
+  "previousTrackId": "track_1",
   "lessons": [
     {
       "id": "track_2_lesson_01",
@@ -27,8 +33,14 @@
             "Entreprendre des actions concrètes pour en faire la priorité."
           ],
           "keyScriptures": [
-            {"reference": "Marc 12.30", "text": "Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de toute ta pensée et de toute ta force."},
-            {"reference": "Jean 15.5", "text": "Je suis le cep, vous êtes les sarments. Celui qui demeure en moi porte beaucoup de fruit, car sans moi vous ne pouvez rien faire."}
+            {
+              "reference": "Marc 12.30",
+              "text": "Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de toute ta pensée et de toute ta force."
+            },
+            {
+              "reference": "Jean 15.5",
+              "text": "Je suis le cep, vous êtes les sarments. Celui qui demeure en moi porte beaucoup de fruit, car sans moi vous ne pouvez rien faire."
+            }
           ],
           "summaryPoints": [
             "Recevoir — Dieu établit et soutient la relation.",
@@ -49,8 +61,14 @@
             "Kwiyemeza umwanya wo kuyaga n'Imana buri musi."
           ],
           "keyScriptures": [
-            {"reference": "Yohana 15.5", "text": "Jewe ndi umuzabibu, mwebwe muri amashami : uguma muri jewe, nanje nkaguma muri we, ni we yama ivyamwa vyinshi ; kuko mudakoze ico namwe, nta co mushobora."},
-            {"reference": "Matayo 6.33", "text": "Rero mubanze murondere ubwami bw'Imana n'ukugororoka kwayo, ivyo vyose muzobyongerwa."}
+            {
+              "reference": "Yohana 15.5",
+              "text": "Jewe ndi umuzabibu, mwebwe muri amashami : uguma muri jewe, nanje nkaguma muri we, ni we yama ivyamwa vyinshi ; kuko mudakoze ico namwe, nta co mushobora."
+            },
+            {
+              "reference": "Matayo 6.33",
+              "text": "Rero mubanze murondere ubwami bw'Imana n'ukugororoka kwayo, ivyo vyose muzobyongerwa."
+            }
           ],
           "summaryPoints": [
             "Kuguma — muri Kristo, nk'ishami ku muzabibu.",
@@ -72,8 +90,14 @@
             "Take concrete action to make this relationship your priority."
           ],
           "keyScriptures": [
-            {"reference": "Mark 12:30", "text": "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength."},
-            {"reference": "John 15:5", "text": "I am the vine, ye are the branches: he that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."}
+            {
+              "reference": "Mark 12:30",
+              "text": "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength."
+            },
+            {
+              "reference": "John 15:5",
+              "text": "I am the vine, ye are the branches: he that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
+            }
           ],
           "summaryPoints": [
             "Receive — God establishes and sustains the relationship.",
@@ -107,8 +131,14 @@
             "Répondre de façon appropriée à Dieu selon ces attributs."
           ],
           "keyScriptures": [
-            {"reference": "1 Corinthiens 1.9", "text": "Dieu est fidèle, lui qui vous a appelés à la communion de son Fils."},
-            {"reference": "Psaume 89.15", "text": "La justice et le droit sont la base de son trône."}
+            {
+              "reference": "1 Corinthiens 1.9",
+              "text": "Dieu est fidèle, lui qui vous a appelés à la communion de son Fils."
+            },
+            {
+              "reference": "Psaume 89.15",
+              "text": "La justice et le droit sont la base de son trône."
+            }
           ],
           "summaryPoints": [
             "Comprendre — ce qu'est chaque attribut.",
@@ -129,8 +159,14 @@
             "Kwizigira Imana ku vyo iri, si ku vyo twiyumva."
           ],
           "keyScriptures": [
-            {"reference": "Zaburi 139.7-8", "text": "Noja hehe ngo mve kuri Mpwemu yawe ? Noja hehe ngo mpunge mu maso yawe ? Ndadutse mw'ijuru, uriho ; ngeze mu kuzimu, urahari."},
-            {"reference": "Kuvayo 34.6", "text": "Uhoraho Imana, w'imbabazi n'ineza…"}
+            {
+              "reference": "Zaburi 139.7-8",
+              "text": "Noja hehe ngo mve kuri Mpwemu yawe ? Noja hehe ngo mpunge mu maso yawe ? Ndadutse mw'ijuru, uriho ; ngeze mu kuzimu, urahari."
+            },
+            {
+              "reference": "Kuvayo 34.6",
+              "text": "Uhoraho Imana, w'imbabazi n'ineza…"
+            }
           ],
           "summaryPoints": [
             "Kumenya — ibiranga Imana biva mu Ijambo ryayo.",
@@ -151,8 +187,14 @@
             "Respond appropriately to God according to these attributes."
           ],
           "keyScriptures": [
-            {"reference": "1 Corinthians 1:9", "text": "God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord."},
-            {"reference": "Psalm 89:14", "text": "Justice and judgment are the habitation of thy throne."}
+            {
+              "reference": "1 Corinthians 1:9",
+              "text": "God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord."
+            },
+            {
+              "reference": "Psalm 89:14",
+              "text": "Justice and judgment are the habitation of thy throne."
+            }
           ],
           "summaryPoints": [
             "Understand — what each attribute means.",
@@ -186,8 +228,14 @@
             "Découvrir les bienfaits personnels de cette identité."
           ],
           "keyScriptures": [
-            {"reference": "Galates 2.20", "text": "Je suis crucifié avec Christ… ce n'est plus moi qui vis, c'est Christ qui vit en moi ; je vis dans la foi au Fils de Dieu qui m'a aimé et s'est livré pour moi."},
-            {"reference": "2 Corinthiens 5.17", "text": "Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles."}
+            {
+              "reference": "Galates 2.20",
+              "text": "Je suis crucifié avec Christ… ce n'est plus moi qui vis, c'est Christ qui vit en moi ; je vis dans la foi au Fils de Dieu qui m'a aimé et s'est livré pour moi."
+            },
+            {
+              "reference": "2 Corinthiens 5.17",
+              "text": "Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles."
+            }
           ],
           "summaryPoints": [
             "Mort — avec Christ, au péché et à la condamnation.",
@@ -208,8 +256,14 @@
             "Kubaho ukurikije uwo uri we koko muri Kristo."
           ],
           "keyScriptures": [
-            {"reference": "2 Abakorinto 5.17", "text": "Niba umuntu ari muri Kristo, aba ari irema rishasha : ivya kera vyaragiye, ehe vyahindutse bishasha."},
-            {"reference": "Abaroma 8.16-17", "text": "Mpwemu ubwiwe ashinga intahe hamwe na Mpwemu wacu ko turi abana b'Imana. Kandi niba turi abana, turi n'abaraganwa."}
+            {
+              "reference": "2 Abakorinto 5.17",
+              "text": "Niba umuntu ari muri Kristo, aba ari irema rishasha : ivya kera vyaragiye, ehe vyahindutse bishasha."
+            },
+            {
+              "reference": "Abaroma 8.16-17",
+              "text": "Mpwemu ubwiwe ashinga intahe hamwe na Mpwemu wacu ko turi abana b'Imana. Kandi niba turi abana, turi n'abaraganwa."
+            }
           ],
           "summaryPoints": [
             "Kumenya — uwo Imana ivuga ko uri we.",
@@ -230,8 +284,14 @@
             "Discover the personal benefits of this identity."
           ],
           "keyScriptures": [
-            {"reference": "Galatians 2:20", "text": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."},
-            {"reference": "2 Corinthians 5:17", "text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new."}
+            {
+              "reference": "Galatians 2:20",
+              "text": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me."
+            },
+            {
+              "reference": "2 Corinthians 5:17",
+              "text": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new."
+            }
           ],
           "summaryPoints": [
             "Dead — with Christ, to sin and to condemnation.",
@@ -265,8 +325,14 @@
             "Savoir comment prier."
           ],
           "keyScriptures": [
-            {"reference": "Philippiens 4.6", "text": "Ne vous inquiétez de rien ; mais en toute chose, par la prière et la supplication, avec des actions de grâces, faites connaître vos besoins à Dieu."},
-            {"reference": "1 Jean 1.9", "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."}
+            {
+              "reference": "Philippiens 4.6",
+              "text": "Ne vous inquiétez de rien ; mais en toute chose, par la prière et la supplication, avec des actions de grâces, faites connaître vos besoins à Dieu."
+            },
+            {
+              "reference": "1 Jean 1.9",
+              "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."
+            }
           ],
           "summaryPoints": [
             "Comprendre — prier, c'est parler à Dieu comme à un ami.",
@@ -287,8 +353,14 @@
             "Gutsinda intambamyi z'isengesho."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 6.9-13", "text": "Data wa twese uri mw'ijuru, izina ryawe ninirwe… Uduhe uno musi umutsima wacu wa buri musi… Udukize akabi."},
-            {"reference": "1 Ab'i Tesalonike 5.17", "text": "Nimusenge ata guhengeshanya."}
+            {
+              "reference": "Matayo 6.9-13",
+              "text": "Data wa twese uri mw'ijuru, izina ryawe ninirwe… Uduhe uno musi umutsima wacu wa buri musi… Udukize akabi."
+            },
+            {
+              "reference": "1 Ab'i Tesalonike 5.17",
+              "text": "Nimusenge ata guhengeshanya."
+            }
           ],
           "summaryPoints": [
             "Gutahura — isengesho ni ukuyaga n'Imana.",
@@ -309,8 +381,14 @@
             "Know how to pray."
           ],
           "keyScriptures": [
-            {"reference": "Philippians 4:6", "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."},
-            {"reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."}
+            {
+              "reference": "Philippians 4:6",
+              "text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God."
+            },
+            {
+              "reference": "1 John 1:9",
+              "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+            }
           ],
           "summaryPoints": [
             "Understand — prayer is speaking with God as a friend.",
@@ -345,8 +423,14 @@
             "Découvrir les sujets des séries d'affermissement de base."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 28.19-20", "text": "Allez, faites de toutes les nations des disciples… et enseignez-leur à observer tout ce que je vous ai prescrit."},
-            {"reference": "1 Corinthiens 3.6", "text": "J'ai planté, Apollos a arrosé, mais c'est Dieu qui a fait croître."}
+            {
+              "reference": "Matthieu 28.19-20",
+              "text": "Allez, faites de toutes les nations des disciples… et enseignez-leur à observer tout ce que je vous ai prescrit."
+            },
+            {
+              "reference": "1 Corinthiens 3.6",
+              "text": "J'ai planté, Apollos a arrosé, mais c'est Dieu qui a fait croître."
+            }
           ],
           "summaryPoints": [
             "Le but — la maturité et la multiplication.",
@@ -367,8 +451,14 @@
             "Gutahura uruhara rwacu n'ibice bigize inyigisho zo gukomeza."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 28.19-20", "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
-            {"reference": "1 Abakorinto 3.6", "text": "Jewe nateye imbuto, Apolo aravomera, ariko Imana ni yo yazikujije."}
+            {
+              "reference": "Matayo 28.19-20",
+              "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."
+            },
+            {
+              "reference": "1 Abakorinto 3.6",
+              "text": "Jewe nateye imbuto, Apolo aravomera, ariko Imana ni yo yazikujije."
+            }
           ],
           "summaryPoints": [
             "Gutahura — intumbero zibiri zo gukomeza.",
@@ -390,8 +480,14 @@
             "Discover the core topics of a basic follow-up series."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 28:19-20", "text": "Go ye therefore, and teach all nations... teaching them to observe all things whatsoever I have commanded you."},
-            {"reference": "1 Corinthians 3:6", "text": "I have planted, Apollos watered; but God gave the increase."}
+            {
+              "reference": "Matthew 28:19-20",
+              "text": "Go ye therefore, and teach all nations... teaching them to observe all things whatsoever I have commanded you."
+            },
+            {
+              "reference": "1 Corinthians 3:6",
+              "text": "I have planted, Apollos watered; but God gave the increase."
+            }
           ],
           "summaryPoints": [
             "The goal — maturity and multiplication.",
@@ -425,8 +521,14 @@
             "Apprécier davantage la Parole et la mettre en pratique."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothée 3.16", "text": "Toute Écriture est inspirée de Dieu et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice."},
-            {"reference": "Hébreux 4.12", "text": "La parole de Dieu est vivante et efficace, plus tranchante qu'une épée à deux tranchants…"}
+            {
+              "reference": "2 Timothée 3.16",
+              "text": "Toute Écriture est inspirée de Dieu et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice."
+            },
+            {
+              "reference": "Hébreux 4.12",
+              "text": "La parole de Dieu est vivante et efficace, plus tranchante qu'une épée à deux tranchants…"
+            }
           ],
           "summaryPoints": [
             "Son origine — inspirée de Dieu, pleine d'autorité.",
@@ -447,8 +549,14 @@
             "Guha agaciro Ijambo, no kurishira mu ngiro buri musi."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 3.16", "text": "Ivyanditswe vyose vyahumetswe n'Imana, kandi bigira ikimazi co kwigisha, no guhana, no gutunganya, no gutoza indero nziza mu kugororoka."},
-            {"reference": "Abaheburayo 4.12", "text": "Ijambo ry'Imana ni rizima, rikagira ububasha, rikaba rikarishe kuruta inkota yose ityaye impande zibiri."}
+            {
+              "reference": "2 Timoteyo 3.16",
+              "text": "Ivyanditswe vyose vyahumetswe n'Imana, kandi bigira ikimazi co kwigisha, no guhana, no gutunganya, no gutoza indero nziza mu kugororoka."
+            },
+            {
+              "reference": "Abaheburayo 4.12",
+              "text": "Ijambo ry'Imana ni rizima, rikagira ububasha, rikaba rikarishe kuruta inkota yose ityaye impande zibiri."
+            }
           ],
           "summaryPoints": [
             "Gutahura — Bibiliya ni Ijambo ry'Imana ryahumetswe.",
@@ -469,8 +577,14 @@
             "Value the Word more deeply and put it into practice."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothy 3:16", "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness."},
-            {"reference": "Hebrews 4:12", "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword..."}
+            {
+              "reference": "2 Timothy 3:16",
+              "text": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness."
+            },
+            {
+              "reference": "Hebrews 4:12",
+              "text": "For the word of God is quick, and powerful, and sharper than any twoedged sword..."
+            }
           ],
           "summaryPoints": [
             "Its origin — inspired by God, carrying full authority.",
@@ -504,8 +618,14 @@
             "Surmonter les obstacles à la régularité."
           ],
           "keyScriptures": [
-            {"reference": "Marc 1.35", "text": "Vers le matin, pendant qu'il faisait encore très sombre, il se leva et sortit pour aller dans un lieu désert où il pria."},
-            {"reference": "Jacques 4.8", "text": "Approchez-vous de Dieu, et il s'approchera de vous."}
+            {
+              "reference": "Marc 1.35",
+              "text": "Vers le matin, pendant qu'il faisait encore très sombre, il se leva et sortit pour aller dans un lieu désert où il pria."
+            },
+            {
+              "reference": "Jacques 4.8",
+              "text": "Approchez-vous de Dieu, et il s'approchera de vous."
+            }
           ],
           "summaryPoints": [
             "Se retirer — un temps et un lieu réguliers.",
@@ -526,8 +646,14 @@
             "Kwiyemeza intambwe zoroshe zo gukura."
           ],
           "keyScriptures": [
-            {"reference": "2 Petero 3.18", "text": "Mukurire mu buntu no mu kumenya Umwami wacu n'Umukiza Yesu Kristo."},
-            {"reference": "Ab'i Filipi 1.6", "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera gushika ku musi wa Yesu Kristo."}
+            {
+              "reference": "2 Petero 3.18",
+              "text": "Mukurire mu buntu no mu kumenya Umwami wacu n'Umukiza Yesu Kristo."
+            },
+            {
+              "reference": "Ab'i Filipi 1.6",
+              "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera gushika ku musi wa Yesu Kristo."
+            }
           ],
           "summaryPoints": [
             "Gukoresha — Ijambo, isengesho, ubumwe, ivyabona.",
@@ -548,8 +674,14 @@
             "Overcome the obstacles to consistency."
           ],
           "keyScriptures": [
-            {"reference": "Mark 1:35", "text": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed."},
-            {"reference": "James 4:8", "text": "Draw nigh to God, and he will draw nigh to you."}
+            {
+              "reference": "Mark 1:35",
+              "text": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed."
+            },
+            {
+              "reference": "James 4:8",
+              "text": "Draw nigh to God, and he will draw nigh to you."
+            }
           ],
           "summaryPoints": [
             "Withdraw — a regular time and place.",
@@ -583,8 +715,14 @@
             "Composer votre témoignage selon un plan à trois points."
           ],
           "keyScriptures": [
-            {"reference": "1 Pierre 3.15", "text": "Soyez toujours prêts à vous défendre… avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."},
-            {"reference": "Matthieu 5.16", "text": "Que votre lumière brille devant les hommes, afin qu'ils voient vos bonnes œuvres et glorifient votre Père qui est dans les cieux."}
+            {
+              "reference": "1 Pierre 3.15",
+              "text": "Soyez toujours prêts à vous défendre… avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."
+            },
+            {
+              "reference": "Matthieu 5.16",
+              "text": "Que votre lumière brille devant les hommes, afin qu'ils voient vos bonnes œuvres et glorifient votre Père qui est dans les cieux."
+            }
           ],
           "summaryPoints": [
             "La base — être prêt à rendre raison de l'espérance.",
@@ -605,8 +743,14 @@
             "Gutegura intahe yawe mu bice bitatu."
           ],
           "keyScriptures": [
-            {"reference": "1 Petero 3.15", "text": "Muhore mwiteguye kwishura umuntu wese ababajije inyanduruko y'ivyizigiro biri muri mwebwe, ariko muri n'ubugwaneza mutinya."},
-            {"reference": "Matayo 5.16", "text": "Umuco wanyu nuce ukamurikira abantu, kugira ngo babone ibikorwa vyanyu vyiza, baheze bahayagize So wanyu ari mw'ijuru."}
+            {
+              "reference": "1 Petero 3.15",
+              "text": "Muhore mwiteguye kwishura umuntu wese ababajije inyanduruko y'ivyizigiro biri muri mwebwe, ariko muri n'ubugwaneza mutinya."
+            },
+            {
+              "reference": "Matayo 5.16",
+              "text": "Umuco wanyu nuce ukamurikira abantu, kugira ngo babone ibikorwa vyanyu vyiza, baheze bahayagize So wanyu ari mw'ijuru."
+            }
           ],
           "summaryPoints": [
             "Gutegura — ibice bitatu vy'intahe yawe.",
@@ -627,8 +771,14 @@
             "Compose your testimony using a three-point outline."
           ],
           "keyScriptures": [
-            {"reference": "1 Peter 3:15", "text": "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear."},
-            {"reference": "Matthew 5:16", "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."}
+            {
+              "reference": "1 Peter 3:15",
+              "text": "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear."
+            },
+            {
+              "reference": "Matthew 5:16",
+              "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+            }
           ],
           "summaryPoints": [
             "The basis — being ready to give a reason for your hope.",
@@ -661,8 +811,14 @@
             "Discuter les versets bibliques qui consolident l'assurance."
           ],
           "keyScriptures": [
-            {"reference": "Apocalypse 3.20", "text": "Voici, je me tiens à la porte et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui."},
-            {"reference": "Hébreux 13.5", "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."}
+            {
+              "reference": "Apocalypse 3.20",
+              "text": "Voici, je me tiens à la porte et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui."
+            },
+            {
+              "reference": "Hébreux 13.5",
+              "text": "Je ne te délaisserai point, et je ne t'abandonnerai point."
+            }
           ],
           "summaryPoints": [
             "Démontrer — les cinq points de la page 11.",
@@ -683,8 +839,14 @@
             "Gutsimbataza icemezo c'agakiza gishingiye ku Ijambo."
           ],
           "keyScriptures": [
-            {"reference": "1 Yohana 5.11-13", "text": "Uwufise Umwana afise ubugingo… Ivyo nabandikiye kugira mumenye ko mufise ubugingo budashira."},
-            {"reference": "Yohana 10.28", "text": "Ndabaha ubugingo budashira, ntibazorandurwa rwose, kandi nta n'umwe azobanyaka mu kuboko."}
+            {
+              "reference": "1 Yohana 5.11-13",
+              "text": "Uwufise Umwana afise ubugingo… Ivyo nabandikiye kugira mumenye ko mufise ubugingo budashira."
+            },
+            {
+              "reference": "Yohana 10.28",
+              "text": "Ndabaha ubugingo budashira, ntibazorandurwa rwose, kandi nta n'umwe azobanyaka mu kuboko."
+            }
           ],
           "summaryPoints": [
             "Kwemeza — gukoresha ibibazo vy'urufatiro.",
@@ -704,8 +866,14 @@
             "Discuss the Bible verses that reinforce that assurance."
           ],
           "keyScriptures": [
-            {"reference": "Revelation 3:20", "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him."},
-            {"reference": "Hebrews 13:5", "text": "...I will never leave thee, nor forsake thee."}
+            {
+              "reference": "Revelation 3:20",
+              "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him."
+            },
+            {
+              "reference": "Hebrews 13:5",
+              "text": "...I will never leave thee, nor forsake thee."
+            }
           ],
           "summaryPoints": [
             "Demonstrate — the five points from page 11 of the booklet.",
@@ -739,8 +907,14 @@
             "L'aider à surmonter les premiers obstacles."
           ],
           "keyScriptures": [
-            {"reference": "1 Thessaloniciens 2.7-8", "text": "Nous avons été pleins de douceur au milieu de vous… nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie."},
-            {"reference": "Colossiens 1.28", "text": "C'est lui que nous annonçons… afin de présenter à Dieu tout homme, devenu parfait en Christ."}
+            {
+              "reference": "1 Thessaloniciens 2.7-8",
+              "text": "Nous avons été pleins de douceur au milieu de vous… nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie."
+            },
+            {
+              "reference": "Colossiens 1.28",
+              "text": "C'est lui que nous annonçons… afin de présenter à Dieu tout homme, devenu parfait en Christ."
+            }
           ],
           "summaryPoints": [
             "Comprendre — les besoins du nouveau-né spirituel.",
@@ -761,8 +935,14 @@
             "Gutandukanya ingingo z'ugukomeza no gutera umwete abashasha."
           ],
           "keyScriptures": [
-            {"reference": "Ivyak 2.41-42", "text": "Bemeye amajambo yiwe barabatizwa… bashishikara mu vyo intumwa zigisha, no kugira ubumwe, no gusenga."},
-            {"reference": "Abanyefeso 3.17", "text": "Kristo abe mu mitima yanyu kubw'ukwizera, kugira mugire imizi ishinzwe mu rukundo."}
+            {
+              "reference": "Ivyak 2.41-42",
+              "text": "Bemeye amajambo yiwe barabatizwa… bashishikara mu vyo intumwa zigisha, no kugira ubumwe, no gusenga."
+            },
+            {
+              "reference": "Abanyefeso 3.17",
+              "text": "Kristo abe mu mitima yanyu kubw'ukwizera, kugira mugire imizi ishinzwe mu rukundo."
+            }
           ],
           "summaryPoints": [
             "Gukomeza — kubashinga mu gakiza no kubigisha.",
@@ -783,8 +963,14 @@
             "Help them overcome their first obstacles."
           ],
           "keyScriptures": [
-            {"reference": "1 Thessalonians 2:7-8", "text": "We were gentle among you... we were willing to have imparted unto you, not the gospel of God only, but also our own souls."},
-            {"reference": "Colossians 1:28", "text": "Whom we preach... that we may present every man perfect in Christ Jesus."}
+            {
+              "reference": "1 Thessalonians 2:7-8",
+              "text": "We were gentle among you... we were willing to have imparted unto you, not the gospel of God only, but also our own souls."
+            },
+            {
+              "reference": "Colossians 1:28",
+              "text": "Whom we preach... that we may present every man perfect in Christ Jesus."
+            }
           ],
           "summaryPoints": [
             "Understand — the needs of a spiritual newborn.",
@@ -818,7 +1004,10 @@
             "Le motiver à vous rencontrer de nouveau."
           ],
           "keyScriptures": [
-            {"reference": "1 Thessaloniciens 2.8", "text": "Nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie, tant vous nous étiez devenus chers."}
+            {
+              "reference": "1 Thessaloniciens 2.8",
+              "text": "Nous aurions voulu vous donner non seulement l'Évangile de Dieu, mais aussi notre propre vie, tant vous nous étiez devenus chers."
+            }
           ],
           "summaryPoints": [
             "Accueillir — avec chaleur et amitié.",
@@ -839,7 +1028,10 @@
             "Gutera umwete abakristo bashasha ngo mwongere gukorana."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 4.14-15", "text": "Umubivyi abiba ijambo ry'Imana… Satani araza akabakuramwo iryo jambo ryabibwe muri bo."}
+            {
+              "reference": "Mariko 4.14-15",
+              "text": "Umubivyi abiba ijambo ry'Imana… Satani araza akabakuramwo iryo jambo ryabibwe muri bo."
+            }
           ],
           "summaryPoints": [
             "Kwitegura — intumbero, icemezo c'agakiza.",
@@ -860,7 +1052,10 @@
             "Motivate them to meet with you again."
           ],
           "keyScriptures": [
-            {"reference": "1 Thessalonians 2:8", "text": "So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own souls, because ye were dear unto us."}
+            {
+              "reference": "1 Thessalonians 2:8",
+              "text": "So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own souls, because ye were dear unto us."
+            }
           ],
           "summaryPoints": [
             "Welcome — with warmth and friendship.",
@@ -894,8 +1089,14 @@
             "Commencer une étude biblique régulière."
           ],
           "keyScriptures": [
-            {"reference": "Romains 12.2", "text": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence."},
-            {"reference": "Josué 1.8", "text": "Que ce livre de la loi ne s'éloigne point de ta bouche ; médite-le jour et nuit… car alors tu prospéreras dans tes voies."}
+            {
+              "reference": "Romains 12.2",
+              "text": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence."
+            },
+            {
+              "reference": "Josué 1.8",
+              "text": "Que ce livre de la loi ne s'éloigne point de ta bouche ; médite-le jour et nuit… car alors tu prospéreras dans tes voies."
+            }
           ],
           "summaryPoints": [
             "Observer — que dit le texte ?",
@@ -916,8 +1117,14 @@
             "Gushira mu ngiro ivyo twize."
           ],
           "keyScriptures": [
-            {"reference": "Yosuwa 1.8", "text": "Iki gitabo c'ivyagezwe ntikizova mu kanwa kawe, uzogizirikana ku murango no mw'ijoro… uzoheza uroranirwe."},
-            {"reference": "Yakobo 1.22", "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."}
+            {
+              "reference": "Yosuwa 1.8",
+              "text": "Iki gitabo c'ivyagezwe ntikizova mu kanwa kawe, uzogizirikana ku murango no mw'ijoro… uzoheza uroranirwe."
+            },
+            {
+              "reference": "Yakobo 1.22",
+              "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."
+            }
           ],
           "summaryPoints": [
             "Kwitegura — isengesho, igice, ikaye.",
@@ -938,8 +1145,14 @@
             "Begin a regular habit of Bible study."
           ],
           "keyScriptures": [
-            {"reference": "Romans 12:2", "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."},
-            {"reference": "Joshua 1:8", "text": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night... for then thou shalt make thy way prosperous."}
+            {
+              "reference": "Romans 12:2",
+              "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind."
+            },
+            {
+              "reference": "Joshua 1:8",
+              "text": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night... for then thou shalt make thy way prosperous."
+            }
           ],
           "summaryPoints": [
             "Observe — what does the text say?",
@@ -960,70 +1173,130 @@
       {
         "id": "track_2_q1",
         "prompt": {
-          "fr": "D'après Jean 15.5, comment porte-t-on beaucoup de fruit ?",
-          "rn": "Nk'uko Yohana 15.5 abivuga, ni gute umuntu yama ivyamwa vyinshi ?",
-          "en": "According to John 15:5, how does one bear much fruit?"
+          "fr": "D’après le niveau 2, quel est le rôle central du Saint-Esprit dans la vie du disciple ?",
+          "en": "According to level 2, what is the Holy Spirit’s central role in a disciple’s life?",
+          "rn": "Nk'uko urwego rwa 2 rubivuga, uruhare nyamukuru rwa Mpwemu Yera mu bugingo bw'umwigishwa ni uruhe?"
         },
         "choices": [
-          {"fr": "En travaillant dur par ses propres forces", "rn": "Mu nkomezi zacu twebwe", "en": "By working hard in one's own strength"},
-          {"fr": "En demeurant en Christ, comme le sarment au cep", "rn": "Mu kuguma muri Kristo, nk'ishami ku muzabibu", "en": "By abiding in Christ, as a branch in the vine"},
-          {"fr": "En suivant des règles religieuses strictes", "rn": "Mu kwikorera gusa", "en": "By strictly following religious rules"}
+          {
+            "fr": "Remplacer complètement la Parole de Dieu",
+            "en": "Replace the Word of God entirely",
+            "rn": "Gusimbura Ijambo ry'Imana rwose"
+          },
+          {
+            "fr": "Remplir, diriger et habiliter le croyant pour obéir et témoigner",
+            "en": "Fill, lead, and empower the believer to obey and witness",
+            "rn": "Kuzuza, kuyobora no guha imbaraga uwizera kugira ngo yumvire no gushinga intahe"
+          },
+          {
+            "fr": "Servir uniquement lors des cultes spectaculaires",
+            "en": "Serve only during spectacular services",
+            "rn": "Gukora gusa mu masengesho ashimishije"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_2_q2",
         "prompt": {
-          "fr": "Que signifie savoir que Dieu est « immuable », selon la leçon sur les attributs de Dieu ?",
-          "rn": "Bivuga iki ko Imana ari « Adahinduka » nk'uko incamake y'ibiranga Imana ibivuga ?",
-          "en": "What does it mean that God is unchanging, according to the lesson on the attributes of God?"
+          "fr": "Selon ce niveau, comment un disciple marche-t-il « selon l’Esprit » au quotidien ?",
+          "en": "According to this level, how does a disciple walk “by the Spirit” daily?",
+          "rn": "Nk'uko uru rwego rubivuga, umwigishwa anyura ate « nk'uko Mpwemu ashaka » mu misi yose?"
         },
         "choices": [
-          {"fr": "Qu'il change selon les circonstances", "rn": "Ko ihindagurika nk'ibigumbagumba vyacu", "en": "That he changes according to circumstances"},
-          {"fr": "Qu'il est le même hier, aujourd'hui et toujours", "rn": "Ko iri imwe ejo, uno musi, ibihe vyose", "en": "That he is the same yesterday, today, and forever"},
-          {"fr": "Que sa fidélité dépend de nos sentiments", "rn": "Ko idufasha ku bushake bwacu bwonyene", "en": "That his faithfulness depends on our feelings"}
+          {
+            "fr": "En vivant selon la chair et les désirs du moment",
+            "en": "By living according to the flesh and momentary desires",
+            "rn": "Mu kuba nk'uko umubiri n'ibiryo vy'akalimba bishaka"
+          },
+          {
+            "fr": "En dépendant de l’Esprit par la foi, la confession et l’obéissance",
+            "en": "By depending on the Spirit through faith, confession, and obedience",
+            "rn": "Mu kwizigira Mpwemu biciye ku kwizera, kwatura n'ubwitonzi"
+          },
+          {
+            "fr": "En accumulant des titres ministériels",
+            "en": "By collecting ministry titles",
+            "rn": "Mu gutoranya amazina y'ubuyobozi"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_2_q3",
         "prompt": {
-          "fr": "Selon 2 Corinthiens 5.17, que devient celui qui est en Christ ?",
-          "rn": "Nk'uko 2 Abakorinto 5.17 ibivuga, umuntu ari muri Kristo aba ari iki ?",
-          "en": "According to 2 Corinthians 5:17, what does someone in Christ become?"
+          "fr": "Que enseigne ce niveau sur la victoire sur le péché ?",
+          "en": "What does this level teach about victory over sin?",
+          "rn": "Uru rwego rwigisha iki ku ntsinzi ku caha?"
         },
         "choices": [
-          {"fr": "Il reste identique à ce qu'il était avant", "rn": "Uwuguma ari uko yahoze", "en": "Exactly the same as before"},
-          {"fr": "Il devient une nouvelle créature", "rn": "Irema rishasha", "en": "A new creature"},
-          {"fr": "Il doit encore mériter le pardon", "rn": "Uwukeneye kwikorera ikigongwe", "en": "Someone who must still earn forgiveness"}
+          {
+            "fr": "Elle vient seulement de la volonté humaine",
+            "en": "It comes from human willpower alone",
+            "rn": "Iva ku bushake bw'umuntu gusa"
+          },
+          {
+            "fr": "Elle s’appuie sur l’œuvre de Christ et la puissance de l’Esprit",
+            "en": "It rests on Christ’s work and the Spirit’s power",
+            "rn": "Ishimikiye ku bikorwa vya Kristo n'imbaraga za Mpwemu"
+          },
+          {
+            "fr": "Elle est impossible pour un chrétien ordinaire",
+            "en": "It is impossible for an ordinary Christian",
+            "rn": "Ntibishoboka ku mukristo usanzwe"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_2_q4",
         "prompt": {
-          "fr": "Quelles sont les quatre dimensions du modèle A.C.A.S. présenté dans la leçon sur la prière ?",
-          "rn": "Ibice bine vy'isengesho biboneka mu cigwa co kwiga gusenga ni ibihe ?",
-          "en": "What are the four dimensions of the A.C.T.S. pattern taught in the prayer lesson?"
+          "fr": "Pourquoi le disciple doit-il être rempli de l’Esprit selon les leçons de ce niveau ?",
+          "en": "Why must a disciple be filled with the Spirit according to this level’s lessons?",
+          "rn": "Kuki umwigishwa agomba kuzuza Mpwemu nk'uko amasomo y'uru rwego abivuga?"
         },
         "choices": [
-          {"fr": "Adoration, Confession, Actions de grâces, Supplication", "rn": "Gushemeza, Kwatura, Gushimira, Gusaba", "en": "Adoration, Confession, Thanksgiving, Supplication"},
-          {"fr": "Assurance, Communion, Amour, Sagesse", "rn": "Kwigunga, Kwiheba, Kwihebura, Kwitwara", "en": "Assurance, Communion, Love, Wisdom"},
-          {"fr": "Attente, Calme, Ambition, Silence", "rn": "Gusinzira, Kurya, Gukora, Kuruhuka", "en": "Waiting, Calm, Ambition, Silence"}
+          {
+            "fr": "Pour impressionner les autres croyants",
+            "en": "To impress other believers",
+            "rn": "Kugira ngo bashimishwe n'abandi bizera"
+          },
+          {
+            "fr": "Pour porter du fruit et accomplir le ministère de Christ",
+            "en": "To bear fruit and carry out Christ’s ministry",
+            "rn": "Kugira ngo ave imbuto kandi akore umurimo wa Kristo"
+          },
+          {
+            "fr": "Pour éviter de lire la Bible",
+            "en": "To avoid reading the Bible",
+            "rn": "Kugira ngo ntidusome Bibiliya"
+          }
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "track_2_q5",
         "prompt": {
-          "fr": "D'après 1 Corinthiens 3.6, qui seul fait croître le nouveau croyant ?",
-          "rn": "Nk'uko 1 Abakorinto 3.6 ibivuga, ni nde yama uwukuza umukristo mushasha ?",
-          "en": "According to 1 Corinthians 3:6, who alone causes a new believer to grow?"
+          "fr": "D’après ce niveau, quelle attitude caractérise une vie conduite par l’Esprit ?",
+          "en": "According to this level, what attitude marks a Spirit-led life?",
+          "rn": "Nk'uko uru rwego rubivuga, ni uwuhe mutima ugaragaza ubugingo buyoborwa na Mpwemu?"
         },
         "choices": [
-          {"fr": "La personne qui l'affermit, par ses propres efforts", "rn": "Uwumugaburira ku bushobozi bwiwe", "en": "The person doing the follow-up, through their own effort"},
-          {"fr": "Dieu seul", "rn": "Imana ubwayo", "en": "God alone"},
-          {"fr": "Le temps qui passe", "rn": "Igihe kirenga", "en": "The mere passing of time"}
+          {
+            "fr": "L’orgueil spirituel",
+            "en": "Spiritual pride",
+            "rn": "Ubwinshi mu buryo bw'impwemu"
+          },
+          {
+            "fr": "L’humilité, l’amour et la dépendance de Dieu",
+            "en": "Humility, love, and dependence on God",
+            "rn": "Ukwicisha bugufi, urukundo n'ukwizigira Imana"
+          },
+          {
+            "fr": "L’indifférence envers les autres",
+            "en": "Indifference toward others",
+            "rn": "Ukwirengagiza abandi"
+          }
         ],
         "correctIndex": 1
       }

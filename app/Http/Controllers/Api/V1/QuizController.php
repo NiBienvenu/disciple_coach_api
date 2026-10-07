@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\PreferredLanguage;
+use App\Http\Controllers\Concerns\CachesPublicCurriculumResponses;
 use App\Http\Controllers\Controller;
 use App\Http\Responses\ApiResponse;
 use App\Services\Curriculum\CurriculumService;
@@ -11,6 +12,8 @@ use Illuminate\Http\Request;
 
 class QuizController extends Controller
 {
+    use CachesPublicCurriculumResponses;
+
     public function __construct(private readonly CurriculumService $curriculum) {}
 
     /**
@@ -25,6 +28,6 @@ class QuizController extends Controller
             return ApiResponse::error('Quiz not found.', [], 404);
         }
 
-        return ApiResponse::success($payload, meta: ['lang' => $language]);
+        return $this->cachedCurriculumSuccess($payload, meta: ['lang' => $language]);
     }
 }

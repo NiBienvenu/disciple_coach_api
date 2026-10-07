@@ -57,3 +57,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Ajuste les contne de l application faire utilise @content/  on y trouve des contenu a mettre dans l 'application , faire Parcours pour les identifier enfin de les mettre dans le meilleur emplacements , 
+Pour le quiz faire que se soit sur les niveau , ces questions provient dans le contenu du cours , une fois on parvient de reussir faire les questions , faire genere un certifiat a telecharge 

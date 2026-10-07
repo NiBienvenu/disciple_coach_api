@@ -1,18 +1,28 @@
 {
-  "trackId": "track_3",
-  "title": {"fr": "Niveau 3 : Avancée", "rn": "Urwego rwa 3 : Avancee", "en": "Level 3: Advanced"},
+  "id": "track_3",
+  "title": {
+    "fr": "Niveau 3 : Avancée",
+    "rn": "Urwego rwa 3 : Avancee",
+    "en": "Level 3: Advanced"
+  },
   "description": {
     "fr": "Ce niveau avancé approfondit la grâce de Dieu, l'appel à former des disciples multiplicateurs, et les compétences pratiques pour diriger des groupes de discipolat et gérer fidèlement ce que Dieu confie.",
     "rn": "Uru rwego rwa gatatu (Avancée) ruzogufasha kwiga Ubuntu bw'Imana, akamo ko guhindura abigishwa no kwigwiza mu buryo bw'impwemu, kurongora umurwi w'abigishwa, no ukubungabunga ivy'Imana.",
     "en": "This advanced level deepens your understanding of God's grace, the call to raise up multiplying disciples, and the practical skills for leading discipleship groups and faithfully stewarding what God entrusts to you."
   },
+  "order": 3,
+  "previousTrackId": "track_2",
   "lessons": [
     {
       "id": "track_3_lesson_01",
       "code": "3M01",
       "type": "main",
       "order": 1,
-      "title": {"fr": "La grâce de Dieu", "rn": "Ubuntu bw'Imana", "en": "The grace of God"},
+      "title": {
+        "fr": "La grâce de Dieu",
+        "rn": "Ubuntu bw'Imana",
+        "en": "The grace of God"
+      },
       "content": {
         "fr": {
           "centralIdea": "Comprendre comment le chrétien reçoit la grâce de Dieu et comment il peut l'expérimenter concrètement dans son ministère et ses relations.",
@@ -23,8 +33,14 @@
             "Mettre en pratique une vérité liée à la grâce dans sa situation personnelle."
           ],
           "keyScriptures": [
-            {"reference": "Galates 2.20-21", "text": "Je suis crucifié avec Christ ; si je vis, ce n'est plus moi qui vis, c'est Christ qui vit en moi. Je ne rejette pas la grâce de Dieu, car si la justice s'obtient par la loi, Christ est mort pour rien."},
-            {"reference": "Éphésiens 2.8-9", "text": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi ; cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie."}
+            {
+              "reference": "Galates 2.20-21",
+              "text": "Je suis crucifié avec Christ ; si je vis, ce n'est plus moi qui vis, c'est Christ qui vit en moi. Je ne rejette pas la grâce de Dieu, car si la justice s'obtient par la loi, Christ est mort pour rien."
+            },
+            {
+              "reference": "Éphésiens 2.8-9",
+              "text": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi ; cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie."
+            }
           ],
           "summaryPoints": [
             "Recevoir la faveur imméritée que Dieu offre en Christ.",
@@ -46,8 +62,14 @@
             "Gushira mu ngiro kimwe mu bigize ukuri kw'Imana mu buzima bwawe."
           ],
           "keyScriptures": [
-            {"reference": "Abagalatiya 2.20-21", "text": "Nabambanywe na Kristo, ariko ndiho ; si jewe nkiriho, ni Kristo ari muri jewe… Simpindura ubusa ubuntu bw'Imana."},
-            {"reference": "Abanyefeso 2.8-9", "text": "Ni ku buntu mwakijijwe biciye ku kwizera… si ku bikorwa, ngo ntihagire uwishima."}
+            {
+              "reference": "Abagalatiya 2.20-21",
+              "text": "Nabambanywe na Kristo, ariko ndiho ; si jewe nkiriho, ni Kristo ari muri jewe… Simpindura ubusa ubuntu bw'Imana."
+            },
+            {
+              "reference": "Abanyefeso 2.8-9",
+              "text": "Ni ku buntu mwakijijwe biciye ku kwizera… si ku bikorwa, ngo ntihagire uwishima."
+            }
           ],
           "summaryPoints": [
             "Kwakira — iteka tutabikwiye muri Kristo.",
@@ -69,8 +91,14 @@
             "Put into practice one truth about grace in your own situation."
           ],
           "keyScriptures": [
-            {"reference": "Galatians 2:20-21", "text": "I am crucified with Christ; nevertheless I live, yet not I, but Christ liveth in me. I do not frustrate the grace of God, for if righteousness come by the law, then Christ is dead in vain."},
-            {"reference": "Ephesians 2:8-9", "text": "For by grace are ye saved through faith, and that not of yourselves: it is the gift of God. Not of works, lest any man should boast."}
+            {
+              "reference": "Galatians 2:20-21",
+              "text": "I am crucified with Christ; nevertheless I live, yet not I, but Christ liveth in me. I do not frustrate the grace of God, for if righteousness come by the law, then Christ is dead in vain."
+            },
+            {
+              "reference": "Ephesians 2:8-9",
+              "text": "For by grace are ye saved through faith, and that not of yourselves: it is the gift of God. Not of works, lest any man should boast."
+            }
           ],
           "summaryPoints": [
             "Receive the undeserved favor God offers in Christ.",
@@ -90,7 +118,11 @@
       "code": "3M02",
       "type": "main",
       "order": 2,
-      "title": {"fr": "Un appel biblique de faire des disciples", "rn": "Akamo ko muri Bibiliya ko guhindura abigishwa", "en": "A biblical call to make disciples"},
+      "title": {
+        "fr": "Un appel biblique de faire des disciples",
+        "rn": "Akamo ko muri Bibiliya ko guhindura abigishwa",
+        "en": "A biblical call to make disciples"
+      },
       "content": {
         "fr": {
           "centralIdea": "Clarifier ce que signifie répondre à l'appel de Dieu à faire des disciples, pour aider à atteindre le monde entier.",
@@ -101,8 +133,14 @@
             "Évaluer son propre engagement envers cet appel."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 28.19-20", "text": "Allez, faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit."},
-            {"reference": "Colossiens 1.28-29", "text": "C'est lui que nous annonçons, avertissant tout homme, afin de présenter à Dieu tout homme devenu parfait en Christ."}
+            {
+              "reference": "Matthieu 28.19-20",
+              "text": "Allez, faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit."
+            },
+            {
+              "reference": "Colossiens 1.28-29",
+              "text": "C'est lui que nous annonçons, avertissant tout homme, afin de présenter à Dieu tout homme devenu parfait en Christ."
+            }
           ],
           "summaryPoints": [
             "Servir Jésus en l'aimant, en lui obéissant, en pêchant des hommes, en priant et en étant rempli de l'Esprit.",
@@ -124,8 +162,14 @@
             "Gusuzuma ukwitanga kwawe kuri ako kamo."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 28.19-20", "text": "Nimugende, muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
-            {"reference": "Abakolosayi 1.28-29", "text": "Ni we twamamaza, duhanura umuntu wese… kugira ngo dushikane umuntu wese ku Mana ashitse muri Kristo."}
+            {
+              "reference": "Matayo 28.19-20",
+              "text": "Nimugende, muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."
+            },
+            {
+              "reference": "Abakolosayi 1.28-29",
+              "text": "Ni we twamamaza, duhanura umuntu wese… kugira ngo dushikane umuntu wese ku Mana ashitse muri Kristo."
+            }
           ],
           "summaryPoints": [
             "Gukorera — gukunda, kwumvira, kuroba, gusenga, kuzuzwa.",
@@ -147,8 +191,14 @@
             "Evaluate your own commitment to this call."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 28:19-20", "text": "Go ye therefore, and teach all nations, teaching them to observe all things whatsoever I have commanded you."},
-            {"reference": "Colossians 1:28", "text": "Whom we preach, warning every man, and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus."}
+            {
+              "reference": "Matthew 28:19-20",
+              "text": "Go ye therefore, and teach all nations, teaching them to observe all things whatsoever I have commanded you."
+            },
+            {
+              "reference": "Colossians 1:28",
+              "text": "Whom we preach, warning every man, and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus."
+            }
           ],
           "summaryPoints": [
             "Serve Jesus by loving, obeying, fishing for people, praying, and being filled with the Spirit.",
@@ -168,7 +218,11 @@
       "code": "3M03",
       "type": "main",
       "order": 3,
-      "title": {"fr": "Le défi d'être un multiplicateur spirituel", "rn": "Akamo ko kuba uwigwiza mu buryo bw'impwemu", "en": "The challenge of being a spiritual multiplier"},
+      "title": {
+        "fr": "Le défi d'être un multiplicateur spirituel",
+        "rn": "Akamo ko kuba uwigwiza mu buryo bw'impwemu",
+        "en": "The challenge of being a spiritual multiplier"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous motiver à répondre au défi d'être un multiplicateur spirituel, pour un impact maximum sur le monde.",
@@ -179,8 +233,14 @@
             "Évaluer son engagement à former des disciples multiplicateurs."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."},
-            {"reference": "2 Timothée 2.8-10", "text": "Souviens-toi de Jésus-Christ, ressuscité des morts. Je supporte tout à cause des élus, afin qu'eux aussi obtiennent le salut qui est en Christ-Jésus."}
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
+            },
+            {
+              "reference": "2 Timothée 2.8-10",
+              "text": "Souviens-toi de Jésus-Christ, ressuscité des morts. Je supporte tout à cause des élus, afin qu'eux aussi obtiennent le salut qui est en Christ-Jésus."
+            }
           ],
           "summaryPoints": [
             "Puiser la puissance en se fortifiant dans la grâce qui est en Christ.",
@@ -202,8 +262,14 @@
             "Gusuzuma ukwitanga kwawe mu gikorwa co kugira abigishwa bigwiza."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
-            {"reference": "2 Timoteyo 2.8-10", "text": "Wame wibuka Yesu Kristo, yazutse mu bapfuye… Nihanganira vyose kubw'abatoranijwe, ngo na bo baronke agakiza."}
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            },
+            {
+              "reference": "2 Timoteyo 2.8-10",
+              "text": "Wame wibuka Yesu Kristo, yazutse mu bapfuye… Nihanganira vyose kubw'abatoranijwe, ngo na bo baronke agakiza."
+            }
           ],
           "summaryPoints": [
             "Ubushobozi — kugira ubushobozi mu buntu.",
@@ -225,8 +291,14 @@
             "Evaluate your own commitment to raising up multiplying disciples."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me, commit thou to faithful men, who shall be able to teach others also."},
-            {"reference": "2 Timothy 2:8-10", "text": "Remember Jesus Christ, raised from the dead. I endure all things for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus."}
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "The things that thou hast heard of me, commit thou to faithful men, who shall be able to teach others also."
+            },
+            {
+              "reference": "2 Timothy 2:8-10",
+              "text": "Remember Jesus Christ, raised from the dead. I endure all things for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus."
+            }
           ],
           "summaryPoints": [
             "Draw on God's power by being strengthened in the grace that is in Christ.",
@@ -246,7 +318,11 @@
       "code": "3M04",
       "type": "main",
       "order": 4,
-      "title": {"fr": "Commencer un ministère de discipolat I", "rn": "Gutangura igikorwa co guhindura abigishwa I", "en": "Starting a discipleship ministry, part 1"},
+      "title": {
+        "fr": "Commencer un ministère de discipolat I",
+        "rn": "Gutangura igikorwa co guhindura abigishwa I",
+        "en": "Starting a discipleship ministry, part 1"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous motiver et vous aider à démarrer un ministère de discipolat dans votre sous-région visée.",
@@ -257,8 +333,14 @@
             "Identifier et atteindre les groupes naturels et les personnes d'influence."
           ],
           "keyScriptures": [
-            {"reference": "Marc 3.14", "text": "Il en établit douze pour les avoir avec lui, et pour les envoyer prêcher."},
-            {"reference": "Matthieu 9.37-38", "text": "La moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson."}
+            {
+              "reference": "Marc 3.14",
+              "text": "Il en établit douze pour les avoir avec lui, et pour les envoyer prêcher."
+            },
+            {
+              "reference": "Matthieu 9.37-38",
+              "text": "La moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson."
+            }
           ],
           "summaryPoints": [
             "Fusionner marche personnelle avec Dieu et ministère envers les autres.",
@@ -280,8 +362,14 @@
             "Kumenya no gushikira imirwi kama n'abantu b'ijwi."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."},
-            {"reference": "Matayo 9.37-38", "text": "Iyimbura ni ryinshi, ariko abimbuzi ni bake. Nuko musenge nyene iyimbura ngo arungike abimbuzi mu iyimbura ryiwe."}
+            {
+              "reference": "Mariko 3.14",
+              "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."
+            },
+            {
+              "reference": "Matayo 9.37-38",
+              "text": "Iyimbura ni ryinshi, ariko abimbuzi ni bake. Nuko musenge nyene iyimbura ngo arungike abimbuzi mu iyimbura ryiwe."
+            }
           ],
           "summaryPoints": [
             "Guhuza — kugendana n'Imana n'igikorwa.",
@@ -303,8 +391,14 @@
             "Identify and reach natural groups and people of influence."
           ],
           "keyScriptures": [
-            {"reference": "Mark 3:14", "text": "And he ordained twelve, that they should be with him, and that he might send them forth to preach."},
-            {"reference": "Matthew 9:37-38", "text": "The harvest truly is plenteous, but the labourers are few. Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest."}
+            {
+              "reference": "Mark 3:14",
+              "text": "And he ordained twelve, that they should be with him, and that he might send them forth to preach."
+            },
+            {
+              "reference": "Matthew 9:37-38",
+              "text": "The harvest truly is plenteous, but the labourers are few. Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest."
+            }
           ],
           "summaryPoints": [
             "Merge a growing personal walk with God together with ministry to others.",
@@ -324,7 +418,11 @@
       "code": "3M05",
       "type": "main",
       "order": 5,
-      "title": {"fr": "Diriger un groupe de discipolat", "rn": "Kurongora umurwi w'abigishwa", "en": "Leading a discipleship group"},
+      "title": {
+        "fr": "Diriger un groupe de discipolat",
+        "rn": "Kurongora umurwi w'abigishwa",
+        "en": "Leading a discipleship group"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous équiper à diriger un groupe de discipolat qui aide chaque membre à grandir et à se multiplier.",
@@ -335,8 +433,14 @@
             "Équilibrer contenu, relations et mise en pratique."
           ],
           "keyScriptures": [
-            {"reference": "Marc 3.14", "text": "Il en établit douze pour les avoir avec lui, et pour les envoyer prêcher."},
-            {"reference": "2 Timothée 2.2", "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."}
+            {
+              "reference": "Marc 3.14",
+              "text": "Il en établit douze pour les avoir avec lui, et pour les envoyer prêcher."
+            },
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
+            }
           ],
           "summaryPoints": [
             "Se préparer : étudier la leçon, prier pour chacun, choisir de bonnes questions.",
@@ -358,8 +462,14 @@
             "Kuringanira ibirimwo, imigenderanire, n'ingiro."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."},
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+            {
+              "reference": "Mariko 3.14",
+              "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."
+            },
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            }
           ],
           "summaryPoints": [
             "Kwitegura — icigwa, isengesho, ibibazo.",
@@ -381,8 +491,14 @@
             "Balance content, relationships, and practice."
           ],
           "keyScriptures": [
-            {"reference": "Mark 3:14", "text": "And he ordained twelve, that they should be with him, and that he might send them forth to preach."},
-            {"reference": "2 Timothy 2:2", "text": "Commit it to faithful men, who will be able to teach others also."}
+            {
+              "reference": "Mark 3:14",
+              "text": "And he ordained twelve, that they should be with him, and that he might send them forth to preach."
+            },
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "Commit it to faithful men, who will be able to teach others also."
+            }
           ],
           "summaryPoints": [
             "Prepare: study the lesson, pray for each person, choose good questions.",
@@ -402,7 +518,11 @@
       "code": "3M06",
       "type": "main",
       "order": 6,
-      "title": {"fr": "L'intendance biblique", "rn": "Ukubungabunga ivy'Imana", "en": "Biblical stewardship"},
+      "title": {
+        "fr": "L'intendance biblique",
+        "rn": "Ukubungabunga ivy'Imana",
+        "en": "Biblical stewardship"
+      },
       "content": {
         "fr": {
           "centralIdea": "Comprendre que tout appartient à Dieu et que nous sommes les intendants de ce qu'il nous confie.",
@@ -412,8 +532,14 @@
             "Gérer fidèlement en sachant qu'on en rendra compte à Dieu."
           ],
           "keyScriptures": [
-            {"reference": "Psaume 24.1", "text": "À l'Éternel la terre et ce qu'elle renferme, le monde et ceux qui l'habitent."},
-            {"reference": "1 Corinthiens 4.2", "text": "Ce qu'on demande des intendants, c'est que chacun soit trouvé fidèle."}
+            {
+              "reference": "Psaume 24.1",
+              "text": "À l'Éternel la terre et ce qu'elle renferme, le monde et ceux qui l'habitent."
+            },
+            {
+              "reference": "1 Corinthiens 4.2",
+              "text": "Ce qu'on demande des intendants, c'est que chacun soit trouvé fidèle."
+            }
           ],
           "summaryPoints": [
             "Reconnaître que tout appartient à Dieu.",
@@ -434,8 +560,14 @@
             "Gucungera n'ubwizigirwa, wibuka ko uzobibazwa n'Imana."
           ],
           "keyScriptures": [
-            {"reference": "Zaburi 24.1", "text": "Isi n'ivyuzuyemwo ni ivy'Uhoraho, n'ibigwa mw'isi n'ababibako."},
-            {"reference": "1 Abakorinto 4.2", "text": "Ivyo basaba ababungabunga, n'uko umwe wese asangwa ari umwizigirwa."}
+            {
+              "reference": "Zaburi 24.1",
+              "text": "Isi n'ivyuzuyemwo ni ivy'Uhoraho, n'ibigwa mw'isi n'ababibako."
+            },
+            {
+              "reference": "1 Abakorinto 4.2",
+              "text": "Ivyo basaba ababungabunga, n'uko umwe wese asangwa ari umwizigirwa."
+            }
           ],
           "summaryPoints": [
             "Kwemera — vyose ni ivy'Imana.",
@@ -456,8 +588,14 @@
             "Manage faithfully, knowing you will one day give an account to God."
           ],
           "keyScriptures": [
-            {"reference": "Psalm 24:1", "text": "The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein."},
-            {"reference": "1 Corinthians 4:2", "text": "What is required of stewards is that each one be found faithful."}
+            {
+              "reference": "Psalm 24:1",
+              "text": "The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein."
+            },
+            {
+              "reference": "1 Corinthians 4:2",
+              "text": "What is required of stewards is that each one be found faithful."
+            }
           ],
           "summaryPoints": [
             "Recognize that everything belongs to God.",
@@ -477,7 +615,11 @@
       "code": "3S01",
       "type": "supplementary",
       "order": 7,
-      "title": {"fr": "Les caractéristiques d'un disciple de Jésus-Christ", "rn": "Ibiranga umwigishwa wa Yesu", "en": "The characteristics of a disciple of Jesus Christ"},
+      "title": {
+        "fr": "Les caractéristiques d'un disciple de Jésus-Christ",
+        "rn": "Ibiranga umwigishwa wa Yesu",
+        "en": "The characteristics of a disciple of Jesus Christ"
+      },
       "content": {
         "fr": {
           "centralIdea": "Faire comprendre qui est un disciple de Jésus, et motiver à vivre pleinement en tant que tel.",
@@ -487,8 +629,14 @@
             "S'engager à être un disciple de Jésus."
           ],
           "keyScriptures": [
-            {"reference": "Philippiens 3.12-14", "text": "Je n'ai pas encore atteint le but, mais je cours pour le saisir. Je cours vers le but, pour remporter le prix de l'appel céleste de Dieu en Christ-Jésus."},
-            {"reference": "Luc 9.23", "text": "Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix et qu'il me suive."}
+            {
+              "reference": "Philippiens 3.12-14",
+              "text": "Je n'ai pas encore atteint le but, mais je cours pour le saisir. Je cours vers le but, pour remporter le prix de l'appel céleste de Dieu en Christ-Jésus."
+            },
+            {
+              "reference": "Luc 9.23",
+              "text": "Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix et qu'il me suive."
+            }
           ],
           "summaryPoints": [
             "Apprendre comme un élève de Jésus, sa vie entière.",
@@ -509,8 +657,14 @@
             "Kwitanga ngo ube umwigishwa wa Yesu."
           ],
           "keyScriptures": [
-            {"reference": "Ab'i Filipi 3.12-14", "text": "Sinaronse kw'ari ukwo, ariko ndagenda mfata ku muheto… nirengagiza ivyo inyuma, nkihatira ivyo imbere."},
-            {"reference": "Luka 9.23", "text": "Umuntu niyashaka kunkurikira, niyiyanke, yikorere umusaraba wiwe imisi yose, ankurikire."}
+            {
+              "reference": "Ab'i Filipi 3.12-14",
+              "text": "Sinaronse kw'ari ukwo, ariko ndagenda mfata ku muheto… nirengagiza ivyo inyuma, nkihatira ivyo imbere."
+            },
+            {
+              "reference": "Luka 9.23",
+              "text": "Umuntu niyashaka kunkurikira, niyiyanke, yikorere umusaraba wiwe imisi yose, ankurikire."
+            }
           ],
           "summaryPoints": [
             "Kwiga — umunyeshure wa Yesu, ubuzima bwose.",
@@ -531,8 +685,14 @@
             "Commit to being a disciple of Jesus."
           ],
           "keyScriptures": [
-            {"reference": "Philippians 3:12-14", "text": "I have not yet reached the goal, but I press on toward it, to win the prize of God's heavenly call in Christ Jesus."},
-            {"reference": "Luke 9:23", "text": "If any man will come after me, let him deny himself, and take up his cross daily, and follow me."}
+            {
+              "reference": "Philippians 3:12-14",
+              "text": "I have not yet reached the goal, but I press on toward it, to win the prize of God's heavenly call in Christ Jesus."
+            },
+            {
+              "reference": "Luke 9:23",
+              "text": "If any man will come after me, let him deny himself, and take up his cross daily, and follow me."
+            }
           ],
           "summaryPoints": [
             "Learn as a lifelong student of Jesus.",
@@ -552,7 +712,11 @@
       "code": "3S02",
       "type": "supplementary",
       "order": 8,
-      "title": {"fr": "Modèles bibliques du ministère de discipolat", "rn": "Uturorero two muri Bibiliya tw'igikorwa co guhindura abigishwa", "en": "Biblical models of discipleship ministry"},
+      "title": {
+        "fr": "Modèles bibliques du ministère de discipolat",
+        "rn": "Uturorero two muri Bibiliya tw'igikorwa co guhindura abigishwa",
+        "en": "Biblical models of discipleship ministry"
+      },
       "content": {
         "fr": {
           "centralIdea": "Faire connaître les caractéristiques fondamentales des ministères de discipolat de Jésus, de Paul et de Pierre.",
@@ -562,8 +726,14 @@
             "Commencer à mettre ces principes en pratique."
           ],
           "keyScriptures": [
-            {"reference": "Jean 17.4", "text": "Je t'ai glorifié sur la terre, j'ai achevé l'œuvre que tu m'as donnée à faire."},
-            {"reference": "1 Pierre 5.2-3", "text": "Paissez le troupeau de Dieu qui est sous votre garde, non comme dominant sur ceux qui vous sont échus en partage, mais en étant les modèles du troupeau."}
+            {
+              "reference": "Jean 17.4",
+              "text": "Je t'ai glorifié sur la terre, j'ai achevé l'œuvre que tu m'as donnée à faire."
+            },
+            {
+              "reference": "1 Pierre 5.2-3",
+              "text": "Paissez le troupeau de Dieu qui est sous votre garde, non comme dominant sur ceux qui vous sont échus en partage, mais en étant les modèles du troupeau."
+            }
           ],
           "summaryPoints": [
             "Suivre Jésus : prier, enseigner, dépendre de l'Esprit, envoyer.",
@@ -584,8 +754,14 @@
             "Gutangura gushira mu ngiro ivyo biyumviro."
           ],
           "keyScriptures": [
-            {"reference": "Yohana 17.4", "text": "Nakuninahaje kw'isi, ndangije igikorwa wampaye ngo ngikore."},
-            {"reference": "1 Petero 5.2-3", "text": "Muragire umukuku w'Imana… atari nk'abaganza abo mwaraganwa, ariko mube uturorero tw'umukuku."}
+            {
+              "reference": "Yohana 17.4",
+              "text": "Nakuninahaje kw'isi, ndangije igikorwa wampaye ngo ngikore."
+            },
+            {
+              "reference": "1 Petero 5.2-3",
+              "text": "Muragire umukuku w'Imana… atari nk'abaganza abo mwaraganwa, ariko mube uturorero tw'umukuku."
+            }
           ],
           "summaryPoints": [
             "Yesu — gusenga, kwigisha, kwishimikiza Mpwemu, gutuma.",
@@ -606,8 +782,14 @@
             "Begin putting these principles into practice."
           ],
           "keyScriptures": [
-            {"reference": "John 17:4", "text": "I have glorified thee on the earth: I have finished the work which thou gavest me to do."},
-            {"reference": "1 Peter 5:2-3", "text": "Shepherd the flock of God that is among you, not as lords over those entrusted to you, but as examples to the flock."}
+            {
+              "reference": "John 17:4",
+              "text": "I have glorified thee on the earth: I have finished the work which thou gavest me to do."
+            },
+            {
+              "reference": "1 Peter 5:2-3",
+              "text": "Shepherd the flock of God that is among you, not as lords over those entrusted to you, but as examples to the flock."
+            }
           ],
           "summaryPoints": [
             "Follow Jesus: pray, teach, depend on the Spirit, send.",
@@ -627,7 +809,11 @@
       "code": "3S03",
       "type": "supplementary",
       "order": 9,
-      "title": {"fr": "Vue d'ensemble de la multiplication spirituelle", "rn": "Urukurikirane rw'uburyo bwo kwigwiza mu buryo bw'impwemu", "en": "Overview of spiritual multiplication"},
+      "title": {
+        "fr": "Vue d'ensemble de la multiplication spirituelle",
+        "rn": "Urukurikirane rw'uburyo bwo kwigwiza mu buryo bw'impwemu",
+        "en": "Overview of spiritual multiplication"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous aider à mettre en œuvre les différentes étapes d'un ministère de multiplication spirituelle.",
@@ -637,8 +823,14 @@
             "Évaluer le progrès de son propre ministère."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 28.19-20", "text": "Allez, faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit."},
-            {"reference": "2 Timothée 2.2", "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."}
+            {
+              "reference": "Matthieu 28.19-20",
+              "text": "Allez, faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit."
+            },
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
+            }
           ],
           "summaryPoints": [
             "Gagner : exposer largement l'Évangile et amener les gens à décider.",
@@ -659,8 +851,14 @@
             "Gusuzuma iterambere ry'igikorwa cawe."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 28.19-20", "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+            {
+              "reference": "Matayo 28.19-20",
+              "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."
+            },
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            }
           ],
           "summaryPoints": [
             "Kuzana — gutangura imibonano no gushikana ku guhitamwo.",
@@ -681,8 +879,14 @@
             "Evaluate the progress of your own ministry."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 28:19-20", "text": "Go ye therefore, and teach all nations, teaching them to observe all things whatsoever I have commanded you."},
-            {"reference": "2 Timothy 2:2", "text": "Commit it to faithful men, who will be able to teach others also."}
+            {
+              "reference": "Matthew 28:19-20",
+              "text": "Go ye therefore, and teach all nations, teaching them to observe all things whatsoever I have commanded you."
+            },
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "Commit it to faithful men, who will be able to teach others also."
+            }
           ],
           "summaryPoints": [
             "Win: broadly present the gospel and lead people to a decision.",
@@ -702,7 +906,11 @@
       "code": "3S04",
       "type": "supplementary",
       "order": 10,
-      "title": {"fr": "Commencer un ministère de discipolat II", "rn": "Gutangura igikorwa co kugira intumwa zigwiza II", "en": "Starting a discipleship ministry, part 2"},
+      "title": {
+        "fr": "Commencer un ministère de discipolat II",
+        "rn": "Gutangura igikorwa co kugira intumwa zigwiza II",
+        "en": "Starting a discipleship ministry, part 2"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous motiver et vous aider à démarrer un ministère de discipolat dans votre sous-région visée.",
@@ -713,8 +921,14 @@
             "Lancer à d'autres le défi de rejoindre son groupe."
           ],
           "keyScriptures": [
-            {"reference": "Marc 3.13-14", "text": "Il monta sur la montagne, et appela ceux qu'il voulut. Il en établit douze, pour les avoir avec lui, et pour les envoyer prêcher."},
-            {"reference": "Luc 6.12-13", "text": "Il passa toute la nuit à prier Dieu. Quand le jour parut, il appela ses disciples, et il en choisit douze."}
+            {
+              "reference": "Marc 3.13-14",
+              "text": "Il monta sur la montagne, et appela ceux qu'il voulut. Il en établit douze, pour les avoir avec lui, et pour les envoyer prêcher."
+            },
+            {
+              "reference": "Luc 6.12-13",
+              "text": "Il passa toute la nuit à prier Dieu. Quand le jour parut, il appela ses disciples, et il en choisit douze."
+            }
           ],
           "summaryPoints": [
             "Filtrer : repérer les cœurs prêts à recevoir l'Évangile.",
@@ -736,8 +950,14 @@
             "Gutumira abandi kuza mu murwi wawe."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 3.13-14", "text": "Adugana ku musozi, ahamagara abo yashatse… ashinga cumi na babiri, kugira babane na we no kugira ngo abatume kwamamaza."},
-            {"reference": "Luka 6.12-13", "text": "Amara ijoro ryose asenga Imana. Bukeye ahamagara abigishwa biwe, atoramwo cumi na babiri."}
+            {
+              "reference": "Mariko 3.13-14",
+              "text": "Adugana ku musozi, ahamagara abo yashatse… ashinga cumi na babiri, kugira babane na we no kugira ngo abatume kwamamaza."
+            },
+            {
+              "reference": "Luka 6.12-13",
+              "text": "Amara ijoro ryose asenga Imana. Bukeye ahamagara abigishwa biwe, atoramwo cumi na babiri."
+            }
           ],
           "summaryPoints": [
             "Kuyungurura — kumenya imitima yiteguye.",
@@ -759,8 +979,14 @@
             "Challenge others to join your group."
           ],
           "keyScriptures": [
-            {"reference": "Mark 3:13-14", "text": "He went up onto a mountain and called to him those he wanted. He appointed twelve, that they might be with him and that he might send them out to preach."},
-            {"reference": "Luke 6:12-13", "text": "He spent the whole night in prayer to God. When day came, he called his disciples and chose twelve of them."}
+            {
+              "reference": "Mark 3:13-14",
+              "text": "He went up onto a mountain and called to him those he wanted. He appointed twelve, that they might be with him and that he might send them out to preach."
+            },
+            {
+              "reference": "Luke 6:12-13",
+              "text": "He spent the whole night in prayer to God. When day came, he called his disciples and chose twelve of them."
+            }
           ],
           "summaryPoints": [
             "Filter: identify hearts that are ready to receive the gospel.",
@@ -780,7 +1006,11 @@
       "code": "3S05",
       "type": "supplementary",
       "order": 11,
-      "title": {"fr": "Diriger une discussion au sein d'un groupe", "rn": "Kurongora ihanahanwa ry'ivyiyumviro mu murwi", "en": "Leading a group discussion"},
+      "title": {
+        "fr": "Diriger une discussion au sein d'un groupe",
+        "rn": "Kurongora ihanahanwa ry'ivyiyumviro mu murwi",
+        "en": "Leading a group discussion"
+      },
       "content": {
         "fr": {
           "centralIdea": "Faire connaître les principes pour diriger une discussion de groupe, et vous équiper à les mettre en œuvre.",
@@ -791,8 +1021,14 @@
             "Évaluer sa discussion."
           ],
           "keyScriptures": [
-            {"reference": "Proverbes 20.5", "text": "Les desseins dans le cœur de l'homme sont des eaux profondes, mais l'homme intelligent sait y puiser."},
-            {"reference": "Jacques 1.22", "text": "Mettez la parole en pratique, et ne vous bornez pas à l'écouter, en vous faisant des illusions à vous-mêmes."}
+            {
+              "reference": "Proverbes 20.5",
+              "text": "Les desseins dans le cœur de l'homme sont des eaux profondes, mais l'homme intelligent sait y puiser."
+            },
+            {
+              "reference": "Jacques 1.22",
+              "text": "Mettez la parole en pratique, et ne vous bornez pas à l'écouter, en vous faisant des illusions à vous-mêmes."
+            }
           ],
           "summaryPoints": [
             "Poser les bases : un leader engagé, des membres actifs, un climat sûr.",
@@ -814,8 +1050,14 @@
             "Gusuzuma ihanahanwa ry'ivyiyumviro mu murwi wawe."
           ],
           "keyScriptures": [
-            {"reference": "Imigani 20.5", "text": "Ivyiyumviro biri mu mutima w'umuntu ni amazi maremare, ariko umunyabwenge arayavoma."},
-            {"reference": "Yakobo 1.22", "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."}
+            {
+              "reference": "Imigani 20.5",
+              "text": "Ivyiyumviro biri mu mutima w'umuntu ni amazi maremare, ariko umunyabwenge arayavoma."
+            },
+            {
+              "reference": "Yakobo 1.22",
+              "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."
+            }
           ],
           "summaryPoints": [
             "Urufatiro — umurongozi yitanga, uwo ari we wese agira uruhara, umutima w'ukwemerana.",
@@ -837,8 +1079,14 @@
             "Evaluate your discussion."
           ],
           "keyScriptures": [
-            {"reference": "Proverbs 20:5", "text": "Counsel in the heart of man is like deep water; but a man of understanding will draw it out."},
-            {"reference": "James 1:22", "text": "But be ye doers of the word, and not hearers only, deceiving your own selves."}
+            {
+              "reference": "Proverbs 20:5",
+              "text": "Counsel in the heart of man is like deep water; but a man of understanding will draw it out."
+            },
+            {
+              "reference": "James 1:22",
+              "text": "But be ye doers of the word, and not hearers only, deceiving your own selves."
+            }
           ],
           "summaryPoints": [
             "Lay the foundation: an engaged leader, active members, a safe climate.",
@@ -858,7 +1106,11 @@
       "code": "3S06",
       "type": "supplementary",
       "order": 12,
-      "title": {"fr": "Méthodes d'enseignement des séries du discipolat", "rn": "Uburyo bwo kwigisha inyigisho zo guhindura abigishwa", "en": "Teaching methods for the discipleship series"},
+      "title": {
+        "fr": "Méthodes d'enseignement des séries du discipolat",
+        "rn": "Uburyo bwo kwigisha inyigisho zo guhindura abigishwa",
+        "en": "Teaching methods for the discipleship series"
+      },
       "content": {
         "fr": {
           "centralIdea": "Vous aider à démarrer un groupe de discipolat efficace et vous familiariser avec ses supports.",
@@ -868,8 +1120,14 @@
             "Se familiariser avec les supports du groupe."
           ],
           "keyScriptures": [
-            {"reference": "Esdras 7.10", "text": "Esdras avait appliqué son cœur à étudier la loi de l'Éternel, à la mettre en pratique, et à enseigner."},
-            {"reference": "1 Thessaloniciens 2.13", "text": "Vous avez reçu la parole de Dieu, non comme une parole d'hommes, mais comme la parole de Dieu, qui agit en vous."}
+            {
+              "reference": "Esdras 7.10",
+              "text": "Esdras avait appliqué son cœur à étudier la loi de l'Éternel, à la mettre en pratique, et à enseigner."
+            },
+            {
+              "reference": "1 Thessaloniciens 2.13",
+              "text": "Vous avez reçu la parole de Dieu, non comme une parole d'hommes, mais comme la parole de Dieu, qui agit en vous."
+            }
           ],
           "summaryPoints": [
             "Viser la connaissance, les attitudes et le comportement, tous ensemble.",
@@ -890,8 +1148,14 @@
             "Kumenyera ibikoresho vy'umurwi."
           ],
           "keyScriptures": [
-            {"reference": "Ezira 7.10", "text": "Ezira yari yashinze umutima wiwe kwiga ivyagezwe vy'Uhoraho, no kubishira mu ngiro, no kubigisha."},
-            {"reference": "1 Ab'i Tesalonike 2.13", "text": "Mwakiriye ijambo ry'Imana… atari nk'ijambo ry'abantu, ariko nk'ijambo ry'Imana rikora muri mwebwe."}
+            {
+              "reference": "Ezira 7.10",
+              "text": "Ezira yari yashinze umutima wiwe kwiga ivyagezwe vy'Uhoraho, no kubishira mu ngiro, no kubigisha."
+            },
+            {
+              "reference": "1 Ab'i Tesalonike 2.13",
+              "text": "Mwakiriye ijambo ry'Imana… atari nk'ijambo ry'abantu, ariko nk'ijambo ry'Imana rikora muri mwebwe."
+            }
           ],
           "summaryPoints": [
             "Gutumbera — ubumenyi, inyifato, ingendo.",
@@ -912,8 +1176,14 @@
             "Become familiar with the group's materials."
           ],
           "keyScriptures": [
-            {"reference": "Ezra 7:10", "text": "Ezra had set his heart to study the law of the LORD, to put it into practice, and to teach it."},
-            {"reference": "1 Thessalonians 2:13", "text": "You received the word of God not as the word of men, but as it truly is, the word of God, which is at work in you."}
+            {
+              "reference": "Ezra 7:10",
+              "text": "Ezra had set his heart to study the law of the LORD, to put it into practice, and to teach it."
+            },
+            {
+              "reference": "1 Thessalonians 2:13",
+              "text": "You received the word of God not as the word of men, but as it truly is, the word of God, which is at work in you."
+            }
           ],
           "summaryPoints": [
             "Aim at knowledge, attitudes, and behavior, all together.",
@@ -934,70 +1204,130 @@
       {
         "id": "track_3_q1",
         "prompt": {
-          "fr": "Selon la leçon sur la grâce de Dieu, comment recevons-nous la faveur de Dieu ?",
-          "rn": "Nk'uko biboneka mu 'Ubuntu bw'Imana', twakira iteka ry'Imana gute ?",
-          "en": "According to the lesson on God's grace, how do we receive God's favor?"
+          "fr": "Selon le niveau 3, qu’est-ce que le témoignage personnel ?",
+          "en": "According to level 3, what is personal witnessing?",
+          "rn": "Nk'uko urwego rwa 3 rubivuga, gushinga intahe bwite ni iki?"
         },
         "choices": [
-          {"fr": "En méritant l'amour de Dieu par nos performances", "rn": "Biciye ku bikorwa vyacu", "en": "By earning God's love through our performance"},
-          {"fr": "Par la grâce, au moyen de la foi en Christ", "rn": "Ku buntu, biciye ku kwizera", "en": "By grace, through faith in Christ"},
-          {"fr": "En observant parfaitement la loi", "rn": "Biciye ku bikorane vyiza", "en": "By perfectly keeping the law"}
+          {
+            "fr": "Un débat pour gagner à tout prix",
+            "en": "A debate to win at all costs",
+            "rn": "Impaka zo gutsinda ku giciro cose"
+          },
+          {
+            "fr": "Faire connaître Jésus-Christ par la puissance de l’Esprit et laisser les résultats à Dieu",
+            "en": "Making Jesus Christ known by the Spirit’s power and leaving results to God",
+            "rn": "Gumenyesha Yesu Kristo biciye ku mbaraga za Mpwemu, inyishu tukazireka ku Mana"
+          },
+          {
+            "fr": "Distribuer seulement des tracts sans conversation",
+            "en": "Only handing out tracts with no conversation",
+            "rn": "Gusa gutanga impapuro nta kuganira"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_3_q2",
         "prompt": {
-          "fr": "Selon la leçon « Un appel biblique de faire des disciples », que demande l'Ordre Suprême de Matthieu 28 ?",
-          "rn": "Nk'uko 'Akamo ko guhindura abigishwa' kubivuga, Itegeko Rikuru risaba iki ?",
-          "en": "According to the lesson 'A Biblical Call to Make Disciples,' what does the Great Commission in Matthew 28 call us to do?"
+          "fr": "Que sont les Quatre Lois Spirituelles dans ce parcours ?",
+          "en": "What are the Four Spiritual Laws in this journey?",
+          "rn": "Amategeko ane y'Impwemu ni iki muri uru rugendo?"
         },
         "choices": [
-          {"fr": "Faire uniquement des convertis", "rn": "Nimugire abemera gusa", "en": "Make converts only"},
-          {"fr": "Faire des disciples : aller, baptiser, enseigner à obéir", "rn": "Nimuhindure abigishwa : kugenda, kubatiza, kubigisha kwumvira", "en": "Make disciples: go, baptize, and teach them to obey"},
-          {"fr": "Organiser de grandes campagnes d'évangélisation", "rn": "Nimubake amashirahamwe manini", "en": "Organize large evangelism campaigns"}
+          {
+            "fr": "Un outil clair pour présenter l’Évangile",
+            "en": "A clear tool for presenting the Gospel",
+            "rn": "Igikoresho ciza co gutanga Inkuru Nziza"
+          },
+          {
+            "fr": "Un remplacement de toute lecture biblique",
+            "en": "A replacement for all Bible reading",
+            "rn": "Igisimbura gusoma Bibiliya yose"
+          },
+          {
+            "fr": "Une formule magique sans relation",
+            "en": "A magic formula without relationship",
+            "rn": "Ubuhanga budafise umubano"
+          }
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "track_3_q3",
         "prompt": {
-          "fr": "Selon la leçon sur le défi d'être un multiplicateur spirituel, quelle est la différence entre addition et multiplication ?",
-          "rn": "Nk'uko 'Uwigwiza mu buryo bw'impwemu' kubivuga, ni iki gitandukanya kwongera na kwigwiza ?",
-          "en": "According to the lesson on being a spiritual multiplier, what is the difference between addition and multiplication?"
+          "fr": "Pourquoi prier avant et pendant le témoignage ?",
+          "en": "Why pray before and during witnessing?",
+          "rn": "Kuki dusenga imbere no mu gihe co gushinga intahe?"
         },
         "choices": [
-          {"fr": "Il n'y a aucune différence", "rn": "Nta gitandukanya kiriho", "en": "There is no difference"},
-          {"fr": "L'addition gagne des personnes une à une ; la multiplication forme des formateurs", "rn": "Kwongera ni ugutora abantu umwe umwe ; kwigwiza ni ugutuma umwigishwa wese ahindura abandi", "en": "Addition wins people one by one; multiplication trains trainers who train others"},
-          {"fr": "La multiplication est plus rapide au début", "rn": "Kwigwiza birangoga ku ntango", "en": "Multiplication is faster at the start"}
+          {
+            "fr": "Parce que Dieu seul prépare les cœurs",
+            "en": "Because God alone prepares hearts",
+            "rn": "Kuko Imana yonyene itegura imitima"
+          },
+          {
+            "fr": "Pour éviter de parler à quiconque",
+            "en": "To avoid speaking to anyone",
+            "rn": "Kugira ngo ntiduvugane n'umuntu"
+          },
+          {
+            "fr": "Pour impressionner la personne",
+            "en": "To impress the person",
+            "rn": "Kugira ngo umuntu ashime"
+          }
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       },
       {
         "id": "track_3_q4",
         "prompt": {
-          "fr": "D'après la leçon sur l'intendance biblique, à qui appartient tout ce que nous possédons ?",
-          "rn": "Nk'uko 'Ukubungabunga ivy'Imana' kubivuga, vyose ni ivya nde ?",
-          "en": "According to the lesson on biblical stewardship, who owns everything we have?"
+          "fr": "D’après ce niveau, que faire après qu’une personne a reçu Christ ?",
+          "en": "According to this level, what should you do after someone receives Christ?",
+          "rn": "Nk'uko uru rwego rubivuga, ni iki gukora umuntu amaze kwakira Kristo?"
         },
         "choices": [
-          {"fr": "À nous-mêmes, puisque nous l'avons gagné", "rn": "Ni ivyacu, kuko twabikoreye", "en": "We do, since we earned it"},
-          {"fr": "À Dieu ; nous en sommes les intendants", "rn": "Vyose ni ivy'Imana ; turi ababungabunga", "en": "God does; we are merely his stewards"},
-          {"fr": "À notre famille et à nos descendants", "rn": "Ni ivy'umuryango wacu n'abazoduseranira", "en": "Our family and descendants do"}
+          {
+            "fr": "La laisser seule sans suivi",
+            "en": "Leave them alone with no follow-up",
+            "rn": "Kumureka wenyine nta gukurikirana"
+          },
+          {
+            "fr": "L’aider à grandir : assurance, Parole, prière, communion, témoignage",
+            "en": "Help them grow: assurance, Word, prayer, fellowship, witness",
+            "rn": "Kumufasha gukura: ukwizigira, Ijambo, gusenga, gusangira, gushinga intahe"
+          },
+          {
+            "fr": "Lui demander de l’argent immédiatement",
+            "en": "Ask them for money immediately",
+            "rn": "Kumusaba amahera ako kanya"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_3_q5",
         "prompt": {
-          "fr": "Selon les leçons sur la direction de groupe, comment un bon leader de discipolat dirige-t-il, à la manière d'un berger ?",
-          "rn": "Nk'uko ibigwa vyerekeye kurongora imirwi kubivuga, umwungere arongora gute ?",
-          "en": "According to the lessons on leading a group, how does a good discipleship leader lead, like a shepherd?"
+          "fr": "Quel est le « succès » dans le témoignage selon ce niveau ?",
+          "en": "What is “success” in witnessing according to this level?",
+          "rn": "Intsinzi mu gushinga intahe ni iki nk'uko uru rwego rubivuga?"
         },
         "choices": [
-          {"fr": "Il parle beaucoup et les autres écoutent en silence", "rn": "Aravuga vyinshi, abandi bakumviriza gusa", "en": "By talking a lot while others listen silently"},
-          {"fr": "Il pose de bonnes questions et fait découvrir la vérité", "rn": "Abaza ibibazo, agatuma bavumbura ukuri", "en": "By asking good questions and helping people discover truth"},
-          {"fr": "Il évite de préparer la rencontre à l'avance", "rn": "Yirinda kwitegura imbere y'umubonano", "en": "By avoiding preparation before the meeting"}
+          {
+            "fr": "Obtenir toujours un « oui » immédiat",
+            "en": "Always getting an immediate “yes”",
+            "rn": "Kubona « yego » ako kanya buri gihe"
+          },
+          {
+            "fr": "Prendre l’initiative dans la puissance de l’Esprit et confier les fruits à Dieu",
+            "en": "Taking initiative in the Spirit’s power and entrusting fruit to God",
+            "rn": "Gufata iya mbere mu mbaraga za Mpwemu no kwizigira Imana ku mbuto"
+          },
+          {
+            "fr": "Compter le nombre de tracts distribués seulement",
+            "en": "Only counting tracts distributed",
+            "rn": "Guharura gusa impapuro zatanzwe"
+          }
         ],
         "correctIndex": 1
       }

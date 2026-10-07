@@ -32,7 +32,7 @@ class CurriculumService
                         'id', 'level_id', 'language', 'title', 'description',
                     ])->where('language', $language),
                     'lessons' => fn ($q) => $q->select([
-                        'id', 'level_id', 'code', 'slug', 'type', 'order', 'status',
+                        'id', 'level_id', 'code', 'slug', 'type', 'order', 'status', 'resource_url',
                     ])
                         ->where('status', ContentStatus::Published)
                         ->orderBy('order'),
@@ -92,7 +92,7 @@ class CurriculumService
                 if ($withLessons) {
                     $query->with([
                         'lessons' => fn ($q) => $q->select([
-                            'id', 'level_id', 'code', 'slug', 'type', 'order', 'status',
+                            'id', 'level_id', 'code', 'slug', 'type', 'order', 'status', 'resource_url',
                         ])
                             ->where('status', ContentStatus::Published)
                             ->orderBy('order'),
@@ -129,7 +129,7 @@ class CurriculumService
             function () use ($level, $language) {
                 /** @var Collection<int, Lesson> $lessons */
                 $lessons = Lesson::query()
-                    ->select(['id', 'level_id', 'code', 'slug', 'type', 'order', 'status'])
+                    ->select(['id', 'level_id', 'code', 'slug', 'type', 'order', 'status', 'resource_url'])
                     ->where('level_id', $level->id)
                     ->where('status', ContentStatus::Published)
                     ->orderBy('order')
@@ -155,7 +155,7 @@ class CurriculumService
         return $this->cache->rememberLesson($lessonId, $language, function () use ($lessonId, $language) {
             $lesson = Lesson::query()
                 ->select([
-                    'id', 'level_id', 'code', 'slug', 'type', 'order', 'status',
+                    'id', 'level_id', 'code', 'slug', 'type', 'order', 'status', 'resource_url',
                 ])
                 ->where('status', ContentStatus::Published)
                 ->where(function ($q) use ($lessonId) {

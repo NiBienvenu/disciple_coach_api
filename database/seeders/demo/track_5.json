@@ -1,18 +1,28 @@
 {
-  "trackId": "track_5",
-  "title": {"fr": "Niveau 5 : Formation des Formateurs (5TT)", "rn": "Urwego rwa 5 : Formation des Formateurs (5TT)", "en": "Level 5: Training of Trainers (5TT)"},
+  "id": "track_5",
+  "title": {
+    "fr": "Niveau 5 : Formation des Formateurs (5TT)",
+    "rn": "Urwego rwa 5 : Formation des Formateurs (5TT)",
+    "en": "Level 5: Training of Trainers (5TT)"
+  },
   "description": {
     "fr": "Ce niveau — la Formation des Formateurs — apprend aux formateurs à transmettre fidèlement ce qu'ils ont reçu à des hommes de confiance capables de l'enseigner à d'autres, afin d'aider à accomplir l'Ordre Suprême dans la puissance du Saint-Esprit.",
     "rn": "Uru ni urwego 'Imenyereza ry'Abamenyereza' : ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi, kugira gushitse Itegeko Rikuru mu bushobozi bwa Mpwemu Yera.",
     "en": "This level — Training of Trainers — teaches trainers to faithfully pass on what they have received to trustworthy people who can in turn teach others, so as to help fulfill the Great Commission in the power of the Holy Spirit."
   },
+  "order": 5,
+  "previousTrackId": "track_4",
   "lessons": [
     {
       "id": "track_5_lesson_01",
       "code": "5TT01",
       "type": "main",
       "order": 1,
-      "title": {"fr": "La philosophie de la formation", "rn": "Iyerekwa ry'imenyereza", "en": "The philosophy of training"},
+      "title": {
+        "fr": "La philosophie de la formation",
+        "rn": "Iyerekwa ry'imenyereza",
+        "en": "The philosophy of training"
+      },
       "content": {
         "fr": {
           "centralIdea": "Mieux comprendre la philosophie de formation du CFVN et comment elle contribue à notre appel d'aider à accomplir l'Ordre Suprême.",
@@ -23,7 +33,10 @@
             "Énoncer les trois éléments principaux de la formation : la classe, la situation simulée et le terrain."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 7.24", "text": "Quiconque entend ces paroles que je dis et les met en pratique sera semblable à un homme prudent qui a bâti sa maison sur le roc."}
+            {
+              "reference": "Matthieu 7.24",
+              "text": "Quiconque entend ces paroles que je dis et les met en pratique sera semblable à un homme prudent qui a bâti sa maison sur le roc."
+            }
           ],
           "summaryPoints": [
             "La formation développe des personnes capables de penser autant que de faire, qualifiées autant qu'informées.",
@@ -44,8 +57,14 @@
             "Gutahura intambwe zine z'imenyereza rigwiza."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
-            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."}
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            },
+            {
+              "reference": "Mariko 3.14",
+              "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."
+            }
           ],
           "summaryPoints": [
             "Gutahura — imenyereza ntabwo ari ukwigisha gusa.",
@@ -67,7 +86,10 @@
             "State the three main elements of training: the classroom, the simulated situation, and the field."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 7:24", "text": "Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."}
+            {
+              "reference": "Matthew 7:24",
+              "text": "Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."
+            }
           ],
           "summaryPoints": [
             "Training forms people able to think as well as to act — as skilled as they are informed.",
@@ -87,7 +109,11 @@
       "code": "5TT02",
       "type": "main",
       "order": 2,
-      "title": {"fr": "Le rôle du formateur d'un CFVN", "rn": "Uruhara rw'umumenyereza w'ikigo", "en": "The trainer's role in a CFVN"},
+      "title": {
+        "fr": "Le rôle du formateur d'un CFVN",
+        "rn": "Uruhara rw'umumenyereza w'ikigo",
+        "en": "The trainer's role in a CFVN"
+      },
       "content": {
         "fr": {
           "centralIdea": "Mieux comprendre le rôle et les responsabilités du formateur, et apprendre à créer un environnement propice à la formation.",
@@ -117,8 +143,14 @@
             "Gusuzuma imenyereza ryawe kuri ivyo biranga."
           ],
           "keyScriptures": [
-            {"reference": "1 Ab'i Tesalonike 2.8", "text": "Twashaka kubaha ubutumwa bwiza gusa atari kwo, ariko n'ubugingo bwacu bwite, kuko mwabaye abakundwa bacu."},
-            {"reference": "Yohana 13.15", "text": "Nabahaye icitegererezo, kugira mukore nk'uko nabagiriye."}
+            {
+              "reference": "1 Ab'i Tesalonike 2.8",
+              "text": "Twashaka kubaha ubutumwa bwiza gusa atari kwo, ariko n'ubugingo bwacu bwite, kuko mwabaye abakundwa bacu."
+            },
+            {
+              "reference": "Yohana 13.15",
+              "text": "Nabahaye icitegererezo, kugira mukore nk'uko nabagiriye."
+            }
           ],
           "summaryPoints": [
             "Kwerekana — icitegererezo mu buzima.",
@@ -158,7 +190,11 @@
       "code": "5TT03",
       "type": "main",
       "order": 3,
-      "title": {"fr": "Les éléments de base du contrôle", "rn": "Ibice nshingiro vy'igenzura", "en": "The basic elements of checking"},
+      "title": {
+        "fr": "Les éléments de base du contrôle",
+        "rn": "Ibice nshingiro vy'igenzura",
+        "en": "The basic elements of checking"
+      },
       "content": {
         "fr": {
           "centralIdea": "Faire comprendre aux formateurs le but, les méthodes et les principes du contrôle des stagiaires.",
@@ -169,8 +205,14 @@
             "Citer les méthodes, les principes et les problèmes courants du contrôle."
           ],
           "keyScriptures": [
-            {"reference": "1 Timothée 4.7", "text": "Exerce-toi à la piété."},
-            {"reference": "Deutéronome 6.6-7", "text": "Tu inculqueras ces paroles à tes fils, quand tu seras dans ta maison et en chemin."}
+            {
+              "reference": "1 Timothée 4.7",
+              "text": "Exerce-toi à la piété."
+            },
+            {
+              "reference": "Deutéronome 6.6-7",
+              "text": "Tu inculqueras ces paroles à tes fils, quand tu seras dans ta maison et en chemin."
+            }
           ],
           "summaryPoints": [
             "Rester attentif au légalisme, au perfectionnisme, et à la tentation de se contenter de moins.",
@@ -191,8 +233,14 @@
             "Gutanga igenzura ryubaka."
           ],
           "keyScriptures": [
-            {"reference": "Imigani 27.17", "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."},
-            {"reference": "Ab'i Filipi 1.6", "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera."}
+            {
+              "reference": "Imigani 27.17",
+              "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."
+            },
+            {
+              "reference": "Ab'i Filipi 1.6",
+              "text": "Uwatanguye igikorwa ciza muri mwebwe, azogisozera."
+            }
           ],
           "summaryPoints": [
             "Kwitegereza — witonze, ushingiye ku bipimo.",
@@ -214,8 +262,14 @@
             "List the methods, principles, and common problems of checking."
           ],
           "keyScriptures": [
-            {"reference": "1 Timothy 4:7", "text": "Exercise thyself rather unto godliness."},
-            {"reference": "Deuteronomy 6:6-7", "text": "Teach these words diligently to your children, and talk of them when you sit in your house and when you walk by the way."}
+            {
+              "reference": "1 Timothy 4:7",
+              "text": "Exercise thyself rather unto godliness."
+            },
+            {
+              "reference": "Deuteronomy 6:6-7",
+              "text": "Teach these words diligently to your children, and talk of them when you sit in your house and when you walk by the way."
+            }
           ],
           "summaryPoints": [
             "Stay alert to legalism, perfectionism, and the temptation to settle for less.",
@@ -235,7 +289,11 @@
       "code": "5TT04",
       "type": "main",
       "order": 4,
-      "title": {"fr": "La formation par la méthode de simulation", "rn": "Kwigisha biciye ku kwigana", "en": "Training through simulation"},
+      "title": {
+        "fr": "La formation par la méthode de simulation",
+        "rn": "Kwigisha biciye ku kwigana",
+        "en": "Training through simulation"
+      },
       "content": {
         "fr": {
           "centralIdea": "Expliquer la formation par simulation et montrer comment l'utiliser efficacement pour l'acquisition des techniques.",
@@ -265,8 +323,14 @@
             "Gutanga igenzura inyuma y'ukwigana."
           ],
           "keyScriptures": [
-            {"reference": "Imigani 27.17", "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."},
-            {"reference": "Ivyak 1.8", "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako."}
+            {
+              "reference": "Imigani 27.17",
+              "text": "Icuma gityaza icuma, nk'uko umuntu atyaza mugenzi we."
+            },
+            {
+              "reference": "Ivyak 1.8",
+              "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako."
+            }
           ],
           "summaryPoints": [
             "Gutegura — igikorwa, intumbero, uruhara.",
@@ -306,7 +370,11 @@
       "code": "5TT05",
       "type": "main",
       "order": 5,
-      "title": {"fr": "Procédure pour un atelier de contrôle", "rn": "Uburyo bw'inama y'igenzura", "en": "Procedure for a checking workshop"},
+      "title": {
+        "fr": "Procédure pour un atelier de contrôle",
+        "rn": "Uburyo bw'inama y'igenzura",
+        "en": "Procedure for a checking workshop"
+      },
       "content": {
         "fr": {
           "centralIdea": "Renforcer les techniques d'évaluation des formateurs par l'observation et la critique d'une simulation.",
@@ -335,8 +403,14 @@
             "Gutuma uwo ari we wese amenyerera akagenzurwa."
           ],
           "keyScriptures": [
-            {"reference": "Abaheburayo 10.24", "text": "Twitwararike, tugatererana intege mu rukundo no mu bikorwa vyiza."},
-            {"reference": "Zaburi 127.1", "text": "Uhoraho niyaba atubatse inzu, abayubaka baba bariko barishwa ubusa."}
+            {
+              "reference": "Abaheburayo 10.24",
+              "text": "Twitwararike, tugatererana intege mu rukundo no mu bikorwa vyiza."
+            },
+            {
+              "reference": "Zaburi 127.1",
+              "text": "Uhoraho niyaba atubatse inzu, abayubaka baba bariko barishwa ubusa."
+            }
           ],
           "summaryPoints": [
             "Gutegura — igikorwa, ibipimo, umwanya.",
@@ -375,7 +449,11 @@
       "code": "5TT06",
       "type": "main",
       "order": 6,
-      "title": {"fr": "Comprendre la multiplication spirituelle", "rn": "Gutahura ukwigwiza mu buryo bw'impwemu", "en": "Understanding spiritual multiplication"},
+      "title": {
+        "fr": "Comprendre la multiplication spirituelle",
+        "rn": "Gutahura ukwigwiza mu buryo bw'impwemu",
+        "en": "Understanding spiritual multiplication"
+      },
       "content": {
         "fr": {
           "centralIdea": "Communiquer l'approche du CFVN pour le discipolat et le rôle stratégique de la multiplication spirituelle.",
@@ -386,8 +464,14 @@
             "Appliquer 2 Timothée 2.1-10 à son propre ministère."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 28.20", "text": "Enseignez-leur à garder tout ce que je vous ai prescrit."},
-            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."}
+            {
+              "reference": "Matthieu 28.20",
+              "text": "Enseignez-leur à garder tout ce que je vous ai prescrit."
+            },
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."
+            }
           ],
           "summaryPoints": [
             "Le discipolat n'est pas un programme, mais suivre Jésus et apprendre de lui.",
@@ -408,8 +492,14 @@
             "Gusuzuma ukwitanga kwawe mu kwigwiza."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 2.2", "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
-            {"reference": "Yohana 15.16", "text": "Ndabashinga ngo mugende mwame ivyamwa, kandi ivyamwa vyanyu bigume."}
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ivyo wanyumvanye… ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            },
+            {
+              "reference": "Yohana 15.16",
+              "text": "Ndabashinga ngo mugende mwame ivyamwa, kandi ivyamwa vyanyu bigume."
+            }
           ],
           "summaryPoints": [
             "Gutahura — itandukaniro ry'ukwongera n'ukwigwiza.",
@@ -431,8 +521,14 @@
             "Apply 2 Timothy 2:1-10 to your own ministry."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 28:20", "text": "Teaching them to observe all things whatsoever I have commanded you."},
-            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."}
+            {
+              "reference": "Matthew 28:20",
+              "text": "Teaching them to observe all things whatsoever I have commanded you."
+            },
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."
+            }
           ],
           "summaryPoints": [
             "Discipleship is not a program — it is following Jesus and learning from him.",
@@ -452,7 +548,11 @@
       "code": "5TT07",
       "type": "main",
       "order": 7,
-      "title": {"fr": "Édifier des disciples multiplicateurs", "rn": "Kwubaka abigishwa bigwiza", "en": "Building multiplying disciples"},
+      "title": {
+        "fr": "Édifier des disciples multiplicateurs",
+        "rn": "Kwubaka abigishwa bigwiza",
+        "en": "Building multiplying disciples"
+      },
       "content": {
         "fr": {
           "centralIdea": "Comprendre les principes de l'édification de disciples multiplicateurs — le cœur de notre appel.",
@@ -461,7 +561,10 @@
             "Apprendre les principes fondamentaux du discipolat de multiplication."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothée 2.2", "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."}
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Ce que tu as entendu de moi, confie-le à des hommes fidèles, capables de l'enseigner à d'autres."
+            }
           ],
           "summaryPoints": [
             "Le socle, c'est la spiritualité : être rempli du Saint-Esprit.",
@@ -482,8 +585,14 @@
             "Kubarekura ngo na bo bahindure abandi."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 3.14", "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."},
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+            {
+              "reference": "Mariko 3.14",
+              "text": "Ashinga cumi na babiri, kugira babane na we, no kugira ngo abatume kwamamaza."
+            },
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            }
           ],
           "summaryPoints": [
             "Gutora — abizigirwa, mu isengesho.",
@@ -503,7 +612,10 @@
             "Learn the foundational principles of multiplication discipleship."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."}
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "The things that thou hast heard of me, the same commit thou to faithful men, who shall be able to teach others also."
+            }
           ],
           "summaryPoints": [
             "The foundation is spirituality: being filled with the Holy Spirit.",
@@ -523,7 +635,11 @@
       "code": "5TT08",
       "type": "main",
       "order": 8,
-      "title": {"fr": "Cibler votre évangélisation", "rn": "Gutumbereza ivyabona vyawe", "en": "Targeting your evangelism"},
+      "title": {
+        "fr": "Cibler votre évangélisation",
+        "rn": "Gutumbereza ivyabona vyawe",
+        "en": "Targeting your evangelism"
+      },
       "content": {
         "fr": {
           "centralIdea": "Communiquer l'importance et les avantages de choisir avec sagesse une sous-région cible comme contexte du ministère et de la formation.",
@@ -553,8 +669,14 @@
             "Gushikira imirwi kama n'abantu b'ijwi."
           ],
           "keyScriptures": [
-            {"reference": "Yohana 4.35", "text": "Ramvya amaso yanyu, murabe imirima : yamaze kwera, ni iyimburwa."},
-            {"reference": "Matayo 9.37-38", "text": "Iyimbura ni ryinshi, ariko abimbuzi ni bake. Musenge nyene iyimbura ngo arungike abimbuzi."}
+            {
+              "reference": "Yohana 4.35",
+              "text": "Ramvya amaso yanyu, murabe imirima : yamaze kwera, ni iyimburwa."
+            },
+            {
+              "reference": "Matayo 9.37-38",
+              "text": "Iyimbura ni ryinshi, ariko abimbuzi ni bake. Musenge nyene iyimbura ngo arungike abimbuzi."
+            }
           ],
           "summaryPoints": [
             "Gutumbera — intara ntoya n'imirwi kama yayo.",
@@ -594,7 +716,11 @@
       "code": "5TT09",
       "type": "main",
       "order": 9,
-      "title": {"fr": "Les éléments d'un mouvement Vie Nouvelle", "rn": "Ibice vy'umuvyimba Ubugingo Bushasha", "en": "The elements of a Vie Nouvelle movement"},
+      "title": {
+        "fr": "Les éléments d'un mouvement Vie Nouvelle",
+        "rn": "Ibice vy'umuvyimba Ubugingo Bushasha",
+        "en": "The elements of a Vie Nouvelle movement"
+      },
       "content": {
         "fr": {
           "centralIdea": "Expliquer les éléments essentiels d'un mouvement Vie Nouvelle.",
@@ -624,8 +750,14 @@
             "Gusuzuma umurwi wawe kuri ivyo bice."
           ],
           "keyScriptures": [
-            {"reference": "Ivyak 2.42-47", "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."},
-            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."}
+            {
+              "reference": "Ivyak 2.42-47",
+              "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."
+            },
+            {
+              "reference": "Abanyefeso 3.20",
+              "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."
+            }
           ],
           "summaryPoints": [
             "Intumbero & ubushobozi — Itegeko Rikuru, Mpwemu Yera.",
@@ -665,7 +797,11 @@
       "code": "5TT10",
       "type": "main",
       "order": 10,
-      "title": {"fr": "Les cinq phases d'édification d'un mouvement", "rn": "Ibice bitanu vyo kwubaka umuvyimba", "en": "The five phases of building a movement"},
+      "title": {
+        "fr": "Les cinq phases d'édification d'un mouvement",
+        "rn": "Ibice bitanu vyo kwubaka umuvyimba",
+        "en": "The five phases of building a movement"
+      },
       "content": {
         "fr": {
           "centralIdea": "Comprendre les cinq phases d'édification d'un mouvement dans sa région visée, et identifier où l'on en est.",
@@ -694,8 +830,14 @@
             "Kumenya aho igikorwa cawe kigeze."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."},
-            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."}
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            },
+            {
+              "reference": "Abanyefeso 3.20",
+              "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira."
+            }
           ],
           "summaryPoints": [
             "Gutangura — ku gikorwa bwite.",
@@ -734,7 +876,11 @@
       "code": "5TT11",
       "type": "main",
       "order": 11,
-      "title": {"fr": "Le leadership serviteur", "rn": "Uburongozi bw'umusuku", "en": "Servant leadership"},
+      "title": {
+        "fr": "Le leadership serviteur",
+        "rn": "Uburongozi bw'umusuku",
+        "en": "Servant leadership"
+      },
       "content": {
         "fr": {
           "centralIdea": "Mieux comprendre le leadership que vous devez démontrer avec les stagiaires que Dieu vous a confiés.",
@@ -745,7 +891,10 @@
             "Décrire les implications de diriger en tant que serviteur."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 20.28", "text": "Le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie."}
+            {
+              "reference": "Matthieu 20.28",
+              "text": "Le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie."
+            }
           ],
           "summaryPoints": [
             "Le leader serviteur doit à la fois diriger et servir : c'est un équilibre.",
@@ -766,8 +915,14 @@
             "Gushira mu ngiro uburongozi bw'umusuku."
           ],
           "keyScriptures": [
-            {"reference": "Mariko 10.43-45", "text": "Uwushaka kuba mukuru muri mwebwe, abe umusuku wanyu… Kuko n'Umwana w'umuntu ataje gukorerwa, ariko gukorera no gutanga ubugingo bwiwe."},
-            {"reference": "Ab'i Filipi 2.5-7", "text": "Mugire iyi mizirikanyi Kristo Yesu yagize… yiyambura, yigira nk'umushumba."}
+            {
+              "reference": "Mariko 10.43-45",
+              "text": "Uwushaka kuba mukuru muri mwebwe, abe umusuku wanyu… Kuko n'Umwana w'umuntu ataje gukorerwa, ariko gukorera no gutanga ubugingo bwiwe."
+            },
+            {
+              "reference": "Ab'i Filipi 2.5-7",
+              "text": "Mugire iyi mizirikanyi Kristo Yesu yagize… yiyambura, yigira nk'umushumba."
+            }
           ],
           "summaryPoints": [
             "Gukorera — aho kuganza.",
@@ -789,7 +944,10 @@
             "Describe the implications of leading as a servant."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 20:28", "text": "The Son of man came not to be ministered unto, but to minister, and to give his life."}
+            {
+              "reference": "Matthew 20:28",
+              "text": "The Son of man came not to be ministered unto, but to minister, and to give his life."
+            }
           ],
           "summaryPoints": [
             "A servant leader must both lead and serve — it is a balance.",
@@ -809,7 +967,11 @@
       "code": "5TT12",
       "type": "main",
       "order": 12,
-      "title": {"fr": "Notre but : glorifier Dieu", "rn": "Intumbero yacu : guhayagiza Imana", "en": "Our purpose: glorifying God"},
+      "title": {
+        "fr": "Notre but : glorifier Dieu",
+        "rn": "Intumbero yacu : guhayagiza Imana",
+        "en": "Our purpose: glorifying God"
+      },
       "content": {
         "fr": {
           "centralIdea": "Rechercher notre premier but, en tant que mouvement et en tant qu'individus : glorifier Dieu.",
@@ -819,7 +981,10 @@
             "Faire la différence entre notre but et notre objectif."
           ],
           "keyScriptures": [
-            {"reference": "1 Corinthiens 10.31", "text": "Soit que vous mangiez, soit que vous buviez, faites tout pour la gloire de Dieu."}
+            {
+              "reference": "1 Corinthiens 10.31",
+              "text": "Soit que vous mangiez, soit que vous buviez, faites tout pour la gloire de Dieu."
+            }
           ],
           "summaryPoints": [
             "Révéler sa gloire au monde en marchant par l'Esprit.",
@@ -840,8 +1005,14 @@
             "Kubaho uhayagiza Imana muri vyose."
           ],
           "keyScriptures": [
-            {"reference": "1 Abakorinto 10.31", "text": "Nimwaba murya canke munywa, canke ikindi cose mukora, mukore vyose ku buninahazwa bw'Imana."},
-            {"reference": "Abaroma 11.36", "text": "Kuko vyose bivuye kuri yo, biciye kuri yo, kandi bigana kuri yo. Ubuninahazwa bube ubwayo ibihe bidashira."}
+            {
+              "reference": "1 Abakorinto 10.31",
+              "text": "Nimwaba murya canke munywa, canke ikindi cose mukora, mukore vyose ku buninahazwa bw'Imana."
+            },
+            {
+              "reference": "Abaroma 11.36",
+              "text": "Kuko vyose bivuye kuri yo, biciye kuri yo, kandi bigana kuri yo. Ubuninahazwa bube ubwayo ibihe bidashira."
+            }
           ],
           "summaryPoints": [
             "Gutahura — guhayagiza Imana ni intumbero nkuru.",
@@ -862,7 +1033,10 @@
             "Distinguish our purpose from our objective."
           ],
           "keyScriptures": [
-            {"reference": "1 Corinthians 10:31", "text": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God."}
+            {
+              "reference": "1 Corinthians 10:31",
+              "text": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God."
+            }
           ],
           "summaryPoints": [
             "Reveal his glory to the world by walking in the Spirit.",
@@ -882,7 +1056,11 @@
       "code": "5TT13",
       "type": "main",
       "order": 13,
-      "title": {"fr": "Notre objectif : L'Ordre Suprême", "rn": "Ihangiro ryacu : Itegeko Rikuru", "en": "Our objective: the Great Commission"},
+      "title": {
+        "fr": "Notre objectif : L'Ordre Suprême",
+        "rn": "Ihangiro ryacu : Itegeko Rikuru",
+        "en": "Our objective: the Great Commission"
+      },
       "content": {
         "fr": {
           "centralIdea": "Renforcer notre engagement envers notre objectif en tant que mouvement : aider à accomplir l'Ordre Suprême.",
@@ -892,9 +1070,18 @@
             "S'engager à nouveau à l'accomplissement de l'Ordre Suprême dans sa propre vie."
           ],
           "keyScriptures": [
-            {"reference": "Marc 16.15", "text": "Allez dans le monde entier et prêchez la Bonne Nouvelle à toute la création."},
-            {"reference": "Matthieu 28.18-20", "text": "Tout pouvoir m'a été donné… Allez, faites de toutes les nations des disciples… Je suis avec vous tous les jours."},
-            {"reference": "Ésaïe 6.8", "text": "Me voici, envoie-moi."}
+            {
+              "reference": "Marc 16.15",
+              "text": "Allez dans le monde entier et prêchez la Bonne Nouvelle à toute la création."
+            },
+            {
+              "reference": "Matthieu 28.18-20",
+              "text": "Tout pouvoir m'a été donné… Allez, faites de toutes les nations des disciples… Je suis avec vous tous les jours."
+            },
+            {
+              "reference": "Ésaïe 6.8",
+              "text": "Me voici, envoie-moi."
+            }
           ],
           "summaryPoints": [
             "Le défi : Dieu nous a bénis et nous confie une part de ce qu'il tient à cœur.",
@@ -915,8 +1102,14 @@
             "Kwitanga mu gushitsa Itegeko Rikuru."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 28.18-20", "text": "Nahawe ububasha bwose mw'ijuru no mw'isi. Nuko nimugende, muhindure amahanga yose abigishwa… Ndi kumwe namwe imisi yose."},
-            {"reference": "Ivyak 1.8", "text": "Muzoba ivyabona vyanje i Yeruzalemu… gushika ku mpera y'isi."}
+            {
+              "reference": "Matayo 28.18-20",
+              "text": "Nahawe ububasha bwose mw'ijuru no mw'isi. Nuko nimugende, muhindure amahanga yose abigishwa… Ndi kumwe namwe imisi yose."
+            },
+            {
+              "reference": "Ivyak 1.8",
+              "text": "Muzoba ivyabona vyanje i Yeruzalemu… gushika ku mpera y'isi."
+            }
           ],
           "summaryPoints": [
             "Gutahura — Itegeko Rikuru : guhindura amahanga abigishwa.",
@@ -937,9 +1130,18 @@
             "Recommit to fulfilling the Great Commission in your own life."
           ],
           "keyScriptures": [
-            {"reference": "Mark 16:15", "text": "Go ye into all the world, and preach the gospel to every creature."},
-            {"reference": "Matthew 28:18-20", "text": "All power is given unto me... Go ye therefore, and teach all nations... I am with you always."},
-            {"reference": "Isaiah 6:8", "text": "Here am I; send me."}
+            {
+              "reference": "Mark 16:15",
+              "text": "Go ye into all the world, and preach the gospel to every creature."
+            },
+            {
+              "reference": "Matthew 28:18-20",
+              "text": "All power is given unto me... Go ye therefore, and teach all nations... I am with you always."
+            },
+            {
+              "reference": "Isaiah 6:8",
+              "text": "Here am I; send me."
+            }
           ],
           "summaryPoints": [
             "The challenge: God has blessed us and entrusted us with a share of what matters most to him.",
@@ -959,7 +1161,11 @@
       "code": "5TT14",
       "type": "main",
       "order": 14,
-      "title": {"fr": "Notre puissance : le Saint-Esprit", "rn": "Ubushobozi bwacu : Mpwemu Yera", "en": "Our power: the Holy Spirit"},
+      "title": {
+        "fr": "Notre puissance : le Saint-Esprit",
+        "rn": "Ubushobozi bwacu : Mpwemu Yera",
+        "en": "Our power: the Holy Spirit"
+      },
       "content": {
         "fr": {
           "centralIdea": "Évaluer sa relation présente avec le Seigneur, et s'assurer d'être rempli et rendu puissant par le Saint-Esprit.",
@@ -969,9 +1175,18 @@
             "Examiner sa propre marche et s'assurer d'être rempli de l'Esprit."
           ],
           "keyScriptures": [
-            {"reference": "Colossiens 2.6", "text": "Comme vous avez reçu le Christ Jésus, le Seigneur, marchez en lui."},
-            {"reference": "Éphésiens 5.18", "text": "Soyez remplis de l'Esprit."},
-            {"reference": "1 Jean 1.9", "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et nous purifier de toute injustice."}
+            {
+              "reference": "Colossiens 2.6",
+              "text": "Comme vous avez reçu le Christ Jésus, le Seigneur, marchez en lui."
+            },
+            {
+              "reference": "Éphésiens 5.18",
+              "text": "Soyez remplis de l'Esprit."
+            },
+            {
+              "reference": "1 Jean 1.9",
+              "text": "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et nous purifier de toute injustice."
+            }
           ],
           "summaryPoints": [
             "Ne changeons pas de Dieu : il est pleinement disponible en tout temps.",
@@ -992,9 +1207,18 @@
             "Kubaho no gukorera mu bushobozi bwiwe."
           ],
           "keyScriptures": [
-            {"reference": "Ivyak 1.8", "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako, kandi muzoba ivyabona vyanje… gushika ku mpera y'isi."},
-            {"reference": "Abanyefeso 5.18", "text": "Muzuzwe Mpwemu."},
-            {"reference": "Zekariya 4.6", "text": "Si ku bushobozi, si ku nkomezi, ariko ni ku Mpwemu wanje, ni ko Uhoraho avuze."}
+            {
+              "reference": "Ivyak 1.8",
+              "text": "Muzohabwa ubushobozi, Mpwemu Yera ni yabazako, kandi muzoba ivyabona vyanje… gushika ku mpera y'isi."
+            },
+            {
+              "reference": "Abanyefeso 5.18",
+              "text": "Muzuzwe Mpwemu."
+            },
+            {
+              "reference": "Zekariya 4.6",
+              "text": "Si ku bushobozi, si ku nkomezi, ariko ni ku Mpwemu wanje, ni ko Uhoraho avuze."
+            }
           ],
           "summaryPoints": [
             "Gutahura — ata Mpwemu nta co dushobora.",
@@ -1015,9 +1239,18 @@
             "Examine your own walk and make sure you are filled with the Spirit."
           ],
           "keyScriptures": [
-            {"reference": "Colossians 2:6", "text": "As ye have therefore received Christ Jesus the Lord, so walk ye in him."},
-            {"reference": "Ephesians 5:18", "text": "Be filled with the Spirit."},
-            {"reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."}
+            {
+              "reference": "Colossians 2:6",
+              "text": "As ye have therefore received Christ Jesus the Lord, so walk ye in him."
+            },
+            {
+              "reference": "Ephesians 5:18",
+              "text": "Be filled with the Spirit."
+            },
+            {
+              "reference": "1 John 1:9",
+              "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness."
+            }
           ],
           "summaryPoints": [
             "Do not change gods: he is fully available at all times.",
@@ -1037,7 +1270,11 @@
       "code": "5TT15",
       "type": "main",
       "order": 15,
-      "title": {"fr": "La stratégie du Centre de Formation Vie Nouvelle", "rn": "Ingamba z'ikigo Ubugingo Bushasha", "en": "The strategy of the New Life Training Center"},
+      "title": {
+        "fr": "La stratégie du Centre de Formation Vie Nouvelle",
+        "rn": "Ingamba z'ikigo Ubugingo Bushasha",
+        "en": "The strategy of the New Life Training Center"
+      },
       "content": {
         "fr": {
           "centralIdea": "Donner une vue d'ensemble des objectifs et des opérations de la stratégie du Centre de Formation Vie Nouvelle.",
@@ -1047,7 +1284,10 @@
             "Comprendre les détails du fonctionnement du CFVN."
           ],
           "keyScriptures": [
-            {"reference": "Actes 19.9-10", "text": "Paul enseignait chaque jour à l'école de Tyrannus ; toute l'Asie entendit la parole."}
+            {
+              "reference": "Actes 19.9-10",
+              "text": "Paul enseignait chaque jour à l'école de Tyrannus ; toute l'Asie entendit la parole."
+            }
           ],
           "summaryPoints": [
             "L'objectif est de créer un mouvement d'évangélisation et de discipolat.",
@@ -1068,8 +1308,14 @@
             "Gusuzuma igikorwa cawe kuri izo ngamba."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 28.19-20", "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."},
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+            {
+              "reference": "Matayo 28.19-20",
+              "text": "Nimugende muhindure amahanga yose abigishwa… mubigishe kwitondera ivyo nabategetse vyose."
+            },
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            }
           ],
           "summaryPoints": [
             "Kuzana — kuvuga ubutumwa.",
@@ -1090,7 +1336,10 @@
             "Understand the details of how the CFVN operates."
           ],
           "keyScriptures": [
-            {"reference": "Acts 19:9-10", "text": "Paul taught daily in the school of Tyrannus, and all of Asia heard the word of the Lord."}
+            {
+              "reference": "Acts 19:9-10",
+              "text": "Paul taught daily in the school of Tyrannus, and all of Asia heard the word of the Lord."
+            }
           ],
           "summaryPoints": [
             "The objective is to create a movement of evangelism and discipleship.",
@@ -1110,7 +1359,11 @@
       "code": "5TT16",
       "type": "main",
       "order": 16,
-      "title": {"fr": "Préparer et enseigner les cours du CFVN", "rn": "Uko wotegura ukigisha inyigisho", "en": "Preparing and teaching CFVN courses"},
+      "title": {
+        "fr": "Préparer et enseigner les cours du CFVN",
+        "rn": "Uko wotegura ukigisha inyigisho",
+        "en": "Preparing and teaching CFVN courses"
+      },
       "content": {
         "fr": {
           "centralIdea": "Apprendre à préparer et enseigner efficacement les cours du CFVN, pour que l'auditoire comprenne, adopte et mette en pratique les vérités fondamentales.",
@@ -1138,8 +1391,14 @@
             "Kwigisha mu buryo butuma abantu bagira uruhara."
           ],
           "keyScriptures": [
-            {"reference": "Ezira 7.10", "text": "Ezira yari yashinze umutima wiwe kwiga ivyagezwe vy'Uhoraho, no kubishira mu ngiro, no kubigisha."},
-            {"reference": "Yakobo 1.22", "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."}
+            {
+              "reference": "Ezira 7.10",
+              "text": "Ezira yari yashinze umutima wiwe kwiga ivyagezwe vy'Uhoraho, no kubishira mu ngiro, no kubigisha."
+            },
+            {
+              "reference": "Yakobo 1.22",
+              "text": "Nimube abakora ijambo, ntimube abaryumva gusa, mwishuka."
+            }
           ],
           "summaryPoints": [
             "Gutegura — gusenga, kwiga, intumbero, ibibazo, ingiro.",
@@ -1177,7 +1436,11 @@
       "code": "5TT17",
       "type": "main",
       "order": 17,
-      "title": {"fr": "La direction du Centre de Formation Vie Nouvelle", "rn": "Ubuyobozi bw'ikigo Ubugingo Bushasha", "en": "Leading the New Life Training Center"},
+      "title": {
+        "fr": "La direction du Centre de Formation Vie Nouvelle",
+        "rn": "Ubuyobozi bw'ikigo Ubugingo Bushasha",
+        "en": "Leading the New Life Training Center"
+      },
       "content": {
         "fr": {
           "centralIdea": "Mieux comprendre le rôle du dirigeant et la philosophie du ministère que doivent maîtriser le directeur et les formateurs.",
@@ -1206,8 +1469,14 @@
             "Kurongora mu buryo bwigwiza abandi barongozi."
           ],
           "keyScriptures": [
-            {"reference": "Abanyefeso 4.11-12", "text": "Yatanze… abungere n'abigisha, kugira ngo abera bahabwe indero ku gikorwa co gukorera, kugira ngo umubiri wa Kristo wubakwe."},
-            {"reference": "1 Petero 5.2-3", "text": "Muragire umukuku w'Imana… mube uturorero tw'umukuku."}
+            {
+              "reference": "Abanyefeso 4.11-12",
+              "text": "Yatanze… abungere n'abigisha, kugira ngo abera bahabwe indero ku gikorwa co gukorera, kugira ngo umubiri wa Kristo wubakwe."
+            },
+            {
+              "reference": "1 Petero 5.2-3",
+              "text": "Muragire umukuku w'Imana… mube uturorero tw'umukuku."
+            }
           ],
           "summaryPoints": [
             "Kwerekana — iyerekwa n'ingamba.",
@@ -1247,72 +1516,132 @@
       {
         "id": "track_5_q1",
         "prompt": {
-          "fr": "Selon ce niveau, quelle est la différence essentielle entre « enseigner » et « former » ?",
-          "rn": "Nk'uko iki cigwa kibivuga, itandukaniro ry'ukwigisha n'ukumenyereza ni iki ?",
-          "en": "According to this level, what is the essential difference between 'teaching' and 'training'?"
+          "fr": "Selon le niveau 5, qu’est-ce qu’un leader-serviteur dans le discipulat ?",
+          "en": "According to level 5, what is a servant-leader in discipleship?",
+          "rn": "Nk'uko urwego rwa 5 rubivuga, umuyobozi-umugaragu mu kugira abigishwa ni nde?"
         },
         "choices": [
-          {"fr": "Il n'y a aucune différence : les deux mots signifient la même chose.", "rn": "Nta tandukaniro ririho hagati y'ukwigisha n'ukumenyereza.", "en": "There is no difference — the two words mean the same thing."},
-          {"fr": "Enseigner transmet des informations ; former rend capable d'agir, puis de transmettre à d'autres.", "rn": "Kwigisha gushikiriza ubumenyi ; kumenyereza gushoboza gukora, hanyuma bikigisha abandi.", "en": "Teaching passes on information; training makes someone able to act, and then to pass it on to others."},
-          {"fr": "Enseigner se fait sur le terrain ; former se fait uniquement en classe.", "rn": "Kwigisha gukorerwa ku murima ; kumenyereza gukorerwa mu nyumba gusa.", "en": "Teaching happens in the field; training happens only in the classroom."}
+          {
+            "fr": "Quelqu’un qui domine les autres pour son image",
+            "en": "Someone who dominates others for image",
+            "rn": "Uwegukira abandi kugira ngo yerekane isura yiwe"
+          },
+          {
+            "fr": "Quelqu’un qui sert, équipe et multiplie d’autres leaders",
+            "en": "Someone who serves, equips, and multiplies other leaders",
+            "rn": "Ubakora, ategura, kandi yigwiza abandi bayobozi"
+          },
+          {
+            "fr": "Quelqu’un qui évite toute responsabilité",
+            "en": "Someone who avoids all responsibility",
+            "rn": "Uwirengagiza inshingano zose"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_5_q2",
         "prompt": {
-          "fr": "Quelles sont les quatre étapes de la formation présentées dans ce niveau ?",
-          "rn": "Ni izihe ntambwe zine z'imenyereza zerekanwa muri iki cigwa ?",
-          "en": "What are the four steps of training presented in this level?"
+          "fr": "Pourquoi le coaching / accompagnement est-il essentiel à ce stade ?",
+          "en": "Why is coaching/accompaniment essential at this stage?",
+          "rn": "Kuki ugufasha / ugukurikirana ari ngombwa muri iki gihe?"
         },
         "choices": [
-          {"fr": "Lire, mémoriser, réciter, examiner.", "rn": "Gusenga, kuraba, kurya, kuruhuka.", "en": "Read, memorize, recite, take an exam."},
-          {"fr": "Planifier, financer, construire, inaugurer.", "rn": "Kwandika, gusoma, kwibuka, kwibagira.", "en": "Plan, fund, build, open."},
-          {"fr": "Montrer, aider, observer, relâcher — « je le fais, nous le faisons, tu le fais, puis tu vas le faire ».", "rn": "Kwerekana, gufasha, kwitegereza, kurekura.", "en": "Show, help, observe, release — 'I do it, we do it, you do it, then you go do it.'"}
-        ],
-        "correctIndex": 2
-      },
-      {
-        "id": "track_5_q3",
-        "prompt": {
-          "fr": "Quelle est la différence entre « addition » et « multiplication spirituelle » ?",
-          "rn": "Nk'uko 5TT06 ibivuga, itandukaniro ry'ukwongera n'ukwigwiza ni iki ?",
-          "en": "What is the difference between 'addition' and 'spiritual multiplication'?"
-        },
-        "choices": [
-          {"fr": "L'addition et la multiplication désignent exactement la même stratégie.", "rn": "Kwongera n'ukwigwiza birasa, nta tandukaniro na rimwe.", "en": "Addition and multiplication are exactly the same strategy."},
-          {"fr": "L'addition gagne des personnes une à une ; la multiplication forme des disciples qui, à leur tour, en forment d'autres.", "rn": "Kwongera ni ukwongera abemera umwe umwe ; kwigwiza ni ukwigisha abigisha, umwigishwa wese akaza ahindura abandi.", "en": "Addition wins people one by one; multiplication trains disciples who, in turn, train others."},
-          {"fr": "La multiplication consiste seulement à organiser de plus grands événements évangéliques.", "rn": "Kwigwiza ni ukwubaka inzu z'amashengero menshi gusa.", "en": "Multiplication simply means organizing bigger evangelistic events."}
+          {
+            "fr": "Pour contrôler les disciples sans les écouter",
+            "en": "To control disciples without listening",
+            "rn": "Kugira ngo dufate abigishwa nta kubumva"
+          },
+          {
+            "fr": "Pour aider chacun à grandir, rendre des comptes et persévérer",
+            "en": "To help each person grow, be accountable, and persevere",
+            "rn": "Kugira ngo umuntu wese akure, asigure, kandi akomeze"
+          },
+          {
+            "fr": "Pour remplacer l’enseignement biblique",
+            "en": "To replace biblical teaching",
+            "rn": "Kugira ngo hasimbure inyigisho za Bibiliya"
+          }
         ],
         "correctIndex": 1
       },
       {
-        "id": "track_5_q4",
+        "id": "track_5_q3",
         "prompt": {
-          "fr": "Ce niveau distingue notre « but » de notre « objectif ». Comment ?",
-          "rn": "Nk'uko ibi bigwa bibivuga, ni iki gitandukanya 'intumbero yacu' na 'ihangiro ry'igikorwa cacu' ?",
-          "en": "This level distinguishes our 'purpose' from our 'objective.' How?"
+          "fr": "Que vise la vision de mouvement dans ce niveau ?",
+          "en": "What does movement vision aim for in this level?",
+          "rn": "Iyerekwa ry'uguhinduka rishaka iki muri uru rwego?"
         },
         "choices": [
-          {"fr": "Notre but est de glorifier Dieu ; notre objectif est d'aider à accomplir l'Ordre Suprême.", "rn": "Intumbero yacu ni uguhayagiza Imana ; ihangiro ry'igikorwa cacu ni Itegeko Rikuru.", "en": "Our purpose is to glorify God; our objective is to help fulfill the Great Commission."},
-          {"fr": "Notre but est l'Ordre Suprême ; notre objectif est de bâtir des bâtiments pour l'Église.", "rn": "Intumbero yacu ni ukwubaka amazu ; ihangiro ni ugutunga amatongo.", "en": "Our purpose is the Great Commission; our objective is building church buildings."},
-          {"fr": "But et objectif signifient exactement la même chose dans ce niveau.", "rn": "Intumbero n'ihangiro birasa, nta tandukaniro na rimwe.", "en": "Purpose and objective mean exactly the same thing in this level."}
+          {
+            "fr": "Un mouvement de disciples qui se multiplient de génération en génération",
+            "en": "A movement of disciples multiplying generation to generation",
+            "rn": "Ugufatanya kw'abigishwa bigwiza ku runganwe ku rundi"
+          },
+          {
+            "fr": "Une seule grande réunion annuelle",
+            "en": "A single large annual meeting",
+            "rn": "Inama nini imwe mu mwaka"
+          },
+          {
+            "fr": "Un ministère centré uniquement sur un bâtiment",
+            "en": "A ministry centered only on a building",
+            "rn": "Umurimo ushimikiye gusa ku nzu"
+          }
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "track_5_q4",
+        "prompt": {
+          "fr": "Comment un leader mature gère-t-il les défis selon ce niveau ?",
+          "en": "How does a mature leader handle challenges according to this level?",
+          "rn": "Umuyobozi yakuze akemura ate ibibazo nk'uko uru rwego rubivuga?"
+        },
+        "choices": [
+          {
+            "fr": "Par la prière, la Parole, l’humilité et des relations saines",
+            "en": "Through prayer, the Word, humility, and healthy relationships",
+            "rn": "Biciye ku gusenga, Ijambo, ukwicisha bugufi n'imibanire myiza"
+          },
+          {
+            "fr": "En ignorant les conflits",
+            "en": "By ignoring conflicts",
+            "rn": "Mu kwirengagiza amakimbirane"
+          },
+          {
+            "fr": "En travaillant seul sans rendre de comptes",
+            "en": "By working alone with no accountability",
+            "rn": "Mu gukora wenyine nta gusigurira"
+          }
         ],
         "correctIndex": 0
       },
       {
         "id": "track_5_q5",
         "prompt": {
-          "fr": "Selon le leadership serviteur enseigné dans ce niveau, en quoi consiste diriger ?",
-          "rn": "Nk'uko uburongozi bw'umusuku bwigishwa muri iki cigwa, kurongora bisobanura iki ?",
-          "en": "According to the servant leadership taught in this level, what does it mean to lead?"
+          "fr": "Quelle est l’invitation finale de ce parcours (niveau 5) ?",
+          "en": "What is the final invitation of this journey (level 5)?",
+          "rn": "Ni iyihe nturikirane ya nyuma y'uru rugendo (urwego rwa 5)?"
         },
         "choices": [
-          {"fr": "Diriger, c'est dominer et se faire servir par ceux qu'on dirige.", "rn": "Kurongora ni ukuganza no gukoreshwa n'abo urongoye.", "en": "To lead is to dominate and be served by those you lead."},
-          {"fr": "Diriger, c'est éviter toute responsabilité envers les autres.", "rn": "Kurongora ni ukwirinda inshingano zose ku bandi.", "en": "To lead is to avoid any responsibility toward others."},
-          {"fr": "Diriger, c'est servir ceux que l'on conduit, comme Jésus qui est venu servir et donner sa vie.", "rn": "Kurongora ni ugukorera abo urongoye, nk'uko Yesu yaje gukorera no gutanga ubugingo bwiwe.", "en": "To lead is to serve those you lead, as Jesus came to serve and give his life."}
+          {
+            "fr": "S’arrêter après le certificat sans former personne",
+            "en": "Stop after the certificate without training anyone",
+            "rn": "Guhagarara inyuma y'icerti nta kugira uwo utegura"
+          },
+          {
+            "fr": "Continuer à faire des disciples qui font des disciples, pour la gloire de Christ",
+            "en": "Keep making disciples who make disciples, for Christ’s glory",
+            "rn": "Gukomeza kugira abigishwa bagira abandi, ku ikuzo rya Kristo"
+          },
+          {
+            "fr": "Remplacer Christ par des méthodes",
+            "en": "Replace Christ with methods",
+            "rn": "Gusimbura Kristo n'ubuhinga"
+          }
         ],
-        "correctIndex": 2
+        "correctIndex": 1
       }
     ]
   }

@@ -20,6 +20,7 @@ class Lesson extends Model
         'type',
         'order',
         'status',
+        'resource_url',
     ];
 
     /**

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Enums\PreferredLanguage;
+use App\Http\Controllers\Concerns\CachesPublicCurriculumResponses;
 use App\Http\Controllers\Controller;
 use App\Http\Responses\ApiResponse;
 use App\Services\Curriculum\CurriculumService;
@@ -11,6 +12,8 @@ use Illuminate\Http\Request;
 
 class LessonController extends Controller
 {
+    use CachesPublicCurriculumResponses;
+
     public function __construct(private readonly CurriculumService $curriculum) {}
 
     public function index(Request $request, string $level): JsonResponse
@@ -21,7 +24,7 @@ class LessonController extends Controller
             return ApiResponse::error('Level not found.', [], 404);
         }
 
-        return ApiResponse::success(
+        return $this->cachedCurriculumSuccess(
             $this->curriculum->getLessonsForLevel($level, $language),
             meta: ['lang' => $language],
         );
@@ -36,6 +39,6 @@ class LessonController extends Controller
             return ApiResponse::error('Lesson not found.', [], 404);
         }
 
-        return ApiResponse::success($payload, meta: ['lang' => $language]);
+        return $this->cachedCurriculumSuccess($payload, meta: ['lang' => $language]);
     }
 }

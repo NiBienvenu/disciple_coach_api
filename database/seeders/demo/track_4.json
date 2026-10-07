@@ -1,11 +1,17 @@
 {
-  "trackId": "track_4",
-  "title": {"fr": "Niveau 4 : Leadership", "rn": "Urwego rwa 4 : Leadership", "en": "Level 4: Leadership"},
+  "id": "track_4",
+  "title": {
+    "fr": "Niveau 4 : Leadership",
+    "rn": "Urwego rwa 4 : Leadership",
+    "en": "Level 4: Leadership"
+  },
   "description": {
     "fr": "Ce niveau forme les disciples à vivre avec une perspective éternelle, à discerner la volonté de Dieu, à aimer par la foi, et à s'engager dans l'édification d'un mouvement spirituel qui se multiplie.",
     "rn": "Kumenyesha kubaho witegereje ibihe bidashira, gutahura ugushaka kw'Imana, gukunda mu kwizera, n'akamaro k'umuvyimba wo mu buryo bw'impwemu.",
     "en": "This level trains disciples to live with an eternal perspective, discern God's will, love by faith, and commit to building a multiplying spiritual movement."
   },
+  "order": 4,
+  "previousTrackId": "track_3",
   "lessons": [
     {
       "id": "track_4_lesson_01",
@@ -27,9 +33,18 @@
             "Comprendre comment la développer."
           ],
           "keyScriptures": [
-            {"reference": "Matthieu 6.19-21", "text": "Amassez-vous des trésors dans le ciel… car là où est ton trésor, là aussi sera ton cœur."},
-            {"reference": "2 Corinthiens 4.18", "text": "Nous regardons non aux choses visibles, mais à celles qui sont invisibles ; car les visibles sont passagères, et les invisibles sont éternelles."},
-            {"reference": "Colossiens 3.1-2", "text": "Cherchez les choses d'en haut… affectionnez-vous aux choses d'en haut, et non à celles qui sont sur la terre."}
+            {
+              "reference": "Matthieu 6.19-21",
+              "text": "Amassez-vous des trésors dans le ciel… car là où est ton trésor, là aussi sera ton cœur."
+            },
+            {
+              "reference": "2 Corinthiens 4.18",
+              "text": "Nous regardons non aux choses visibles, mais à celles qui sont invisibles ; car les visibles sont passagères, et les invisibles sont éternelles."
+            },
+            {
+              "reference": "Colossiens 3.1-2",
+              "text": "Cherchez les choses d'en haut… affectionnez-vous aux choses d'en haut, et non à celles qui sont sur la terre."
+            }
           ],
           "summaryPoints": [
             "Voir la vie du point de vue de Dieu.",
@@ -51,9 +66,18 @@
             "Gutahura ingene wobiteza imbere."
           ],
           "keyScriptures": [
-            {"reference": "Matayo 6.19-21", "text": "Nimwirundanirize ubutunzi mw'ijuru… kuko aho ubutunzi bwawe buri, ni ho n'umutima wawe uzoba."},
-            {"reference": "2 Abakorinto 4.18", "text": "Ntitwitegereza ibiboneka, ariko ibitaboneka ; kuko ibiboneka ari ivy'akanya, ariko ibitaboneka bikaba ibidashira."},
-            {"reference": "Abakolosayi 3.1-2", "text": "Nimurondere ivyo hejuru… Muzirikane ivyo hejuru, ntimuzirikane ivyo kw'isi."}
+            {
+              "reference": "Matayo 6.19-21",
+              "text": "Nimwirundanirize ubutunzi mw'ijuru… kuko aho ubutunzi bwawe buri, ni ho n'umutima wawe uzoba."
+            },
+            {
+              "reference": "2 Abakorinto 4.18",
+              "text": "Ntitwitegereza ibiboneka, ariko ibitaboneka ; kuko ibiboneka ari ivy'akanya, ariko ibitaboneka bikaba ibidashira."
+            },
+            {
+              "reference": "Abakolosayi 3.1-2",
+              "text": "Nimurondere ivyo hejuru… Muzirikane ivyo hejuru, ntimuzirikane ivyo kw'isi."
+            }
           ],
           "summaryPoints": [
             "Kubona — ubuzima nk'uko Imana ibubona.",
@@ -75,9 +99,18 @@
             "Understand how to develop it."
           ],
           "keyScriptures": [
-            {"reference": "Matthew 6:19-21", "text": "Lay not up for yourselves treasures upon earth... but lay up for yourselves treasures in heaven... for where your treasure is, there will your heart be also."},
-            {"reference": "2 Corinthians 4:18", "text": "We look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal."},
-            {"reference": "Colossians 3:1-2", "text": "Seek those things which are above... set your affection on things above, not on things on the earth."}
+            {
+              "reference": "Matthew 6:19-21",
+              "text": "Lay not up for yourselves treasures upon earth... but lay up for yourselves treasures in heaven... for where your treasure is, there will your heart be also."
+            },
+            {
+              "reference": "2 Corinthians 4:18",
+              "text": "We look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal."
+            },
+            {
+              "reference": "Colossians 3:1-2",
+              "text": "Seek those things which are above... set your affection on things above, not on things on the earth."
+            }
           ],
           "summaryPoints": [
             "See life from God's point of view.",
@@ -112,9 +145,18 @@
             "Mettre en pratique le principe de « l'esprit de sagesse »."
           ],
           "keyScriptures": [
-            {"reference": "Romains 12.2", "text": "Soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez la volonté de Dieu : ce qui est bon, agréable et parfait."},
-            {"reference": "Éphésiens 1.17", "text": "Qu'il vous donne un esprit de sagesse et de révélation, qui vous le fasse connaître."},
-            {"reference": "Jean 7.17", "text": "Si quelqu'un veut faire la volonté de Dieu, il reconnaîtra si mon enseignement vient de Dieu."}
+            {
+              "reference": "Romains 12.2",
+              "text": "Soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez la volonté de Dieu : ce qui est bon, agréable et parfait."
+            },
+            {
+              "reference": "Éphésiens 1.17",
+              "text": "Qu'il vous donne un esprit de sagesse et de révélation, qui vous le fasse connaître."
+            },
+            {
+              "reference": "Jean 7.17",
+              "text": "Si quelqu'un veut faire la volonté de Dieu, il reconnaîtra si mon enseignement vient de Dieu."
+            }
           ],
           "summaryPoints": [
             "Se remettre à Dieu avec un cœur disponible et confiant.",
@@ -136,9 +178,18 @@
             "Gushira mu ngiro ingingo y'« impwemu y'ubwenge »."
           ],
           "keyScriptures": [
-            {"reference": "Abaroma 12.2", "text": "Muhindurwe bashasha mu kugira imizirikanyi misha… kugira ngo mumenye ugushaka kw'Imana : iciza, gihimbaye, kandi gitunganye."},
-            {"reference": "Abanyefeso 1.17", "text": "… kugira ngo abahe impwemu y'ubwenge n'iy'ukwivumbura, mu kumumenya."},
-            {"reference": "Yohana 7.17", "text": "Umuntu niyashaka gukora ugushaka kwayo, azomenya ko inyigisho yanje iva ku Mana."}
+            {
+              "reference": "Abaroma 12.2",
+              "text": "Muhindurwe bashasha mu kugira imizirikanyi misha… kugira ngo mumenye ugushaka kw'Imana : iciza, gihimbaye, kandi gitunganye."
+            },
+            {
+              "reference": "Abanyefeso 1.17",
+              "text": "… kugira ngo abahe impwemu y'ubwenge n'iy'ukwivumbura, mu kumumenya."
+            },
+            {
+              "reference": "Yohana 7.17",
+              "text": "Umuntu niyashaka gukora ugushaka kwayo, azomenya ko inyigisho yanje iva ku Mana."
+            }
           ],
           "summaryPoints": [
             "Kwiyegura — umutima uboneka kandi wizigira.",
@@ -160,9 +211,18 @@
             "Practice the principle of the 'spirit of wisdom.'"
           ],
           "keyScriptures": [
-            {"reference": "Romans 12:2", "text": "Be transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."},
-            {"reference": "Ephesians 1:17", "text": "That he may give unto you the spirit of wisdom and revelation, in the knowledge of him."},
-            {"reference": "John 7:17", "text": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself."}
+            {
+              "reference": "Romans 12:2",
+              "text": "Be transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God."
+            },
+            {
+              "reference": "Ephesians 1:17",
+              "text": "That he may give unto you the spirit of wisdom and revelation, in the knowledge of him."
+            },
+            {
+              "reference": "John 7:17",
+              "text": "If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself."
+            }
           ],
           "summaryPoints": [
             "Surrender to God with an available, trusting heart.",
@@ -197,8 +257,14 @@
             "Expliquer les raisons de s'y engager."
           ],
           "keyScriptures": [
-            {"reference": "Actes 2.42-47", "text": "Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle… et le Seigneur ajoutait chaque jour à l'Église ceux qui étaient sauvés."},
-            {"reference": "1 Thessaloniciens 1.8", "text": "La parole du Seigneur a retenti… de sorte que vous n'avez pas besoin d'en parler."}
+            {
+              "reference": "Actes 2.42-47",
+              "text": "Ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle… et le Seigneur ajoutait chaque jour à l'Église ceux qui étaient sauvés."
+            },
+            {
+              "reference": "1 Thessaloniciens 1.8",
+              "text": "La parole du Seigneur a retenti… de sorte que vous n'avez pas besoin d'en parler."
+            }
           ],
           "summaryPoints": [
             "Comprendre ce qu'est un mouvement spirituel.",
@@ -220,8 +286,14 @@
             "Gusigura igituma umuntu yowitangamwo."
           ],
           "keyScriptures": [
-            {"reference": "Ivyak 2.42-47", "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."},
-            {"reference": "1 Ab'i Tesalonike 1.8", "text": "Ijambo ry'Umwami ryumvikanye… ku buryo tutagira ico tuvuga."}
+            {
+              "reference": "Ivyak 2.42-47",
+              "text": "Bashishikara mu vyo intumwa zigisha, no kugira ubumwe… Umwami ariyongereza abakizwa imisi yose."
+            },
+            {
+              "reference": "1 Ab'i Tesalonike 1.8",
+              "text": "Ijambo ry'Umwami ryumvikanye… ku buryo tutagira ico tuvuga."
+            }
           ],
           "summaryPoints": [
             "Gutahura — ico umuvyimba w'impwemu ari co.",
@@ -243,8 +315,14 @@
             "Explain the reasons for getting involved."
           ],
           "keyScriptures": [
-            {"reference": "Acts 2:42-47", "text": "They continued stedfastly in the apostles' doctrine and fellowship... and the Lord added to the church daily such as should be saved."},
-            {"reference": "1 Thessalonians 1:8", "text": "From you sounded out the word of the Lord... so that we need not to speak any thing."}
+            {
+              "reference": "Acts 2:42-47",
+              "text": "They continued stedfastly in the apostles' doctrine and fellowship... and the Lord added to the church daily such as should be saved."
+            },
+            {
+              "reference": "1 Thessalonians 1:8",
+              "text": "From you sounded out the word of the Lord... so that we need not to speak any thing."
+            }
           ],
           "summaryPoints": [
             "Understand what a spiritual movement is.",
@@ -278,9 +356,18 @@
             "Expliquer les principes permettant d'aimer par la foi."
           ],
           "keyScriptures": [
-            {"reference": "Romains 5.8", "text": "Dieu prouve son amour envers nous en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous."},
-            {"reference": "Jean 13.34", "text": "Aimez-vous les uns les autres comme je vous ai aimés."},
-            {"reference": "1 Corinthiens 13.1-3", "text": "Quand je parlerais les langues des hommes et des anges, si je n'ai pas l'amour, je suis une cymbale qui retentit… je ne suis rien."}
+            {
+              "reference": "Romains 5.8",
+              "text": "Dieu prouve son amour envers nous en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous."
+            },
+            {
+              "reference": "Jean 13.34",
+              "text": "Aimez-vous les uns les autres comme je vous ai aimés."
+            },
+            {
+              "reference": "1 Corinthiens 13.1-3",
+              "text": "Quand je parlerais les langues des hommes et des anges, si je n'ai pas l'amour, je suis une cymbale qui retentit… je ne suis rien."
+            }
           ],
           "summaryPoints": [
             "Recevoir l'amour agapé de Dieu.",
@@ -301,9 +388,18 @@
             "Gusigura ingingo zitatu zo gukunda mu kwizera."
           ],
           "keyScriptures": [
-            {"reference": "Abaroma 5.8", "text": "Imana yerekana urukundo rwayo kuri twebwe, kuko igihe twari abanyavyaha Kristo yadupfiriye."},
-            {"reference": "Yohana 13.34", "text": "Nimukundane."},
-            {"reference": "1 Abakorinto 13.1-3", "text": "Naho novuga indimi z'abantu n'iz'abamarayika, ariko ntagire urukundo, mba ndi icuma kivuga… nta co maze."}
+            {
+              "reference": "Abaroma 5.8",
+              "text": "Imana yerekana urukundo rwayo kuri twebwe, kuko igihe twari abanyavyaha Kristo yadupfiriye."
+            },
+            {
+              "reference": "Yohana 13.34",
+              "text": "Nimukundane."
+            },
+            {
+              "reference": "1 Abakorinto 13.1-3",
+              "text": "Naho novuga indimi z'abantu n'iz'abamarayika, ariko ntagire urukundo, mba ndi icuma kivuga… nta co maze."
+            }
           ],
           "summaryPoints": [
             "Kwakira — urukundo agapé rw'Imana.",
@@ -324,9 +420,18 @@
             "Explain the principles for loving by faith."
           ],
           "keyScriptures": [
-            {"reference": "Romans 5:8", "text": "God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."},
-            {"reference": "John 13:34", "text": "A new commandment I give unto you, that ye love one another, as I have loved you."},
-            {"reference": "1 Corinthians 13:1-3", "text": "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal... and have not charity, I am nothing."}
+            {
+              "reference": "Romans 5:8",
+              "text": "God commendeth his love toward us, in that, while we were yet sinners, Christ died for us."
+            },
+            {
+              "reference": "John 13:34",
+              "text": "A new commandment I give unto you, that ye love one another, as I have loved you."
+            },
+            {
+              "reference": "1 Corinthians 13:1-3",
+              "text": "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal... and have not charity, I am nothing."
+            }
           ],
           "summaryPoints": [
             "Receive God's agape love.",
@@ -360,8 +465,14 @@
             "Appliquer ces principes à des études de cas concrets."
           ],
           "keyScriptures": [
-            {"reference": "Éphésiens 3.20", "text": "À celui qui peut faire infiniment au-delà de tout ce que nous demandons ou pensons… à lui soit la gloire !"},
-            {"reference": "1 Thessaloniciens 5.17", "text": "Priez sans cesse."}
+            {
+              "reference": "Éphésiens 3.20",
+              "text": "À celui qui peut faire infiniment au-delà de tout ce que nous demandons ou pensons… à lui soit la gloire !"
+            },
+            {
+              "reference": "1 Thessaloniciens 5.17",
+              "text": "Priez sans cesse."
+            }
           ],
           "summaryPoints": [
             "Prier comme fondement de tout mouvement.",
@@ -382,8 +493,14 @@
             "Gushira izo ngingo mu ngiro mu turorero."
           ],
           "keyScriptures": [
-            {"reference": "Abanyefeso 3.20", "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira… ni we ninahazwe !"},
-            {"reference": "1 Ab'i Tesalonike 5.17", "text": "Nimusenge ata guhengeshanya."}
+            {
+              "reference": "Abanyefeso 3.20",
+              "text": "Ashobora gukora birenze cane ivyo dusaba canke twiyumvira… ni we ninahazwe !"
+            },
+            {
+              "reference": "1 Ab'i Tesalonike 5.17",
+              "text": "Nimusenge ata guhengeshanya."
+            }
           ],
           "summaryPoints": [
             "Gusenga — ishimikiro ry'umuvyimba wose.",
@@ -404,8 +521,14 @@
             "Apply these principles to concrete case studies."
           ],
           "keyScriptures": [
-            {"reference": "Ephesians 3:20", "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think... unto him be glory."},
-            {"reference": "1 Thessalonians 5:17", "text": "Pray without ceasing."}
+            {
+              "reference": "Ephesians 3:20",
+              "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think... unto him be glory."
+            },
+            {
+              "reference": "1 Thessalonians 5:17",
+              "text": "Pray without ceasing."
+            }
           ],
           "summaryPoints": [
             "Pray as the foundation of every movement.",
@@ -438,7 +561,10 @@
             "Évaluer le progrès de son propre ministère personnel."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothée 2.2", "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."}
+            {
+              "reference": "2 Timothée 2.2",
+              "text": "Confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres."
+            }
           ],
           "summaryPoints": [
             "Commencer par un ministère personnel.",
@@ -458,7 +584,10 @@
             "Kumenya aho igikorwa cawe bwite kigeze."
           ],
           "keyScriptures": [
-            {"reference": "2 Timoteyo 2.2", "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."}
+            {
+              "reference": "2 Timoteyo 2.2",
+              "text": "Ubishikirize abantu bo kwizigirwa, bazoshobora kuvyigisha n'abandi."
+            }
           ],
           "summaryPoints": [
             "Gutangura — ku gikorwa bwite.",
@@ -478,7 +607,10 @@
             "Evaluate the progress of one's own personal ministry."
           ],
           "keyScriptures": [
-            {"reference": "2 Timothy 2:2", "text": "The things that thou hast heard of me... commit thou to faithful men, who shall be able to teach others also."}
+            {
+              "reference": "2 Timothy 2:2",
+              "text": "The things that thou hast heard of me... commit thou to faithful men, who shall be able to teach others also."
+            }
           ],
           "summaryPoints": [
             "Begin with a personal ministry.",
@@ -499,72 +631,132 @@
       {
         "id": "track_4_q1",
         "prompt": {
-          "fr": "Selon la leçon, où Jésus enseigne-t-il d'amasser nos trésors ?",
-          "rn": "Nk'uko iki cigwa kibivuga, Yesu yigisha ko dutegerezwa kwirundanyiriza ubutunzi hehe ?",
-          "en": "According to the lesson, where does Jesus teach us to store up our treasures?"
+          "fr": "Selon le niveau 4, qu’est-ce qu’un disciple selon Matthieu 28 ?",
+          "en": "According to level 4, what is a disciple in light of Matthew 28?",
+          "rn": "Nk'uko urwego rwa 4 rubivuga, umwigishwa ni nde hashingiye kuri Matayo 28?"
         },
         "choices": [
-          {"fr": "Sur la terre", "rn": "Kw'isi", "en": "On earth"},
-          {"fr": "Dans le ciel", "rn": "Mw'ijuru", "en": "In heaven"},
-          {"fr": "Cela n'a pas d'importance", "rn": "Ntibifise agaciro", "en": "It does not matter"}
+          {
+            "fr": "Un spectateur occasionnel du culte",
+            "en": "An occasional church spectator",
+            "rn": "Umureretsi w'isengero rimwe na rimwe"
+          },
+          {
+            "fr": "Quelqu’un qui suit Christ, obéit, et aide d’autres à en faire autant",
+            "en": "Someone who follows Christ, obeys, and helps others do the same",
+            "rn": "Uwakurikira Kristo, yumvira, kandi afasha abandi gukora kimwe"
+          },
+          {
+            "fr": "Un expert en théologie académique seulement",
+            "en": "Only an academic theology expert",
+            "rn": "Impuguke y'ubwenge gusa"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_4_q2",
         "prompt": {
-          "fr": "Selon Romains 12.2, que faut-il pour discerner la volonté de Dieu ?",
-          "rn": "Nk'uko Abaroma 12.2 ibivuga, dutegerezwa gukora iki kugira tumenye ugushaka kw'Imana ?",
-          "en": "According to Romans 12:2, what is needed to discern God's will?"
+          "fr": "Que signifie la multiplication spirituelle dans ce niveau ?",
+          "en": "What does spiritual multiplication mean in this level?",
+          "rn": "Kwigwiza mu buryo bw'impwemu bisobanura iki muri uru rwego?"
         },
         "choices": [
-          {"fr": "Être transformé par le renouvellement de l'intelligence", "rn": "Guhindurwa bashasha mu kugira imizirikanyi misha", "en": "Being transformed by the renewing of the mind"},
-          {"fr": "Attendre un signe miraculeux", "rn": "Kurindira ikimenyetso gitangaje", "en": "Waiting for a miraculous sign"},
-          {"fr": "Suivre ses propres sentiments", "rn": "Gukurikira ivyiyumviro vyacu bwite", "en": "Following one's own feelings"}
+          {
+            "fr": "Former des disciples qui forment d’autres disciples",
+            "en": "Training disciples who train other disciples",
+            "rn": "Guhindura abigishwa, nabo bagire abandi abigishwa"
+          },
+          {
+            "fr": "Augmenter seulement le budget d’une église",
+            "en": "Only increasing a church budget",
+            "rn": "Kongera gusa ingengo y'isengero"
+          },
+          {
+            "fr": "Accumuler des followers sur les réseaux",
+            "en": "Accumulating social-media followers",
+            "rn": "Kongera abakurikira ku mbuga nkoranye"
+          }
         ],
         "correctIndex": 0
       },
       {
         "id": "track_4_q3",
         "prompt": {
-          "fr": "Quelle est la différence fondamentale entre un mouvement spirituel et un mouvement purement humain ?",
-          "rn": "Ni igiki itandukaniro rikuru hagati y'umuvyimba w'impwemu n'umuvyimba w'abantu gusa ?",
-          "en": "What is the fundamental difference between a spiritual movement and a purely human movement?"
+          "fr": "Pourquoi un disciple a-t-il besoin d’un plan de ministère personnel ?",
+          "en": "Why does a disciple need a personal ministry plan?",
+          "rn": "Kuki umwigishwa akeneye umugambi w'umurimo bwite?"
         },
         "choices": [
-          {"fr": "Sa taille", "rn": "Ubunini bwawo", "en": "Its size"},
-          {"fr": "Sa dépendance du Saint-Esprit et de la Parole", "rn": "Ukwishimikiza Mpwemu Yera n'Ijambo ry'Umwami", "en": "Its dependence on the Holy Spirit and the Word"},
-          {"fr": "Sa rapidité de croissance", "rn": "Umuvuduko wo gukura", "en": "How quickly it grows"}
+          {
+            "fr": "Pour remplacer la prière",
+            "en": "To replace prayer",
+            "rn": "Kugira ngo hasimbure gusenga"
+          },
+          {
+            "fr": "Pour obéir concrètement à l’Ordre Suprême avec des pas mesurables",
+            "en": "To obey the Great Commission with concrete, measurable steps",
+            "rn": "Kugira ngo yumvire Itegeko Rikuru mu ntambwe zishobora gupimwa"
+          },
+          {
+            "fr": "Pour éviter toute relation de coaching",
+            "en": "To avoid any coaching relationship",
+            "rn": "Kugira ngo ntihagire umubano wo gufashwa"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_4_q4",
         "prompt": {
-          "fr": "Comment la leçon définit-elle l'amour « agapé » ?",
-          "rn": "Iki cigwa gisigura gute urukundo « agapé » ?",
-          "en": "How does the lesson define 'agape' love?"
+          "fr": "Quel est un bon premier pas de multiplication selon ce niveau ?",
+          "en": "What is a good first multiplication step according to this level?",
+          "rn": "Ni iyihe ntambwe nziza y'ibanze yo kwigwiza nk'uko uru rwego rubivuga?"
         },
         "choices": [
-          {"fr": "Un amour qui prend et cherche son propre plaisir", "rn": "Urukundo rufata kandi rushaka ineza yarwo", "en": "A love that takes and seeks its own pleasure"},
-          {"fr": "Un amour qui donne sans rien attendre en retour", "rn": "Urukundo rutanga ata co rurindiriye", "en": "A love that gives without expecting anything in return"},
-          {"fr": "Un amour qui donne et reçoit en retour", "rn": "Urukundo rutanga kandi rugahabwa", "en": "A love that gives and receives in return"}
+          {
+            "fr": "Attendre d’être parfait avant de commencer",
+            "en": "Wait to be perfect before starting",
+            "rn": "G tegereza kuba uwuzuye imbere yo gutangura"
+          },
+          {
+            "fr": "Investir dans une ou deux personnes avec un suivi régulier",
+            "en": "Invest in one or two people with regular follow-up",
+            "rn": "Gushora mu muntu umwe canke babiri hamwe n'ugukurikirana kenshi"
+          },
+          {
+            "fr": "Organiser uniquement de grands événements",
+            "en": "Only organize large events",
+            "rn": "Gutunganya gusa ibirori binini"
+          }
         ],
         "correctIndex": 1
       },
       {
         "id": "track_4_q5",
         "prompt": {
-          "fr": "Selon la leçon, quel est le premier fondement de l'édification d'un mouvement ?",
-          "rn": "Nk'uko iki cigwa kibivuga, ni igiki ishimikiro rya mbere ryo kwubaka umuvyimba ?",
-          "en": "According to the lesson, what is the first foundation for building a movement?"
+          "fr": "Sur quoi la stratégie de multiplication doit-elle reposer ?",
+          "en": "What should a multiplication strategy rest on?",
+          "rn": "Umugambi wo kwigwiza ushimikira kuki?"
         },
         "choices": [
-          {"fr": "Le financement", "rn": "Amahera", "en": "Funding"},
-          {"fr": "La prière", "rn": "Isengesho", "en": "Prayer"},
-          {"fr": "La crédibilité", "rn": "Ukwizigirwa", "en": "Credibility"}
+          {
+            "fr": "La prière, la Parole, et des relations intentionnelles",
+            "en": "Prayer, the Word, and intentional relationships",
+            "rn": "Gusenga, Ijambo, n'imibanire yateguwe"
+          },
+          {
+            "fr": "La popularité personnelle seule",
+            "en": "Personal popularity alone",
+            "rn": "Ubuziranenge bwite gusa"
+          },
+          {
+            "fr": "Les méthodes sans dépendance de Dieu",
+            "en": "Methods without dependence on God",
+            "rn": "Ubuhinga budafise ukwizigira Imana"
+          }
         ],
-        "correctIndex": 1
+        "correctIndex": 0
       }
     ]
   }
