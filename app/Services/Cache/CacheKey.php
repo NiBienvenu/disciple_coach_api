@@ -13,9 +13,36 @@ final class CacheKey
 {
     public const VERSION = 'v1';
 
+    /** Cache entry holding the current content revision. */
+    public const REVISION_KEY = 'curriculum:revision';
+
+    private static ?int $revision = null;
+
+    /**
+     * Content revision. Every curriculum key embeds it, so bumping it
+     * (seeder, admin edit) makes all old curriculum entries unreachable at
+     * once: no flush, no stale content.
+     */
+    public static function revision(): int
+    {
+        return self::$revision ??= (int) \Illuminate\Support\Facades\Cache::rememberForever(
+            self::REVISION_KEY,
+            static fn (): int => time(),
+        );
+    }
+
+    public static function bumpRevision(): int
+    {
+        $next = max(time(), self::revision() + 1);
+        \Illuminate\Support\Facades\Cache::forever(self::REVISION_KEY, $next);
+        self::$revision = $next;
+
+        return $next;
+    }
+
     public static function curriculum(string ...$parts): string
     {
-        return self::join('curriculum', self::VERSION, ...$parts);
+        return self::join('curriculum', self::VERSION, 'r'.self::revision(), ...$parts);
     }
 
     public static function curriculumLanguage(string $language): string
@@ -79,7 +106,7 @@ final class CacheKey
 
     public static function quiz(string ...$parts): string
     {
-        return self::join('quiz', self::VERSION, ...$parts);
+        return self::join('quiz', self::VERSION, 'r'.self::revision(), ...$parts);
     }
 
     public static function quizLevel(int|string $levelId): string

@@ -5,6 +5,7 @@ use App\Http\Controllers\Api\V1\AuthController;
 use App\Http\Controllers\Api\V1\CertificateController;
 use App\Http\Controllers\Api\V1\CoachDashboardController;
 use App\Http\Controllers\Api\V1\CoachRequestController;
+use App\Http\Controllers\Api\V1\ContentAdminController;
 use App\Http\Controllers\Api\V1\CoachingSessionController;
 use App\Http\Controllers\Api\V1\CurriculumController;
 use App\Http\Controllers\Api\V1\DeviceTokenController;
@@ -42,6 +43,7 @@ Route::middleware('throttle:api')->group(function (): void {
     });
 
     Route::get('/curriculum', [CurriculumController::class, 'index'])->name('curriculum.index');
+    Route::get('/curriculum/revision', [CurriculumController::class, 'revision'])->name('curriculum.revision');
     Route::get('/levels', [LevelController::class, 'index'])->name('levels.index');
     Route::get('/levels/{level}', [LevelController::class, 'show'])->name('levels.show');
     Route::get('/levels/{level}/lessons', [LessonController::class, 'index'])->name('levels.lessons.index');
@@ -114,5 +116,23 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
         Route::patch('/users/{user}/active', [AdminController::class, 'setActive'])->name('admin.users.active');
         Route::post('/users/{user}/coach-status', [AdminController::class, 'setCoachStatus'])->name('admin.users.coach-status');
         Route::get('/stats', [AdminController::class, 'stats'])->name('admin.stats');
+
+        // Curriculum content CRUD (all languages)
+        Route::get('/content/levels', [ContentAdminController::class, 'levels'])->name('admin.content.levels');
+        Route::post('/content/levels', [ContentAdminController::class, 'storeLevel'])->name('admin.content.levels.store');
+        Route::patch('/content/levels/{level}', [ContentAdminController::class, 'updateLevel'])->name('admin.content.levels.update');
+        Route::delete('/content/levels/{level}', [ContentAdminController::class, 'destroyLevel'])->name('admin.content.levels.destroy');
+        Route::post('/content/levels/{level}/lessons', [ContentAdminController::class, 'storeLesson'])->name('admin.content.lessons.store');
+        Route::get('/content/lessons/{lesson}', [ContentAdminController::class, 'showLesson'])->name('admin.content.lessons.show');
+        Route::patch('/content/lessons/{lesson}', [ContentAdminController::class, 'updateLesson'])->name('admin.content.lessons.update');
+        Route::delete('/content/lessons/{lesson}', [ContentAdminController::class, 'destroyLesson'])->name('admin.content.lessons.destroy');
+        Route::get('/content/levels/{level}/quiz', [ContentAdminController::class, 'quiz'])->name('admin.content.quiz');
+        Route::post('/content/levels/{level}/quiz/questions', [ContentAdminController::class, 'storeQuestion'])->name('admin.content.questions.store');
+        Route::patch('/content/quiz-questions/{question}', [ContentAdminController::class, 'updateQuestion'])->name('admin.content.questions.update');
+        Route::delete('/content/quiz-questions/{question}', [ContentAdminController::class, 'destroyQuestion'])->name('admin.content.questions.destroy');
+
+        // Push diagnostics
+        Route::get('/push/status', [AdminController::class, 'pushStatus'])->name('admin.push.status');
+        Route::post('/push/test', [AdminController::class, 'pushTest'])->name('admin.push.test');
     });
 });

@@ -48,4 +48,30 @@ class AdminController extends Controller
     {
         return ApiResponse::success($this->admin->stats());
     }
+
+    /** Is push set up on this server, and how many devices are registered? */
+    public function pushStatus(Request $request, \App\Services\Push\FcmService $fcm): JsonResponse
+    {
+        return ApiResponse::success([
+            'configured' => $fcm->isConfigured(),
+            'credentials_path' => config('services.fcm.credentials'),
+            'devices_total' => \App\Models\DeviceToken::query()->count(),
+            'my_devices' => $request->user()->deviceTokens()->count(),
+        ]);
+    }
+
+    /** Sends a test notification to the admin's own devices, right now. */
+    public function pushTest(Request $request, \App\Services\Push\FcmService $fcm): JsonResponse
+    {
+        if (! $fcm->isConfigured()) {
+            return ApiResponse::error('Push is not configured: Firebase key file not found on the server.', [], 422);
+        }
+
+        $results = [];
+        foreach ($request->user()->deviceTokens()->pluck('token') as $token) {
+            $results[] = ['token' => substr($token, 0, 12).'…', 'sent' => $fcm->sendToToken($token, 'DiscipleCoach', 'Test notification ✅', ['type' => 'test'])];
+        }
+
+        return ApiResponse::success(['devices' => count($results), 'results' => $results]);
+    }
 }

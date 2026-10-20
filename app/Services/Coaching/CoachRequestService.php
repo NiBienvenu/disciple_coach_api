@@ -70,7 +70,7 @@ class CoachRequestService
             'message' => $message,
         ]);
 
-        $this->push->notify($coach, 'Nouvelle demande de coaching', "{$disciple->name} souhaite que vous soyez son coach.", [
+        $this->push->notify($coach, ['fr' => 'Nouvelle demande de coaching', 'en' => 'New coaching request'], ['fr' => "{$disciple->name} souhaite que vous soyez son coach.", 'en' => "{$disciple->name} would like you to be their coach."], [
             'type' => 'coach_request',
             'request_id' => $request->id,
         ]);
@@ -109,7 +109,7 @@ class CoachRequestService
             ]);
         });
 
-        $this->push->notify($request->disciple, 'Demande acceptée', "{$coach->name} est maintenant votre coach.", [
+        $this->push->notify($request->disciple, ['fr' => 'Demande acceptée', 'en' => 'Request accepted'], ['fr' => "{$coach->name} est maintenant votre coach.", 'en' => "{$coach->name} is now your coach."], [
             'type' => 'coach_request_accepted',
             'relationship_id' => $relationship->id,
         ]);
@@ -122,7 +122,7 @@ class CoachRequestService
         $this->assertPendingFor($coach, $request, 'coach_id');
         $request->update(['status' => CoachRequest::DECLINED, 'responded_at' => now()]);
 
-        $this->push->notify($request->disciple, 'Demande refusée', "{$coach->name} ne peut pas vous accompagner pour le moment. Choisissez un autre coach.", [
+        $this->push->notify($request->disciple, ['fr' => 'Demande refusée', 'en' => 'Request declined'], ['fr' => "{$coach->name} ne peut pas vous accompagner pour le moment. Choisissez un autre coach.", 'en' => "{$coach->name} can't coach you right now. Please choose another coach."], [
             'type' => 'coach_request_declined',
             'request_id' => $request->id,
         ]);

@@ -73,7 +73,7 @@ class ProfileController extends Controller
             // A new coach waits for an admin before coaching anyone.
             $user->forceFill(['coach_status' => 'pending'])->save();
             $admins = User::query()->role(AppRole::Admin->value)->where('is_active', true)->get();
-            $this->push->notify($admins, 'Coach à approuver', "{$user->name} demande un compte coach.", [
+            $this->push->notify($admins, ['fr' => 'Coach à approuver', 'en' => 'Coach to approve'], ['fr' => "{$user->name} demande un compte coach.", 'en' => "{$user->name} is asking for a coach account."], [
                 'type' => 'coach_pending',
                 'user_id' => $user->id,
             ]);

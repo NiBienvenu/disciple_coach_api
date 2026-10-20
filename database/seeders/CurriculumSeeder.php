@@ -7,6 +7,7 @@ use App\Enums\LessonType;
 use App\Models\Level;
 use App\Models\Quiz;
 use Illuminate\Database\Seeder;
+use App\Services\Cache\CacheKey;
 use Illuminate\Support\Facades\File;
 
 class CurriculumSeeder extends Seeder
@@ -105,13 +106,16 @@ class CurriculumSeeder extends Seeder
                     ['status' => ContentStatus::Published],
                 );
 
-                $quiz->questions()->delete();
+                // Update questions in place by order so their ids never change:
+                // an app holding the quiz can still submit after a re-seed.
+                $questionsData = array_values($quizData['questions'] ?? []);
+                $quiz->questions()->where('order', '>', count($questionsData))->delete();
 
-                foreach (array_values($quizData['questions'] ?? []) as $index => $questionData) {
-                    $question = $quiz->questions()->create([
-                        'order' => $index + 1,
-                        'correct_index' => (int) ($questionData['correctIndex'] ?? 0),
-                    ]);
+                foreach ($questionsData as $index => $questionData) {
+                    $question = $quiz->questions()->updateOrCreate(
+                        ['order' => $index + 1],
+                        ['correct_index' => (int) ($questionData['correctIndex'] ?? 0)],
+                    );
 
                     foreach (['fr', 'rn', 'en'] as $language) {
                         $choices = [];
@@ -121,13 +125,15 @@ class CurriculumSeeder extends Seeder
                                 : (string) $choice;
                         }
 
-                        $question->translations()->create([
-                            'language' => $language,
-                            'prompt' => $questionData['prompt'][$language]
-                                ?? $questionData['prompt']['fr']
-                                ?? '',
-                            'choices' => $choices,
-                        ]);
+                        $question->translations()->updateOrCreate(
+                            ['language' => $language],
+                            [
+                                'prompt' => $questionData['prompt'][$language]
+                                    ?? $questionData['prompt']['fr']
+                                    ?? '',
+                                'choices' => $choices,
+                            ],
+                        );
                     }
                 }
             }
@@ -150,7 +156,10 @@ class CurriculumSeeder extends Seeder
             $level->update(['previous_level_id' => $previousLevelId]);
         }
 
-        $this->command?->info('Curriculum seeded from '.$path);
+        // New revision: cached curriculum is bypassed and apps reload it.
+        CacheKey::bumpRevision();
+
+        $this->command?->info('Curriculum seeded from '.$path.' (cache cleared)');
     }
 
     private function resolveSeedPath(): ?string

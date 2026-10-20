@@ -25,4 +25,14 @@ class CurriculumController extends Controller
             meta: ['lang' => $language],
         );
     }
+
+    /**
+     * Tiny call the app makes on start / resume: if the revision did not
+     * change, it keeps its local copy and skips every curriculum request.
+     */
+    public function revision(): JsonResponse
+    {
+        return ApiResponse::success(['revision' => \App\Services\Cache\CacheKey::revision()])
+            ->header('Cache-Control', 'no-cache');
+    }
 }

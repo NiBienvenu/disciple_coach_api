@@ -92,11 +92,11 @@ class AdminService
         $this->userCache->forgetProfile($user->id);
 
         if ($status === 'approved') {
-            $this->push->notify($user, 'Compte coach approuvé', 'Vous pouvez maintenant accompagner des disciples.', [
+            $this->push->notify($user, ['fr' => 'Compte coach approuvé', 'en' => 'Coach account approved'], ['fr' => 'Vous pouvez maintenant accompagner des disciples.', 'en' => 'You can now coach disciples.'], [
                 'type' => 'coach_approved',
             ]);
         } elseif ($status === 'rejected') {
-            $this->push->notify($user, 'Demande de coach refusée', 'Votre compte reste un compte disciple.', [
+            $this->push->notify($user, ['fr' => 'Demande de coach refusée', 'en' => 'Coach request declined'], ['fr' => 'Votre compte reste un compte disciple.', 'en' => 'Your account stays a disciple account.'], [
                 'type' => 'coach_rejected',
             ]);
         }

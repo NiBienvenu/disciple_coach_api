@@ -42,7 +42,7 @@ class QuizAttemptController extends Controller
 
         $relationship = $this->progression->activeRelationshipForDisciple($request->user());
         if ($relationship !== null) {
-            $this->push->notify($relationship->coach, 'Quiz à corriger', "{$request->user()->name} a terminé un quiz de niveau.", [
+            $this->push->notify($relationship->coach, ['fr' => 'Quiz à corriger', 'en' => 'Quiz to review'], ['fr' => "{$request->user()->name} a terminé un quiz de niveau.", 'en' => "{$request->user()->name} finished a level quiz."], [
                 'type' => 'quiz_submitted',
                 'attempt_id' => $attempt->id,
                 'disciple_id' => $request->user()->id,
@@ -111,8 +111,10 @@ class QuizAttemptController extends Controller
         $approved = $request->decision() === 'approve';
         $this->push->notify(
             User::query()->find($attempt->user_id),
-            $approved ? 'Niveau validé 🎉' : 'Votre coach demande une révision',
-            $approved ? 'Le niveau suivant est débloqué.' : ($request->feedback() ?: 'Revoyez ce niveau puis refaites le quiz.'),
+            $approved ? ['fr' => 'Niveau validé 🎉', 'en' => 'Level approved 🎉'] : ['fr' => 'Votre coach demande une révision', 'en' => 'Your coach asks for a review'],
+            $approved
+                ? ['fr' => 'Le niveau suivant est débloqué.', 'en' => 'The next level is unlocked.']
+                : ($request->feedback() ?: ['fr' => 'Revoyez ce niveau puis refaites le quiz.', 'en' => 'Review this level, then retake the quiz.']),
             ['type' => 'quiz_decided', 'attempt_id' => $attempt->id, 'approved' => $approved ? '1' : '0'],
         );
 

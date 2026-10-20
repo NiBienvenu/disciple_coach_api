@@ -76,6 +76,8 @@ class FcmService
                     // High priority wakes the device right away (chat must feel instant).
                     'priority' => 'HIGH',
                     'notification' => [
+                        // High-importance channel created by the app → heads-up banner.
+                        'channel_id' => 'disciplecoach_high',
                         'tag' => $stringData['tag'] ?? null,
                     ],
                 ],
@@ -113,6 +115,43 @@ class FcmService
         }
 
         return false;
+    }
+
+    /**
+     * Data-only message to every device subscribed to [topic] (no banner).
+     * Used to tell open apps that curriculum content changed.
+     *
+     * @param  array<string, scalar|null>  $data
+     */
+    public function sendToTopic(string $topic, array $data): bool
+    {
+        $credentials = $this->credentials();
+        if ($credentials === null) {
+            return false;
+        }
+
+        $stringData = [];
+        foreach ($data as $key => $value) {
+            $stringData[(string) $key] = (string) ($value ?? '');
+        }
+
+        try {
+            return Http::withToken($this->accessToken($credentials))
+                ->timeout(8)
+                ->post(
+                    "https://fcm.googleapis.com/v1/projects/{$this->projectId($credentials)}/messages:send",
+                    ['message' => [
+                        'topic' => $topic,
+                        'data' => (object) $stringData,
+                        'android' => ['priority' => 'HIGH'],
+                        'apns' => ['headers' => ['apns-priority' => '5', 'apns-push-type' => 'background'], 'payload' => ['aps' => ['content-available' => 1]]],
+                    ]],
+                )->successful();
+        } catch (Throwable $e) {
+            Log::warning('FCM topic send error: '.$e->getMessage());
+
+            return false;
+        }
     }
 
     /**
