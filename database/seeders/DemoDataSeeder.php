@@ -93,6 +93,10 @@ class DemoDataSeeder extends Seeder
             if ($roles !== []) {
                 $user->syncRoles($roles);
             }
+            // Demo coaches are pre-approved by the admin.
+            if (in_array(AppRole::Coach->value, $roles, true)) {
+                $user->forceFill(['coach_status' => $row['coach_status'] ?? 'approved'])->save();
+            }
 
             $this->usersByKey[$key] = $user;
         }

@@ -29,7 +29,7 @@ class QuizAttemptPolicy
 
     public function decide(User $user, QuizAttempt $attempt): bool
     {
-        if ($user->id === $attempt->user_id) {
+        if ($user->id === $attempt->user_id || ! $user->isApprovedCoach()) {
             return false;
         }
 

@@ -1,10 +1,13 @@
 <?php
 
+use App\Http\Controllers\Api\V1\AdminController;
 use App\Http\Controllers\Api\V1\AuthController;
 use App\Http\Controllers\Api\V1\CertificateController;
 use App\Http\Controllers\Api\V1\CoachDashboardController;
+use App\Http\Controllers\Api\V1\CoachRequestController;
 use App\Http\Controllers\Api\V1\CoachingSessionController;
 use App\Http\Controllers\Api\V1\CurriculumController;
+use App\Http\Controllers\Api\V1\DeviceTokenController;
 use App\Http\Controllers\Api\V1\GoalController;
 use App\Http\Controllers\Api\V1\HealthController;
 use App\Http\Controllers\Api\V1\InviteController;
@@ -92,4 +95,23 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
     Route::post('/relationships/{relationship}/read', [RelationshipMessageController::class, 'markRead'])->name('relationships.read');
 
     Route::get('/coach/dashboard', CoachDashboardController::class)->name('coach.dashboard');
+
+    // Push notifications (FCM device tokens)
+    Route::post('/me/device-tokens', [DeviceTokenController::class, 'store'])->name('me.device-tokens.store');
+    Route::delete('/me/device-tokens', [DeviceTokenController::class, 'destroy'])->name('me.device-tokens.destroy');
+
+    // Disciple picks a coach; coach accepts or declines.
+    Route::get('/coaches', [CoachRequestController::class, 'coaches'])->name('coaches.index');
+    Route::get('/coach-requests', [CoachRequestController::class, 'index'])->name('coach-requests.index');
+    Route::post('/coach-requests', [CoachRequestController::class, 'store'])->name('coach-requests.store');
+    Route::post('/coach-requests/{coachRequest}/accept', [CoachRequestController::class, 'accept'])->name('coach-requests.accept');
+    Route::post('/coach-requests/{coachRequest}/decline', [CoachRequestController::class, 'decline'])->name('coach-requests.decline');
+    Route::post('/coach-requests/{coachRequest}/cancel', [CoachRequestController::class, 'cancel'])->name('coach-requests.cancel');
+
+    Route::middleware('role:admin')->prefix('admin')->group(function (): void {
+        Route::get('/users', [AdminController::class, 'users'])->name('admin.users.index');
+        Route::patch('/users/{user}/active', [AdminController::class, 'setActive'])->name('admin.users.active');
+        Route::post('/users/{user}/coach-status', [AdminController::class, 'setCoachStatus'])->name('admin.users.coach-status');
+        Route::get('/stats', [AdminController::class, 'stats'])->name('admin.stats');
+    });
 });

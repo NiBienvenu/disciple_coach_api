@@ -14,6 +14,7 @@ use App\Models\User;
 use App\Policies\QuizAttemptPolicy;
 use App\Services\Progress\DashboardService;
 use App\Services\Progress\LevelProgressionService;
+use App\Services\Push\PushNotifier;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -24,6 +25,7 @@ class QuizAttemptController extends Controller
         private readonly LevelProgressionService $progression,
         private readonly DashboardService $dashboard,
         private readonly QuizAttemptPolicy $policy,
+        private readonly PushNotifier $push,
     ) {}
 
     public function store(SubmitQuizRequest $request, Level $level): JsonResponse
@@ -37,6 +39,16 @@ class QuizAttemptController extends Controller
             $level,
             $request->answers(),
         );
+
+        $relationship = $this->progression->activeRelationshipForDisciple($request->user());
+        if ($relationship !== null) {
+            $this->push->notify($relationship->coach, 'Quiz à corriger', "{$request->user()->name} a terminé un quiz de niveau.", [
+                'type' => 'quiz_submitted',
+                'attempt_id' => $attempt->id,
+                'disciple_id' => $request->user()->id,
+                'relationship_id' => $relationship->id,
+            ]);
+        }
 
         return ApiResponse::success(
             new QuizAttemptResource($attempt->load(['answers', 'level'])),
@@ -95,6 +107,14 @@ class QuizAttemptController extends Controller
         $updated = $request->decision() === 'approve'
             ? $this->progression->approveLevel($coach, $attempt, $request->feedback())
             : $this->progression->rejectLevel($coach, $attempt, $request->feedback());
+
+        $approved = $request->decision() === 'approve';
+        $this->push->notify(
+            User::query()->find($attempt->user_id),
+            $approved ? 'Niveau validé 🎉' : 'Votre coach demande une révision',
+            $approved ? 'Le niveau suivant est débloqué.' : ($request->feedback() ?: 'Revoyez ce niveau puis refaites le quiz.'),
+            ['type' => 'quiz_decided', 'attempt_id' => $attempt->id, 'approved' => $approved ? '1' : '0'],
+        );
 
         $language = PreferredLanguage::resolve($request->query('lang'))->value;
 

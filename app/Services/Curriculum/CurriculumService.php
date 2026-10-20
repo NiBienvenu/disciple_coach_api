@@ -29,7 +29,7 @@ class CurriculumService
             $levels = $this->publishedLevelsQuery()
                 ->with([
                     'translations' => fn ($q) => $q->select([
-                        'id', 'level_id', 'language', 'title', 'description',
+                        'id', 'level_id', 'language', 'title', 'description', 'part_title',
                     ])->where('language', $language),
                     'lessons' => fn ($q) => $q->select([
                         'id', 'level_id', 'code', 'slug', 'type', 'order', 'status', 'resource_url',
@@ -59,7 +59,7 @@ class CurriculumService
                 $levels = $this->publishedLevelsQuery()
                     ->with([
                         'translations' => fn ($q) => $q->select([
-                            'id', 'level_id', 'language', 'title', 'description',
+                            'id', 'level_id', 'language', 'title', 'description', 'part_title',
                         ])->where('language', $language),
                     ])
                     ->get();
@@ -85,7 +85,7 @@ class CurriculumService
                     })
                     ->with([
                         'translations' => fn ($q) => $q->select([
-                            'id', 'level_id', 'language', 'title', 'description',
+                            'id', 'level_id', 'language', 'title', 'description', 'part_title',
                         ])->where('language', $language),
                     ]);
 
@@ -226,7 +226,7 @@ class CurriculumService
     public function findPublishedLevel(int|string $levelId): ?Level
     {
         return Level::query()
-            ->select(['id', 'slug', 'order', 'previous_level_id', 'status'])
+            ->select(['id', 'slug', 'order', 'part', 'previous_level_id', 'status'])
             ->where('status', ContentStatus::Published)
             ->where(function ($q) use ($levelId) {
                 $q->where('id', $levelId)->orWhere('slug', $levelId);
@@ -240,7 +240,7 @@ class CurriculumService
     private function publishedLevelsQuery()
     {
         return Level::query()
-            ->select(['id', 'slug', 'order', 'previous_level_id', 'status'])
+            ->select(['id', 'slug', 'order', 'part', 'previous_level_id', 'status'])
             ->where('status', ContentStatus::Published)
             ->orderBy('order');
     }

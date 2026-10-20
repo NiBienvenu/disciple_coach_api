@@ -9,7 +9,7 @@ class InvitePolicy
 {
     public function create(User $user): bool
     {
-        return $user->can('coaching.manage');
+        return $user->can('coaching.manage') && $user->isApprovedCoach();
     }
 
     public function redeem(User $user): bool

@@ -6,6 +6,8 @@ use App\Models\CoachDiscipleRelationship;
 use App\Models\RelationshipMessage;
 use App\Models\User;
 use App\Notifications\NewRelationshipMessageNotification;
+use App\Services\Push\PushNotifier;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Contracts\Pagination\CursorPaginator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\ValidationException;
@@ -13,6 +15,25 @@ use Illuminate\Validation\ValidationException;
 class MessagingService
 {
     private const PER_PAGE = 30;
+
+    public function __construct(private readonly PushNotifier $push) {}
+
+    /**
+     * Only messages newer than [afterId], newest first. Used when a push
+     * says "new message" so the app fetches just the delta.
+     *
+     * @return Collection<int, RelationshipMessage>
+     */
+    public function listAfter(CoachDiscipleRelationship $relationship, int $afterId): Collection
+    {
+        return RelationshipMessage::query()
+            ->where('relationship_id', $relationship->id)
+            ->where('id', '>', $afterId)
+            ->with('sender:id,name,email,profile_photo')
+            ->orderByDesc('id')
+            ->limit(100)
+            ->get();
+    }
 
     /**
      * @return array{messages: CursorPaginator, unread_count: int}
@@ -60,6 +81,12 @@ class MessagingService
             $recipient = User::query()->find($recipientId);
             if ($recipient !== null) {
                 $recipient->notify(new NewRelationshipMessageNotification($message));
+                $this->push->notify($recipient, $sender->name, mb_substr($message->body, 0, 140), [
+                    'type' => 'message',
+                    'relationship_id' => $relationship->id,
+                    'message_id' => $message->id,
+                    'tag' => 'chat_'.$relationship->id,
+                ]);
             }
         }
 

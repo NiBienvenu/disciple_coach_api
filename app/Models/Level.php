@@ -16,6 +16,7 @@ class Level extends Model
     protected $fillable = [
         'slug',
         'order',
+        'part',
         'previous_level_id',
         'status',
     ];
@@ -27,6 +28,7 @@ class Level extends Model
     {
         return [
             'order' => 'integer',
+            'part' => 'integer',
             'status' => ContentStatus::class,
         ];
     }

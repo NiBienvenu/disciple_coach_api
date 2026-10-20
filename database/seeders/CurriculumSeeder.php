@@ -35,6 +35,7 @@ class CurriculumSeeder extends Seeder
                 ['slug' => $trackId],
                 [
                     'order' => (int) $track['order'],
+                    'part' => (int) ($track['part'] ?? 3),
                     'previous_level_id' => null,
                     'status' => ContentStatus::Published,
                 ],
@@ -48,6 +49,7 @@ class CurriculumSeeder extends Seeder
                     [
                         'title' => $track['title'][$language] ?? $track['title']['fr'] ?? $trackId,
                         'description' => $track['description'][$language] ?? $track['description']['fr'] ?? null,
+                        'part_title' => $track['partTitle'][$language] ?? $track['partTitle']['fr'] ?? null,
                     ],
                 );
             }

@@ -15,6 +15,7 @@ class LevelTranslation extends Model
         'language',
         'title',
         'description',
+        'part_title',
     ];
 
     public function level(): BelongsTo

@@ -24,6 +24,8 @@ class LevelResource extends JsonResource
             'id' => $this->id,
             'slug' => $this->slug,
             'order' => $this->order,
+            'part' => $this->part ?? 3,
+            'part_title' => $translation?->part_title,
             'previous_level_id' => $this->previous_level_id,
             'status' => $this->status instanceof \BackedEnum ? $this->status->value : $this->status,
             'title' => $translation?->title,

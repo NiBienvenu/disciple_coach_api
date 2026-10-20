@@ -23,6 +23,7 @@ class UserResource extends JsonResource
                 : $this->preferred_language,
             'profile_photo' => $this->profile_photo,
             'is_active' => (bool) $this->is_active,
+            'coach_status' => $this->coach_status,
             'roles' => $this->getRoleNames()->values()->all(),
             'last_login_at' => $this->last_login_at?->toIso8601String(),
             'created_at' => $this->created_at?->toIso8601String(),

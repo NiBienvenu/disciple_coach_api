@@ -27,6 +27,19 @@ class RelationshipMessageController extends Controller
             throw new AuthorizationException('You are not a party to this relationship.');
         }
 
+        $after = $request->query('after');
+        if (is_numeric($after)) {
+            $items = $this->messaging->listAfter($relationship, (int) $after);
+
+            return ApiResponse::success(
+                RelationshipMessageResource::collection($items),
+                meta: [
+                    'unread_count' => $this->messaging->unreadCount($relationship, $request->user()),
+                    'has_more' => false,
+                ],
+            );
+        }
+
         $result = $this->messaging->list(
             $relationship,
             $request->user(),
