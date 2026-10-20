@@ -55,6 +55,7 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
     Route::get('/me', [ProfileController::class, 'show'])->name('me.show');
     Route::patch('/me', [ProfileController::class, 'update'])->name('me.update');
     Route::put('/me/roles', [ProfileController::class, 'updateRoles'])->name('me.roles');
+    Route::put('/me/password', [ProfileController::class, 'updatePassword'])->name('me.password');
 
     // Wave D — progress + quiz + coach gate
     Route::get('/me/progress', [ProgressController::class, 'progress'])->name('me.progress');

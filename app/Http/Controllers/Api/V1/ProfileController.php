@@ -85,4 +85,22 @@ class ProfileController extends Controller
 
         return ApiResponse::success(new UserResource($user->fresh()->load('roles')));
     }
+
+    /** Any signed-in user (admin included) changes their own password. */
+    public function updatePassword(Request $request): JsonResponse
+    {
+        $data = $request->validate([
+            'current_password' => ['required', 'string', 'current_password:sanctum'],
+            'password' => ['required', 'confirmed', \Illuminate\Validation\Rules\Password::defaults(), 'different:current_password'],
+        ]);
+
+        $user = $request->user();
+        $user->forceFill(['password' => $data['password']])->save();
+
+        // Sign out other devices; keep this session.
+        $currentId = $user->currentAccessToken()?->id;
+        $user->tokens()->when($currentId, fn ($q) => $q->where('id', '!=', $currentId))->delete();
+
+        return ApiResponse::success(null, 'Password updated.');
+    }
 }
