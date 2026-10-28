@@ -15,7 +15,7 @@ class DeviceTokenController extends Controller
     {
         $data = $request->validate([
             'token' => ['required', 'string', 'max:512'],
-            'platform' => ['nullable', 'string', 'in:android,ios,web'],
+            'platform' => ['nullable', 'string', 'in:android,ios,web,macos,windows,linux'],
         ]);
 
         DeviceToken::query()->updateOrCreate(
