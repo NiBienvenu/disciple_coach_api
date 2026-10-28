@@ -116,6 +116,7 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
         Route::patch('/users/{user}/active', [AdminController::class, 'setActive'])->name('admin.users.active');
         Route::post('/users/{user}/coach-status', [AdminController::class, 'setCoachStatus'])->name('admin.users.coach-status');
         Route::get('/stats', [AdminController::class, 'stats'])->name('admin.stats');
+        Route::get('/coach-roster', [AdminController::class, 'coachRoster'])->name('admin.coach-roster');
 
         // Curriculum content CRUD (all languages)
         Route::get('/content/levels', [ContentAdminController::class, 'levels'])->name('admin.content.levels');

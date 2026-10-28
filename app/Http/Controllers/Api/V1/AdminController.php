@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api\V1;
 
+use App\Enums\PreferredLanguage;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\UserResource;
 use App\Http\Responses\ApiResponse;
@@ -42,6 +43,14 @@ class AdminController extends Controller
         $data = $request->validate(['status' => ['required', 'string', 'in:approved,pending,rejected']]);
 
         return ApiResponse::success(new UserResource($this->admin->setCoachStatus($user, $data['status'])));
+    }
+
+    /** Each coach with their active disciples and each disciple's current level. */
+    public function coachRoster(Request $request): JsonResponse
+    {
+        $language = PreferredLanguage::resolve($request->query('lang'))->value;
+
+        return ApiResponse::success($this->admin->coachRoster($language));
     }
 
     public function stats(): JsonResponse

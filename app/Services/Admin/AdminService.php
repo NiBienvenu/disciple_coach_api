@@ -2,6 +2,7 @@
 
 namespace App\Services\Admin;
 
+use App\Enums\ContentStatus;
 use App\Enums\MentorReviewStatus;
 use App\Enums\RelationshipStatus;
 use App\Models\CoachDiscipleRelationship;
@@ -9,6 +10,7 @@ use App\Models\Lesson;
 use App\Models\LessonProgress;
 use App\Models\LessonTranslation;
 use App\Models\Level;
+use App\Models\LevelProgress;
 use App\Models\QuizAttempt;
 use App\Models\QuizQuestion;
 use App\Models\User;
@@ -102,6 +104,91 @@ class AdminService
         }
 
         return $user->fresh()->load('roles');
+    }
+
+    /**
+     * Every coach with their active disciples and where each disciple is in
+     * the curriculum. The current level is the first published level (by
+     * order) that is not approved yet; `finished` is true once all are.
+     *
+     * @return list<array<string, mixed>>
+     */
+    public function coachRoster(string $language): array
+    {
+        $coaches = User::query()->role('coach')->orderBy('name')
+            ->get(['id', 'name', 'email', 'coach_status', 'is_active']);
+
+        $relationships = CoachDiscipleRelationship::query()
+            ->whereIn('coach_id', $coaches->pluck('id')->all() ?: [0])
+            ->where('status', RelationshipStatus::Active)
+            ->with('disciple:id,name,email,is_active')
+            ->orderBy('started_at')
+            ->get()
+            ->groupBy('coach_id');
+
+        $discipleIds = $relationships->flatten(1)->pluck('disciple_id')->unique()->values()->all() ?: [0];
+
+        $levels = Level::query()
+            ->where('status', ContentStatus::Published)
+            ->orderBy('order')
+            ->with('translations')
+            ->withCount(['lessons' => fn ($q) => $q->where('status', ContentStatus::Published)])
+            ->get();
+
+        $progressByUser = LevelProgress::query()
+            ->whereIn('user_id', $discipleIds)
+            ->get()
+            ->groupBy('user_id')
+            ->map(fn ($rows) => $rows->keyBy('level_id'));
+
+        $lessonsDoneByUser = LessonProgress::query()
+            ->join('lessons', 'lessons.id', '=', 'lesson_progress.lesson_id')
+            ->whereIn('lesson_progress.user_id', $discipleIds)
+            ->where('lesson_progress.status', 'completed')
+            ->where('lessons.status', ContentStatus::Published)
+            ->groupBy('lesson_progress.user_id')
+            ->selectRaw('lesson_progress.user_id, COUNT(*) as total')
+            ->pluck('total', 'user_id');
+
+        $lessonsTotal = (int) $levels->sum('lessons_count');
+        $statusOf = fn ($lp) => $lp?->status instanceof \BackedEnum ? $lp->status->value : ($lp?->status ?? 'locked');
+
+        return $coaches->map(fn (User $coach) => [
+            'coach' => [
+                'id' => $coach->id,
+                'name' => $coach->name,
+                'email' => $coach->email,
+                'coach_status' => $coach->coach_status,
+                'is_active' => (bool) $coach->is_active,
+            ],
+            'disciples' => $relationships->get($coach->id, collect())
+                ->filter(fn (CoachDiscipleRelationship $rel) => $rel->disciple !== null)
+                ->map(function (CoachDiscipleRelationship $rel) use ($levels, $progressByUser, $lessonsDoneByUser, $lessonsTotal, $statusOf, $language) {
+                    $progress = $progressByUser->get($rel->disciple_id, collect());
+                    $current = $levels->first(fn (Level $l) => $statusOf($progress->get($l->id)) !== 'approved');
+                    $approved = $levels->filter(fn (Level $l) => $statusOf($progress->get($l->id)) === 'approved')->count();
+
+                    return [
+                        'id' => $rel->disciple->id,
+                        'name' => $rel->disciple->name,
+                        'email' => $rel->disciple->email,
+                        'is_active' => (bool) $rel->disciple->is_active,
+                        'started_at' => $rel->started_at?->toIso8601String(),
+                        'current_level' => $current === null ? null : [
+                            'id' => $current->id,
+                            'order' => $current->order,
+                            'part' => $current->part,
+                            'title' => $current->translationFor($language)?->title ?? $current->slug,
+                            'status' => $statusOf($progress->get($current->id)),
+                        ],
+                        'finished' => $current === null && $levels->isNotEmpty(),
+                        'levels_approved' => $approved,
+                        'levels_total' => $levels->count(),
+                        'lessons_completed' => (int) ($lessonsDoneByUser[$rel->disciple_id] ?? 0),
+                        'lessons_total' => $lessonsTotal,
+                    ];
+                })->values()->all(),
+        ])->values()->all();
     }
 
     /**
