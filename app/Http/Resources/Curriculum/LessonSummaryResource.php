@@ -28,6 +28,8 @@ class LessonSummaryResource extends JsonResource
             'type' => $this->type instanceof \BackedEnum ? $this->type->value : $this->type,
             'order' => $this->order,
             'resource_url' => $this->resource_url,
+            'video_url' => $this->video_url,
+            'image_url' => $this->imagePublicUrl(),
             'title' => $translation?->title,
         ];
     }

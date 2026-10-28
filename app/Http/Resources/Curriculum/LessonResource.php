@@ -29,9 +29,12 @@ class LessonResource extends JsonResource
             'order' => $this->order,
             'status' => $this->status instanceof \BackedEnum ? $this->status->value : $this->status,
             'resource_url' => $this->resource_url,
+            'video_url' => $this->video_url,
+            'image_url' => $this->imagePublicUrl(),
             'title' => $translation?->title,
             'content' => [
                 'central_idea' => $translation?->central_idea,
+                'body' => $translation?->body,
                 'objectives' => $translation?->objectives ?? [],
                 'key_scriptures' => $translation?->key_scriptures ?? [],
                 'summary_points' => $translation?->summary_points ?? [],

@@ -15,6 +15,7 @@ class LessonTranslation extends Model
         'language',
         'title',
         'central_idea',
+        'body',
         'objectives',
         'key_scriptures',
         'summary_points',

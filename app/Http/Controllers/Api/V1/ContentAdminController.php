@@ -60,6 +60,21 @@ class ContentAdminController extends Controller
         return ApiResponse::success($this->content->lesson($saved));
     }
 
+    /** Multipart upload, field `image`. Replaces the current image. */
+    public function storeLessonImage(Request $request, Lesson $lesson): JsonResponse
+    {
+        $data = $request->validate([
+            'image' => ['required', 'file', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+        ]);
+
+        return ApiResponse::success($this->content->lesson($this->content->saveLessonImage($lesson, $data['image'])));
+    }
+
+    public function destroyLessonImage(Lesson $lesson): JsonResponse
+    {
+        return ApiResponse::success($this->content->lesson($this->content->removeLessonImage($lesson)));
+    }
+
     public function destroyLesson(Lesson $lesson): JsonResponse
     {
         $this->content->deleteLesson($lesson);
@@ -118,10 +133,14 @@ class ContentAdminController extends Controller
             'code' => [$creating ? 'required' : 'sometimes', 'string', 'max:20'],
             'type' => ['sometimes', Rule::in(['main', 'supplementary'])],
             'order' => ['sometimes', 'integer', 'min:0'],
+            // youtube.com/watch?v=…, youtu.be/…, /shorts/…, /embed/…, /live/…
+            'video_url' => ['sometimes', 'nullable', 'string', 'max:255',
+                'regex:~^(https?://)?((www|m)\.)?(youtube\.com/(watch\?(.*&)?v=|embed/|shorts/|live/)|youtu\.be/)[A-Za-z0-9_-]{11}~'],
             'translations' => [$creating ? 'required' : 'sometimes', 'array:fr,rn,en'],
             'translations.fr.title' => [$creating ? 'required' : 'sometimes', 'string', 'max:255'],
             'translations.*.title' => ['sometimes', 'string', 'max:255'],
             'translations.*.central_idea' => ['sometimes', 'nullable', 'string'],
+            'translations.*.body' => ['sometimes', 'nullable', 'string'],
             'translations.*.objectives' => ['sometimes', 'array'],
             'translations.*.summary_points' => ['sometimes', 'array'],
             'translations.*.reflection_questions' => ['sometimes', 'array'],

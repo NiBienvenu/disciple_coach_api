@@ -10,6 +10,7 @@ use App\Models\Quiz;
 use App\Models\QuizQuestion;
 use App\Services\Cache\CacheKey;
 use App\Services\Push\FcmService;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
@@ -21,6 +22,9 @@ use Illuminate\Validation\ValidationException;
 class ContentAdminService
 {
     public const LANGUAGES = ['fr', 'rn', 'en'];
+
+    /** Lesson images live in public/uploads/lessons, served as-is by the web server. */
+    public const IMAGE_DIR = 'uploads/lessons';
 
     public function __construct(private readonly FcmService $fcm) {}
 
@@ -85,9 +89,12 @@ class ContentAdminService
             'code' => $lesson->code,
             'type' => $lesson->type instanceof \BackedEnum ? $lesson->type->value : $lesson->type,
             'order' => $lesson->order,
+            'video_url' => $lesson->video_url,
+            'image_url' => $lesson->imagePublicUrl(),
             'translations' => $lesson->translations->mapWithKeys(fn ($t) => [$t->language => [
                 'title' => $t->title,
                 'central_idea' => $t->central_idea,
+                'body' => $t->body,
                 'objectives' => $t->objectives ?? [],
                 'key_scriptures' => $t->key_scriptures ?? [],
                 'summary_points' => $t->summary_points ?? [],
@@ -113,12 +120,18 @@ class ContentAdminService
                 'type' => LessonType::tryFrom((string) ($data['type'] ?? 'main')) ?? LessonType::Main,
                 'order' => (int) ($data['order'] ?? $lesson->order ?? ($level->lessons()->max('order') + 1)),
                 'status' => ContentStatus::Published,
-            ])->save();
+            ]);
+            if (array_key_exists('video_url', $data)) {
+                $video = trim((string) $data['video_url']);
+                $lesson->video_url = $video === '' ? null : $video;
+            }
+            $lesson->save();
 
             foreach ($data['translations'] ?? [] as $lang => $t) {
                 $lesson->translations()->updateOrCreate(['language' => $lang], [
                     'title' => (string) ($t['title'] ?? ''),
                     'central_idea' => $t['central_idea'] ?? null,
+                    'body' => isset($t['body']) && trim((string) $t['body']) !== '' ? (string) $t['body'] : null,
                     'objectives' => $this->lines($t['objectives'] ?? []),
                     'key_scriptures' => array_values(array_filter(
                         array_map(fn ($s) => ['reference' => trim((string) ($s['reference'] ?? '')), 'text' => trim((string) ($s['text'] ?? ''))], $t['key_scriptures'] ?? []),
@@ -139,8 +152,49 @@ class ContentAdminService
 
     public function deleteLesson(Lesson $lesson): void
     {
+        $this->deleteImageFile($lesson->image_url);
         $lesson->delete();
         $this->changed();
+    }
+
+    /** Saves the file under public/uploads/lessons and replaces any old image. */
+    public function saveLessonImage(Lesson $lesson, UploadedFile $file): Lesson
+    {
+        $dir = public_path(self::IMAGE_DIR);
+        if (! is_dir($dir)) {
+            mkdir($dir, 0755, true);
+        }
+
+        $name = 'lesson-'.$lesson->id.'-'.Str::lower(Str::random(10)).'.'.($file->guessExtension() ?: 'jpg');
+        $file->move($dir, $name);
+
+        $old = $lesson->image_url;
+        $lesson->forceFill(['image_url' => '/'.self::IMAGE_DIR.'/'.$name])->save();
+        $this->deleteImageFile($old);
+        $this->changed();
+
+        return $lesson;
+    }
+
+    public function removeLessonImage(Lesson $lesson): Lesson
+    {
+        $this->deleteImageFile($lesson->image_url);
+        $lesson->forceFill(['image_url' => null])->save();
+        $this->changed();
+
+        return $lesson;
+    }
+
+    /** Only ever deletes files inside our own upload folder. */
+    private function deleteImageFile(?string $path): void
+    {
+        if ($path === null || ! str_starts_with($path, '/'.self::IMAGE_DIR.'/')) {
+            return;
+        }
+        $file = public_path(ltrim($path, '/'));
+        if (is_file($file) && basename(dirname($file)) === basename(self::IMAGE_DIR)) {
+            @unlink($file);
+        }
     }
 
     /** @return list<array<string, mixed>> */

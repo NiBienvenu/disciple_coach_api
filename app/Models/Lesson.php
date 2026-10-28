@@ -21,6 +21,8 @@ class Lesson extends Model
         'order',
         'status',
         'resource_url',
+        'video_url',
+        'image_url',
     ];
 
     /**
@@ -43,6 +45,15 @@ class Lesson extends Model
     public function translations(): HasMany
     {
         return $this->hasMany(LessonTranslation::class);
+    }
+
+    /**
+     * Images are stored as a public path (`/uploads/lessons/…`); the apps
+     * get a full URL on the current host.
+     */
+    public function imagePublicUrl(): ?string
+    {
+        return $this->image_url ? url($this->image_url) : null;
     }
 
     public function translationFor(string $language): ?LessonTranslation
