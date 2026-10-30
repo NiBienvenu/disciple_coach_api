@@ -9,7 +9,9 @@ use App\Enums\MentorReviewStatus;
 use App\Enums\QuizAttemptStatus;
 use App\Models\CoachDiscipleRelationship;
 use App\Models\Lesson;
+use App\Models\LessonPage;
 use App\Models\LessonProgress;
+use App\Models\LessonQuizAttempt;
 use App\Models\Level;
 use App\Models\LevelProgress;
 use App\Models\Quiz;
@@ -134,6 +136,22 @@ class LevelProgressionService
             throw new AuthorizationException('This level is locked. Complete and get approval on the previous level first.');
         }
 
+        if ($status === LessonProgressStatus::Completed) {
+            $this->assertLessonOpen($user, $lesson);
+
+            // Lessons ending with questions are completed by sending the answers.
+            $sent = LessonQuizAttempt::query()
+                ->where('user_id', $user->id)
+                ->where('lesson_id', $lesson->id)
+                ->whereIn('status', [LessonQuizAttempt::PENDING, LessonQuizAttempt::APPROVED])
+                ->exists();
+            if (! $sent && $this->hasQuestions($lesson->id)) {
+                throw ValidationException::withMessages([
+                    'lesson' => ['Answer the questions at the end of this lesson first.'],
+                ]);
+            }
+        }
+
         $relationship = $this->activeRelationshipForDisciple($user);
 
         return DB::transaction(function () use ($user, $lesson, $status, $relationship) {
@@ -197,7 +215,75 @@ class LevelProgressionService
             ->where('status', LessonProgressStatus::Completed)
             ->count();
 
-        return $completed === $lessonIds->count();
+        // Every lesson's answers must also be approved by the coach.
+        return $completed === $lessonIds->count()
+            && $this->unclearedLessonIds($user, $lessonIds->all()) === [];
+    }
+
+    /**
+     * The lesson before [lesson] (same level, by order) must be cleared:
+     * when it ends with questions, the coach approved the answers.
+     */
+    public function assertLessonOpen(User $user, Lesson $lesson): void
+    {
+        $previous = Lesson::query()
+            ->where('level_id', $lesson->level_id)
+            ->where('status', ContentStatus::Published)
+            ->where('order', '<', $lesson->order)
+            ->orderByDesc('order')
+            ->first(['id']);
+
+        if ($previous !== null && $this->unclearedLessonIds($user, [$previous->id]) !== []) {
+            throw new AuthorizationException('Your coach must approve your answers to the previous lesson first.');
+        }
+    }
+
+    public function hasQuestions(int $lessonId): bool
+    {
+        return LessonPage::query()
+            ->where('lesson_id', $lessonId)
+            ->where('kind', LessonPage::KIND_QUESTION)
+            ->exists();
+    }
+
+    /**
+     * Lessons among [lessonIds] that end with questions whose answers the
+     * coach has not approved. A lesson completed before questions existed
+     * (no answers sent) stays cleared.
+     *
+     * @param  list<int>  $lessonIds
+     * @return list<int>
+     */
+    public function unclearedLessonIds(User $user, array $lessonIds): array
+    {
+        $withQuestions = LessonPage::query()
+            ->whereIn('lesson_id', $lessonIds)
+            ->where('kind', LessonPage::KIND_QUESTION)
+            ->distinct()
+            ->pluck('lesson_id')
+            ->all();
+        if ($withQuestions === []) {
+            return [];
+        }
+
+        $attempts = LessonQuizAttempt::query()
+            ->where('user_id', $user->id)
+            ->whereIn('lesson_id', $withQuestions)
+            ->pluck('status', 'lesson_id');
+        $completed = LessonProgress::query()
+            ->where('user_id', $user->id)
+            ->whereIn('lesson_id', $withQuestions)
+            ->where('status', LessonProgressStatus::Completed)
+            ->pluck('lesson_id')
+            ->all();
+
+        return array_values(array_filter($withQuestions, function (int $id) use ($attempts, $completed) {
+            $status = $attempts[$id] ?? null;
+
+            return $status === null
+                ? ! in_array($id, $completed, true)
+                : $status !== LessonQuizAttempt::APPROVED;
+        }));
     }
 
     /**

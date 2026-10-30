@@ -13,6 +13,7 @@ use App\Http\Controllers\Api\V1\GoalController;
 use App\Http\Controllers\Api\V1\HealthController;
 use App\Http\Controllers\Api\V1\InviteController;
 use App\Http\Controllers\Api\V1\LessonController;
+use App\Http\Controllers\Api\V1\LessonQuizAttemptController;
 use App\Http\Controllers\Api\V1\LevelController;
 use App\Http\Controllers\Api\V1\ProfileController;
 use App\Http\Controllers\Api\V1\ProgressController;
@@ -74,6 +75,12 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
     Route::get('/coach/disciples/{user}/quiz-attempts', [QuizAttemptController::class, 'forDisciple'])->name('coach.disciples.quiz-attempts');
     Route::get('/coach/disciples/{user}/progress', [QuizAttemptController::class, 'discipleProgress'])->name('coach.disciples.progress');
     Route::post('/quiz-attempts/{attempt}/decide', [QuizAttemptController::class, 'decide'])->name('quiz-attempts.decide');
+
+    // End-of-lesson answers: the coach approves (next lesson opens) or resets them.
+    Route::post('/lessons/{lesson}/quiz-attempts', [LessonQuizAttemptController::class, 'store'])->name('lessons.quiz-attempts.store');
+    Route::get('/me/lesson-quiz-attempts', [LessonQuizAttemptController::class, 'mine'])->name('me.lesson-quiz-attempts');
+    Route::get('/coach/disciples/{user}/lesson-quiz-attempts', [LessonQuizAttemptController::class, 'forDisciple'])->name('coach.disciples.lesson-quiz-attempts');
+    Route::post('/lesson-quiz-attempts/{attempt}/decide', [LessonQuizAttemptController::class, 'decide'])->name('lesson-quiz-attempts.decide');
 
     // Wave E — coaching
     Route::post('/invites', [InviteController::class, 'store'])->name('invites.store');
