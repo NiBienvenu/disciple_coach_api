@@ -18,14 +18,14 @@ entrer : c'est un mot de passe qui ouvre le projet Firebase.
    passe ou canal privé), ou générez le vôtre dans la console Firebase :
    Paramètres du projet > Comptes de service > Générer une nouvelle clé privée.
 2. Rangez-le hors du dossier public, par exemple
-   `storage/app/accountfirebase.json`.
+   `storage/app/firebase-service-account.json`.
 3. Donnez son chemin dans `.env` :
 
 ```
-FCM_CREDENTIALS=/chemin/absolu/vers/accountfirebase.json
+FCM_CREDENTIALS=/chemin/absolu/vers/firebase-service-account.json
 ```
 
-Sans cette variable, le code retombe sur `public/app/accountfirebase.json`,
+Sans cette variable, le code retombe sur `public/app/firebase-service-account.json`,
 qui est protégé par un `.htaccess`. Ne supprimez pas ce `.htaccess` : sans lui,
 n'importe qui peut télécharger la clé depuis le site.
 

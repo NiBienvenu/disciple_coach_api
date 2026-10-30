@@ -40,7 +40,7 @@ return [
         // Firebase project used for push notifications (FCM HTTP v1).
         'project_id' => env('FCM_PROJECT_ID', 'disciplecoach-d0b0f'),
         // Service account JSON downloaded from Firebase console.
-        'credentials' => env('FCM_CREDENTIALS', public_path('app/accountfirebase.json')),
+        'credentials' => env('FCM_CREDENTIALS', public_path('app/firebase-service-account.json')),
     ],
 
 ];
