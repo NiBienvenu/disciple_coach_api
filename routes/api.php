@@ -130,6 +130,12 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
         Route::delete('/content/lessons/{lesson}', [ContentAdminController::class, 'destroyLesson'])->name('admin.content.lessons.destroy');
         Route::post('/content/lessons/{lesson}/image', [ContentAdminController::class, 'storeLessonImage'])->name('admin.content.lessons.image.store');
         Route::delete('/content/lessons/{lesson}/image', [ContentAdminController::class, 'destroyLessonImage'])->name('admin.content.lessons.image.destroy');
+        Route::post('/content/lessons/{lesson}/pages', [ContentAdminController::class, 'storePage'])->name('admin.content.pages.store');
+        Route::put('/content/lessons/{lesson}/pages/order', [ContentAdminController::class, 'reorderPages'])->name('admin.content.pages.reorder');
+        Route::patch('/content/lesson-pages/{page}', [ContentAdminController::class, 'updatePage'])->name('admin.content.pages.update');
+        Route::delete('/content/lesson-pages/{page}', [ContentAdminController::class, 'destroyPage'])->name('admin.content.pages.destroy');
+        Route::post('/content/lesson-pages/{page}/image', [ContentAdminController::class, 'storePageImage'])->name('admin.content.pages.image.store');
+        Route::delete('/content/lesson-pages/{page}/image', [ContentAdminController::class, 'destroyPageImage'])->name('admin.content.pages.image.destroy');
         Route::get('/content/levels/{level}/quiz', [ContentAdminController::class, 'quiz'])->name('admin.content.quiz');
         Route::patch('/content/levels/{level}/quiz', [ContentAdminController::class, 'updateQuizSettings'])->name('admin.content.quiz.update');
         Route::post('/content/levels/{level}/quiz/questions', [ContentAdminController::class, 'storeQuestion'])->name('admin.content.questions.store');

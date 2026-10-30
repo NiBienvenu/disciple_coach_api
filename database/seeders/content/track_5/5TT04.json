@@ -1,0 +1,302 @@
+{
+  "code": "5TT04",
+  "order": 4,
+  "type": "main",
+  "title": {
+    "fr": "La formation par la méthode de simulation",
+    "en": "Training through simulation",
+    "rn": "Kwigisha biciye ku kwigana"
+  },
+  "pages": [
+    {
+      "image": "training",
+      "video_url": null,
+      "title": {
+        "fr": "Pratiquer avant le réel",
+        "en": "Practice before the real thing",
+        "rn": "Kumenyerera imbere y'ukuri"
+      },
+      "body": {
+        "fr": "Dans cette leçon, vous allez découvrir la **formation par simulation**, et comment l'utiliser pour apprendre des techniques.\n\nLa simulation permet au stagiaire de s'exercer dans un cadre sûr, avant de faire le travail en vrai.\n\nLe but : réussir sur le terrain.",
+        "en": "In this lesson you will discover **training through simulation**, and how to use it to learn skills.\n\nSimulation lets the trainee practice in a safe setting, before doing the work for real.\n\nThe goal: to do well in the field.",
+        "rn": "Muri iki cigwa, uzotahura **imenyereza biciye ku kwigana**, n'ingene ukwigana gukoreshwa mu kwiga ubuhinga.\n\nUkwigana gufasha umumenyerezwa kumenyerera igikorwa mu kigwati gitekanye, imbere yo kugikora vy'ukuri.\n\nIntumbero: kuroranirwa mu kibanza."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Ce que vous allez apprendre",
+        "en": "What you will learn",
+        "rn": "Ivyo uza kwiga"
+      },
+      "body": {
+        "fr": "Ce cours vous aidera à :\n\n- Définir la simulation comme méthode de formation.\n- Citer ses avantages.\n- Décrire la procédure d'une simulation et ses problèmes courants.\n- Observer et pratiquer dans une simulation.",
+        "en": "This lesson will help you:\n\n- Define simulation as a training method.\n- Name its benefits.\n- Describe the steps of a simulation and its common problems.\n- Observe and practice in a simulation.",
+        "rn": "Iki cigwa kizogufasha:\n\n- Gusobanura ukwigana nk'uburyo bwo kumenyereza.\n- Kuvuga akamaro kako.\n- Gusigura intambwe z'ukwigana n'ingorane zikunda kubaho.\n- Kwitegereza no kumenyerera mu kwigana."
+      }
+    },
+    {
+      "image": "teaching",
+      "video_url": null,
+      "title": {
+        "fr": "Agir comme si c'était réel",
+        "en": "Acting as if it were real",
+        "rn": "Gukora nk'aho ari ukuri"
+      },
+      "body": {
+        "fr": "Simuler, c'est agir comme si la situation était réelle, pour évaluer la capacité du stagiaire à pratiquer une technique précise.\n\nUne simulation a **trois parties** :\n\n1. Une description claire de la situation et de la technique à évaluer.\n2. Un jeu de rôle sous la supervision directe du formateur.\n3. Une évaluation immédiate du niveau de compétence.\n\nSi une de ces trois parties manque, ce n'est plus une simulation.",
+        "en": "To simulate is to act as if the situation were real, in order to check the trainee's ability to use a specific skill.\n\nA simulation has **three parts**:\n\n1. A clear description of the situation and of the skill being checked.\n2. A role play under the trainer's direct oversight.\n3. An immediate check of the skill level.\n\nIf one of these three parts is missing, it is no longer a simulation.",
+        "rn": "Ukwigana ni umukino aho umumenyerezwa akora igikorwa nk'aho ari ukuri, kugira harabwe ko ashoboye ubuhinga butomoye.\n\nUkwigana gufise **ibice bitatu**:\n\n1. Gusigura neza ikibazo n'ubuhinga buzogenzurwa.\n2. Umukino w'ukwigana ugenzurwa n'umumenyereza ubwiwe.\n3. Igenzura ry'ubushobozi rica riba ako kanya.\n\nIyo kimwe muri ivyo bice bitatu kibuze, ntiba ukiri ukwigana."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "L'exemple de John Glenn",
+        "en": "The example of John Glenn",
+        "rn": "Akarorero ka John Glenn"
+      },
+      "body": {
+        "fr": "Avant son vol dans l'espace, l'astronaute John Glenn était parfaitement calme. Il a dit :\n\n« Pourquoi serais-je troublé ? Je l'ai fait 1000 fois dans le simulateur. »\n\nC'est aussi vrai pour nous : si le pilote doit s'écraser, mieux vaut qu'il le fasse dans le simulateur.",
+        "en": "Before his flight into space, astronaut John Glenn was completely calm. He said:\n\n\"Why should I be nervous? I have done it 1,000 times in the simulator.\"\n\nIt is true for us too: if a pilot is going to crash, it is better that he does it in the simulator.",
+        "rn": "Imbere y'uko aguruka aja mu kirere, John Glenn yari atekanye rwose. Yavuze ati:\n\n« Kubera iki nohagarika umutima? Ivyo nabikoze incuro 1000 mu kigwati. »\n\nNi ko biri natwe: iyo umudereva w'indege ategerezwa kugwa, vyiza ko yogwa mu kigwati."
+      }
+    },
+    {
+      "image": "assurance",
+      "video_url": null,
+      "title": {
+        "fr": "Pourquoi simuler ?",
+        "en": "Why simulate?",
+        "rn": "Kubera iki twigana?"
+      },
+      "body": {
+        "fr": "La simulation a trois grands avantages :\n\n- **Un cadre sûr** : on apprend de ses erreurs là où le risque est faible.\n- **Moins d'erreurs** : on développe l'habileté avec peu de conséquences dans le réel.\n- **La confiance** : on vainc la peur, car la confiance naît du succès dans la pratique.\n\nDans la simulation, les erreurs sont **utiles** : on y apprend sans honte, avant d'agir devant de vraies personnes.",
+        "en": "Simulation has three big benefits:\n\n- **A safe setting**: we learn from mistakes where the risk is low.\n- **Fewer mistakes**: we build skill with few real-life consequences.\n- **Confidence**: we overcome fear, because confidence grows from success in practice.\n\nIn simulation, mistakes are **useful**: we learn there without shame, before acting in front of real people.",
+        "rn": "Ukwigana gufise akamaro gatatu:\n\n- **Ahatekanye**: amakosa akorerwa aha, atari ho kuri.\n- **Amakosa make**: umuntu amenyera igikorwa ata ngaruka nyinshi mu kuri.\n- **Ubwizigire**: umuntu atsinda ubwoba, kuko ubwizigire buva ku kuroranirwa mu kumenyerera.\n\nMu kwigana, amakosa ni **ngirakamaro**: ni ho umuntu yigira ata gitutsi, imbere y'uko akora igikorwa imbere y'abantu vy'ukuri."
+      }
+    },
+    {
+      "image": "planning",
+      "video_url": null,
+      "title": {
+        "fr": "La procédure, étape par étape",
+        "en": "The steps, one by one",
+        "rn": "Intambwe ku yindi"
+      },
+      "body": {
+        "fr": "1. Désigner la personne dont la technique sera évaluée, avec son guide de contrôle.\n2. Le formateur explique précisément la situation et les rôles.\n3. Faire la simulation.\n4. Évaluer selon le niveau de compétence attendu.\n5. Montrer la bonne façon de faire s'il faut améliorer.\n6. Faire répéter, puis réévaluer en soulignant les forces et les progrès.",
+        "en": "1. Choose the person whose skill will be checked, with their checking guide.\n2. The trainer explains the situation and the roles clearly.\n3. Do the simulation.\n4. Evaluate based on the expected skill level.\n5. Show the right way to do it if there is something to improve.\n6. Have them do it again, then check again, pointing out strengths and progress.",
+        "rn": "1. Gutora umuntu azogenzurwa ubuhinga, afise urupapuro rw'igenzura.\n2. Umumenyereza asigura neza ikibazo n'uruhara rwa bose.\n3. Gukora ukwigana.\n4. Kugenzura ukurikije urugero rw'ubushobozi rwitezwe.\n5. Kwerekana uburyo bubereye iyo hari ico kwunganira.\n6. Kumusaba kwongera, hanyuma kugenzura kandi, werekana ivyo ashoboye n'iterambere."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Exposer la situation",
+        "en": "Setting up the situation",
+        "rn": "Gusigura ikibazo"
+      },
+      "body": {
+        "fr": "Une bonne exposition est **claire et ciblée**. Par exemple :\n\n- « La personne sera hostile à l'Évangile. »\n- « La technique évaluée : établir un premier contact positif. »\n\nChacun connaît son rôle et ce qui est évalué.\n\nUne mauvaise exposition est **trop vague** : « Présentez les Quatre Lois à quelqu'un... » Il n'y a aucune consigne sur la réaction de la personne, et la technique à évaluer n'est pas claire.",
+        "en": "A good setup is **clear and focused**. For example:\n\n- \"The person will be hostile to the gospel.\"\n- \"The skill being checked: making a positive first contact.\"\n\nEveryone knows their role and what is being checked.\n\nA poor setup is **too vague**: \"Share the Four Laws with someone...\" There is no direction about how the person will respond, and the skill to check is not clear.",
+        "rn": "Gusigura neza ni **ugutomora no gutumbera**. Akarorero:\n\n- « Uwo muntu azoba arwanya Ubutumwa Bwiza. »\n- « Ubuhinga buzogenzurwa: gutangura ikiyago neza. »\n\nUmuntu wese amenya uruhara rwiwe n'ico kizogenzurwa.\n\nGusigura nabi ni ukuvuga **ata gutomora**: « Shikiriza umuntu Amategeko Ane... » Nta buyobozi bujanye n'ingene uwo muntu azokwakira, kandi ubuhinga buzogenzurwa ntibutomoye."
+      }
+    },
+    {
+      "image": "conversation",
+      "video_url": null,
+      "title": {
+        "fr": "Pendant et après le jeu",
+        "en": "During and after the role play",
+        "rn": "Mu mukino no inyuma yawo"
+      },
+      "body": {
+        "fr": "**Pendant le jeu** : laissez le stagiaire travailler sans l'interrompre. Notez ce qui va bien et ce qui peut être amélioré. Laissez le jeu durer assez longtemps pour voir l'essentiel.\n\n**Après le jeu** :\n\n- Demandez d'abord au stagiaire ce qu'il pense avoir bien fait.\n- Soulignez ce qui a bien marché, puis montrez un point à améliorer.\n- Demandez-lui de refaire la partie à améliorer.",
+        "en": "**During the role play**: let the trainee work without interrupting. Note what goes well and what could be better. Let it run long enough to see what matters.\n\n**After the role play**:\n\n- First ask the trainee what they think they did well.\n- Point out what worked well, then show one point to improve.\n- Ask them to do that part again.",
+        "rn": "**Mu gihe c'umukino**: reka umumenyerezwa akore, ntumuce mu majambo. Iyandikire ivyagenze neza n'ivyokwunganirwa. Reka umukino umare igihe gihagije ngo ubone ico kizima.\n\n**Inyuma y'umukino**:\n\n- Banza ubaze uwiganye ico yumva yakoze neza.\n- Shemeza ibice vyagenze neza, uheze werekane kimwe cokwunganirwa.\n- Musabe kwongera agerageza igice yunganiwe."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Problèmes courants",
+        "en": "Common problems",
+        "rn": "Ingorane zikunda kubaho"
+      },
+      "body": {
+        "fr": "Restez vigilant :\n\n- **Le malaise** : mettre le stagiaire à l'épreuve sans trop le gêner. Il faut le préparer au réel tout en lui donnant confiance.\n- **Un substitut ?** La simulation ne remplace pas l'expérience du terrain.\n- **Fausse priorité** : la technique ne passe pas avant la vision et le caractère.\n- **La personne d'abord** : s'intéresser à la personne, pas seulement à sa performance.",
+        "en": "Stay alert:\n\n- **Discomfort**: test the trainee without embarrassing him too much. Prepare him for the real thing while building his confidence.\n- **A substitute?** Simulation does not replace real field experience.\n- **Wrong priority**: skill does not come before vision and character.\n- **The person first**: care about the person, not only about how well he performs.",
+        "rn": "Iyubare:\n\n- **Ukwiyumva nabi**: kugerageza umumenyerezwa ata kumutera isoni cane. Umutegura ku kuri, ariko ukamuha n'ubwizigire.\n- **Gusubirira ikibanza?** Ukwigana ntigusubirira ukumenyerera mu kibanza.\n- **Gushira imbere ibitari vyo**: ubuhinga ntiburuta iyerekwa na kamere.\n- **Umuntu imbere**: kwitwararika umuntu, si ivyo akora gusa."
+      }
+    },
+    {
+      "image": "holy-spirit",
+      "video_url": null,
+      "title": {
+        "fr": "Compter sur l'Esprit",
+        "en": "Relying on the Spirit",
+        "rn": "Kwishimikiza Mpwemu"
+      },
+      "body": {
+        "fr": "La simulation est un outil de formation. Mais c'est le **Saint-Esprit** qui donne la force de faire le travail en vrai.\n\nNous nous exerçons, et nous comptons sur lui.\n\n> Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins.\n> — Actes 1 : 8",
+        "en": "Simulation is a training tool. But it is the **Holy Spirit** who gives the power to do the work for real.\n\nWe practice, and we rely on him.\n\n> But you will receive power when the Holy Spirit comes on you; and you will be my witnesses.\n> — Acts 1:8",
+        "rn": "Ukwigana ni igikoresho c'imenyereza; ariko ni **Mpwemu Yera** atanga inkomezi zo gukora igikorwa vy'ukuri.\n\nTuramenyerera, tukamwishimikiza.\n\n> Muzohabwa ubushobozi, Mpwemu Yera ni yabazako, kandi muzoba ivyabona vyanje.\n> — Ivyakozwe n'Intumwa 1 : 8"
+      }
+    },
+    {
+      "image": "training",
+      "video_url": null,
+      "title": {
+        "fr": "En résumé",
+        "en": "In summary",
+        "rn": "Mu ncamake"
+      },
+      "body": {
+        "fr": "- **Trois parties** : une situation claire, un jeu de rôle supervisé, une évaluation immédiate.\n- **Le fruit** : la confiance et la compétence avant d'affronter le réel.\n- **L'évaluation** : encourager, corriger un point, faire répéter.\n- **Le cœur** : être sérieux et agréable à la fois, sans embarrasser le stagiaire.",
+        "en": "- **Three parts**: a clear situation, a supervised role play, an immediate check.\n- **The fruit**: confidence and skill before facing the real thing.\n- **The check**: encourage, correct one point, have them repeat.\n- **The heart**: be serious and pleasant at the same time, without embarrassing the trainee.",
+        "rn": "- **Ibice bitatu**: ikibazo gitomoye, umukino ugenzurwa, igenzura rica riba.\n- **Ivyamwa**: ubwizigire n'ubushobozi imbere yo guhangana n'ukuri.\n- **Igenzura**: gushemeza, gukosora kimwe, kwongera.\n- **Umutima**: kwitwararika kandi bikanezereza, ata gutera isoni umumenyerezwa."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Réfléchissez",
+        "en": "Reflect",
+        "rn": "Zirikana"
+      },
+      "body": {
+        "fr": "- Est-ce que j'utilise la simulation dans ma formation, ou est-ce que je parle seulement ?\n- Mon évaluation commence-t-elle par le positif, avant de corriger un point ?\n- Quelle technique importante vais-je faire pratiquer en simulation cette semaine ?",
+        "en": "- Do I use simulation in my training, or do I only talk?\n- Does my feedback start with the good, before correcting one point?\n- Which important skill will I have people practice in a simulation this week?",
+        "rn": "- Ukoresha ukwigana mu kumenyereza kwawe, canke uvuga gusa?\n- Igenzura ryawe ritangura ku ciza, uheze ukosore kimwe?\n- Ni ubuhe buhinga bw'ingenzi uzokwigana iyi ndwi?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": {
+        "fr": "Quelles sont les trois parties d'une simulation ?",
+        "en": "What are the three parts of a simulation?",
+        "rn": "Ni ibihe bice bitatu vy'ukwigana?"
+      },
+      "choices": [
+        {
+          "fr": "Un chant, une prière, un message",
+          "en": "A song, a prayer, a message",
+          "rn": "Indirimbo, isengesho, ubutumwa"
+        },
+        {
+          "fr": "Une situation claire, un jeu de rôle supervisé, une évaluation immédiate",
+          "en": "A clear situation, a supervised role play, an immediate check",
+          "rn": "Ikibazo gitomoye, umukino ugenzurwa, igenzura rica riba"
+        },
+        {
+          "fr": "Un examen écrit, une note, un diplôme",
+          "en": "A written test, a grade, a diploma",
+          "rn": "Ikibazo canditswe, amanota, icemezo"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "fr": "Si une de ces trois parties manque, ce n'est plus une simulation.",
+        "en": "If one of these three parts is missing, it is no longer a simulation.",
+        "rn": "Iyo kimwe muri ivyo bice kibuze, ntiba ukiri ukwigana."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Pourquoi les erreurs sont-elles utiles dans une simulation ?",
+        "en": "Why are mistakes useful in a simulation?",
+        "rn": "Kubera iki amakosa ari ngirakamaro mu kwigana?"
+      },
+      "choices": [
+        {
+          "fr": "On apprend sans honte, là où le risque est faible",
+          "en": "We learn without shame, where the risk is low",
+          "rn": "Umuntu yiga ata gitutsi, ahatekanye"
+        },
+        {
+          "fr": "Elles montrent que le stagiaire est faible",
+          "en": "They show the trainee is weak",
+          "rn": "Yerekana ko umumenyerezwa adashoboye"
+        },
+        {
+          "fr": "Elles remplacent le terrain",
+          "en": "They replace the field",
+          "rn": "Asubirira ikibanza"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "fr": "La simulation est un cadre sûr pour apprendre de ses erreurs.",
+        "en": "Simulation is a safe setting to learn from mistakes.",
+        "rn": "Ukwigana ni ahantu hatekanye ho kwigira ku makosa."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Laquelle est une bonne exposition de la situation ?",
+        "en": "Which one is a good setup of the situation?",
+        "rn": "Ni ubuhe buryo bwiza bwo gusigura ikibazo?"
+      },
+      "choices": [
+        {
+          "fr": "« Présentez les Quatre Lois à quelqu'un. »",
+          "en": "\"Share the Four Laws with someone.\"",
+          "rn": "« Shikiriza umuntu Amategeko Ane. »"
+        },
+        {
+          "fr": "« Faites ce que vous voulez. »",
+          "en": "\"Do whatever you want.\"",
+          "rn": "« Kora ico ushaka. »"
+        },
+        {
+          "fr": "« La personne sera hostile ; on évalue le premier contact. »",
+          "en": "\"The person will be hostile; we check the first contact.\"",
+          "rn": "« Uwo muntu azoba arwanya; tugenzura intango y'ikiyago. »"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "fr": "Une bonne exposition dit clairement la situation et la technique évaluée.",
+        "en": "A good setup clearly states the situation and the skill being checked.",
+        "rn": "Gusigura neza ni ukuvuga ikibazo n'ubuhinga buzogenzurwa bitomoye."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "La simulation peut-elle remplacer le terrain ?",
+        "en": "Can simulation replace the field?",
+        "rn": "Ukwigana kurashobora gusubirira ikibanza?"
+      },
+      "choices": [
+        {
+          "fr": "Oui, toujours",
+          "en": "Yes, always",
+          "rn": "Ego, ibihe vyose"
+        },
+        {
+          "fr": "Non, elle prépare au terrain mais ne le remplace pas",
+          "en": "No, it prepares for the field but does not replace it",
+          "rn": "Oya, gutegura ikibanza ariko ntigusubirira"
+        },
+        {
+          "fr": "Oui, si le stagiaire est bon",
+          "en": "Yes, if the trainee is good",
+          "rn": "Ego, iyo umumenyerezwa ashoboye"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "fr": "La simulation prépare au réel ; elle ne remplace pas l'expérience du terrain.",
+        "en": "Simulation prepares for real life; it does not replace field experience.",
+        "rn": "Ukwigana gutegura ukuri; ntigusubirira ukumenyerera mu kibanza."
+      }
+    }
+  ]
+}

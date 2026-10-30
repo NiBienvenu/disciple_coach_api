@@ -47,6 +47,11 @@ class Lesson extends Model
         return $this->hasMany(LessonTranslation::class);
     }
 
+    public function pages(): HasMany
+    {
+        return $this->hasMany(LessonPage::class)->orderBy('order')->orderBy('id');
+    }
+
     /**
      * Images are stored as a public path (`/uploads/lessons/…`); the apps
      * get a full URL on the current host.

@@ -1,0 +1,95 @@
+{
+  "levels": [
+    {
+      "slug": "track_connect",
+      "order": 1,
+      "part": 1,
+      "previous": null,
+      "title": { "fr": "Connecte ta vie à Jésus", "en": "Connect your Life to Jesus", "rn": "Huza ubugingo bwawe na Yesu" },
+      "partTitle": { "fr": "Connecte ta vie à Jésus", "en": "Connect your Life to Jesus", "rn": "Huza ubugingo bwawe na Yesu" },
+      "description": {
+        "fr": "Les Quatre Lois Spirituelles : connaître l'amour de Dieu, recevoir Jésus-Christ, puis commencer votre nouvelle vie avec lui.",
+        "en": "The Four Spiritual Laws: know God's love, receive Jesus Christ, then begin your new life with him.",
+        "rn": "Ingingo zine z'impwemu: kumenya urukundo rw'Imana, kwakira Yesu Kristo, no gutangura ubugingo bushasha muri we."
+      }
+    },
+    {
+      "slug": "track_foundation",
+      "order": 2,
+      "part": 2,
+      "previous": "track_connect",
+      "title": { "fr": "Bâtis ton fondement en Christ", "en": "Build your foundation in Christ", "rn": "Gutangura ubugingo bushasha muri Kristo" },
+      "partTitle": { "fr": "Bâtis ton fondement en Christ", "en": "Build your foundation in Christ", "rn": "Gutangura ubugingo bushasha muri Kristo" },
+      "description": {
+        "fr": "La série « Comment commencer votre vie nouvelle » : en Jésus-Christ, dans la communion avec lui, dans le Saint-Esprit, dans la croissance, dans la Parole de Dieu et dans la prière.",
+        "en": "The series \"How to begin your new life\": in Jesus Christ, in fellowship with him, in the Holy Spirit, in growth, in God's Word and in prayer.",
+        "rn": "Urukurikirane « Uko wotangura ubugingo busha »: muri Yesu Kristo, mu gusangira na we, muri Mpwemu Yera, mu gukura, mu Jambo ry'Imana no mu gusenga."
+      }
+    },
+    {
+      "slug": "track_1",
+      "order": 3,
+      "part": 3,
+      "previous": "track_foundation",
+      "title": { "fr": "Niveau 1 : Fondation", "en": "Level 1: Foundation", "rn": "Urwego rwa 1 : Ishingiro" },
+      "partTitle": { "fr": "Faire des disciples", "en": "Make Disciples", "rn": "Guhindura abigishwa" },
+      "description": {
+        "fr": "L'assurance du salut, l'amour et le pardon de Dieu, la vie remplie du Saint-Esprit, le témoignage et l'Ordre Suprême.",
+        "en": "Assurance of salvation, God's love and forgiveness, the Spirit-filled life, witnessing and the Great Commission.",
+        "rn": "Kumenya udakekeranya ko wakijijwe, urukundo rw'Imana n'uguharira kwayo, ubugingo bwuzuye Mpwemu Yera, gushinga intahe n'Itegeko Rikuru."
+      }
+    },
+    {
+      "slug": "track_2",
+      "order": 4,
+      "part": 3,
+      "previous": "track_1",
+      "title": { "fr": "Niveau 2 : Intermédiaire", "en": "Level 2: Intermediate", "rn": "Urwego rwa 2 : Intermédiaire" },
+      "partTitle": { "fr": "Faire des disciples", "en": "Make Disciples", "rn": "Guhindura abigishwa" },
+      "description": {
+        "fr": "Faire de Dieu votre priorité, connaître ses attributs et votre identité en Christ, apprendre à prier et à étudier sa Parole, puis aider les nouveaux croyants à grandir.",
+        "en": "Make God your priority, know his attributes and your identity in Christ, learn to pray and study his Word, then help new believers grow.",
+        "rn": "Gushira imbere imigenderanire yawe n'Imana, gutahura ibiranga Imana n'uwo uri we muri Kristo, kwiga gusenga no kwiga Ijambo ryayo, no gukomeza abakristo bashasha."
+      }
+    },
+    {
+      "slug": "track_3",
+      "order": 5,
+      "part": 3,
+      "previous": "track_2",
+      "title": { "fr": "Niveau 3 : Avancée", "en": "Level 3: Advanced", "rn": "Urwego rwa 3 : Avancée" },
+      "partTitle": { "fr": "Faire des disciples", "en": "Make Disciples", "rn": "Guhindura abigishwa" },
+      "description": {
+        "fr": "La grâce de Dieu, l'appel à faire des disciples qui se multiplient, diriger un groupe de discipolat et gérer fidèlement ce que Dieu vous confie.",
+        "en": "God's grace, the call to make multiplying disciples, leading a discipleship group and faithfully managing what God gives you.",
+        "rn": "Ubuntu bw'Imana, akamo ko guhindura abigishwa bigwiza, kurongora umurwi w'abigishwa no kubungabunga neza ivyo Imana yaguhaye."
+      }
+    },
+    {
+      "slug": "track_4",
+      "order": 6,
+      "part": 3,
+      "previous": "track_3",
+      "title": { "fr": "Niveau 4 : Leadership", "en": "Level 4: Leadership", "rn": "Urwego rwa 4 : Leadership" },
+      "partTitle": { "fr": "Faire des disciples", "en": "Make Disciples", "rn": "Guhindura abigishwa" },
+      "description": {
+        "fr": "Vivre avec une perspective éternelle, discerner la volonté de Dieu, aimer par la foi et édifier un mouvement spirituel qui se multiplie.",
+        "en": "Live with an eternal perspective, discern God's will, love by faith and build a spiritual movement that multiplies.",
+        "rn": "Kubaho witegereje ibihe bidashira, gutahura ugushaka kw'Imana, gukunda mu kwizera no kwubaka umuvyimba w'impwemu wigwiza."
+      }
+    },
+    {
+      "slug": "track_5",
+      "order": 7,
+      "part": 3,
+      "previous": "track_4",
+      "title": { "fr": "Niveau 5 : Formation des Formateurs (5TT)", "en": "Level 5: Training of Trainers (5TT)", "rn": "Urwego rwa 5 : Imenyereza ry'Abamenyereza (5TT)" },
+      "partTitle": { "fr": "Faire des disciples", "en": "Make Disciples", "rn": "Guhindura abigishwa" },
+      "description": {
+        "fr": "Former des formateurs fidèles, capables d'enseigner d'autres personnes, pour aider à accomplir l'Ordre Suprême dans la puissance du Saint-Esprit.",
+        "en": "Train faithful trainers who can teach others, to help fulfill the Great Commission in the power of the Holy Spirit.",
+        "rn": "Kumenyereza abamenyereza b'abizigirwa bazoshobora kwigisha abandi, kugira ngo Itegeko Rikuru rishike mu bushobozi bwa Mpwemu Yera."
+      }
+    }
+  ]
+}

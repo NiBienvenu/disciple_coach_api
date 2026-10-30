@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1;
 use App\Http\Controllers\Controller;
 use App\Http\Responses\ApiResponse;
 use App\Models\Lesson;
+use App\Models\LessonPage;
 use App\Models\Level;
 use App\Models\QuizQuestion;
 use App\Services\Admin\ContentAdminService;
@@ -82,6 +83,54 @@ class ContentAdminController extends Controller
         return ApiResponse::success(null, 'Lesson deleted.');
     }
 
+    public function storePage(Request $request, Lesson $lesson): JsonResponse
+    {
+        $page = $this->content->savePage($lesson, null, $this->validatePage($request, creating: true));
+
+        return ApiResponse::success($this->content->pagePayload($page), status: 201);
+    }
+
+    public function updatePage(Request $request, LessonPage $page): JsonResponse
+    {
+        $saved = $this->content->savePage($page->lesson, $page, $this->validatePage($request, creating: false));
+
+        return ApiResponse::success($this->content->pagePayload($saved));
+    }
+
+    public function destroyPage(LessonPage $page): JsonResponse
+    {
+        $this->content->deletePage($page);
+
+        return ApiResponse::success(null, 'Page deleted.');
+    }
+
+    /** Body: `ids`, every page id of the lesson in the new order. */
+    public function reorderPages(Request $request, Lesson $lesson): JsonResponse
+    {
+        $data = $request->validate([
+            'ids' => ['required', 'array', 'min:1'],
+            'ids.*' => ['integer', 'distinct'],
+        ]);
+        $this->content->reorderPages($lesson, array_map('intval', $data['ids']));
+
+        return ApiResponse::success($this->content->lesson($lesson));
+    }
+
+    /** Multipart upload, field `image`. Replaces the current image. */
+    public function storePageImage(Request $request, LessonPage $page): JsonResponse
+    {
+        $data = $request->validate([
+            'image' => ['required', 'file', 'image', 'mimes:jpg,jpeg,png,webp', 'max:5120'],
+        ]);
+
+        return ApiResponse::success($this->content->pagePayload($this->content->savePageImage($page, $data['image'])));
+    }
+
+    public function destroyPageImage(LessonPage $page): JsonResponse
+    {
+        return ApiResponse::success($this->content->pagePayload($this->content->removePageImage($page)));
+    }
+
     public function quiz(Level $level): JsonResponse
     {
         return ApiResponse::success($this->content->quiz($level));
@@ -142,9 +191,8 @@ class ContentAdminController extends Controller
             'code' => [$creating ? 'required' : 'sometimes', 'string', 'max:20'],
             'type' => ['sometimes', Rule::in(['main', 'supplementary'])],
             'order' => ['sometimes', 'integer', 'min:0'],
-            // youtube.com/watch?v=…, youtu.be/…, /shorts/…, /embed/…, /live/…
-            'video_url' => ['sometimes', 'nullable', 'string', 'max:255',
-                'regex:~^(https?://)?((www|m)\.)?(youtube\.com/(watch\?(.*&)?v=|embed/|shorts/|live/)|youtu\.be/)[A-Za-z0-9_-]{11}~'],
+            // Any web link: YouTube and Vimeo play in the app, others open outside.
+            'video_url' => ['sometimes', 'nullable', 'string', 'max:255', 'url:http,https'],
             'translations' => [$creating ? 'required' : 'sometimes', 'array:fr,rn,en'],
             'translations.fr.title' => [$creating ? 'required' : 'sometimes', 'string', 'max:255'],
             'translations.*.title' => ['sometimes', 'string', 'max:255'],
@@ -156,6 +204,23 @@ class ContentAdminController extends Controller
             'translations.*.key_scriptures' => ['sometimes', 'array'],
             'translations.*.key_scriptures.*.reference' => ['sometimes', 'nullable', 'string'],
             'translations.*.key_scriptures.*.text' => ['sometimes', 'nullable', 'string'],
+        ]);
+    }
+
+    /** @return array<string, mixed> */
+    private function validatePage(Request $request, bool $creating): array
+    {
+        return $request->validate([
+            'kind' => ['sometimes', Rule::in([LessonPage::KIND_CONTENT, LessonPage::KIND_QUESTION])],
+            'order' => ['sometimes', 'integer', 'min:0'],
+            'video_url' => ['sometimes', 'nullable', 'string', 'max:500', 'url:http,https'],
+            'correct_index' => ['sometimes', 'integer', 'min:0'],
+            'translations' => [$creating ? 'required' : 'sometimes', 'array:fr,rn,en'],
+            'translations.*' => ['array'],
+            'translations.*.title' => ['sometimes', 'nullable', 'string', 'max:255'],
+            'translations.*.body' => ['sometimes', 'nullable', 'string'],
+            'translations.*.choices' => ['sometimes', 'array'],
+            'translations.*.choices.*' => ['nullable', 'string', 'max:500'],
         ]);
     }
 

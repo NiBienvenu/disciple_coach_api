@@ -25,7 +25,8 @@ class LessonMediaTest extends TestCase
         parent::setUp();
         $this->seed(RolePermissionSeeder::class);
 
-        $level = Level::query()->create(['slug' => 'track_1', 'order' => 1, 'part' => 1, 'status' => ContentStatus::Published]);
+        // Not a seeded slug: the base data migration already creates track_1.
+        $level = Level::query()->create(['slug' => 'media_test', 'order' => 1, 'part' => 1, 'status' => ContentStatus::Published]);
         $level->translations()->create(['language' => 'fr', 'title' => 'Niveau 1', 'description' => '']);
         $this->lesson = Lesson::query()->create(['level_id' => $level->id, 'code' => '1M01', 'slug' => 'l1', 'type' => LessonType::Main, 'order' => 1, 'status' => ContentStatus::Published]);
         $this->lesson->translations()->create(['language' => 'fr', 'title' => 'Leçon 1']);
@@ -61,10 +62,14 @@ class LessonMediaTest extends TestCase
             ->assertOk()->assertJsonPath('data.video_url', null);
     }
 
-    public function test_non_youtube_link_is_rejected(): void
+    public function test_any_web_video_link_is_accepted_but_not_plain_text(): void
     {
         $this->patchJson('/api/v1/admin/content/lessons/'.$this->lesson->id, [
             'video_url' => 'https://vimeo.com/123456',
+        ])->assertOk()->assertJsonPath('data.video_url', 'https://vimeo.com/123456');
+
+        $this->patchJson('/api/v1/admin/content/lessons/'.$this->lesson->id, [
+            'video_url' => 'not a link',
         ])->assertUnprocessable();
     }
 

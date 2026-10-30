@@ -1,0 +1,302 @@
+{
+  "code": "3S05",
+  "order": 11,
+  "type": "supplementary",
+  "title": {
+    "fr": "Diriger une discussion de groupe",
+    "en": "Leading a group discussion",
+    "rn": "Kurongora ihanahanwa ry'ivyiyumviro mu murwi"
+  },
+  "pages": [
+    {
+      "image": "conversation",
+      "video_url": null,
+      "title": {
+        "fr": "Diriger une discussion de groupe",
+        "en": "Leading a group discussion",
+        "rn": "Kurongora ihanahanwa ry'ivyiyumviro"
+      },
+      "body": {
+        "fr": "Dans un groupe de discipolat, le but n'est pas seulement d'enseigner. C'est d'aider chacun à **découvrir la vérité** lui-même, puis à la vivre.\n\nCette leçon vous donne les principes pour diriger une bonne discussion : la préparer, l'animer, poser de bonnes questions et l'évaluer.",
+        "en": "In a discipleship group, the goal is not only to teach. It is to help each person **discover the truth** for themselves, and then live it.\n\nThis lesson gives you the principles for leading a good discussion: preparing it, leading it, asking good questions and evaluating it.",
+        "rn": "Mu murwi w'abigishwa, intumbero si ukwigisha gusa. Ni ugutuma uwo ari we wese **avumbura ukuri** ubwiwe, hanyuma akakubamwo.\n\nIki cigwa kizokumenyesha ivyankenerwa mu kurongora ihanahanwa ry'ivyiyumviro mu murwi: kuritegura, kurirongora, kubaza ibibazo vyiza no kurisuzuma."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Ce que vous allez apprendre",
+        "en": "What you will learn",
+        "rn": "Ivyo uza kwiga"
+      },
+      "body": {
+        "fr": "- Comprendre ce qui fait vivre une discussion de groupe.\n- Préparer et diriger une discussion.\n- Utiliser de bonnes questions pour faire parler le groupe.\n- Évaluer la discussion dans votre groupe.",
+        "en": "- Understand what makes a group discussion come alive.\n- Prepare and lead a discussion.\n- Use good questions to get the group talking.\n- Evaluate the discussion in your group.",
+        "rn": "- Kudondagura ibintu bitohara mw'ihanahanwa ry'ivyiyumviro.\n- Gutegura no kurongora ihanahanwa ry'ivyiyumviro.\n- Gukoresha ibibazo vyiza bituma haba ihanahanwa.\n- Gusuzuma ihanahanwa ry'ivyiyumviro mu murwi wawe."
+      }
+    },
+    {
+      "image": "small-group",
+      "video_url": null,
+      "title": {
+        "fr": "Les bases d'une bonne discussion",
+        "en": "The basics of a good discussion",
+        "rn": "Urufatiro"
+      },
+      "body": {
+        "fr": "- **Le leader** s'engage pour une discussion ouverte. Il pose des questions et laisse les membres trouver les réponses.\n- **Les membres** participent, encouragent les autres à parler et partagent leurs pensées.\n- **L'ambiance** est sûre et accueillante. Chacun peut donner son avis sans être ignoré ni moqué. Les personnalités différentes y ont leur place.",
+        "en": "- **The leader** commits to an open discussion. He asks questions and lets members find the answers.\n- **The members** take part, encourage others to speak and share their thoughts.\n- **The atmosphere** is safe and welcoming. Each person can give an opinion without being ignored or mocked. Different personalities have a place.",
+        "rn": "- **Umurongozi yitanga**: abaza ibibazo, agatuma bavumbura inyishu.\n- **Uwo ari we wese** agira uruhara, agatera umwete abandi, akavuga ivyiyumviro vyiwe.\n- **Umutima w'ukwemerana**: ata ciyumviro cirengagizwa canke gitwengwa. Abantu b'imico itandukanye bose barakirwa."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Contenu et personnes",
+        "en": "Content and people",
+        "rn": "Ibirimwo n'abantu"
+      },
+      "body": {
+        "fr": "Deux choses font la qualité d'une discussion :\n\n1. **Le contenu** : répondre aux questions, tirer des conclusions et arriver à une application dans la vie. Ne cherchez pas seulement des réponses : cherchez un changement.\n2. **Les personnes** : leur capacité à s'ouvrir et à parler d'elles-mêmes, et la façon dont le leader fait participer chacun.\n\nC'est le lien entre le contenu et les personnes qui fait une bonne discussion.",
+        "en": "Two things make a good discussion:\n\n1. **The content**: answering questions, drawing conclusions and reaching an application for life. Do not just look for answers: look for change.\n2. **The people**: their ability to open up and talk about themselves, and the way the leader involves each one.\n\nThe link between content and people is what makes a good discussion.",
+        "rn": "Ibintu bibiri bikeneranye bituma ihanahanwa riba ryiza:\n\n1. **Ibirimwo** (ivyigwa): kwishura ibibazo, gutanga insozero no gushika ku gushira mu ngiro. Ntiwironderera inyishu gusa: rondera impinduka.\n2. **Abagize umurwi**: ububasha bwo kwiyugurura no kuvuga ivyabo, uko umurongozi abakoresha, n'ukwizigirana.\n\nIsano riri hagati y'ibirimwo n'abantu ni ryo rituma ihanahanwa riba ryiza."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Pourquoi la discussion ?",
+        "en": "Why discussion?",
+        "rn": "Kubera iki ihanahanwa?"
+      },
+      "body": {
+        "fr": "- Elle ne demande pas au leader d'être un grand orateur.\n- En général, les membres apprennent mieux entre eux que pendant un exposé.\n- Elle permet de chercher ensemble, d'échanger et de réagir. Chacun croit mieux ce qu'il a lui-même découvert.\n- Elle fait grandir le leadership et la confiance des participants.\n\nMais elle demande que le leader se prépare, que les membres se préparent aussi, et qu'on ne cherche pas à couvrir trop de matière. Le leader doit aussi résister à l'envie de tout dire lui-même.",
+        "en": "- It does not require the leader to be a great public speaker.\n- In general, members learn better from each other than during a lecture.\n- It lets people search together, exchange and react. Each one believes more what they discovered themselves.\n- It grows the leadership and confidence of the participants.\n\nBut it requires the leader to prepare, the members to prepare too, and not trying to cover too much material. The leader must also resist the urge to say everything himself.",
+        "rn": "- Ntirisaba umurongozi kuba umuhinga wo kuvuga mw'isinzi.\n- Muri rusangi, abagize umurwi biga neza hagati muri bo.\n- Rituma abantu ubwabo bemera ivyo biyumviriye neza.\n- Rirongereza uburongozi n'ukwizerana.\n\nAriko risaba integuro ikwiye ku ruhande rw'umurongozi, n'abagize umurwi nabo bakitegura. Si ahantu ho kwigisha ivyigwa vyinshi. Umurongozi ategerezwa guhagarika icipfuzo co kuvuga vyose wenyene."
+      }
+    },
+    {
+      "image": "planning",
+      "video_url": null,
+      "title": {
+        "fr": "Préparer la discussion",
+        "en": "Preparing the discussion",
+        "rn": "Gutegura ihanahanwa"
+      },
+      "body": {
+        "fr": "1. **Connaître** les besoins des membres du groupe.\n2. **Définir** l'objectif : que voulez-vous accomplir ?\n3. **Questionner** : écrivez des questions qui feront parler longtemps.\n4. **Préparer** les idées clés et les points pratiques à partager.\n\nVisez toujours l'application de la Parole dans la vie.",
+        "en": "1. **Know** the needs of the group members.\n2. **Define** the goal: what do you want to achieve?\n3. **Question**: write questions that will keep people talking.\n4. **Prepare** the key ideas and practical points to share.\n\nAlways aim at applying the Word to life.",
+        "rn": "1. **Kumenya** ivyo abagize umurwi bakeneye.\n2. **Gutomora** intumbero: ni iki ushaka gushikako?\n3. **Kwandika ibibazo** bituma ihanahanwa ribandanya.\n4. **Gutegura** ivyiyumviro nyamukuru n'ingingo zo gushira mu ngiro.\n\nNtuhweme gutumbera ugushira Ijambo mu ngiro mu buzima."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Animer et surmonter les obstacles",
+        "en": "Leading and overcoming obstacles",
+        "rn": "Kurongora no gukuraho intambamyi"
+      },
+      "body": {
+        "fr": "Soyez enthousiaste pour la Parole de Dieu et pour ce que les membres découvrent. Commencez par une introduction qui capte l'attention. Gardez l'équilibre entre l'étude et les besoins des membres, sans perdre l'objectif.\n\nFace aux obstacles :\n- **Opinions qui s'opposent** : dirigez dans le respect, sans bloquer la participation.\n- **Hors sujet** : ramenez doucement au thème principal.\n- **Personnes difficiles** : gardez une participation équilibrée et un climat d'acceptation.",
+        "en": "Be enthusiastic about God's Word and about what members discover. Start with an introduction that grabs attention. Keep a balance between study and members' needs, without losing the goal.\n\nFacing obstacles:\n- **Competing opinions**: lead with respect, without blocking participation.\n- **Off topic**: gently bring the group back to the main theme.\n- **Difficult people**: keep participation balanced and a climate of acceptance.",
+        "rn": "Gira umwete ku Jambo ry'Imana no ku vyo abagize umurwi bavumbura. Tangura n'intangamarara ikwega ivyiyumviro. Ringaniza inyigisho n'ivyo abantu bakeneye, utibagiye intumbero.\n\nGukuraho intambamyi:\n- **Ihiganwa ry'ivyiyumviro**: rongora ku kwubahana.\n- **Kuja kure y'iciyumviro nyamukuru**: garukana ubugwaneza.\n- **Abantu « bagoye »**: garukana umutima w'ukwemerana, kandi uringanize uruhara rwa bose."
+      }
+    },
+    {
+      "image": "teaching",
+      "video_url": null,
+      "title": {
+        "fr": "Quatre sortes de questions",
+        "en": "Four kinds of questions",
+        "rn": "Ubwoko bw'ibibazo"
+      },
+      "body": {
+        "fr": "La qualité d'une discussion dépend de la qualité des questions. Une bonne question ne se répond pas par « oui » ou « non » : elle ouvre la réflexion.\n\n1. **Fermée** : une seule réponse évidente. Peu utile pour discuter.\n2. **Limitée** : quelques réponses précises. Utilité moyenne.\n3. **Ouverte** : plusieurs réponses et points de vue. Très utile.\n4. **Relais** : la question d'un membre est renvoyée au groupe. Très utile, elle fait réfléchir tout le monde.",
+        "en": "The quality of a discussion depends on the quality of the questions. A good question is not answered with \"yes\" or \"no\": it opens up thinking.\n\n1. **Closed**: one obvious answer. Not very useful for discussion.\n2. **Limited**: a few specific answers. Medium value.\n3. **Open**: many answers and points of view. Very useful.\n4. **Relay**: a member's question is passed back to the group. Very useful, it makes everyone think.",
+        "rn": "Ubwiza bw'ihanahanwa buva ku bwiza bw'ibibazo. Ikibazo ciza ntikwishurwa n'« ego » canke « oya »: kigurura ukwiyumvira.\n\n1. **Ikibazo cugaye**: gifise inyishu imwe nyayo; agaciro gato ku hanahanwa.\n2. **Ikibazo ngirakarimbi**: cerekeza ku bintu bitomoye; agaciro gaciriritse.\n3. **Ikibazo cugurutse**: gitera ihanahanwa nyaryo; cugurura ukwiyumvira.\n4. **Ikibazo gisubizwa umurwi**: ikibazo c'umwe gisubizwa abandi; giterura ukwiyumvira kwa bose."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Bien utiliser les questions",
+        "en": "Using questions well",
+        "rn": "Gukoresha neza ibibazo"
+      },
+      "body": {
+        "fr": "- **Visez un point précis** : sachez ce que chaque question doit faire ressortir.\n- **Reformulez** si besoin, et posez des questions pour clarifier.\n- **Acceptez le silence** : ne vous inquiétez pas. Laissez aux membres le temps de réfléchir et de trouver le courage de parler.\n\n> Les desseins dans le cœur de l'homme sont des eaux profondes, mais l'homme intelligent sait y puiser.\n> — Proverbes 20 : 5",
+        "en": "- **Aim at a specific point**: know what each question should bring out.\n- **Rephrase** if needed, and ask questions to clarify.\n- **Accept silence**: do not worry. Give members time to think and find the courage to speak.\n\n> The purposes of a person's heart are deep waters, but one who has insight draws them out.\n> — Proverbs 20:5",
+        "rn": "- **Tumbera ingingo itomoye**: menya ico ikibazo cose gikwiye kwerekana.\n- **Subiramwo ikibazo** mu yandi majambo nimba bikenewe, kandi ubaze ibibazo vyo gutomora.\n- **Emera agacerere**: ntuhagarike umutima. Ha abagize umurwi umwanya wo kwiyumvira no kuronka umutima wo kuvuga.\n\n> Inama yo mu mutima w'umuntu ni nk'amazi yo hasi mw'ibenga, arik'umuntu w'umunyabgenge arayivoma.\n> — Imigani 20:5"
+      }
+    },
+    {
+      "image": "bible-open",
+      "video_url": null,
+      "title": {
+        "fr": "Conclure par l'application",
+        "en": "Ending with application",
+        "rn": "Gusozera mu gushira mu ngiro"
+      },
+      "body": {
+        "fr": "À la fin :\n- résumez ce que vous avez appris ;\n- tirez les bonnes conclusions ;\n- aidez les membres à appliquer la leçon à leur vie, pas à la réciter mot à mot.\n\nPour la suite, donnez un petit travail de recherche ou de préparation pour la prochaine rencontre.\n\n> Mettez en pratique la parole, et ne vous bornez pas à l'écouter, en vous trompant vous-mêmes par de faux raisonnements.\n> — Jacques 1 : 22",
+        "en": "At the end:\n- summarize what you learned;\n- draw the right conclusions;\n- help members apply the lesson to their lives, not recite it word for word.\n\nFor next time, give a small assignment of research or preparation for the next meeting.\n\n> Do not merely listen to the word, and so deceive yourselves. Do what it says.\n> — James 1:22",
+        "rn": "Ku musozero:\n- subiramwo ivyo mwize;\n- tanga insozero ikwiye;\n- intumbero atari ukwishura ibibazo gusa: rondera ko abagize umurwi bashira mu ngiro Ijambo ry'Imana mu buzima bwabo.\n\nKu mubonano ukurikira, baha igikorwa co kurondera canke co kwitegura.\n\n> Kandi mube abakora ivy'iryo jambo, ntimube abaryumva gusa, mwibesha.\n> — Yakobo 1:22"
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Évaluer la rencontre",
+        "en": "Evaluating the meeting",
+        "rn": "Gusuzuma umubonano"
+      },
+      "body": {
+        "fr": "Après la rencontre, prenez le temps d'évaluer, par écrit si possible :\n- Les personnes invitées étaient-elles là ? A-t-on commencé et fini à l'heure ? Étiez-vous bien préparé ?\n- L'objectif a-t-il été atteint dans la vie de chacun ?\n- Tout le monde a-t-il participé ? Certains ont-ils dominé ou été mis de côté ?\n- Les membres se sont-ils ouverts ? Est-on resté sur le sujet ? Était-ce pratique ?\n- Quelqu'un a-t-il encore des questions ou besoin d'un conseil personnel ?",
+        "en": "After the meeting, take time to evaluate, in writing if possible:\n- Were the invited people there? Did you start and end on time? Were you well prepared?\n- Was the goal reached in each person's life?\n- Did everyone take part? Did some dominate or get left out?\n- Did members open up? Did you stay on topic? Was it practical?\n- Does anyone still have questions or need personal advice?",
+        "rn": "Inyuma y'umubonano, fata umwanya wo gusuzuma, wandika nimba bishoboka:\n- Abatumiwe bari bahari? Mwatanguye kandi muheza ku mwanya? Wari witeguye neza?\n- Intumbero yashikiweko mu buzima bwa buri wese?\n- Uwo ari we wese yagize uruhara? Hari abiganje canke abasigaye inyuma?\n- Abagize umurwi bariyuguruye? Mwagumye ku ngingo? Vyari ivyo gushira mu ngiro?\n- Hari uwukiri n'ibibazo canke ukeneye impanuro bwite?"
+      }
+    },
+    {
+      "image": "prayer",
+      "video_url": null,
+      "title": {
+        "fr": "En résumé et à préparer",
+        "en": "Summary and preparation",
+        "rn": "Incamake no kwitegura"
+      },
+      "body": {
+        "fr": "- Les petits groupes aident beaucoup à apprendre.\n- Savoir poser de bonnes questions est un outil clé du leader.\n- Les questions ouvertes et relais sont les plus utiles.\n- La discussion doit conduire à vivre la Parole.\n\nPour votre prochaine rencontre :\n- Votre objectif est-il clair ?\n- Vos questions ouvrent-elles la réflexion ?\n- Comment ferez-vous parler les plus silencieux ?\n- Quelle application concrète viserez-vous ?",
+        "en": "- Small groups help a lot in learning.\n- Knowing how to ask good questions is a key tool for the leader.\n- Open and relay questions are the most useful.\n- The discussion should lead to living the Word.\n\nFor your next meeting:\n- Is your goal clear?\n- Do your questions open up thinking?\n- How will you get the quietest people to speak?\n- What concrete application will you aim for?",
+        "rn": "- **Urufatiro**: umurongozi yitanga, uwo ari we wese agira uruhara, umutima w'ukwemerana.\n- **Igikoresho**: ibibazo vyugurutse.\n- **Intumbero**: ubugingo buhindutse, si ukwigisha gusa.\n\nKu mubonano ukurikira:\n- Intumbero yawe iratomoye?\n- Ibibazo vyawe birugurura ukwiyumvira? Si « ego/oya », si ivyugaye?\n- Womenyesha gute abaceceka? Ikibazo cugurutse, mu bwitonzi.\n- Muzoshikira ku yihe ngiro? Itomoye kandi y'umuntu ku giti ciwe."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": {
+        "fr": "Quel type de question est le plus utile pour la discussion ?",
+        "en": "Which type of question is most useful for discussion?",
+        "rn": "Ni ubuhe bwoko bw'ikibazo bufasha cane mu hanahanwa?"
+      },
+      "choices": [
+        {
+          "fr": "La question fermée",
+          "en": "The closed question",
+          "rn": "Ikibazo cugaye"
+        },
+        {
+          "fr": "La question ouverte",
+          "en": "The open question",
+          "rn": "Ikibazo cugurutse"
+        },
+        {
+          "fr": "La question à réponse oui ou non",
+          "en": "A yes-or-no question",
+          "rn": "Ikibazo cishurwa n'« ego » canke « oya »"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "fr": "Une question ouverte permet plusieurs réponses et ouvre la réflexion.",
+        "en": "An open question allows many answers and opens up thinking.",
+        "rn": "Ikibazo cugurutse cemera inyishu nyinshi kandi kigurura ukwiyumvira."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Que faire quand le groupe reste silencieux après une question ?",
+        "en": "What should you do when the group stays silent after a question?",
+        "rn": "Wokora iki iyo umurwi uceceka umaze kubaza ikibazo?"
+      },
+      "choices": [
+        {
+          "fr": "Donner tout de suite la réponse",
+          "en": "Give the answer right away",
+          "rn": "Guca utanga inyishu ubwo nyene"
+        },
+        {
+          "fr": "Changer de sujet",
+          "en": "Change the subject",
+          "rn": "Guhindura ingingo"
+        },
+        {
+          "fr": "Accepter le silence et laisser le temps de réfléchir",
+          "en": "Accept the silence and give time to think",
+          "rn": "Kwemera agacerere no guha umwanya wo kwiyumvira"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "fr": "Le silence aide souvent les membres à réfléchir et à oser parler.",
+        "en": "Silence often helps members think and dare to speak.",
+        "rn": "Agacerere gakunda gufasha abantu kwiyumvira no kuronka umutima wo kuvuga."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Quel est le but final d'une discussion de groupe ?",
+        "en": "What is the final goal of a group discussion?",
+        "rn": "Intumbero ya nyuma y'ihanahanwa ry'ivyiyumviro ni iyihe?"
+      },
+      "choices": [
+        {
+          "fr": "Que les membres mettent la Parole en pratique",
+          "en": "That members put the Word into practice",
+          "rn": "Ko abagize umurwi bashira mu ngiro Ijambo ry'Imana"
+        },
+        {
+          "fr": "Que le leader parle le plus",
+          "en": "That the leader talks the most",
+          "rn": "Ko umurongozi avuga kuruta abandi"
+        },
+        {
+          "fr": "Couvrir le plus de matière possible",
+          "en": "Cover as much material as possible",
+          "rn": "Kwigisha ivyigwa vyinshi gushoboka"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "fr": "« Mettez en pratique la parole » (Jacques 1 : 22).",
+        "en": "\"Do what it says\" (James 1:22).",
+        "rn": "« Mube abakora ivy'iryo jambo » (Yakobo 1:22)."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Qu'est-ce qu'une question « relais » ?",
+        "en": "What is a \"relay\" question?",
+        "rn": "« Ikibazo gisubizwa umurwi » ni iki?"
+      },
+      "choices": [
+        {
+          "fr": "Une question que le leader pose deux fois",
+          "en": "A question the leader asks twice",
+          "rn": "Ikibazo umurongozi abaza kabiri"
+        },
+        {
+          "fr": "La question d'un membre renvoyée au groupe",
+          "en": "A member's question passed back to the group",
+          "rn": "Ikibazo c'umwe gisubizwa abandi bagize umurwi"
+        },
+        {
+          "fr": "Une question écrite au tableau",
+          "en": "A question written on the board",
+          "rn": "Ikibazo canditswe ku kibaho"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "fr": "Renvoyer la question au groupe fait réfléchir tout le monde.",
+        "en": "Passing the question back to the group makes everyone think.",
+        "rn": "Gusubiza ikibazo umurwi bituma bose biyumvira."
+      }
+    }
+  ]
+}

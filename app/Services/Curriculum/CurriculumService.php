@@ -174,6 +174,8 @@ class CurriculumService
                         'summary_points',
                         'reflection_questions',
                     ])->where('language', $language),
+                    // All languages: a page missing one falls back to French.
+                    'pages.translations',
                 ])
                 ->first();
 

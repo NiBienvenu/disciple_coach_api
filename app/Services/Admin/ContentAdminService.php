@@ -5,6 +5,7 @@ namespace App\Services\Admin;
 use App\Enums\ContentStatus;
 use App\Enums\LessonType;
 use App\Models\Lesson;
+use App\Models\LessonPage;
 use App\Models\Level;
 use App\Models\Quiz;
 use App\Models\QuizQuestion;
@@ -33,7 +34,7 @@ class ContentAdminService
     {
         return Level::query()
             ->orderBy('order')
-            ->with(['translations', 'lessons.translations', 'quiz.questions'])
+            ->with(['translations', 'lessons' => fn ($q) => $q->withCount('pages'), 'lessons.translations', 'quiz.questions'])
             ->get()
             ->map(fn (Level $level) => $this->levelPayload($level, withLessons: true))
             ->all();
@@ -81,7 +82,7 @@ class ContentAdminService
     /** @return array<string, mixed> */
     public function lesson(Lesson $lesson): array
     {
-        $lesson->load('translations');
+        $lesson->load(['translations', 'pages.translations']);
 
         return [
             'id' => $lesson->id,
@@ -100,7 +101,134 @@ class ContentAdminService
                 'summary_points' => $t->summary_points ?? [],
                 'reflection_questions' => $t->reflection_questions ?? [],
             ]]),
+            'pages' => $lesson->pages->map(fn (LessonPage $p) => $this->pagePayload($p))->values()->all(),
         ];
+    }
+
+    /** @return array<string, mixed> */
+    public function pagePayload(LessonPage $page): array
+    {
+        $page->loadMissing('translations');
+
+        return [
+            'id' => $page->id,
+            'lesson_id' => $page->lesson_id,
+            'order' => $page->order,
+            'kind' => $page->kind,
+            'image_url' => $page->imagePublicUrl(),
+            'video_url' => $page->video_url,
+            'correct_index' => $page->correct_index,
+            'translations' => $page->translations->mapWithKeys(fn ($t) => [$t->language => [
+                'title' => $t->title,
+                'body' => $t->body,
+                'choices' => $t->choices ?? [],
+            ]]),
+        ];
+    }
+
+    /** @param array<string, mixed> $data */
+    public function savePage(Lesson $lesson, ?LessonPage $page, array $data): LessonPage
+    {
+        $page = DB::transaction(function () use ($lesson, $page, $data) {
+            $page ??= new LessonPage(['lesson_id' => $lesson->id]);
+            $kind = (string) ($data['kind'] ?? $page->kind ?? LessonPage::KIND_CONTENT);
+            $page->fill([
+                'kind' => $kind,
+                'order' => (int) ($data['order'] ?? $page->order ?? ($lesson->pages()->max('order') + 1)),
+            ]);
+            if (array_key_exists('video_url', $data)) {
+                $video = trim((string) $data['video_url']);
+                $page->video_url = $video === '' ? null : $video;
+            }
+
+            if ($kind === LessonPage::KIND_QUESTION) {
+                $translations = $data['translations'] ?? [];
+                $choiceCount = count($this->lines($translations['fr']['choices'] ?? reset($translations)['choices'] ?? []));
+                $correct = (int) ($data['correct_index'] ?? $page->correct_index ?? 0);
+                if ($choiceCount > 0 && ($correct < 0 || $correct >= $choiceCount)) {
+                    throw ValidationException::withMessages(['correct_index' => ['The correct answer must be one of the choices.']]);
+                }
+                $page->correct_index = $correct;
+            } else {
+                $page->correct_index = null;
+            }
+            $page->save();
+
+            foreach ($data['translations'] ?? [] as $lang => $t) {
+                $page->translations()->updateOrCreate(['language' => $lang], [
+                    'title' => isset($t['title']) && trim((string) $t['title']) !== '' ? trim((string) $t['title']) : null,
+                    'body' => isset($t['body']) && trim((string) $t['body']) !== '' ? (string) $t['body'] : null,
+                    'choices' => $kind === LessonPage::KIND_QUESTION ? $this->lines($t['choices'] ?? []) : null,
+                ]);
+            }
+
+            return $page;
+        });
+
+        $this->changed();
+
+        return $page->fresh(['translations']);
+    }
+
+    public function deletePage(LessonPage $page): void
+    {
+        $this->deleteImageFile($page->image_url);
+        $page->delete();
+        $this->changed();
+    }
+
+    /**
+     * Sets the page order from a full list of the lesson's page ids.
+     *
+     * @param  list<int>  $ids
+     */
+    public function reorderPages(Lesson $lesson, array $ids): void
+    {
+        $known = $lesson->pages()->pluck('id')->all();
+        if (count($ids) !== count($known) || array_diff($known, $ids) !== []) {
+            throw ValidationException::withMessages(['ids' => ['Send every page of this lesson exactly once.']]);
+        }
+
+        DB::transaction(function () use ($ids) {
+            foreach (array_values($ids) as $index => $id) {
+                LessonPage::query()->whereKey($id)->update(['order' => $index + 1]);
+            }
+        });
+        $this->changed();
+    }
+
+    /** Same folder and rules as lesson images. */
+    public function savePageImage(LessonPage $page, UploadedFile $file): LessonPage
+    {
+        $old = $page->image_url;
+        $page->forceFill(['image_url' => $this->storeImage($file, 'page-'.$page->id)])->save();
+        $this->deleteImageFile($old);
+        $this->changed();
+
+        return $page;
+    }
+
+    public function removePageImage(LessonPage $page): LessonPage
+    {
+        $this->deleteImageFile($page->image_url);
+        $page->forceFill(['image_url' => null])->save();
+        $this->changed();
+
+        return $page;
+    }
+
+    /** Moves an upload into public/uploads/lessons and returns its public path. */
+    private function storeImage(UploadedFile $file, string $prefix): string
+    {
+        $dir = public_path(self::IMAGE_DIR);
+        if (! is_dir($dir)) {
+            mkdir($dir, 0755, true);
+        }
+
+        $name = $prefix.'-'.Str::lower(Str::random(10)).'.'.($file->guessExtension() ?: 'jpg');
+        $file->move($dir, $name);
+
+        return '/'.self::IMAGE_DIR.'/'.$name;
     }
 
     /** @param array<string, mixed> $data */
@@ -153,6 +281,9 @@ class ContentAdminService
     public function deleteLesson(Lesson $lesson): void
     {
         $this->deleteImageFile($lesson->image_url);
+        foreach ($lesson->pages()->pluck('image_url') as $path) {
+            $this->deleteImageFile($path);
+        }
         $lesson->delete();
         $this->changed();
     }
@@ -160,16 +291,8 @@ class ContentAdminService
     /** Saves the file under public/uploads/lessons and replaces any old image. */
     public function saveLessonImage(Lesson $lesson, UploadedFile $file): Lesson
     {
-        $dir = public_path(self::IMAGE_DIR);
-        if (! is_dir($dir)) {
-            mkdir($dir, 0755, true);
-        }
-
-        $name = 'lesson-'.$lesson->id.'-'.Str::lower(Str::random(10)).'.'.($file->guessExtension() ?: 'jpg');
-        $file->move($dir, $name);
-
         $old = $lesson->image_url;
-        $lesson->forceFill(['image_url' => '/'.self::IMAGE_DIR.'/'.$name])->save();
+        $lesson->forceFill(['image_url' => $this->storeImage($file, 'lesson-'.$lesson->id)])->save();
         $this->deleteImageFile($old);
         $this->changed();
 
@@ -290,6 +413,7 @@ class ContentAdminService
             $data['lessons'] = $level->lessons->map(fn (Lesson $l) => [
                 'id' => $l->id,
                 'code' => $l->code,
+                'pages_count' => $l->pages_count ?? null,
                 'type' => $l->type instanceof \BackedEnum ? $l->type->value : $l->type,
                 'order' => $l->order,
                 'title' => $l->translations->mapWithKeys(fn ($t) => [$t->language => $t->title]),

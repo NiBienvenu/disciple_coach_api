@@ -1,0 +1,274 @@
+{
+  "code": "5TT05",
+  "order": 5,
+  "type": "main",
+  "title": {
+    "fr": "Procédure pour un atelier de contrôle",
+    "en": "Procedure for a checking workshop",
+    "rn": "Uburyo bw'inama y'igenzura"
+  },
+  "pages": [
+    {
+      "image": "training",
+      "video_url": null,
+      "title": {
+        "fr": "S'exercer à évaluer",
+        "en": "Practicing how to check",
+        "rn": "Kumenyerera kugenzura"
+      },
+      "body": {
+        "fr": "Dans cette leçon, les formateurs s'exercent à **évaluer**, en observant et en critiquant une simulation.\n\nUn atelier de contrôle n'est pas un long cours. C'est un moment pour **pratiquer** une technique et recevoir un contrôle qui édifie, afin que chacun devienne capable.",
+        "en": "In this lesson, trainers practice how to **check** others, by watching and reviewing a simulation.\n\nA checking workshop is not a long class. It is a time to **practice** a skill and receive checking that builds up, so that everyone becomes able.",
+        "rn": "Muri iki cigwa, abamenyereza baramenyerera **kugenzura**, mu kwitegereza no gusuzuma ukwigana.\n\nInama y'igenzura ntabwo ari icigwa kirekire: ni akanya ko **kumenyerera** igikorwa no kwakira igenzura ryubaka, kugira uwo ari we wese ashobore."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Ce que vous allez apprendre",
+        "en": "What you will learn",
+        "rn": "Ivyo uza kwiga"
+      },
+      "body": {
+        "fr": "Ce cours vous aidera à :\n\n- Mieux comprendre la procédure à suivre dans une simulation.\n- Mieux comprendre le rôle du formateur pendant une simulation.\n- Préparer et diriger un atelier de contrôle.\n- Évaluer un autre formateur dans une situation simulée.",
+        "en": "This lesson will help you:\n\n- Better understand the steps to follow in a simulation.\n- Better understand the trainer's role during a simulation.\n- Prepare and lead a checking workshop.\n- Evaluate another trainer in a simulated situation.",
+        "rn": "Iki cigwa kizogufasha:\n\n- Gutahura neza intambwe zo gukurikiza mu kwigana.\n- Gutahura neza uruhara rw'umumenyereza mu gihe c'ukwigana.\n- Gutegura no kurongora inama y'igenzura.\n- Kugenzura uwundi mumenyereza mu kwigana."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Révision : la simulation",
+        "en": "Review: simulation",
+        "rn": "Gusubiramwo: ukwigana"
+      },
+      "body": {
+        "fr": "**Qui utilise la simulation pour former ?** L'aérospatiale, l'aviation, la police, les sports.\n\n**Pourquoi ?** Partout où un haut niveau technique rencontre une situation à haut risque.\n\n**Un avantage pratique ?** Apprendre de ses erreurs là où le risque est faible, et bâtir la confiance.",
+        "en": "**Who uses simulation to train?** Space programs, aviation, the police, sports.\n\n**Why?** Wherever a high level of skill meets a high-risk situation.\n\n**A practical benefit?** Learning from mistakes where the risk is low, and building confidence.",
+        "rn": "**Ni bande bakoresha ukwigana mu kumenyereza?** Abaja mu kirere, abadereva b'indege, abapolisi, abakinyi.\n\n**Kubera iki?** Aho hose ubuhinga buhanitse buhurira n'ibintu biteye akaga.\n\n**Akamaro kabonekeza?** Kwigira ku makosa ahatekanye, no kwubaka ubwizigire."
+      }
+    },
+    {
+      "image": "planning",
+      "video_url": null,
+      "title": {
+        "fr": "La procédure de l'atelier",
+        "en": "The workshop steps",
+        "rn": "Intambwe z'inama"
+      },
+      "body": {
+        "fr": "L'atelier reproduit une vraie séance de contrôle :\n\n1. Choisir un formateur et un stagiaire ; remettre le guide de contrôle.\n2. Le formateur commence et dirige la séance comme dans le réel.\n3. Le formateur évalue le stagiaire ; le stagiaire suit les suggestions.\n4. La classe évalue le formateur avec le formulaire d'évaluation.\n5. On dégage ensemble les principes, puis le formateur refait le contrôle.",
+        "en": "The workshop copies a real checking session:\n\n1. Choose a trainer and a trainee; hand out the checking guide.\n2. The trainer begins and leads the session as in real life.\n3. The trainer checks the trainee; the trainee follows the suggestions.\n4. The class evaluates the trainer using the evaluation form.\n5. Together we draw out the principles, then the trainer does the check again.",
+        "rn": "Inama isubiramwo ikoraniro ry'igenzura nk'uko riba vy'ukuri:\n\n1. Gutora umumenyereza n'umumenyerezwa; gutanga urupapuro rw'igenzura.\n2. Umumenyereza aratangura akarongora ikoraniro nk'aho ari ukuri.\n3. Umumenyereza agenzura umumenyerezwa; umumenyerezwa agakurikiza inama ahawe.\n4. Abari mu cumba bagenzura umumenyereza bakoresheje urupapuro rw'igenzura.\n5. Turaronderera hamwe ingingo ngenderwako, hanyuma umumenyereza akongera igenzura."
+      }
+    },
+    {
+      "image": "small-group",
+      "video_url": null,
+      "title": {
+        "fr": "Se préparer et pratiquer à deux",
+        "en": "Prepare and practice in pairs",
+        "rn": "Kwitegura no kumenyerera babiri babiri"
+      },
+      "body": {
+        "fr": "**Avant l'atelier** :\n\n- Connaître la technique et ses critères.\n- Préparer un exemple qui montre l'essentiel.\n- Prévoir assez de temps pour chaque personne.\n\n**Pendant l'atelier**, tout le monde pratique, pas seulement quelques-uns. L'un fait le travail, l'autre joue la personne qu'on veut atteindre. Puis on échange les rôles.\n\nAprès chaque exercice, donnez à chacun un court contrôle qui édifie : souligner le bien, corriger un point.",
+        "en": "**Before the workshop**:\n\n- Know the skill and its standards.\n- Prepare an example that shows what matters most.\n- Plan enough time for each person.\n\n**During the workshop**, everyone practices, not only a few. One does the work, the other plays the person being reached. Then they switch roles.\n\nAfter each practice, give everyone a short check that builds up: point out the good, correct one thing.",
+        "rn": "**Imbere y'inama**:\n\n- Menya igikorwa n'ibipimo vyaco.\n- Tegura urugero rwerekana ico kizima.\n- Tegura umwanya uhagije ku muntu wese.\n\n**Mu nama**, uwo ari we wese aramenyerera, si bamwe gusa. Umwe akora, uwundi akigana uwo bashaka gushikira. Hanyuma bagahindurana.\n\nNyuma ya buri mwimenyerezo, tanga igenzura rito ryubaka: gushima ivyiza, gukosora kimwe."
+      }
+    },
+    {
+      "image": "love-faith",
+      "video_url": null,
+      "title": {
+        "fr": "L'atmosphère du contrôle",
+        "en": "The climate of checking",
+        "rn": "Ikirere c'igenzura"
+      },
+      "body": {
+        "fr": "Le formateur crée une bonne atmosphère :\n\n- **Confiance et amour** : exprimer sa confiance ; assurer le stagiaire qu'il est aimé et accepté.\n- **Motivation** : motiver à bien faire ; rester enthousiaste et agréable.\n- **Apprentissage** : créer un climat d'apprentissage et d'unité.\n- **Patience et écoute** : être patient, encourageant et attentif aux besoins du stagiaire.\n\n> Veillons les uns sur les autres, pour nous exciter à la charité et aux bonnes œuvres.\n> — Hébreux 10 : 24",
+        "en": "The trainer creates a good climate:\n\n- **Trust and love**: show your trust; assure the trainee that he is loved and accepted.\n- **Motivation**: encourage him to do well; stay joyful and pleasant.\n- **Learning**: build a climate of learning and unity.\n- **Patience and listening**: be patient, encouraging and aware of the trainee's needs.\n\n> And let us consider how we may spur one another on toward love and good deeds.\n> — Hebrews 10:24",
+        "rn": "Umumenyereza ategura ikirere ciza:\n\n- **Ukwizigira n'urukundo**: kwerekana ko umwizigiye; kumwizeza ko akunzwe kandi yakiriwe.\n- **Gutera akanyamuneza**: kumuremesha gukora neza; kuguma ufise umwete n'ubugwaneza.\n- **Ukwiga**: gutegura ikirere c'ukwiga n'ubumwe.\n- **Ukwihangana n'ukwumviriza**: kwihangana, kuremesha no kwitwararika ivyo umumenyerezwa akeneye.\n\n> Twitwararike, tugatererana intege mu rukundo no mu bikorwa vyiza.\n> — Abaheburayo 10 : 24"
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "La séance de contrôle",
+        "en": "The checking session",
+        "rn": "Ikoraniro ry'igenzura"
+      },
+      "body": {
+        "fr": "- **Prière** : commencer et terminer par la prière.\n- **Niveau attendu** : savoir ce qui est contrôlé et dire clairement ce qui est attendu.\n- **Corriger avec soin** : commencer par le positif, puis expliquer ce qui doit être corrigé.\n- **Faire répéter** : seulement la partie à revoir, jusqu'à ce qu'elle soit bien faite.\n- **Contrôler le contenu** : vérifier le contenu, pas seulement la capacité.\n- **Sans embarrasser** : louer de façon réaliste ; ne pas être trop exigeant.",
+        "en": "- **Prayer**: begin and end with prayer.\n- **Expected level**: know what is being checked and say clearly what is expected.\n- **Correct with care**: start with the good, then explain what needs to change.\n- **Have them repeat**: only the part that needs work, until it is done well.\n- **Check the content**: check what is said, not only the skill.\n- **Without embarrassing**: praise honestly; do not ask too much.",
+        "rn": "- **Isengesho**: gutangura no guheraheza mu isengesho.\n- **Urugero rwitezwe**: kumenya ikigenzurwa no kuvuga neza ico witeze.\n- **Gukosora witonze**: gutangura ku ciza, hanyuma ugasigura ico gukosorwa.\n- **Gusubiramwo**: igice kitagenze neza gusa, gushika gikozwe neza.\n- **Kugenzura ibirimwo**: kuraba ivyo avuga, si ubuhinga gusa.\n- **Ata gutera isoni**: gushima mu kuri; ntusabe ibirenze."
+      }
+    },
+    {
+      "image": "prayer",
+      "video_url": null,
+      "title": {
+        "fr": "Bien conclure",
+        "en": "Ending well",
+        "rn": "Gusozera neza"
+      },
+      "body": {
+        "fr": "L'atelier se termine par un **engagement** : chacun sait quel travail il va faire en vrai, où et quand.\n\nAucune méthode ne remplace la dépendance du **Saint-Esprit**. C'est lui qui change les capacités en vie et en action.\n\n> Si l'Éternel ne bâtit la maison, ceux qui la bâtissent travaillent en vain.\n> — Psaume 127 : 1",
+        "en": "The workshop ends with a **commitment**: each person knows what work they will do for real, where and when.\n\nNo method replaces depending on the **Holy Spirit**. He is the one who turns skills into life and action.\n\n> Unless the Lord builds the house, the builders labor in vain.\n> — Psalm 127:1",
+        "rn": "Inama irangira ku **kwiyemeza**: uwo ari we wese amenya igikorwa azokora vy'ukuri, hamwe n'aho n'igihe.\n\nNta buhinga bwo kurongora bwisumbako ukwishimikiza **Mpwemu Yera**: ni we ahindura ubushobozi bube ubuzima mu bikorwa.\n\n> Uhoraho niyaba atubatse inzu, abayubaka baba bariko baruhira ubusa.\n> — Zaburi 127 : 1"
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "En résumé",
+        "en": "In summary",
+        "rn": "Mu ncamake"
+      },
+      "body": {
+        "fr": "- **Observer** : reproduire une séance et repérer ensemble ce qui peut être amélioré.\n- **Dégager** : les principes de l'atmosphère et de la séance de contrôle.\n- **Pratiquer** : chacun, deux par deux ; chaque formateur évalue à son tour, puis répète.\n- **Conclure** : par un engagement clair, en comptant sur l'Esprit.",
+        "en": "- **Observe**: copy a session and find together what can be improved.\n- **Draw out**: the principles of the climate and of the checking session.\n- **Practice**: everyone, in pairs; each trainer checks in turn, then repeats.\n- **End**: with a clear commitment, relying on the Spirit.",
+        "rn": "- **Kwitegereza**: gusubiramwo ikoraniro no kuronderera hamwe ivyokwunganirwa.\n- **Kuronderera**: ingingo z'ikirere n'ikoraniro ry'igenzura.\n- **Kumenyerera**: uwo ari we wese, babiri babiri; umumenyereza wese agenzura ku ruhara rwiwe, hanyuma akongera.\n- **Gusozera**: ku kwiyemeza gutomoye, twishimikiza Mpwemu."
+      }
+    },
+    {
+      "image": null,
+      "video_url": null,
+      "title": {
+        "fr": "Réfléchissez",
+        "en": "Reflect",
+        "rn": "Zirikana"
+      },
+      "body": {
+        "fr": "- Dans mes ateliers, est-ce que tout le monde pratique, ou seulement quelques-uns ?\n- Mon contrôle édifie-t-il ? Est-ce que je souligne le bien avant de corriger ?\n- Mes ateliers se terminent-ils par un engagement clair ?",
+        "en": "- In my workshops, does everyone practice, or only a few?\n- Does my checking build up? Do I point out the good before correcting?\n- Do my workshops end with a clear commitment?",
+        "rn": "- Mu nama zanje, uwo ari we wese aramenyerera, canke bamwe gusa?\n- Igenzura ryanje ryubaka? Rishemeza imbere yo gukosora?\n- Inama zanje zirangira ku kwiyemeza gutomoye?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": {
+        "fr": "Qu'est-ce qu'un atelier de contrôle ?",
+        "en": "What is a checking workshop?",
+        "rn": "Inama y'igenzura ni iki?"
+      },
+      "choices": [
+        {
+          "fr": "Un long cours magistral",
+          "en": "A long lecture",
+          "rn": "Icigwa kirekire"
+        },
+        {
+          "fr": "Un moment pour pratiquer et recevoir un contrôle qui édifie",
+          "en": "A time to practice and receive checking that builds up",
+          "rn": "Akanya ko kumenyerera no kwakira igenzura ryubaka"
+        },
+        {
+          "fr": "Un examen final",
+          "en": "A final exam",
+          "rn": "Ikibazo ca nyuma"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "fr": "L'atelier sert à pratiquer pour que chacun devienne capable.",
+        "en": "The workshop is for practice, so that everyone becomes able.",
+        "rn": "Inama ni iyo kumenyerera kugira uwo ari we wese ashobore."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Qui doit pratiquer pendant l'atelier ?",
+        "en": "Who should practice during the workshop?",
+        "rn": "Ni bande bamenyerera mu nama?"
+      },
+      "choices": [
+        {
+          "fr": "Tout le monde, deux par deux",
+          "en": "Everyone, in pairs",
+          "rn": "Uwo ari we wese, babiri babiri"
+        },
+        {
+          "fr": "Seulement les meilleurs",
+          "en": "Only the best ones",
+          "rn": "Abashoboye kuruta gusa"
+        },
+        {
+          "fr": "Seulement le formateur",
+          "en": "Only the trainer",
+          "rn": "Umumenyereza gusa"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "fr": "Tout le monde pratique, puis on échange les rôles.",
+        "en": "Everyone practices, then they switch roles.",
+        "rn": "Uwo ari we wese aramenyerera, hanyuma bagahindurana."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Que faut-il faire répéter au stagiaire ?",
+        "en": "What should the trainee repeat?",
+        "rn": "Umumenyerezwa asubiramwo iki?"
+      },
+      "choices": [
+        {
+          "fr": "Toute la présentation, plusieurs fois",
+          "en": "The whole presentation, many times",
+          "rn": "Ikiyago cose, incuro nyinshi"
+        },
+        {
+          "fr": "Rien, il suffit d'expliquer",
+          "en": "Nothing, explaining is enough",
+          "rn": "Nta na kimwe, gusigura birahagije"
+        },
+        {
+          "fr": "Seulement la partie à revoir",
+          "en": "Only the part that needs work",
+          "rn": "Igice kitagenze neza gusa"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "fr": "On fait répéter seulement la partie à revoir, jusqu'à ce qu'elle soit bien faite.",
+        "en": "Only the part that needs work is repeated, until it is done well.",
+        "rn": "Hasubirwamwo igice kitagenze neza gusa, gushika gikozwe neza."
+      }
+    },
+    {
+      "prompt": {
+        "fr": "Comment l'atelier doit-il se terminer ?",
+        "en": "How should the workshop end?",
+        "rn": "Inama irangira gute?"
+      },
+      "choices": [
+        {
+          "fr": "Par un engagement clair : quoi, où et quand",
+          "en": "With a clear commitment: what, where and when",
+          "rn": "Ku kwiyemeza gutomoye: iki, he n'igihe"
+        },
+        {
+          "fr": "Par une liste de toutes les erreurs",
+          "en": "With a list of all the mistakes",
+          "rn": "Ku rutonde rw'amakosa yose"
+        },
+        {
+          "fr": "Sans conclusion",
+          "en": "With no ending",
+          "rn": "Ata gusozera"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "fr": "Chacun repart en sachant quel travail il fera, où et quand.",
+        "en": "Each person leaves knowing what work they will do, where and when.",
+        "rn": "Uwo ari we wese agenda azi igikorwa azokora, aho n'igihe."
+      }
+    }
+  ]
+}
