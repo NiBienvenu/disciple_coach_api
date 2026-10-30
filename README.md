@@ -1,3 +1,49 @@
+# DiscipleCoach API
+
+## Mise en route (équipe)
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --force   # crée aussi les rôles, l'admin et le programme
+```
+
+### Clé Firebase pour les notifications
+
+La clé de compte de service n'est pas dans le dépôt, et ne doit jamais y
+entrer : c'est un mot de passe qui ouvre le projet Firebase.
+
+1. Demandez le fichier à un membre de l'équipe (gestionnaire de mots de
+   passe ou canal privé), ou générez le vôtre dans la console Firebase :
+   Paramètres du projet > Comptes de service > Générer une nouvelle clé privée.
+2. Rangez-le hors du dossier public, par exemple
+   `storage/app/firebase-service-account.json`.
+3. Donnez son chemin dans `.env` :
+
+```
+FCM_CREDENTIALS=/chemin/absolu/vers/firebase-service-account.json
+```
+
+Sans cette variable, le code retombe sur `public/app/firebase-service-account.json`,
+qui est protégé par un `.htaccess`. Ne supprimez pas ce `.htaccess` : sans lui,
+n'importe qui peut télécharger la clé depuis le site.
+
+### Déploiement
+
+```bash
+git pull origin develop
+composer install --no-dev -o
+php artisan optimize:clear
+php artisan migrate --force
+php artisan config:cache && php artisan route:cache
+```
+
+Vérification rapide : `GET /api/v1/curriculum/revision` doit renvoyer un
+numéro. Un 404 veut dire que le serveur tourne encore sur l'ancien code.
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
