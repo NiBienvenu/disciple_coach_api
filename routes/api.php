@@ -79,6 +79,7 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
     Route::post('/invites', [InviteController::class, 'store'])->name('invites.store');
     Route::post('/invites/{code}/redeem', [InviteController::class, 'redeem'])->name('invites.redeem');
 
+    Route::get('/me/chat-summary', [RelationshipMessageController::class, 'summary'])->name('me.chat-summary');
     Route::get('/relationships', [RelationshipController::class, 'index'])->name('relationships.index');
     Route::get('/relationships/{relationship}', [RelationshipController::class, 'show'])->name('relationships.show');
     Route::post('/relationships/{relationship}/end', [RelationshipController::class, 'end'])->name('relationships.end');

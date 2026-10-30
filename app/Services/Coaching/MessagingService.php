@@ -2,6 +2,7 @@
 
 namespace App\Services\Coaching;
 
+use App\Enums\RelationshipStatus;
 use App\Models\CoachDiscipleRelationship;
 use App\Models\RelationshipMessage;
 use App\Models\User;
@@ -96,6 +97,35 @@ class MessagingService
         }
 
         return $message;
+    }
+
+    /**
+     * Tiny payload the app polls (and re-reads on each push) to know if any
+     * chat changed: unread count and newest message id per relationship.
+     *
+     * @return array{unread_total: int, relationships: list<array{id: int, unread_count: int, last_message_id: int|null}>}
+     */
+    public function summary(User $user): array
+    {
+        $rows = CoachDiscipleRelationship::query()
+            ->forUser($user)
+            ->where('status', '!=', RelationshipStatus::Ended)
+            ->withCount(['messages as unread_count' => fn ($q) => $q
+                ->where('sender_id', '!=', $user->id)
+                ->whereNull('read_at')])
+            ->withMax('messages as last_message_id', 'id')
+            ->get(['id']);
+
+        $items = $rows->map(fn (CoachDiscipleRelationship $r) => [
+            'id' => $r->id,
+            'unread_count' => (int) $r->unread_count,
+            'last_message_id' => $r->last_message_id !== null ? (int) $r->last_message_id : null,
+        ])->values()->all();
+
+        return [
+            'unread_total' => array_sum(array_column($items, 'unread_count')),
+            'relationships' => $items,
+        ];
     }
 
     public function markRead(CoachDiscipleRelationship $relationship, User $reader): CoachDiscipleRelationship

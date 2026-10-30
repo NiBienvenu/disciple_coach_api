@@ -21,6 +21,11 @@ class RelationshipMessageController extends Controller
         private readonly RelationshipMessagePolicy $policy,
     ) {}
 
+    public function summary(Request $request): JsonResponse
+    {
+        return ApiResponse::success($this->messaging->summary($request->user()));
+    }
+
     public function index(Request $request, CoachDiscipleRelationship $relationship): JsonResponse
     {
         if (! $this->policy->viewAny($request->user(), $relationship)) {

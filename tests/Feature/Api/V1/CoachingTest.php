@@ -139,9 +139,16 @@ class CoachingTest extends TestCase
             ->assertJsonPath('data.0.last_message.body', 'Vous êtes là ?')
             ->assertJsonPath('data.0.last_message.sender_id', $this->disciple->id);
 
+        $this->getJson('/api/v1/me/chat-summary')->assertOk()
+            ->assertJsonPath('data.unread_total', 2)
+            ->assertJsonPath('data.relationships.0.id', $relationship->id)
+            ->assertJsonPath('data.relationships.0.unread_count', 2);
+
         $this->postJson('/api/v1/relationships/'.$relationship->id.'/read')->assertOk();
         $this->getJson('/api/v1/relationships')->assertOk()
             ->assertJsonPath('data.0.unread_count', 0);
+        $this->getJson('/api/v1/me/chat-summary')->assertOk()
+            ->assertJsonPath('data.unread_total', 0);
     }
 
     public function test_disciple_cannot_see_private_coach_note(): void
