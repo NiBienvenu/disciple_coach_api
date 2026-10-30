@@ -206,6 +206,16 @@ class ContentAdminService
             ->map(fn (QuizQuestion $q) => $this->questionPayload($q))->all();
     }
 
+    /** @return array{pass_percent: int} */
+    public function saveQuizSettings(Level $level, int $passPercent): array
+    {
+        $quiz = Quiz::query()->firstOrCreate(['level_id' => $level->id], ['status' => ContentStatus::Published]);
+        $quiz->update(['pass_percent' => $passPercent]);
+        $this->changed();
+
+        return ['pass_percent' => $quiz->passPercent()];
+    }
+
     /** @param array<string, mixed> $data */
     public function saveQuestion(Level $level, ?QuizQuestion $question, array $data): QuizQuestion
     {

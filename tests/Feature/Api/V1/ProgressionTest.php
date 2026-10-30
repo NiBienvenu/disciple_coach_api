@@ -112,10 +112,13 @@ class ProgressionTest extends TestCase
             ],
         ]);
 
+        // 50% is under the default 80% pass mark: back to the disciple.
         $response->assertCreated()
             ->assertJsonPath('success', true)
             ->assertJsonPath('data.score', 0.5)
-            ->assertJsonPath('data.mentor_status', MentorReviewStatus::Pending->value)
+            ->assertJsonPath('data.pass_percent', 80)
+            ->assertJsonPath('data.passed', false)
+            ->assertJsonPath('data.mentor_status', MentorReviewStatus::ChangesRequested->value)
             ->assertJsonPath('data.advancement_approved', false);
 
         $this->assertDatabaseHas('quiz_attempts', [
@@ -125,6 +128,60 @@ class ProgressionTest extends TestCase
         ]);
 
         $this->assertDatabaseCount('quiz_answers', 2);
+    }
+
+    public function test_passing_score_goes_to_coach_review(): void
+    {
+        Sanctum::actingAs($this->disciple);
+        $this->completeAllLessons($this->level1);
+
+        $this->getJson('/api/v1/levels/'.$this->level1->id.'/quiz')
+            ->assertOk()->assertJsonPath('data.pass_percent', 80);
+
+        $this->postJson('/api/v1/levels/'.$this->level1->id.'/quiz-attempts', [
+            'answers' => $this->correctAnswersForQuiz($this->quiz1),
+        ])->assertCreated()
+            ->assertJsonPath('data.passed', true)
+            ->assertJsonPath('data.mentor_status', MentorReviewStatus::Pending->value);
+
+        $this->assertDatabaseHas('level_progress', [
+            'user_id' => $this->disciple->id,
+            'level_id' => $this->level1->id,
+            'status' => LevelProgressStatus::CoachReview->value,
+        ]);
+    }
+
+    public function test_failed_quiz_stays_with_disciple_and_admin_can_change_pass_mark(): void
+    {
+        Sanctum::actingAs($this->disciple);
+        $this->completeAllLessons($this->level1);
+
+        $wrong = [
+            ['question_id' => $this->question1->id, 'selected_index' => 1],
+            ['question_id' => $this->question2->id, 'selected_index' => 0],
+        ];
+        $this->postJson('/api/v1/levels/'.$this->level1->id.'/quiz-attempts', ['answers' => $wrong])
+            ->assertCreated()->assertJsonPath('data.passed', false);
+        $this->assertDatabaseHas('level_progress', [
+            'user_id' => $this->disciple->id,
+            'level_id' => $this->level1->id,
+            'status' => LevelProgressStatus::QuizPending->value,
+        ]);
+
+        $admin = User::factory()->create();
+        $admin->assignRole(AppRole::Admin->value);
+        Sanctum::actingAs($admin);
+        $this->patchJson('/api/v1/admin/content/levels/'.$this->level1->id.'/quiz', ['pass_percent' => 50])
+            ->assertOk()->assertJsonPath('data.pass_percent', 50);
+        $this->patchJson('/api/v1/admin/content/levels/'.$this->level1->id.'/quiz', ['pass_percent' => 0])
+            ->assertUnprocessable();
+
+        // Same 50% now passes.
+        Sanctum::actingAs($this->disciple);
+        $this->postJson('/api/v1/levels/'.$this->level1->id.'/quiz-attempts', ['answers' => $wrong])
+            ->assertCreated()
+            ->assertJsonPath('data.passed', true)
+            ->assertJsonPath('data.mentor_status', MentorReviewStatus::Pending->value);
     }
 
     public function test_coach_approve_unlocks_next_level(): void
@@ -249,7 +306,7 @@ class ProgressionTest extends TestCase
                 ['question_id' => $this->question2->id, 'selected_index' => 0],
             ],
         ])->assertCreated()
-            ->assertJsonPath('data.mentor_status', MentorReviewStatus::Pending->value)
+            ->assertJsonPath('data.mentor_status', MentorReviewStatus::ChangesRequested->value)
             ->assertJsonPath('data.advancement_approved', true)
             ->assertJsonPath('data.score', 0);
 

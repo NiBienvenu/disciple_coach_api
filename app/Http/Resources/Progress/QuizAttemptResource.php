@@ -35,6 +35,10 @@ class QuizAttemptResource extends JsonResource
                 : $this->mentor_status,
             'mentor_feedback' => $this->mentor_feedback,
             'advancement_approved' => (bool) $this->advancement_approved,
+            'pass_percent' => $this->whenLoaded('quiz', fn () => $this->quiz?->passPercent()),
+            'passed' => $this->whenLoaded('quiz', fn () => $this->quiz === null || $this->score === null
+                ? null
+                : $this->quiz->isPassing((float) $this->score)),
             'submitted_at' => $this->submitted_at?->toIso8601String(),
             'decided_at' => $this->decided_at?->toIso8601String(),
             'advancement_approved_at' => $this->advancement_approved_at?->toIso8601String(),

@@ -22,6 +22,7 @@ class QuizResource extends JsonResource
             'id' => $this->id,
             'level_id' => $this->level_id,
             'status' => $this->status instanceof \BackedEnum ? $this->status->value : $this->status,
+            'pass_percent' => $this->passPercent(),
             'questions' => $this->whenLoaded('questions', function () {
                 return $this->questions->map(function ($question) {
                     $translation = $question->translationFor($this->language);

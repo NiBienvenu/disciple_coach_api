@@ -40,8 +40,10 @@ class QuizAttemptController extends Controller
             $request->answers(),
         );
 
+        // Below the pass mark there is nothing for the coach to review yet.
+        $passed = $attempt->quiz === null || $attempt->quiz->isPassing((float) $attempt->score);
         $relationship = $this->progression->activeRelationshipForDisciple($request->user());
-        if ($relationship !== null) {
+        if ($passed && $relationship !== null) {
             $this->push->notify($relationship->coach, ['fr' => 'Quiz à corriger', 'en' => 'Quiz to review'], ['fr' => "{$request->user()->name} a terminé un quiz de niveau.", 'en' => "{$request->user()->name} finished a level quiz."], [
                 'type' => 'quiz_submitted',
                 'attempt_id' => $attempt->id,
@@ -51,7 +53,7 @@ class QuizAttemptController extends Controller
         }
 
         return ApiResponse::success(
-            new QuizAttemptResource($attempt->load(['answers', 'level'])),
+            new QuizAttemptResource($attempt->load(['answers', 'level', 'quiz'])),
             status: 201,
         );
     }

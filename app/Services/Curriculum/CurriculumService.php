@@ -202,7 +202,7 @@ class CurriculumService
             CacheKey::quiz('level', (string) $level->id, 'lang', $language),
             function () use ($level, $language) {
                 $quiz = Quiz::query()
-                    ->select(['id', 'level_id', 'status'])
+                    ->select(['id', 'level_id', 'status', 'pass_percent'])
                     ->where('level_id', $level->id)
                     ->where('status', ContentStatus::Published)
                     ->with([

@@ -165,6 +165,7 @@ class DashboardService
             ->with([
                 'answers.question.translations' => fn ($q) => $q->where('language', $lang),
                 'level:id,slug,order',
+                'quiz:id,pass_percent',
             ])
             ->orderByDesc('submitted_at')
             ->get();

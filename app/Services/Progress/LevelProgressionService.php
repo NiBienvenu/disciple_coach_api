@@ -270,6 +270,9 @@ class LevelProgressionService
             }
 
             $score = round($correctCount / $questionsById->count(), 4);
+            // Under the pass mark the disciple retakes the quiz; only a
+            // passing attempt goes to the coach for review.
+            $passed = $quiz->isPassing($score);
 
             /** @var QuizAttempt $attempt */
             $attempt = QuizAttempt::query()->firstOrNew([
@@ -284,9 +287,9 @@ class LevelProgressionService
                 'quiz_id' => $quiz->id,
                 'coach_id' => $relationship?->coach_id ?? $attempt->coach_id,
                 'relationship_id' => $relationship?->id ?? $attempt->relationship_id,
-                'status' => QuizAttemptStatus::Submitted,
+                'status' => $passed ? QuizAttemptStatus::Submitted : QuizAttemptStatus::Rejected,
                 'score' => $score,
-                'mentor_status' => MentorReviewStatus::Pending,
+                'mentor_status' => $passed ? MentorReviewStatus::Pending : MentorReviewStatus::ChangesRequested,
                 'submitted_at' => now(),
                 // Retake never clears the one-way advancement ratchet.
                 'advancement_approved' => $wasAdvancementApproved,
@@ -317,8 +320,8 @@ class LevelProgressionService
                         'level_id' => $level->id,
                     ],
                     [
-                        'status' => LevelProgressStatus::CoachReview,
-                        'completed_at' => now(),
+                        'status' => $passed ? LevelProgressStatus::CoachReview : LevelProgressStatus::QuizPending,
+                        'completed_at' => $passed ? now() : null,
                     ],
                 );
             }

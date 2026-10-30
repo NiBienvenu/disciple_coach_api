@@ -130,6 +130,7 @@ Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {
         Route::post('/content/lessons/{lesson}/image', [ContentAdminController::class, 'storeLessonImage'])->name('admin.content.lessons.image.store');
         Route::delete('/content/lessons/{lesson}/image', [ContentAdminController::class, 'destroyLessonImage'])->name('admin.content.lessons.image.destroy');
         Route::get('/content/levels/{level}/quiz', [ContentAdminController::class, 'quiz'])->name('admin.content.quiz');
+        Route::patch('/content/levels/{level}/quiz', [ContentAdminController::class, 'updateQuizSettings'])->name('admin.content.quiz.update');
         Route::post('/content/levels/{level}/quiz/questions', [ContentAdminController::class, 'storeQuestion'])->name('admin.content.questions.store');
         Route::patch('/content/quiz-questions/{question}', [ContentAdminController::class, 'updateQuestion'])->name('admin.content.questions.update');
         Route::delete('/content/quiz-questions/{question}', [ContentAdminController::class, 'destroyQuestion'])->name('admin.content.questions.destroy');

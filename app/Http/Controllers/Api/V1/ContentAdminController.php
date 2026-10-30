@@ -87,6 +87,15 @@ class ContentAdminController extends Controller
         return ApiResponse::success($this->content->quiz($level));
     }
 
+    public function updateQuizSettings(Request $request, Level $level): JsonResponse
+    {
+        $data = $request->validate([
+            'pass_percent' => ['required', 'integer', 'min:1', 'max:100'],
+        ]);
+
+        return ApiResponse::success($this->content->saveQuizSettings($level, (int) $data['pass_percent']));
+    }
+
     public function storeQuestion(Request $request, Level $level): JsonResponse
     {
         $q = $this->content->saveQuestion($level, null, $this->validateQuestion($request, creating: true));

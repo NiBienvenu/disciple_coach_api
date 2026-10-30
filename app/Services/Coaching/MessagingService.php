@@ -67,8 +67,13 @@ class MessagingService
                 'body' => $body,
             ]);
 
+            // The sender has seen their own message: it never counts as new.
+            $lastRead = $relationship->last_read_at ?? [];
+            $lastRead[(string) $sender->id] = $message->created_at->toIso8601String();
+
             $relationship->update([
                 'last_message_at' => $message->created_at,
+                'last_read_at' => $lastRead,
             ]);
 
             return $message;
