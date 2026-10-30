@@ -23,6 +23,14 @@ class RelationshipResource extends JsonResource
             'ended_at' => $this->ended_at?->toIso8601String(),
             'last_message_at' => $this->last_message_at?->toIso8601String(),
             'last_read_at' => $this->last_read_at ?? (object) [],
+            'unread_count' => $this->when($this->unread_count !== null, fn () => (int) $this->unread_count),
+            'last_message' => $this->whenLoaded('latestMessage', fn () => $this->latestMessage === null ? null : [
+                'id' => $this->latestMessage->id,
+                'sender_id' => $this->latestMessage->sender_id,
+                'body' => $this->latestMessage->body,
+                'read_at' => $this->latestMessage->read_at?->toIso8601String(),
+                'created_at' => $this->latestMessage->created_at?->toIso8601String(),
+            ]),
             'coach' => $this->whenLoaded('coach', fn () => $this->coach === null ? null : [
                 'id' => $this->coach->id,
                 'name' => $this->coach->name,

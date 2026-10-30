@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class CoachDiscipleRelationship extends Model
 {
@@ -61,6 +62,12 @@ class CoachDiscipleRelationship extends Model
     public function messages(): HasMany
     {
         return $this->hasMany(RelationshipMessage::class, 'relationship_id');
+    }
+
+    /** Newest message, for the chat list preview. */
+    public function latestMessage(): HasOne
+    {
+        return $this->hasOne(RelationshipMessage::class, 'relationship_id')->latestOfMany();
     }
 
     public function notes(): HasMany

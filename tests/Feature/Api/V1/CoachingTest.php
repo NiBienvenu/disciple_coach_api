@@ -120,6 +120,30 @@ class CoachingTest extends TestCase
         $this->assertDatabaseCount('relationship_messages', 35);
     }
 
+    public function test_chat_list_shows_last_message_and_unread_count(): void
+    {
+        $relationship = $this->createActiveRelationship();
+
+        Sanctum::actingAs($this->disciple);
+        foreach (['Bonjour', 'Vous êtes là ?'] as $body) {
+            $this->postJson('/api/v1/relationships/'.$relationship->id.'/messages', ['body' => $body])
+                ->assertCreated();
+        }
+        // The sender has nothing unread.
+        $this->getJson('/api/v1/relationships')->assertOk()
+            ->assertJsonPath('data.0.unread_count', 0);
+
+        Sanctum::actingAs($this->coach);
+        $this->getJson('/api/v1/relationships')->assertOk()
+            ->assertJsonPath('data.0.unread_count', 2)
+            ->assertJsonPath('data.0.last_message.body', 'Vous êtes là ?')
+            ->assertJsonPath('data.0.last_message.sender_id', $this->disciple->id);
+
+        $this->postJson('/api/v1/relationships/'.$relationship->id.'/read')->assertOk();
+        $this->getJson('/api/v1/relationships')->assertOk()
+            ->assertJsonPath('data.0.unread_count', 0);
+    }
+
     public function test_disciple_cannot_see_private_coach_note(): void
     {
         $relationship = $this->createActiveRelationship();
