@@ -3,8 +3,8 @@
   "order": 3,
   "type": "main",
   "title": {
-    "fr": "Les éléments de base du contrôle",
-    "en": "The basic elements of checking",
+    "fr": "Bien faire un contrôle",
+    "en": "How to check someone's work well",
     "rn": "Ibice nshingiro vy'igenzura"
   },
   "pages": [
@@ -12,13 +12,13 @@
       "image": "mentor",
       "video_url": null,
       "title": {
-        "fr": "Aider à progresser",
-        "en": "Helping people grow",
+        "fr": "Regarder pour aider",
+        "en": "Watching in order to help",
         "rn": "Gufasha gutera imbere"
       },
       "body": {
-        "fr": "Dans cette leçon, vous allez comprendre ce qu'est le **contrôle** et quelles sont ses parties.\n\nLe but : aider vos stagiaires à progresser dans leur ministère.\n\nUn bon contrôle reflète notre engagement envers l'**excellence**. Ce n'est pas un simple règlement ni un fardeau. Il vise un ministère fructueux et de futurs leaders.",
-        "en": "In this lesson you will understand what **checking** is and what its parts are.\n\nThe goal: to help your trainees grow in their ministry.\n\nGood checking shows our commitment to **excellence**. It is not just a rule or a burden. It aims at a fruitful ministry and future leaders.",
+        "fr": "Cette leçon parle du **contrôle** : ce que c'est, et comment il se déroule.\n\nSon but est simple. Il aide vos stagiaires à progresser dans leur ministère.\n\nUn contrôle bien fait montre que nous prenons l'excellence au sérieux. Ce n'est ni un règlement de plus ni un poids sur les épaules. Il sert à bâtir un ministère qui porte du fruit, et à préparer les leaders de demain.",
+        "en": "This lesson is about **checking**: what it is, and how it works.\n\nIts purpose is simple. It helps your trainees grow in their ministry.\n\nChecking done well shows that we take excellence seriously. It is not one more rule or a weight on anyone's shoulders. It helps build a ministry that bears fruit, and it prepares tomorrow's leaders.",
         "rn": "Muri iki cigwa, uzotahura ico **igenzura** ari co n'ibice birigize.\n\nIntumbero: gufasha abamenyerezwa gutera imbere mu gikorwa cabo.\n\nIgenzura ryiza ryerekana ko twiyemeje kuba **indashikirwa**. Si itegeko gusa, si n'umutwaro. Riraronderera igikorwa kirangwa n'ivyamwa n'abarongozi b'ejo."
       }
     },
@@ -26,13 +26,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Ce que vous allez apprendre",
-        "en": "What you will learn",
+        "fr": "Ce que vous saurez faire",
+        "en": "What you will be able to do",
         "rn": "Ivyo uza kwiga"
       },
       "body": {
-        "fr": "Ce cours vous aidera à :\n\n- Comprendre ce qu'est le contrôle.\n- Connaître les quatre étapes du contrôle.\n- Donner un contrôle qui édifie.\n- Éviter les pièges courants du contrôle.",
-        "en": "This lesson will help you:\n\n- Understand what checking is.\n- Know the four steps of checking.\n- Give checking that builds up.\n- Avoid the common traps of checking.",
+        "fr": "À la fin de ce cours, vous saurez dire ce qu'est un contrôle et en nommer les quatre étapes.\n\nVous saurez aussi donner un contrôle qui fait grandir la personne au lieu de l'abattre, et repérer les pièges dans lesquels on tombe souvent.",
+        "en": "By the end of this lesson, you will be able to say what checking is and name its four steps.\n\nYou will also know how to give a check that helps a person grow instead of knocking them down, and how to spot the traps people often fall into.",
         "rn": "Iki cigwa kizogufasha:\n\n- Gutahura ico igenzura ari co.\n- Kumenya intambwe zine z'igenzura.\n- Gutanga igenzura ryubaka.\n- Kwirinda imitego imenyerewe mu igenzura."
       }
     },
@@ -40,13 +40,13 @@
       "image": "teaching",
       "video_url": null,
       "title": {
-        "fr": "Qu'est-ce que le contrôle ?",
-        "en": "What is checking?",
+        "fr": "Observer, puis aider",
+        "en": "Watch, then help",
         "rn": "Igenzura ni iki?"
       },
       "body": {
-        "fr": "Contrôler, c'est **observer** une personne pendant qu'elle fait le travail, puis l'aider à progresser.\n\nLe but n'est pas de **juger**, mais d'**édifier**.\n\nComme un athlète, le disciple grandit en s'exerçant. Le contrôle l'aide à s'exercer avec soin.\n\n> Exerce-toi à la piété.\n> — 1 Timothée 4 : 7",
-        "en": "Checking means **watching** a person while they do the work, and then helping them grow.\n\nThe goal is not to **judge**, but to **build up**.\n\nLike an athlete, a disciple grows by training. Checking helps him train with care.\n\n> Train yourself to be godly.\n> — 1 Timothy 4:7",
+        "fr": "Contrôler, c'est **observer** quelqu'un pendant qu'il fait le travail, puis l'aider à progresser. On ne le fait pas pour juger, mais pour bâtir.\n\nUn sportif progresse en s'entraînant, encore et encore. Le disciple aussi. Le contrôle l'aide à s'exercer avec soin.\n\n> Exerce-toi à la piété.\n> — 1 Timothée 4 : 7",
+        "en": "Checking means **watching** someone while they do the work, then helping them improve. You do it to build them up, not to judge them.\n\nAn athlete gets better by training, again and again. So does a disciple. Checking helps them train with care.\n\n> Train yourself to be godly.\n> — 1 Timothy 4:7",
         "rn": "Igenzura ni ukwitegereza umuntu igihe akora, hanyuma ukamufasha gutera imbere.\n\nIntumbero si **ugucira urubanza**, ariko ni **ukwubaka**.\n\nNk'umukinyi, umwigishwa akura iyo amenyerera. Igenzura rimufasha kumenyerera yitonze.\n\n> Iyimenyereze kwubaha Imana.\n> — 1 Timoteyo 4 : 7"
       }
     },
@@ -54,13 +54,13 @@
       "image": "training",
       "video_url": null,
       "title": {
-        "fr": "Les quatre étapes",
-        "en": "The four steps",
+        "fr": "Quatre étapes",
+        "en": "Four steps",
         "rn": "Intambwe zine"
       },
       "body": {
-        "fr": "1. **Observer** : regarder la personne pendant qu'elle travaille, avec attention.\n2. **Encourager** : montrer d'abord ce qu'elle a bien fait.\n3. **Corriger** : montrer **un seul** point à améliorer, clairement.\n4. **Préparer** : décider ensemble de la prochaine étape.",
-        "en": "1. **Observe**: watch the person carefully while they work.\n2. **Encourage**: first point out what they did well.\n3. **Correct**: show **one** point to improve, clearly.\n4. **Plan**: decide the next step together.",
+        "fr": "Un contrôle se fait en quatre temps :\n\n1. Observer : regarder attentivement la personne pendant qu'elle travaille.\n2. Encourager : lui dire d'abord ce qu'elle a bien fait.\n3. Corriger : lui montrer clairement **un seul** point à améliorer.\n4. Préparer : décider ensemble de la prochaine étape.\n\nL'ordre compte. Si on saute l'encouragement, la correction a du mal à passer.",
+        "en": "A check happens in four stages:\n\n1. Observe: watch the person carefully while they work.\n2. Encourage: tell them first what they did well.\n3. Correct: show them clearly **one** point to improve.\n4. Plan: decide on the next step together.\n\nThe order matters. If you skip the encouragement, the correction is hard to take in.",
         "rn": "1. **Kwitegereza**: kureba umuntu igihe akora, witonze.\n2. **Gushemeza**: kubanza kwerekana iciza yakoze.\n3. **Gukosora**: kwerekana **ikintu kimwe** cokwunganirwa, gitomoye.\n4. **Gutegura**: gufatanya intambwe ikurikira."
       }
     },
@@ -68,13 +68,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Commencer par le positif",
-        "en": "Start with the good",
+        "fr": "D'abord ce qui a marché",
+        "en": "First, what worked",
         "rn": "Gutangura ku ciza"
       },
       "body": {
-        "fr": "Un bon contrôle commence par ce qui s'est **bien passé**.\n\n- Dire ce qui a bien marché donne du courage.\n- La personne reçoit ensuite la correction avec un cœur ouvert.\n- Une personne édifiée grandit plus qu'une personne découragée.\n\nSoyez **précis** dans vos encouragements : nommez ce qui était bien fait.",
-        "en": "Good checking starts with what **went well**.\n\n- Saying what worked well gives courage.\n- Then the person receives correction with an open heart.\n- A person who is built up grows more than one who is discouraged.\n\nBe **specific** when you encourage: name what was done well.",
+        "fr": "Un bon contrôle s'ouvre sur ce qui s'est bien passé. Entendre ce qui a marché donne du courage, et la personne reçoit ensuite la correction avec un cœur ouvert.\n\nQuelqu'un qu'on a encouragé grandit davantage que quelqu'un qu'on a découragé.\n\nSoyez **précis**. Au lieu de « c'était bien », dites par exemple : « Tu as posé une très bonne question au début de la conversation. »",
+        "en": "A good check opens with what went well. Hearing what worked gives courage, and then the person can take correction with an open heart.\n\nSomeone who has been encouraged grows more than someone who has been put down.\n\nBe **specific**. Instead of \"that was good\", say something like, \"You asked a really good question at the start of the conversation.\"",
         "rn": "Igenzura ryiza ritangura ku **vyagenze neza**.\n\n- Kwerekana ibintu vyagenze neza bitera intege umuntu.\n- Bituma yakira igikosorwa n'umutima ukinguye.\n- Umuntu yubatswe akura kuruta uwuciwe intege.\n\nShemeza **utomoye**: vuga neza ico yakoze neza."
       }
     },
@@ -82,13 +82,13 @@
       "image": "teaching",
       "video_url": null,
       "title": {
-        "fr": "Bien corriger",
-        "en": "Correcting well",
+        "fr": "Corriger sans écraser",
+        "en": "Correcting without crushing",
         "rn": "Gukosora neza"
       },
       "body": {
-        "fr": "Une correction utile est claire et simple :\n\n- Corriger **un seul point important**, pas tout à la fois.\n- Parler du **travail**, pas de la personne.\n- Donner un **exemple clair**, pas seulement quelques mots.\n\nChoisissez le point qui en vaut vraiment la peine.",
-        "en": "Helpful correction is clear and simple:\n\n- Correct **one important point**, not everything at once.\n- Talk about the **work**, not the person.\n- Give a **clear example**, not just a few words.\n\nChoose the point that is really worth it.",
+        "fr": "Une correction utile reste claire et simple.\n\nOn ne corrige qu'un seul point important à la fois. Si on reprend tout d'un coup, la personne ne retient rien et se sent écrasée.\n\nOn parle du travail, pas de la personne. Et on donne un exemple concret de ce qu'il faudrait faire, plutôt que quelques mots vagues.\n\nPrenez le temps de choisir le point qui en vaut vraiment la peine.",
+        "en": "Helpful correction stays clear and simple.\n\nYou correct only one important point at a time. If you go over everything at once, the person remembers nothing and feels crushed.\n\nYou talk about the work, not the person. And you give a concrete example of what to do, rather than a few vague words.\n\nTake time to choose the point that is truly worth raising.",
         "rn": "Igikosorwa gifasha kiratomoye kandi cororoshe:\n\n- Gukosora **ikintu kimwe c'ingenzi**, si vyose ico kanya.\n- Kwerekana **igikorwa**, si umuntu.\n- Gutanga **akarorero gatomoye**, si amajambo make.\n\nHitamwo ikintu gikwiye vy'ukuri gukosorwa."
       }
     },
@@ -96,13 +96,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Des critères clairs",
-        "en": "Clear standards",
+        "fr": "Savoir ce qu'on attend",
+        "en": "Knowing what is expected",
         "rn": "Ibipimo bitomoye"
       },
       "body": {
-        "fr": "Le contrôle s'appuie sur des **critères connus à l'avance**. La personne sait ce qu'elle doit atteindre, et le contrôle l'aide à y arriver.\n\nAvant chaque contrôle, communiquez clairement ce qui est attendu.\n\n> Comme le fer aiguise le fer, ainsi un homme aiguise un autre homme.\n> — Proverbes 27 : 17",
-        "en": "Checking rests on **standards known ahead of time**. The person knows what they need to reach, and checking helps them get there.\n\nBefore each check, say clearly what is expected.\n\n> As iron sharpens iron, so one person sharpens another.\n> — Proverbs 27:17",
+        "fr": "Le contrôle s'appuie sur des **critères connus à l'avance**. La personne sait quel but elle doit atteindre, et le contrôle l'aide à y arriver. Personne ne devrait découvrir les règles le jour où on le corrige.\n\nAlors, avant chaque contrôle, dites clairement ce qui est attendu.\n\n> Comme le fer aiguise le fer, ainsi un homme aiguise un autre homme.\n> — Proverbes 27 : 17",
+        "en": "Checking rests on **standards known ahead of time**. The person knows what they are aiming for, and the check helps them get there. No one should find out the rules on the day they are corrected.\n\nSo before each check, say clearly what is expected.\n\n> As iron sharpens iron, so one person sharpens another.\n> — Proverbs 27:17",
         "rn": "Igenzura rishingira ku **bipimo bizwi imbere**: umuntu amenya ico ategerezwa gushikako, kandi igenzura rimufasha kuhashika.\n\nImbere y'igenzura ryose, vuga neza ico witeze.\n\n> Ukw'icuma gikarisha ikindi, ni ko umuntu akarisha mugenzi we.\n> — Imigani 27 : 17"
       }
     },
@@ -110,13 +110,13 @@
       "image": "love-faith",
       "video_url": null,
       "title": {
-        "fr": "Juger ou édifier ?",
-        "en": "Judge or build up?",
+        "fr": "Abattre ou bâtir",
+        "en": "Tearing down or building up",
         "rn": "Gucira urubanza canke kwubaka?"
       },
       "body": {
-        "fr": "**Juger** décourage : on montre seulement les erreurs, on abat la personne, et rien ne change.\n\n**Édifier** encourage : on encourage puis on corrige, on donne du courage, et on avance vers la prochaine étape.\n\nTout contrôle se donne dans l'**amour**, avec le désir de voir l'autre grandir. Le but n'est pas de montrer qu'on en sait plus que les autres.",
-        "en": "**Judging** discourages: we only show the mistakes, we tear the person down, and nothing changes.\n\n**Building up** encourages: we encourage and then correct, we give courage, and we move to the next step.\n\nAll checking is done in **love**, wanting to see the other person grow. The goal is not to show that we know more than others.",
+        "fr": "Quand on juge, on ne montre que les erreurs. La personne se sent abattue, et en général rien ne change.\n\nQuand on bâtit, on encourage d'abord, puis on corrige. La personne reprend courage et avance vers l'étape suivante.\n\nUn contrôle se donne toujours dans l'**amour**, parce qu'on désire voir l'autre grandir. Il ne sert pas à prouver qu'on en sait plus que lui.",
+        "en": "When you judge, you only point out the mistakes. The person feels knocked down, and usually nothing changes.\n\nWhen you build up, you encourage first, then correct. The person takes heart and moves on to the next step.\n\nChecking is always given in **love**, because you want to see the other person grow. It is not there to prove you know more than they do.",
         "rn": "**Gucira urubanza** bica intege: kwerekana amakosa gusa, guca intege umuntu, kandi ntibihindura igikorwa.\n\n**Kwubaka** biratera intege: gushemeza uheze ukosore, gutera intege, gushikana ku ntambwe ikurikira.\n\nIgenzura ryose ritangwa mu **rukundo** n'icipfuzo c'iterambere ry'uwo tugenzura, si ukwerekana ko tuzi kuruta abandi."
       }
     },
@@ -124,13 +124,13 @@
       "image": "growth-tree",
       "video_url": null,
       "title": {
-        "fr": "Suivre dans la durée",
-        "en": "Follow up over time",
+        "fr": "Revenir, encore et encore",
+        "en": "Coming back again and again",
         "rn": "Gukurikirana"
       },
       "body": {
-        "fr": "Le contrôle n'est pas une seule fois :\n\n- Il se fait souvent, pas une seule fois.\n- Revoyez l'étape donnée la dernière fois.\n- Remerciez Dieu pour chaque progrès.\n\nRestez attentif à trois pièges : le **légalisme**, le **perfectionnisme**, et la tentation de **se contenter de moins**.\n\n> Celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ.\n> — Philippiens 1 : 6",
-        "en": "Checking is not a one-time thing:\n\n- It happens often, not just once.\n- Review the step you gave last time.\n- Thank God for every bit of progress.\n\nWatch out for three traps: **legalism**, **perfectionism**, and the temptation to **settle for less**.\n\n> He who began a good work in you will carry it on to completion until the day of Christ Jesus.\n> — Philippians 1:6",
+        "fr": "Un contrôle ne se fait pas une fois pour toutes. On le refait souvent. À chaque fois, on revoit l'étape fixée la dernière fois, et on remercie Dieu pour chaque progrès, même petit.\n\nGardez l'œil sur trois pièges : le **légalisme**, le perfectionnisme, et la tentation de se contenter de moins que ce que Dieu veut faire.\n\n> Celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ.\n> — Philippiens 1 : 6",
+        "en": "Checking is not done once and for all. You come back to it often. Each time, you review the step you agreed on last time, and you thank God for every bit of progress, however small.\n\nKeep an eye out for three traps: **legalism**, perfectionism, and the temptation to settle for less than what God wants to do.\n\n> He who began a good work in you will carry it on to completion until the day of Christ Jesus.\n> — Philippians 1:6",
         "rn": "Igenzura si rimwe gusa:\n\n- Igenzura riba kenshi, si incuro imwe.\n- Suzuma intambwe yatanzwe ubushize.\n- Shimira Imana ku iterambere ryose.\n\nIyubare imitego itatu: **ugukurikiza amategeko gusa**, **ugushaka ko vyose bitagira agahaze**, n'**ukwemera ibiri munsi y'ivyo ushobora**.\n\n> Uwatanguye igikorwa ciza muri mwebwe, azogisozera.\n> — Abafilipi 1 : 6"
       }
     },
@@ -138,13 +138,13 @@
       "image": "training",
       "video_url": null,
       "title": {
-        "fr": "En résumé",
-        "en": "In summary",
+        "fr": "Le contrôle en un coup d'œil",
+        "en": "Checking at a glance",
         "rn": "Mu ncamake"
       },
       "body": {
-        "fr": "- **Observer** avec attention, en s'appuyant sur des critères clairs.\n- **Encourager puis corriger** : d'abord le positif, puis un seul point précis.\n- **Préparer** la prochaine étape, dans l'amour.\n- **Suivre** souvent, sans légalisme ni perfectionnisme.",
-        "en": "- **Observe** carefully, based on clear standards.\n- **Encourage, then correct**: first the good, then one clear point.\n- **Plan** the next step, in love.\n- **Follow up** often, without legalism or perfectionism.",
+        "fr": "On observe avec attention, à partir de critères clairs. On encourage d'abord, puis on corrige un seul point précis. On prépare ensemble la prochaine étape, dans l'amour.\n\nEt on revient souvent, sans tomber dans le légalisme ni le perfectionnisme. C'est ainsi que vos stagiaires grandissent, pas à pas.",
+        "en": "You watch carefully, based on clear standards. You encourage first, then correct one specific point. You plan the next step together, in love.\n\nAnd you come back often, without sliding into legalism or perfectionism. That is how your trainees grow, one step at a time.",
         "rn": "- **Kwitegereza** witonze, ushingiye ku bipimo.\n- **Gushemeza no gukosora**: ku ciza, hanyuma ikintu kimwe gitomoye.\n- **Gutegura** intambwe ikurikira, mu rukundo.\n- **Gukurikirana** kenshi, ata gukurikiza amategeko gusa canke ugushaka ko vyose bitagira agahaze."
       }
     },
@@ -152,13 +152,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Réfléchissez",
-        "en": "Reflect",
+        "fr": "Votre prochain contrôle",
+        "en": "Your next check",
         "rn": "Zirikana"
       },
       "body": {
-        "fr": "- Mon contrôle commence-t-il par le positif, ou par les erreurs ?\n- Est-ce que je corrige la personne, ou le travail ? Est-ce que je donne un exemple clair ?\n- Est-ce que je communique des attentes claires avant chaque contrôle ?\n- La personne sait-elle ce qu'elle doit faire maintenant ?",
-        "en": "- Does my checking start with the good, or with the mistakes?\n- Do I correct the person, or the work? Do I give a clear example?\n- Do I share clear expectations before each check?\n- Does the person know what to do now?",
+        "fr": "Repensez à la dernière fois que vous avez repris le travail de quelqu'un. Par quoi avez-vous commencé : ce qui allait bien, ou les erreurs ?\n\nÀ la fin, la personne savait-elle exactement quoi faire ensuite ?\n\nAvant votre prochain contrôle, écrivez en une ou deux phrases ce que vous attendez, et dites-le à la personne. Puis notez une chose précise à encourager avant toute correction.",
+        "en": "Think back to the last time you went over someone's work. What did you start with: what went well, or the mistakes?\n\nAt the end, did the person know exactly what to do next?\n\nBefore your next check, write down in a sentence or two what you expect, and tell the person. Then note one specific thing to encourage before any correction.",
         "rn": "- Igenzura ryanje ritangura ku ki? Ku ciza, canke ku makosa?\n- Nkosora umuntu, canke igikorwa? Nkoresha akarorero gatomoye?\n- Ndavuga neza ivyo niteze imbere y'igenzura ryose?\n- Umuntu amenya ico ategerezwa gukora ubu?"
       }
     }
@@ -166,44 +166,44 @@
   "quiz": [
     {
       "prompt": {
-        "fr": "Qu'est-ce que le contrôle ?",
+        "fr": "Qu'est-ce qu'un contrôle ?",
         "en": "What is checking?",
         "rn": "Igenzura ni iki?"
       },
       "choices": [
         {
-          "fr": "Observer quelqu'un au travail puis l'aider à progresser",
-          "en": "Watching someone work and then helping them grow",
+          "fr": "Observer quelqu'un au travail, puis l'aider à progresser",
+          "en": "Watching someone work, then helping them improve",
           "rn": "Kwitegereza umuntu igihe akora hanyuma ukamufasha gutera imbere"
         },
         {
-          "fr": "Chercher les fautes pour punir",
-          "en": "Looking for faults to punish",
+          "fr": "Repérer toutes les fautes pour que la personne les évite",
+          "en": "Spotting every mistake so the person avoids them",
           "rn": "Kurondera amakosa ngo uhane"
         },
         {
-          "fr": "Donner une note finale",
-          "en": "Giving a final grade",
+          "fr": "Évaluer la personne à la fin de sa formation",
+          "en": "Grading the person at the end of their training",
           "rn": "Gutanga amanota ya nyuma"
         }
       ],
       "correctIndex": 0,
       "explanation": {
-        "fr": "Le contrôle n'est pas fait pour juger, mais pour édifier.",
-        "en": "Checking is not for judging, but for building up.",
+        "fr": "Le contrôle sert à bâtir, pas à juger.",
+        "en": "Checking is for building up, not for judging.",
         "rn": "Igenzura si ugucira urubanza, ariko ni ukwubaka."
       }
     },
     {
       "prompt": {
-        "fr": "Par quoi un bon contrôle commence-t-il ?",
-        "en": "How does good checking begin?",
+        "fr": "Par quoi commence un bon contrôle ?",
+        "en": "How does a good check begin?",
         "rn": "Igenzura ryiza ritangura ku ki?"
       },
       "choices": [
         {
-          "fr": "Par la liste de toutes les erreurs",
-          "en": "With a list of all the mistakes",
+          "fr": "Par le point le plus urgent à corriger",
+          "en": "With the most urgent point to correct",
           "rn": "Ku rutonde rw'amakosa yose"
         },
         {
@@ -212,8 +212,8 @@
           "rn": "Ku vyagenze neza"
         },
         {
-          "fr": "Par une prochaine tâche",
-          "en": "With a new task",
+          "fr": "Par un rappel des attentes",
+          "en": "With a reminder of what is expected",
           "rn": "Ku gikorwa gishasha"
         }
       ],
@@ -232,13 +232,13 @@
       },
       "choices": [
         {
-          "fr": "Tous les points",
-          "en": "Every point",
+          "fr": "Tous ceux qu'on a remarqués",
+          "en": "Every one you noticed",
           "rn": "Vyose"
         },
         {
-          "fr": "Aucun",
-          "en": "None",
+          "fr": "Deux ou trois, les plus graves",
+          "en": "Two or three, the most serious",
           "rn": "Nta na kimwe"
         },
         {
@@ -250,14 +250,14 @@
       "correctIndex": 2,
       "explanation": {
         "fr": "On corrige un point important à la fois, avec un exemple clair.",
-        "en": "We correct one important point at a time, with a clear example.",
+        "en": "You correct one important point at a time, with a clear example.",
         "rn": "Dukosora ikintu kimwe c'ingenzi, dutanga akarorero gatomoye."
       }
     },
     {
       "prompt": {
-        "fr": "Quel piège faut-il éviter dans le contrôle ?",
-        "en": "Which trap should we avoid in checking?",
+        "fr": "Lequel de ces pièges menace le contrôle ?",
+        "en": "Which of these is a trap in checking?",
         "rn": "Ni uwuhe mutego dutegerezwa kwirinda mu igenzura?"
       },
       "choices": [
@@ -267,13 +267,13 @@
           "rn": "Ugushaka ko vyose bitagira agahaze"
         },
         {
-          "fr": "L'encouragement",
-          "en": "Encouragement",
+          "fr": "Donner un exemple concret",
+          "en": "Giving a concrete example",
           "rn": "Ugushemeza"
         },
         {
-          "fr": "La prière",
-          "en": "Prayer",
+          "fr": "Revoir l'étape fixée la dernière fois",
+          "en": "Reviewing the step agreed last time",
           "rn": "Isengesho"
         }
       ],

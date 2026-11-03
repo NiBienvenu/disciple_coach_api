@@ -3,8 +3,8 @@
   "order": 6,
   "type": "main",
   "title": {
-    "fr": "Édifier un mouvement I",
-    "en": "Building a movement I",
+    "fr": "Bâtir un mouvement (1)",
+    "en": "Building a movement (1)",
     "rn": "Kwubaka umuhari I"
   },
   "pages": [
@@ -12,13 +12,13 @@
       "image": "movement",
       "video_url": null,
       "title": {
-        "fr": "Sept principes pour bâtir",
-        "en": "Seven principles for building",
+        "fr": "D'un petit groupe à une région",
+        "en": "From a small group to a region",
         "rn": "Ingingo indwi zo kwubaka"
       },
       "body": {
-        "fr": "Comment passer d'un petit ministère à un mouvement qui touche toute une région ?\n\nCette leçon vous présente les **principes de base** pour édifier un mouvement dans votre ministère.\n\nCes principes viennent de la Bible. Ils fonctionnent ensemble, du début jusqu'à la fin.",
-        "en": "How do you move from a small ministry to a movement that reaches a whole region?\n\nThis lesson gives you the **basic principles** for building a movement in your ministry.\n\nThese principles come from the Bible. They work together, from the start to the finish.",
+        "fr": "Comment un petit ministère peut-il devenir un mouvement qui touche toute une région ? C'est la question de cette leçon.\n\nVous allez recevoir les **principes de base** pour bâtir un mouvement là où vous servez. Ils viennent de la Bible, et ils vont ensemble du début à la fin. On ne les utilise pas un par un comme des outils qu'on range ensuite.",
+        "en": "How can a small ministry grow into a movement that reaches a whole region? That is the question this lesson takes up.\n\nYou will get the **basic principles** for building a movement where you serve. They come from the Bible, and they belong together from start to finish. You do not use them one at a time like tools you put away afterwards.",
         "rn": "Ni gute umuntu ava ku gikorwa gitoyi agashika ku muhari ushikira intara yose?\n\nIki cigwa kirakumenyesha **ingingo z'ishimikiro** zo kwubaka umuhari mu gikorwa cawe.\n\nIzo ngingo ziva muri Bibiliya. Zikorana hamwe, kuva ku ntango gushika ku mpera."
       }
     },
@@ -26,13 +26,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Ce que vous allez apprendre",
-        "en": "What you will learn",
+        "fr": "Le plan de la leçon",
+        "en": "How this lesson runs",
         "rn": "Ivyo uza kwiga"
       },
       "body": {
-        "fr": "- Ce qu'est un mouvement.\n- Sept principes pour l'édifier, et comment les expliquer.\n- Comment appliquer ces principes à des situations concrètes.",
-        "en": "- What a movement is.\n- Seven principles for building one, and how to explain them.\n- How to apply these principles to real situations.",
+        "fr": "Nous commencerons par une définition simple du mouvement.\n\nEnsuite viendront les sept principes pour le bâtir, avec de quoi les expliquer à d'autres. Et tout au long, nous chercherons comment les appliquer à des situations réelles, dans votre ministère.",
+        "en": "We will start with a simple definition of a movement.\n\nNext come the seven principles for building one, with enough to explain them to others. All the way through, we will look at how to apply them to real situations in your own ministry.",
         "rn": "- Ico umuhari ari co.\n- Ingingo indwi zo kuwubaka, n'ingene wozisigura.\n- Ingene washira izo ngingo mu ngiro mu turorero."
       }
     },
@@ -40,13 +40,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Qu'est-ce qu'un mouvement ?",
-        "en": "What is a movement?",
+        "fr": "Un mouvement, c'est quoi ?",
+        "en": "So what is a movement?",
         "rn": "Umuhari ni iki?"
       },
       "body": {
-        "fr": "Un mouvement est un groupe de personnes qui grandit, engagé à atteindre un même but.\n\nUn **mouvement spirituel** suit le but que Dieu a donné, et il avance par la puissance de Dieu, pas par nos propres forces.\n\n> Or, à celui qui peut faire, par la puissance qui agit en nous, infiniment au-delà de tout ce que nous demandons ou pensons, à lui soit la gloire !\n> — Éphésiens 3 : 20-21",
-        "en": "A movement is a growing group of people committed to reaching the same goal.\n\nA **spiritual movement** follows the goal God has given, and it moves forward by God's power, not by our own strength.\n\n> Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us, to him be glory!\n> — Ephesians 3:20-21",
+        "fr": "Un mouvement, c'est un groupe de personnes qui grandit et qui s'est engagé vers un même but.\n\nUn mouvement spirituel suit le but que Dieu lui a donné. Et il avance par la puissance de Dieu, pas à la force de nos bras. Paul nous rappelle jusqu'où cette puissance peut aller :\n\n> Or, à celui qui peut faire, par la puissance qui agit en nous, infiniment au-delà de tout ce que nous demandons ou pensons, à lui soit la gloire !\n> — Éphésiens 3 : 20-21",
+        "en": "A movement is a growing group of people who have committed themselves to the same goal.\n\nA spiritual movement follows the goal God has given it. And it moves forward by God's power, not by the strength of our arms. Paul reminds us how far that power can go:\n\n> Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us, to him be glory!\n> — Ephesians 3:20-21",
         "rn": "Umuhari ni umugwi w'abantu waguka, biyemeje gushikira intumbero imwe.\n\n**Umuhari w'impwemu** ukurikiza intumbero Imana yatanze, kandi utera imbere mu bushobozi bwayo, si mu nkomezi zacu.\n\n> Ashobora gukora birenze cane ivyo dusaba canke twiyumvira... ni we ninahazwe!\n> — Abefeso 3 : 20-21"
       }
     },
@@ -54,13 +54,13 @@
       "image": "great-commission",
       "video_url": null,
       "title": {
-        "fr": "Ce qui marque un mouvement",
-        "en": "What marks a movement",
+        "fr": "Ses traits",
+        "en": "What it looks like",
         "rn": "Ibiranga umuhari"
       },
       "body": {
-        "fr": "- **Un seul but** : la Grande Commission.\n- **Une seule puissance** : le Saint-Esprit. C'est pourquoi nous prions.\n- **Une seule méthode** : la multiplication spirituelle.\n- **L'engagement** : des convictions personnelles qui grandissent.\n- **L'expansion** : dans la région visée, par l'évangélisation.\n- **La simplicité** : des outils simples, faciles à transmettre.",
-        "en": "- **One goal**: the Great Commission.\n- **One power**: the Holy Spirit. That is why we pray.\n- **One method**: spiritual multiplication.\n- **Commitment**: personal convictions that grow.\n- **Spreading out**: in the target area, through evangelism.\n- **Simplicity**: simple tools that are easy to pass on.",
+        "fr": "Un mouvement spirituel a un seul but, la Grande Commission. Il a une seule source de force, le Saint-Esprit, et c'est pour cela qu'on y prie autant. Il a une méthode, la multiplication spirituelle.\n\nOn y voit aussi des gens dont les convictions personnelles grandissent. Le mouvement s'étend dans la région visée par l'évangélisation. Et il garde des outils simples, faciles à transmettre d'une personne à l'autre.",
+        "en": "A spiritual movement has one goal, the Great Commission. It has one source of strength, the Holy Spirit, which is why there is so much prayer. It has one method, spiritual multiplication.\n\nYou also see people whose personal convictions keep growing. The movement spreads through the target area by evangelism. And it keeps its tools simple, easy to pass from one person to the next.",
         "rn": "- **Intumbero imwe**: Itegeko Rikuru.\n- **Ubushobozi bumwe**: Mpwemu Yera; nico gituma dusenga.\n- **Uburyo bumwe**: ukwigwiza mu buryo bw'impwemu.\n- **Ukwitanga**: ivyiyumviro bwite bikura.\n- **Gukwira**: mu ntara itumberewe, biciye mu kuvuga ubutumwa.\n- **Ubworoshe**: ibikoresho vyoroshe gushikirizwa."
       }
     },
@@ -68,13 +68,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Les sept principes",
-        "en": "The seven principles",
+        "fr": "Sept principes bibliques",
+        "en": "Seven Bible principles",
         "rn": "Ingingo indwi"
       },
       "body": {
-        "fr": "Édifier un mouvement repose sur sept principes bibliques. On les applique **ensemble et sans arrêt**, du début à la fin.\n\n1. Une prière unie.\n2. Semer largement, puis récolter.\n3. Choisir le fruit mûr.\n4. Former des disciples qui se multiplient.\n5. Développer des convictions personnelles.\n6. Établir la crédibilité du ministère.\n7. Mobiliser le leadership naturel déjà présent.",
-        "en": "Building a movement rests on seven Bible principles. We apply them **together and all the time**, from start to finish.\n\n1. United prayer.\n2. Sow widely, then harvest.\n3. Choose the ripe fruit.\n4. Build disciples who multiply.\n5. Grow personal convictions.\n6. Build trust in the ministry.\n7. Raise up the natural leaders already there.",
+        "fr": "Bâtir un mouvement repose sur sept principes tirés de la Bible. On les applique **tous ensemble et en continu**, du premier jour au dernier :\n\n1. Une prière unie.\n2. Semer largement, puis récolter.\n3. Choisir le fruit mûr.\n4. Former des disciples qui se multiplient.\n5. Faire grandir des convictions personnelles.\n6. Rendre le ministère crédible.\n7. Mobiliser les leaders naturels déjà présents.",
+        "en": "Building a movement rests on seven principles drawn from the Bible. You apply them **all together and all the time**, from the first day to the last:\n\n1. United prayer.\n2. Sow widely, then harvest.\n3. Choose the ripe fruit.\n4. Build disciples who multiply.\n5. Grow personal convictions.\n6. Make the ministry trustworthy.\n7. Mobilise the natural leaders already there.",
         "rn": "Kwubaka umuhari bishingiye ku ngingo indwi za Bibiliya, zikoreshwa **hamwe kandi ubudasiba**, kuva ku ntango gushika ku mpera.\n\n1. Isengesho ryunze.\n2. Kubiba nyinshi, hanyuma gusoroma.\n3. Gutoranya ivyeze.\n4. Kwubaka abigishwa bigwiza.\n5. Guteza imbere ivyiyumviro bwite.\n6. Gushinga ukwizigirwa kw'igikorwa.\n7. Kurondera uburongozi busanzwe buhari."
       }
     },
@@ -82,13 +82,13 @@
       "image": "prayer",
       "video_url": null,
       "title": {
-        "fr": "1. Une prière unie",
-        "en": "1. United prayer",
+        "fr": "Tout commence à genoux",
+        "en": "It all starts on your knees",
         "rn": "1. Isengesho ryunze"
       },
       "body": {
-        "fr": "La prière est la base de tout. Un mouvement est l'œuvre de Dieu : il n'est possible que par sa puissance.\n\nLa prière montre notre foi et notre dépendance de Dieu.\n\n> Priez sans cesse.\n> — 1 Thessaloniciens 5 : 17\n\nJésus lui-même commençait ses journées dans la prière : « Vers le matin, pendant qu'il faisait encore très sombre, il se leva... et il pria » (Marc 1 : 35).",
-        "en": "Prayer is the base of everything. A movement is God's work: it is only possible by his power.\n\nPrayer shows our faith and our dependence on God.\n\n> Pray continually.\n> — 1 Thessalonians 5:17\n\nJesus himself began his days in prayer: \"Very early in the morning, while it was still dark, Jesus got up... where he prayed\" (Mark 1:35).",
+        "fr": "La prière porte tout le reste. Un mouvement est l'œuvre de Dieu, et il n'existe que par sa puissance. Quand nous prions, nous montrons que nous comptons sur lui et pas sur nous.\n\n> Priez sans cesse.\n> — 1 Thessaloniciens 5 : 17\n\nJésus lui-même commençait ses journées ainsi : « Vers le matin, pendant qu'il faisait encore très sombre, il se leva... et il pria » (Marc 1 : 35).",
+        "en": "Prayer holds up everything else. A movement is God's work, and it only exists by his power. When we pray, we show that we are counting on him and not on ourselves.\n\n> Pray continually.\n> — 1 Thessalonians 5:17\n\nJesus himself began his days this way: \"Very early in the morning, while it was still dark, Jesus got up... where he prayed\" (Mark 1:35).",
         "rn": "Isengesho ni ishimikiro rya vyose. Kuko umuhari ari igikorwa c'Imana, ntugishoboka atari mu bushobozi bwayo.\n\nIsengesho ni ikimenyamenya c'ukwizera n'ukwishimikiza Imana.\n\n> Nimusenge ata guhengeshanya.\n> — 1 Ab'i Tesalonike 5 : 17\n\nYesu nyene yatangura imisi yiwe mu isengesho (Mariko 1 : 35)."
       }
     },
@@ -96,13 +96,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "2 et 3. Semer et choisir",
-        "en": "2 and 3. Sow and choose",
+        "fr": "Semer large, choisir bien",
+        "en": "Sow wide, choose well",
         "rn": "2 na 3. Kubiba no gutoranya"
       },
       "body": {
-        "fr": "**Semer largement.** Plus vous semez, plus vous récoltez. Partagez l'Évangile avec beaucoup de personnes.\n\n**Choisir le fruit mûr.** Utilisez un « filtre » pour reconnaître les cœurs prêts : les personnes que Dieu est déjà en train de préparer.\n\nPuis **donnez votre temps** à ceux qui sont mûrs. Vous ne pouvez pas suivre tout le monde de près, mais vous pouvez investir dans ceux que Dieu a préparés.",
-        "en": "**Sow widely.** The more you sow, the more you harvest. Share the gospel with many people.\n\n**Choose the ripe fruit.** Use a \"filter\" to recognise ready hearts: the people God is already preparing.\n\nThen **give your time** to those who are ready. You cannot follow everyone closely, but you can invest in those God has prepared.",
+        "fr": "Au temps des semailles, un paysan ne met pas une seule graine en terre. Plus on sème, plus on récolte. Alors partagez l'Évangile avec beaucoup de gens.\n\nEnsuite, regardez qui répond. Certaines personnes ont un cœur prêt, parce que Dieu est déjà en train de les préparer. Apprenez à les reconnaître.\n\nVous ne pouvez pas suivre tout le monde de près. Mais vous pouvez **donner votre temps** à ceux que Dieu a préparés.",
+        "en": "At planting time, a farmer does not put just one seed in the ground. The more you sow, the more you harvest. So share the gospel with many people.\n\nThen watch who responds. Some people have a ready heart, because God is already preparing them. Learn to recognise them.\n\nYou cannot follow everyone closely. But you can **give your time** to the ones God has prepared.",
         "rn": "**Kubiba nyinshi.** Uko ubiba vyinshi, ni ko usoroma vyinshi. Bwira abantu benshi ubutumwa bwiza.\n\n**Gutoranya ivyeze.** Koresha ubuyunguruzo mu kumenya imitima yiteguye: abo Imana iriko irategura.\n\nHanyuma **shira umwanya** ku vyeze. Ntushobora gukurikirana bose hafi, ariko urashobora kwitanga ku bo Imana yateguye."
       }
     },
@@ -110,13 +110,13 @@
       "image": "discipleship-chain",
       "video_url": null,
       "title": {
-        "fr": "4 à 7. Bâtir et mobiliser",
-        "en": "4 to 7. Build and mobilise",
+        "fr": "Bâtir sur des gens",
+        "en": "Building on people",
         "rn": "4 gushika 7. Kwubaka no guhagurutsa"
       },
       "body": {
-        "fr": "Pour faire grandir le mouvement :\n\n- **Former des disciples** qui se multiplient et en forment d'autres.\n- **Développer** des convictions personnelles fortes.\n- **Établir la crédibilité** du ministère par une vie sainte et du fruit visible.\n- **Mobiliser le leadership naturel** : reconnaître et mettre en action les leaders que Dieu a déjà placés dans la région visée.",
-        "en": "To help the movement grow:\n\n- **Build disciples** who multiply and train others.\n- **Grow** strong personal convictions.\n- **Build trust** in the ministry through a holy life and visible fruit.\n- **Raise up natural leaders**: recognise and put to work the leaders God has already placed in the target area.",
+        "fr": "Pour que le mouvement grandisse, on forme des disciples qui se multiplient, c'est-à-dire qui en forment d'autres à leur tour. On les aide à développer des convictions personnelles solides, qui tiennent même quand on n'est plus là.\n\nLe ministère gagne la confiance des gens par une vie sainte et un fruit que tout le monde peut voir.\n\nEnfin, on repère les leaders que Dieu a déjà placés dans la région, et on les met au travail.",
+        "en": "For the movement to grow, you build disciples who multiply, meaning they go on to train others. You help them develop strong personal convictions, the kind that hold even when you are no longer around.\n\nThe ministry earns people's trust through holy living and fruit that everyone can see.\n\nFinally, you look for the leaders God has already placed in the region, and you put them to work.",
         "rn": "Kugira ngo umuhari ukure:\n\n- **Kwubaka abigishwa** bisubiramwo, bagategura abandi.\n- **Guteza imbere** ivyiyumviro bwite bikomeye.\n- **Gushinga ukwizigirwa** kw'igikorwa biciye ku bwera n'imbuto.\n- **Guhagurutsa uburongozi busanzwe buhari**: kumenya no guhagurutsa abarongozi Imana yamaze gushira mu ntara itumberewe."
       }
     },
@@ -124,13 +124,13 @@
       "image": "walking-path",
       "video_url": null,
       "title": {
-        "fr": "En résumé",
-        "en": "In summary",
+        "fr": "En quelques mots",
+        "en": "In a few words",
         "rn": "Mu ncamake"
       },
       "body": {
-        "fr": "- **Prier** : la base de tout mouvement.\n- **Semer et bâtir** : choisir le fruit mûr, multiplier les disciples, cultiver les convictions et la crédibilité.\n- **Mobiliser** les leaders que Dieu a déjà placés.\n\n> Infiniment au-delà de tout ce que nous demandons ou pensons.\n> — Éphésiens 3 : 20",
-        "en": "- **Pray**: the base of every movement.\n- **Sow and build**: choose the ripe fruit, multiply disciples, grow convictions and trust.\n- **Raise up** the leaders God has already placed.\n\n> Immeasurably more than all we ask or imagine.\n> — Ephesians 3:20",
+        "fr": "Un mouvement commence dans la prière, parce que c'est Dieu qui le fait. On sème largement, on choisit le fruit mûr, on forme des disciples qui se multiplient, avec des convictions solides et un ministère crédible. Et on met en avant les leaders que Dieu a déjà placés.\n\n> Infiniment au-delà de tout ce que nous demandons ou pensons.\n> — Éphésiens 3 : 20",
+        "en": "A movement starts in prayer, because God is the one who builds it. You sow widely, choose the ripe fruit, and build disciples who multiply, with strong convictions and a ministry people can trust. And you bring forward the leaders God has already placed.\n\n> Immeasurably more than all we ask or imagine.\n> — Ephesians 3:20",
         "rn": "- **Gusenga**: ishimikiro ry'umuhari wose.\n- **Kubiba no kwubaka**: gutoranya ivyeze, kwigwiza, ivyiyumviro n'ukwizigirwa.\n- **Guhagurutsa** uburongozi Imana yamaze gushira aho.\n\n> Birenze cane ivyo dusaba canke twiyumvira.\n> — Abefeso 3 : 20"
       }
     },
@@ -138,13 +138,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Réfléchissez",
-        "en": "Reflect",
+        "fr": "Votre ministère à la loupe",
+        "en": "A close look at your ministry",
         "rn": "Zirikana"
       },
       "body": {
-        "fr": "Pensez à votre ministère :\n\n- Avez-vous une base de prière ? C'est le premier principe.\n- Semez-vous assez largement pour pouvoir ensuite choisir le fruit mûr ?\n- Mobilisez-vous les leaders que Dieu a déjà placés dans votre région ?",
-        "en": "Think about your ministry:\n\n- Do you have a base of prayer? It is the first principle.\n- Are you sowing widely enough to be able to choose the ripe fruit?\n- Are you raising up the leaders God has already placed in your region?",
+        "fr": "Regardez votre ministère tel qu'il est aujourd'hui. Qui prie avec vous pour ce travail, régulièrement ? Si la réponse est « personne », c'est par là qu'il faut commencer.\n\nEnsuite, demandez-vous si vous semez assez largement pour pouvoir choisir le fruit mûr.\n\nCette semaine, notez le nom d'une personne autour de vous qui a déjà l'étoffe d'un leader, et priez pour savoir comment l'encourager.",
+        "en": "Look at your ministry as it is today. Who prays with you for this work, regularly? If the answer is \"no one\", that is where to start.\n\nThen ask yourself whether you are sowing widely enough to be able to choose the ripe fruit.\n\nThis week, write down the name of one person around you who already has what it takes to lead, and pray about how to encourage them.",
         "rn": "Iyumvire igikorwa cawe:\n\n- Ufise ishimikiro ry'isengesho? Ni yo ngingo ya mbere.\n- Ubiba bihagije kugira uheze utoranye ivyeze?\n- Uhagurutsa abarongozi Imana yamaze gushira mu ntara yawe?"
       }
     }
@@ -152,14 +152,14 @@
   "quiz": [
     {
       "prompt": {
-        "fr": "Quel est le premier principe pour édifier un mouvement ?",
+        "fr": "Quel est le premier principe pour bâtir un mouvement ?",
         "en": "What is the first principle for building a movement?",
         "rn": "Ni iyihe ngingo ya mbere yo kwubaka umuhari?"
       },
       "choices": [
         {
-          "fr": "Avoir beaucoup d'argent",
-          "en": "Having a lot of money",
+          "fr": "Trouver des moyens financiers",
+          "en": "Finding enough money",
           "rn": "Kugira amahera menshi"
         },
         {
@@ -168,8 +168,8 @@
           "rn": "Isengesho ryunze"
         },
         {
-          "fr": "Organiser de grands événements",
-          "en": "Organising big events",
+          "fr": "Organiser de grandes rencontres",
+          "en": "Holding large gatherings",
           "rn": "Gutunganya ibirori binini"
         }
       ],
@@ -183,7 +183,7 @@
     {
       "prompt": {
         "fr": "Pourquoi faut-il semer largement ?",
-        "en": "Why should we sow widely?",
+        "en": "Why should you sow widely?",
         "rn": "Ni kubera iki dukwiye kubiba nyinshi?"
       },
       "choices": [
@@ -193,42 +193,42 @@
           "rn": "Kuko uko ubiba vyinshi, ni ko usoroma vyinshi"
         },
         {
-          "fr": "Pour éviter de suivre qui que ce soit",
-          "en": "To avoid following up with anyone",
+          "fr": "Pour ne pas avoir à suivre les gens de près",
+          "en": "So you do not have to follow people closely",
           "rn": "Kugira ntihagire uwo ukurikirana"
         },
         {
-          "fr": "Pour montrer que nous sommes occupés",
-          "en": "To show that we are busy",
+          "fr": "Parce que tout le monde répondra de la même façon",
+          "en": "Because everyone will respond the same way",
           "rn": "Kwerekana ko turi mu bikorwa vyinshi"
         }
       ],
       "correctIndex": 0,
       "explanation": {
-        "fr": "Une large semence permet ensuite de choisir le fruit mûr.",
+        "fr": "Semer largement permet ensuite de choisir le fruit mûr.",
         "en": "Wide sowing lets you then choose the ripe fruit.",
         "rn": "Kubiba nyinshi bigufasha guheza ugatoranya ivyeze."
       }
     },
     {
       "prompt": {
-        "fr": "Que veut dire « mobiliser le leadership naturel » ?",
-        "en": "What does \"raise up natural leaders\" mean?",
+        "fr": "Que veut dire « mobiliser les leaders naturels » ?",
+        "en": "What does \"mobilise natural leaders\" mean?",
         "rn": "« Guhagurutsa uburongozi busanzwe buhari » bisigura iki?"
       },
       "choices": [
         {
-          "fr": "Remplacer tous les leaders locaux",
-          "en": "Replace all local leaders",
+          "fr": "Remplacer les responsables locaux par des gens formés",
+          "en": "Replace local leaders with trained people",
           "rn": "Gusubirira abarongozi bose b'aho"
         },
         {
-          "fr": "Tout faire soi-même",
-          "en": "Do everything yourself",
+          "fr": "Garder la direction pour soi jusqu'à ce que tout soit solide",
+          "en": "Keep leadership yourself until everything is solid",
           "rn": "Gukora vyose wenyene"
         },
         {
-          "fr": "Reconnaître et mettre en action les leaders que Dieu a déjà placés",
+          "fr": "Reconnaître et mettre au travail les leaders que Dieu a déjà placés",
           "en": "Recognise and put to work the leaders God has already placed",
           "rn": "Kumenya no guhagurutsa abarongozi Imana yamaze gushira aho"
         }
@@ -248,30 +248,30 @@
       },
       "choices": [
         {
-          "fr": "Un seul à la fois, puis on l'oublie",
-          "en": "One at a time, then you forget it",
+          "fr": "L'un après l'autre, dans l'ordre",
+          "en": "One after another, in order",
           "rn": "Imwe imwe, hanyuma ukayibagira"
         },
         {
-          "fr": "Ensemble et sans arrêt, du début à la fin",
-          "en": "Together and all the time, from start to finish",
+          "fr": "Tous ensemble et en continu, du début à la fin",
+          "en": "All together and all the time, from start to finish",
           "rn": "Hamwe kandi ubudasiba, kuva ku ntango gushika ku mpera"
         },
         {
-          "fr": "Seulement au début du ministère",
-          "en": "Only at the start of the ministry",
+          "fr": "Surtout au lancement du ministère",
+          "en": "Mainly when the ministry is launched",
           "rn": "Mu ntango y'igikorwa gusa"
         },
         {
-          "fr": "Seulement quand il y a un problème",
-          "en": "Only when there is a problem",
+          "fr": "Quand le mouvement commence à ralentir",
+          "en": "When the movement starts to slow down",
           "rn": "Igihe hari ingorane gusa"
         }
       ],
       "correctIndex": 1,
       "explanation": {
-        "fr": "Les principes fonctionnent ensemble tout le temps.",
-        "en": "The principles work together all the time.",
+        "fr": "Les principes fonctionnent ensemble, tout le temps.",
+        "en": "The principles work together, all the time.",
         "rn": "Izo ngingo zikorana hamwe ubudasiba."
       }
     }

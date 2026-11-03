@@ -3,8 +3,8 @@
   "order": 2,
   "type": "main",
   "title": {
-    "fr": "Le rôle du formateur d'un CFVN",
-    "en": "The trainer's role in a CFVN",
+    "fr": "Le formateur dans un CFVN",
+    "en": "The trainer in a CFVN",
     "rn": "Uruhara rw'umumenyereza w'ikigo"
   },
   "pages": [
@@ -12,13 +12,13 @@
       "image": "mentor",
       "video_url": null,
       "title": {
-        "fr": "Le privilège de former",
-        "en": "The privilege of training",
+        "fr": "Multiplier sa vie",
+        "en": "Multiplying your life",
         "rn": "Iteka ryo kumenyereza"
       },
       "body": {
-        "fr": "Quel privilège de multiplier nos vies à travers d'autres !\n\nDans cette leçon, vous allez mieux comprendre le **rôle** et les **responsabilités** du formateur dans un CFVN (Centre de Formation Vie Nouvelle). Vous allez aussi apprendre à créer un environnement propice à la formation.\n\nLe formateur n'est pas seulement un enseignant devant une classe. Il vit avec ses stagiaires et leur montre le chemin par sa vie plus que par ses paroles.",
-        "en": "What a privilege to multiply our lives through others!\n\nIn this lesson you will better understand the **role** and the **responsibilities** of a trainer in a CFVN (New Life Training Center). You will also learn how to create a good environment for training.\n\nA trainer is not only a teacher in front of a class. He lives alongside his trainees and shows them the way by his life more than by his words.",
+        "fr": "Former d'autres personnes, c'est un vrai privilège : votre vie se multiplie à travers la leur.\n\nCette leçon parle du **rôle** du formateur dans un CFVN (Centre de Formation Vie Nouvelle), de ses responsabilités, et de la façon de créer un climat où l'on apprend bien.\n\nUn formateur ne se tient pas seulement devant une classe. Il vit à côté de ses stagiaires, et il leur montre le chemin par sa vie bien plus que par ses discours.",
+        "en": "Training other people is a real privilege: your life gets multiplied through theirs.\n\nThis lesson is about the **role** of a trainer in a CFVN (New Life Training Center), the trainer's responsibilities, and how to create a climate where people learn well.\n\nA trainer does not just stand in front of a class. He lives alongside his trainees, and he shows them the way by his life far more than by his talks.",
         "rn": "Mbega iteka ryo kwigwiza ubuzima bwacu biciye ku bandi!\n\nMuri iki cigwa, uzotahura neza **uruhara** n'**amabanga** y'umumenyereza mu Kigo c'inyigisho Ubugingo Bushasha (CFVN). Uziga kandi ingene wotegura ikibanza ciza c'imenyereza.\n\nUmumenyereza w'ikigo ntari umwigisha wo ku ntebe gusa: ni umuntu abana n'abamenyerezwa, akabereka inzira mu buzima kuruta mu majambo."
       }
     },
@@ -26,13 +26,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Ce que vous allez apprendre",
-        "en": "What you will learn",
+        "fr": "Le contenu du cours",
+        "en": "What this lesson covers",
         "rn": "Ivyo uza kwiga"
       },
       "body": {
-        "fr": "Ce cours vous aidera à :\n\n- Définir le rôle du formateur.\n- Citer cinq caractéristiques d'un environnement propice à la formation.\n- Expliquer comment les mettre en pratique, et ce qui arrive si on les néglige.\n- Citer les responsabilités précises d'un formateur.",
-        "en": "This lesson will help you:\n\n- Define the role of the trainer.\n- Name five marks of a good training environment.\n- Explain how to put them into practice, and what happens if we neglect them.\n- Name the specific responsibilities of a trainer.",
+        "fr": "Nous allons d'abord définir le rôle du formateur. Puis nous regarderons cinq traits d'un environnement où la formation porte du fruit : comment les vivre, et ce qui se passe quand on les néglige.\n\nEnfin, nous ferons la liste des responsabilités concrètes d'un formateur, semaine après semaine.",
+        "en": "First we will define the trainer's role. Then we will look at five features of an environment where training bears fruit: how to live them out, and what happens when they are neglected.\n\nFinally, we will list the trainer's practical responsibilities, week after week.",
         "rn": "Iki cigwa kizogufasha:\n\n- Gusobanura uruhara rw'umumenyereza.\n- Kuvuga ibintu bitanu biranga ikibanza ciza c'imenyereza.\n- Gusigura ingene ivyo bikurikizwa, n'ivyo bivamwo iyo tubiretse.\n- Kuvuga amabanga atomoye y'umumenyereza."
       }
     },
@@ -40,13 +40,13 @@
       "image": "teaching",
       "video_url": null,
       "title": {
-        "fr": "Ce qu'est un formateur",
-        "en": "What a trainer is",
+        "fr": "Le portrait du formateur",
+        "en": "A picture of a trainer",
         "rn": "Umumenyereza ni nde?"
       },
       "body": {
-        "fr": "- **Il dépend de Dieu** : sa responsabilité première est d'être rempli du Saint-Esprit.\n- **Il est un modèle** : les priorités qu'il montre seront adoptées par ses stagiaires.\n- **Il facilite** : il relie ses stagiaires à des ressources et à d'autres formateurs.\n- **Il responsabilise** : il suit le curriculum et supervise le terrain, les techniques et les devoirs.\n- **Il développe la pensée** : par le dialogue et un retour honnête.\n- **Il crée le climat** : il est responsable d'un environnement propice à la formation.",
-        "en": "- **He depends on God**: his first duty is to be filled with the Holy Spirit.\n- **He is a model**: the priorities he shows will be taken up by his trainees.\n- **He connects**: he links his trainees to resources and to other trainers.\n- **He holds them accountable**: he follows the curriculum and oversees the field work, skills and assignments.\n- **He develops their thinking**: through dialogue and honest feedback.\n- **He sets the climate**: he is responsible for a good training environment.",
+        "fr": "Avant tout, le formateur dépend de Dieu. Sa première responsabilité est d'être rempli du Saint-Esprit.\n\nIl est un modèle : ses stagiaires adopteront les priorités qu'ils voient chez lui. Il les met en lien avec des ressources et d'autres formateurs. Il les rend responsables : il suit le programme et vérifie le terrain, les techniques et les devoirs.\n\nIl les fait réfléchir par le dialogue et un retour honnête. Et c'est lui qui donne le ton de l'environnement de formation.",
+        "en": "Above all, the trainer depends on God. His first responsibility is to be filled with the Holy Spirit.\n\nHe is a model: his trainees will take on the priorities they see in him. He connects them to resources and other trainers. He holds them accountable: he follows the curriculum and checks the field work, skills and assignments.\n\nHe helps them think through dialogue and honest feedback. And he is the one who sets the tone of the training environment.",
         "rn": "- **Yishimikiza Imana**: ibanga ryiwe rya mbere ni ukwuzuzwa Mpwemu Yera.\n- **Ni icitegererezo**: ivyo ashira imbere, abamenyerezwa biwe na bo bazobishira imbere.\n- **Arafasha**: ahuza abamenyerezwa n'ibikoresho n'abandi bamenyereza.\n- **Arakurikirana**: akurikiza integuro y'inyigisho, akagenzura ibikorwa vyo mu kibanza, ubuhinga n'ibikorwa bahawe.\n- **Arafasha kwiyumvira**: biciye mu kuyaga no mu kubabwira ukuri.\n- **Ategura ikirere**: ni we yitwararika ikibanza ciza c'imenyereza."
       }
     },
@@ -54,13 +54,13 @@
       "image": "servant-leader",
       "video_url": null,
       "title": {
-        "fr": "Un modèle à suivre",
-        "en": "A model to follow",
+        "fr": "Ils font ce qu'ils voient",
+        "en": "They do what they see",
         "rn": "Icitegererezo"
       },
       "body": {
-        "fr": "Les stagiaires imitent ce qu'ils voient plus que ce qu'ils entendent. Le formateur vit ce qu'il enseigne.\n\n> Soyez mes imitateurs, comme je le suis moi-même de Christ.\n> — 1 Corinthiens 11 : 1\n\nJésus a lavé les pieds de ses disciples, puis il leur a dit :\n\n> Car je vous ai donné un exemple, afin que vous fassiez comme je vous ai fait.\n> — Jean 13 : 15",
-        "en": "Trainees copy what they see more than what they hear. The trainer lives what he teaches.\n\n> Follow my example, as I follow the example of Christ.\n> — 1 Corinthians 11:1\n\nJesus washed his disciples' feet, and then he told them:\n\n> I have set you an example that you should do as I have done for you.\n> — John 13:15",
+        "fr": "Les stagiaires reproduisent ce qu'ils voient bien plus que ce qu'ils entendent. Alors le formateur vit ce qu'il enseigne.\n\n> Soyez mes imitateurs, comme je le suis moi-même de Christ.\n> — 1 Corinthiens 11 : 1\n\nJésus a lavé les pieds de ses disciples, puis il leur a dit :\n\n> Car je vous ai donné un exemple, afin que vous fassiez comme je vous ai fait.\n> — Jean 13 : 15",
+        "en": "Trainees copy what they see far more than what they hear. So the trainer lives what he teaches.\n\n> Follow my example, as I follow the example of Christ.\n> — 1 Corinthians 11:1\n\nJesus washed his disciples' feet, and then he told them:\n\n> I have set you an example that you should do as I have done for you.\n> — John 13:15",
         "rn": "Abamenyerezwa bigana ivyo babona, kuruta ivyo bumva. Umumenyereza abaho ivyo yigisha.\n\n> Nimwigane jewe, nk'uko nanje nigana Kristo.\n> — 1 Abakorinto 11 : 1\n\nYesu yamaze kwoza ibirenge vy'abigishwa biwe, arababwira ati:\n\n> Nabahaye icitegererezo, kugira mukore nk'uko nabagiriye.\n> — Yohana 13 : 15"
       }
     },
@@ -68,13 +68,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Défi et attention",
-        "en": "Challenge and care",
+        "fr": "Pousser et prendre soin",
+        "en": "Stretching and caring",
         "rn": "Kugerageza no kwitwararika"
       },
       "body": {
-        "fr": "Les gens s'épanouissent dans un environnement de **défi** et d'**attention** :\n\n- Assez de défi pour engendrer de la force.\n- Assez d'attention pour encourager la croissance.\n\nDe 70 à 90 % de la réussite de la formation tient à l'**environnement**, et non au programme. Le climat que vous créez compte beaucoup.",
-        "en": "People grow best in an environment of **challenge** and **care**:\n\n- Enough challenge to build strength.\n- Enough care to encourage growth.\n\n70 to 90 percent of the success of training comes from the **environment**, not from the program. The climate you create matters a lot.",
+        "fr": "Les gens grandissent le mieux quand on les pousse et qu'on prend soin d'eux en même temps. Il faut assez de **défi** pour qu'ils deviennent forts, et assez d'attention pour qu'ils osent grandir.\n\nOn estime que de 70 à 90 % de la réussite tient à l'environnement, et non au programme.\n\nAutrement dit, le climat que vous créez autour de vos stagiaires compte souvent plus que vos notes de cours.",
+        "en": "People grow best when they are stretched and cared for at the same time. They need enough **challenge** to become strong, and enough care to dare to grow.\n\nIt is said that 70 to 90 percent of the success comes from the environment, not from the program.\n\nIn other words, the climate you create around your trainees often counts for more than your lesson notes.",
         "rn": "Abantu batera imbere mu kibanza kirimwo **ukugeragezwa** n'**ukwitwararikwa**:\n\n- Ukugeragezwa guhagije kugira bironke inkomezi.\n- Ukwitwararikwa guhagije kugira baterwe intege zo gukura.\n\nKuva ku 70 gushika ku 90 % vy'ukuroranirwa kw'imenyereza biva ku **kibanza** c'imenyereza, si kuri porogarama. Ikirere utegura gihambaye cane."
       }
     },
@@ -82,13 +82,13 @@
       "image": "church-community",
       "video_url": null,
       "title": {
-        "fr": "Cinq caractéristiques",
-        "en": "Five marks",
+        "fr": "Un bon climat de formation",
+        "en": "A good training climate",
         "rn": "Ibintu bitanu biranga"
       },
       "body": {
-        "fr": "Un environnement favorable à la formation a cinq caractéristiques :\n\n1. **Mouvement** : accent sur l'évangélisation, les grands événements, la vision du monde, la multiplication.\n2. **Foi et vision** : briser les barrières de la foi ; relier la théorie à la pratique.\n3. **Prière** : prier chaque jour pour ses stagiaires et régulièrement avec eux.\n4. **Amour et acceptation** : une amitié centrée sur Christ, avec la liberté d'échouer.\n5. **Communion fraternelle** : du temps ensemble, de la joie, des activités hors ministère.",
-        "en": "A good training environment has five marks:\n\n1. **Movement**: a focus on evangelism, big events, a world vision, multiplication.\n2. **Faith and vision**: breaking through faith barriers; linking theory to practice.\n3. **Prayer**: praying every day for your trainees and often with them.\n4. **Love and acceptance**: a Christ-centered friendship, with freedom to fail.\n5. **Fellowship**: time together, joy, activities outside of ministry.",
+        "fr": "On reconnaît un bon environnement de formation à cinq traits :\n\n1. Le mouvement : on parle d'évangélisation, de grands événements, de vision pour le monde, de multiplication.\n2. La foi et la vision : on ose dépasser ses limites, et on relie la théorie à la pratique.\n3. La prière : le formateur prie chaque jour pour ses stagiaires, et souvent avec eux.\n4. L'amour et l'acceptation : une amitié centrée sur Christ, où l'on a le droit d'échouer.\n5. La communion fraternelle : du temps ensemble, de la joie, des moments en dehors du ministère.",
+        "en": "You can recognise a good training environment by five features:\n\n1. Movement: people talk about evangelism, big events, a vision for the world, multiplication.\n2. Faith and vision: people dare to go past their limits, and theory gets linked to practice.\n3. Prayer: the trainer prays every day for the trainees, and often with them.\n4. Love and acceptance: a Christ-centred friendship where it is all right to fail.\n5. Fellowship: time together, joy, moments outside of ministry.",
         "rn": "Ikibanza ciza c'imenyereza kirangwa n'ibintu bitanu:\n\n1. **Umugambwe**: gushira imbere ukwamamaza ubutumwa, ibikorwa binini, iyerekwa ry'isi yose, ukwigwiza.\n2. **Ukwizera n'iyerekwa**: gusenyura ibibuza ukwizera; guhuza inyigisho n'ugukora.\n3. **Isengesho**: gusengera abamenyerezwa buri musi, no gusenga hamwe na bo kenshi.\n4. **Urukundo n'ukwakira**: ubucuti bushingiye kuri Kristo, aho umuntu afise uburenganzira bwo kugwa.\n5. **Ugusangira**: umwanya hamwe, umunezero, ibikorwa bitari ivy'ubusuku."
       }
     },
@@ -96,13 +96,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Aimer et rendre capable",
-        "en": "Love and equip",
+        "fr": "Tout part de l'amour",
+        "en": "It starts with love",
         "rn": "Gukunda no gushoboza"
       },
       "body": {
-        "fr": "Le travail du formateur naît de l'amour :\n\n- Connaître ses stagiaires comme des personnes, pas seulement comme des élèves.\n- Prier pour eux par leur nom.\n- Voir leurs besoins et leurs difficultés.\n\n> Nous aurions voulu non seulement vous donner l'Évangile de Dieu, mais encore nos propres vies, tant vous nous étiez devenus chers.\n> — 1 Thessaloniciens 2 : 8\n\nLe but n'est pas qu'ils aient toujours besoin de vous, mais qu'ils deviennent capables eux-mêmes, et atteignent d'autres.",
-        "en": "The trainer's work comes from love:\n\n- Know your trainees as people, not only as students.\n- Pray for them by name.\n- See their needs and their struggles.\n\n> We were delighted to share with you not only the gospel of God but our lives as well, because you had become so dear to us.\n> — 1 Thessalonians 2:8\n\nThe goal is not that they always need you, but that they become able on their own, and reach others.",
+        "fr": "Le travail du formateur naît de l'amour. Il connaît ses stagiaires comme des personnes, pas seulement comme des élèves. Il prie pour eux par leur nom. Il remarque leurs besoins et leurs luttes.\n\n> Nous aurions voulu non seulement vous donner l'Évangile de Dieu, mais encore nos propres vies, tant vous nous étiez devenus chers.\n> — 1 Thessaloniciens 2 : 8\n\nIl ne cherche pas à ce qu'ils aient toujours besoin de lui. Il veut qu'ils deviennent capables par eux-mêmes et qu'ils atteignent d'autres personnes.",
+        "en": "A trainer's work grows out of love. He knows his trainees as people, not just as students. He prays for them by name. He notices their needs and their struggles.\n\n> We were delighted to share with you not only the gospel of God but our lives as well, because you had become so dear to us.\n> — 1 Thessalonians 2:8\n\nHe does not want them to need him forever. He wants them to become able on their own and to reach other people.",
         "rn": "Igikorwa c'umumenyereza kiva ku rukundo:\n\n- Kubamenya nk'abantu, si nk'abanyeshure gusa.\n- Kubasengera ku mazina yabo.\n- Kubona ibibagora n'ubukene bwabo.\n\n> Twashaka kubaha ubutumwa bwiza gusa atari kwo, ariko n'ubugingo bwacu bwite, kuko mwabaye abakundwa bacu.\n> — 1 Abatesalonike 2 : 8\n\nUmumenyereza ntagira intumbero yo kuba ari we nyene bakenera, ariko yo kubashoboza ngo bashobore bo nyene, mbere bashikire n'abandi."
       }
     },
@@ -110,13 +110,13 @@
       "image": "planning",
       "video_url": null,
       "title": {
-        "fr": "Les responsabilités du formateur",
-        "en": "The trainer's responsibilities",
+        "fr": "Semaine après semaine",
+        "en": "Week after week",
         "rn": "Amabanga y'umumenyereza"
       },
       "body": {
-        "fr": "Semaine après semaine, le formateur :\n\n- **A un ministère personnel** : il sature sa sous-région visée et vit la multiplication spirituelle.\n- **Développe ses stagiaires** : il les aide à bâtir leur propre ministère de saturation et de multiplication.\n- **Vit une relation centrée sur Christ** : un engagement mutuel à marcher par l'Esprit (Colossiens 3 : 12-17).\n- **Forme chaque semaine** : du temps régulier pour le curriculum, le contrôle et les questions.\n- **Communique les « pourquoi »** : il transmet la philosophie du ministère.\n- **Vise un développement équilibré** : vision, techniques, convictions bibliques, spiritualité, caractère.",
-        "en": "Week after week, the trainer:\n\n- **Has a personal ministry**: he saturates his target sub-area and lives spiritual multiplication.\n- **Develops his trainees**: he helps them build their own ministry of saturation and multiplication.\n- **Lives a Christ-centered relationship**: a shared commitment to walk in the Spirit (Colossians 3:12-17).\n- **Trains every week**: regular time for the curriculum, checking and questions.\n- **Shares the \"whys\"**: he passes on the philosophy of the ministry.\n- **Aims for balanced growth**: vision, skills, Bible convictions, spiritual life, character.",
+        "fr": "Concrètement, le formateur a son propre ministère : il travaille à saturer sa sous-région visée et vit lui-même la multiplication spirituelle. Il aide ses stagiaires à bâtir le leur.\n\nIl vit avec eux une relation centrée sur Christ, chacun s'engageant à marcher par l'Esprit (Colossiens 3 : 12-17). Il les forme chaque semaine, avec du temps régulier pour le programme, le suivi et les questions.\n\nIl leur explique les « pourquoi » du ministère. Et il veille à une croissance équilibrée : vision, techniques, convictions bibliques, vie spirituelle et caractère.",
+        "en": "In practice, the trainer has his own ministry: he works to saturate his target sub-area and lives out spiritual multiplication himself. He helps his trainees build theirs.\n\nHe has a Christ-centred relationship with them, each one committed to walking in the Spirit (Colossians 3:12-17). He trains them every week, with regular time for the curriculum, follow-up and questions.\n\nHe explains the \"whys\" of the ministry. And he looks for balanced growth: vision, skills, Bible convictions, spiritual life and character.",
         "rn": "Indwi ku yindi, umumenyereza:\n\n- **Afise igikorwa ciwe bwite**: akwiza ubutumwa mu ntara ntoya yatumbereye, akabaho ukwigwiza mu buryo bw'impwemu.\n- **Arateza imbere abamenyerezwa**: abafasha kwubaka igikorwa cabo bwite co gukwiza ubutumwa no kwigwiza.\n- **Abana na bo mu bucuti bushingiye kuri Kristo**: bose biyemeza kugendera muri Mpwemu (Abakolosayi 3 : 12-17).\n- **Aramenyereza buri ndwi**: umwanya ugenewe integuro y'inyigisho, igenzura n'ibibazo.\n- **Arasigura « kubera iki »**: ashikiriza iyerekwa ry'igikorwa.\n- **Araronderera iterambere riringaniye**: iyerekwa, ubuhinga, ivyo Bibiliya yigisha, ubuzima bw'impwemu, kamere."
       }
     },
@@ -124,13 +124,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Un serviteur avant tout",
-        "en": "A servant first",
+        "fr": "Un cœur de serviteur",
+        "en": "A servant's heart",
         "rn": "Umusuku imbere ya vyose"
       },
       "body": {
-        "fr": "Le rôle du formateur repose sur le **service** : il ne cherche pas sa propre gloire, mais la croissance de ceux qu'il forme et la gloire de Dieu.\n\nQu'est-ce qui peut m'empêcher d'être un bon formateur ? L'égoïsme, la crainte de l'échec, le manque de temps, et le fait de ne pas faire de mes stagiaires ma priorité.\n\nQu'est-ce qui me pousse à viser l'excellence ? Le privilège de multiplier ma vie en d'autres pour Christ. Faites de vos stagiaires **la priorité de vos priorités**.",
-        "en": "The trainer's role rests on **service**: he does not seek his own glory, but the growth of those he trains and the glory of God.\n\nWhat can keep me from being a good trainer? Selfishness, fear of failure, lack of time, and not making my trainees my priority.\n\nWhat moves me to aim for excellence? The privilege of multiplying my life in others for Christ. Make your trainees **the priority of your priorities**.",
+        "fr": "Au fond, le formateur est un **serviteur**. Il ne cherche pas sa propre gloire. Il cherche la croissance de ceux qu'il forme, et la gloire de Dieu.\n\nPlusieurs choses peuvent l'en empêcher : l'égoïsme, la peur d'échouer, le manque de temps, ou simplement le fait de ne pas mettre ses stagiaires en premier.\n\nCe qui le pousse à donner le meilleur, c'est le privilège de multiplier sa vie en d'autres pour Christ. Faites de vos stagiaires la priorité de vos priorités.",
+        "en": "At heart, a trainer is a **servant**. He is not after his own glory. He is after the growth of the people he trains, and the glory of God.\n\nSeveral things can get in the way: selfishness, fear of failing, lack of time, or simply not putting his trainees first.\n\nWhat moves him to give his best is the privilege of multiplying his life in others for Christ. Make your trainees the priority of your priorities.",
         "rn": "Uruhara rw'umumenyereza rufatiye ku **busuku**: ntarondera ubuninahazwa bwiwe, ariko iterambere ry'abo amenyereza n'ubuninahazwa bw'Imana.\n\nNi iki cobuza kuba umumenyereza mwiza? Ubwikunzi, ubwoba bwo kugwa, ukubura umwanya, no kudashira abamenyerezwa banje imbere.\n\nNi iki kintera gushaka kuba indashikirwa? Iteka ryo kwigwiza ubuzima bwanje mu bandi ku bwa Kristo. Shira abamenyerezwa bawe **imbere y'ibindi vyose**."
       }
     },
@@ -138,13 +138,13 @@
       "image": "love-faith",
       "video_url": null,
       "title": {
-        "fr": "En résumé",
-        "en": "In summary",
+        "fr": "L'essentiel du rôle",
+        "en": "The heart of the role",
         "rn": "Mu ncamake"
       },
       "body": {
-        "fr": "- **Le formateur** développe, responsabilise, apporte des ressources et aide à réfléchir.\n- **Il montre l'exemple** par sa vie, et sert sans chercher sa gloire.\n- **L'environnement** éduque et défie les stagiaires.\n- **Les piliers** : prière, amour, communion, vision, mouvement.",
-        "en": "- **The trainer** develops, holds accountable, provides resources and helps people think.\n- **He sets the example** with his life, and serves without seeking his own glory.\n- **The environment** teaches and challenges the trainees.\n- **The pillars**: prayer, love, fellowship, vision, movement.",
+        "fr": "Le formateur fait grandir ses stagiaires : il les rend responsables, leur ouvre des ressources et les aide à réfléchir. Il montre l'exemple par sa vie et sert sans chercher sa gloire.\n\nAutour de lui, il entretient un environnement qui instruit et qui pousse à grandir, porté par la prière, l'amour, la communion, la vision et le mouvement.",
+        "en": "The trainer helps his trainees grow: he holds them accountable, opens up resources for them and helps them think. He sets the example with his life and serves without seeking glory.\n\nAround him, he keeps up an environment that both teaches and stretches, carried by prayer, love, fellowship, vision and movement.",
         "rn": "- **Umumenyereza** arateza imbere, arakurikirana, aratanga ibikoresho, arafasha kwiyumvira.\n- **Ni icitegererezo** mu buzima bwiwe, agasukura atarondera ubuninahazwa bwiwe.\n- **Ikibanza c'imenyereza** kirigisha kandi kigerageza abamenyerezwa.\n- **Inkingi**: isengesho, urukundo, ugusangira, iyerekwa, umugambwe."
       }
     },
@@ -152,13 +152,13 @@
       "image": null,
       "video_url": null,
       "title": {
-        "fr": "Réfléchissez",
-        "en": "Reflect",
+        "fr": "Un regard honnête sur vous",
+        "en": "An honest look at yourself",
         "rn": "Zirikana"
       },
       "body": {
-        "fr": "- Suis-je un modèle de ce que j'enseigne ? Est-ce que je vis ce que je dis ?\n- Quel rôle est le plus difficile pour moi : modèle, formateur, encourageur, évaluateur ?\n- Est-ce que je rends mes stagiaires capables, ou est-ce qu'ils dépendent de moi ?\n- Est-ce que je prie chaque jour pour eux, par leur nom ?",
-        "en": "- Am I a model of what I teach? Do I live what I say?\n- Which role is hardest for me: model, trainer, encourager, evaluator?\n- Do I make my trainees able, or do they depend on me?\n- Do I pray for them every day, by name?",
+        "fr": "Est-ce que vos stagiaires voient en vous ce que vous leur enseignez ? Répondez honnêtement, sans vous accabler.\n\nParmi vos rôles, modèle, formateur, encourageur, évaluateur, lequel vous coûte le plus ? Et vos stagiaires deviennent-ils plus capables, ou plus dépendants de vous ?\n\nCette semaine, écrivez le nom de chacun de vos stagiaires et priez pour eux, un par un, chaque jour.",
+        "en": "Do your trainees see in you what you teach them? Answer honestly, without beating yourself up.\n\nOf your roles, model, trainer, encourager, evaluator, which one costs you the most? And are your trainees becoming more able, or more dependent on you?\n\nThis week, write down the name of each of your trainees and pray for them, one by one, every day.",
         "rn": "- Ndi icitegererezo c'ivyo nigisha? Ndabaho ivyo mvuga?\n- Ni uruhe ruhara rungora: icitegererezo, umumenyereza, umuremesha, umugenzuzi?\n- Ndashoboza abo menyereza, canke baranyishimikiza?\n- Ndabasengera buri musi, ku mazina yabo?"
       }
     }
@@ -166,8 +166,8 @@
   "quiz": [
     {
       "prompt": {
-        "fr": "Quelle est la responsabilité première du formateur ?",
-        "en": "What is the trainer's first responsibility?",
+        "fr": "Quelle est la toute première responsabilité du formateur ?",
+        "en": "What is the trainer's very first responsibility?",
         "rn": "Ni irihe banga rya mbere ry'umumenyereza?"
       },
       "choices": [
@@ -177,20 +177,20 @@
           "rn": "Kwuzuzwa Mpwemu Yera"
         },
         {
-          "fr": "Finir tout le programme vite",
-          "en": "To finish the whole program quickly",
+          "fr": "Bien connaître tout le programme",
+          "en": "To know the whole curriculum well",
           "rn": "Guheza porogarama yose ningoga"
         },
         {
-          "fr": "Être le meilleur orateur",
-          "en": "To be the best speaker",
+          "fr": "Être un bon orateur devant la classe",
+          "en": "To be a good speaker in front of the class",
           "rn": "Kuba umuvugizi aruta abandi"
         }
       ],
       "correctIndex": 0,
       "explanation": {
-        "fr": "Le formateur dépend de Dieu : il doit d'abord être rempli de l'Esprit.",
-        "en": "The trainer depends on God: first he must be filled with the Spirit.",
+        "fr": "Le formateur dépend de Dieu, il doit d'abord être rempli de l'Esprit.",
+        "en": "The trainer depends on God, so first he must be filled with the Spirit.",
         "rn": "Umumenyereza yishimikiza Imana: abanza kwuzuzwa Mpwemu."
       }
     },
@@ -202,8 +202,8 @@
       },
       "choices": [
         {
-          "fr": "Du programme",
-          "en": "The program",
+          "fr": "Du programme et des supports",
+          "en": "The curriculum and materials",
           "rn": "Kuri porogarama"
         },
         {
@@ -212,8 +212,8 @@
           "rn": "Ku kibanza c'imenyereza"
         },
         {
-          "fr": "Du nombre de stagiaires",
-          "en": "The number of trainees",
+          "fr": "Du niveau des stagiaires au départ",
+          "en": "The trainees' level at the start",
           "rn": "Ku gitigiri c'abamenyerezwa"
         }
       ],
@@ -226,19 +226,19 @@
     },
     {
       "prompt": {
-        "fr": "Lequel fait partie des cinq caractéristiques d'un bon environnement ?",
-        "en": "Which one is one of the five marks of a good environment?",
+        "fr": "Lequel fait partie des cinq traits d'un bon environnement de formation ?",
+        "en": "Which is one of the five features of a good training environment?",
         "rn": "Ni ikihe muri ibi kiri mu bintu bitanu biranga ikibanza ciza?"
       },
       "choices": [
         {
-          "fr": "La peur de l'échec",
-          "en": "Fear of failure",
+          "fr": "Des règles strictes pour éviter les erreurs",
+          "en": "Strict rules to avoid mistakes",
           "rn": "Ubwoba bwo kugwa"
         },
         {
-          "fr": "La compétition entre stagiaires",
-          "en": "Competition between trainees",
+          "fr": "Un peu de compétition pour motiver",
+          "en": "Some competition to motivate people",
           "rn": "Uguhiganwa kw'abamenyerezwa"
         },
         {
@@ -249,8 +249,8 @@
       ],
       "correctIndex": 2,
       "explanation": {
-        "fr": "Un bon environnement donne une amitié centrée sur Christ et la liberté d'échouer.",
-        "en": "A good environment gives a Christ-centered friendship and freedom to fail.",
+        "fr": "On y vit une amitié centrée sur Christ, avec le droit d'échouer.",
+        "en": "There is a Christ-centred friendship, with freedom to fail.",
         "rn": "Ikibanza ciza gitanga ubucuti bushingiye kuri Kristo n'uburenganzira bwo kugwa."
       }
     },
@@ -262,18 +262,18 @@
       },
       "choices": [
         {
-          "fr": "Parce que les stagiaires imitent ce qu'ils voient",
+          "fr": "Parce que les stagiaires reproduisent ce qu'ils voient",
           "en": "Because trainees copy what they see",
           "rn": "Kuko abamenyerezwa bigana ivyo babona"
         },
         {
-          "fr": "Pour être admiré",
-          "en": "To be admired",
+          "fr": "Parce que cela lui donne de l'autorité sur eux",
+          "en": "Because it gives him authority over them",
           "rn": "Kugira ngo ashimwe"
         },
         {
-          "fr": "Parce qu'il n'a pas besoin de parler",
-          "en": "Because he does not need to speak",
+          "fr": "Parce que l'exemple remplace l'enseignement",
+          "en": "Because example replaces teaching",
           "rn": "Kuko adakeneye kuvuga"
         }
       ],
@@ -286,24 +286,24 @@
     },
     {
       "prompt": {
-        "fr": "Quel est le but du formateur envers ses stagiaires ?",
-        "en": "What is the trainer's goal for his trainees?",
+        "fr": "Que souhaite le formateur pour ses stagiaires ?",
+        "en": "What does the trainer want for his trainees?",
         "rn": "Umumenyereza afise iyihe ntumbero ku bamenyerezwa?"
       },
       "choices": [
         {
-          "fr": "Qu'ils aient toujours besoin de lui",
-          "en": "That they always need him",
+          "fr": "Qu'ils restent proches de lui pour être bien suivis",
+          "en": "That they stay close to him so they are well followed",
           "rn": "Ko bama bamukeneye"
         },
         {
-          "fr": "Qu'ils deviennent capables eux-mêmes et atteignent d'autres",
+          "fr": "Qu'ils deviennent capables par eux-mêmes et atteignent d'autres",
           "en": "That they become able on their own and reach others",
           "rn": "Ko bashobora bo nyene bagashikira n'abandi"
         },
         {
-          "fr": "Qu'ils le servent",
-          "en": "That they serve him",
+          "fr": "Qu'ils l'aident dans son propre ministère",
+          "en": "That they help him in his own ministry",
           "rn": "Ko bamusukurira"
         }
       ],
