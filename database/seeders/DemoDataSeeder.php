@@ -17,10 +17,12 @@ use App\Models\Note;
 use App\Models\RelationshipMessage;
 use App\Models\User;
 use App\Services\Progress\LevelProgressionService;
+use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\ValidationException;
 use Spatie\Permission\Models\Role;
 
 class DemoDataSeeder extends Seeder
@@ -199,7 +201,12 @@ class DemoDataSeeder extends Seeder
                 ?? LessonProgressStatus::Completed;
 
             $progression->ensureBootstrap($user);
-            $progression->completeLesson($user, $lesson, $status);
+            try {
+                $progression->completeLesson($user, $lesson, $status);
+            } catch (AuthorizationException|ValidationException $e) {
+                // Locked lesson or answers not yet approved by the coach.
+                $this->command?->warn('Progress skipped for '.$row['lesson_code'].': '.$e->getMessage());
+            }
         }
     }
 

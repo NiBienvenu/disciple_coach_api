@@ -211,7 +211,7 @@ class ContentAdminController extends Controller
     private function validatePage(Request $request, bool $creating): array
     {
         return $request->validate([
-            'kind' => ['sometimes', Rule::in([LessonPage::KIND_CONTENT, LessonPage::KIND_QUESTION])],
+            'kind' => ['sometimes', Rule::in([LessonPage::KIND_CONTENT, LessonPage::KIND_QUESTION, LessonPage::KIND_DECISION])],
             'order' => ['sometimes', 'integer', 'min:0'],
             'video_url' => ['sometimes', 'nullable', 'string', 'max:500', 'url:http,https'],
             'correct_index' => ['sometimes', 'integer', 'min:0'],

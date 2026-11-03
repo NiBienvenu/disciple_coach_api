@@ -17,6 +17,11 @@ return new class extends Migration
     {
         (new RolePermissionSeeder)->run();
         (new AdminSeeder)->run();
+
+        // Tests migrate for every case; they build their own small content.
+        if (app()->environment('testing')) {
+            return;
+        }
         (new CurriculumSeeder)->run();
     }
 

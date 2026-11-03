@@ -387,7 +387,8 @@ class ProgressionTest extends TestCase
         $this->disciple = User::factory()->create(['email' => 'disciple@example.com']);
         $this->disciple->assignRole(AppRole::Disciple->value);
 
-        $this->coach = User::factory()->create(['email' => 'coach@example.com']);
+        // Only coaches approved by an admin can coach.
+        $this->coach = User::factory()->create(['email' => 'coach@example.com', 'coach_status' => 'approved']);
         $this->coach->assignRole(AppRole::Coach->value);
 
         $this->otherCoach = User::factory()->create(['email' => 'other-coach@example.com']);

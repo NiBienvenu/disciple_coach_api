@@ -6,6 +6,7 @@ use App\Enums\ContentStatus;
 use App\Enums\MentorReviewStatus;
 use App\Enums\RelationshipStatus;
 use App\Models\CoachDiscipleRelationship;
+use App\Models\DecisionResponse;
 use App\Models\Lesson;
 use App\Models\LessonProgress;
 use App\Models\LessonTranslation;
@@ -194,13 +195,13 @@ class AdminService
     /**
      * @return array<string, mixed>
      */
-    public function stats(): array
+    public function stats(string $language = 'fr'): array
     {
         $byRole = fn (string $role) => User::query()->role($role)->count();
 
         $levels = Level::query()
             ->withCount('lessons')
-            ->with(['translations' => fn ($q) => $q->where('language', 'fr')])
+            ->with('translations')
             ->orderBy('order')
             ->get();
 
@@ -222,7 +223,18 @@ class AdminService
             ->groupBy('mentor_status')
             ->get();
 
+        // Choice 0 is "Yes" on decision pages.
+        $decisions = DecisionResponse::query();
+        $yes = (clone $decisions)->where('choice_index', 0);
+
         return [
+            'decisions' => [
+                'yes' => (clone $yes)->count(),
+                'no' => (clone $decisions)->where('choice_index', '>', 0)->count(),
+                'yes_accounts' => (clone $yes)->whereNotNull('user_id')->count(),
+                'yes_visitors' => (clone $yes)->whereNull('user_id')->count(),
+                'yes_last_30_days' => (clone $yes)->where('updated_at', '>=', now()->subDays(30))->count(),
+            ],
             'users' => [
                 'total' => User::query()->count(),
                 'active' => User::query()->where('is_active', true)->count(),
@@ -242,7 +254,7 @@ class AdminService
                 'lessons_per_level' => $levels->map(fn (Level $l) => [
                     'level_id' => $l->id,
                     'part' => $l->part,
-                    'title' => $l->translations->first()?->title ?? $l->slug,
+                    'title' => $l->translationFor($language)?->title ?? $l->slug,
                     'lessons' => $l->lessons_count,
                     'completions' => (int) ($completedByLevel[$l->id] ?? 0),
                 ])->values(),

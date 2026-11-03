@@ -110,15 +110,31 @@ class AuthTest extends TestCase
             ->assertJsonPath('data.name', 'Updated Name');
     }
 
-    public function test_user_can_self_assign_disciple_and_coach_roles(): void
+    public function test_user_can_self_assign_one_role(): void
     {
         $user = User::factory()->create();
         Sanctum::actingAs($user);
 
         $this->putJson('/api/v1/me/roles', [
-            'roles' => ['disciple', 'coach'],
+            'roles' => ['disciple'],
         ])->assertOk()
-            ->assertJsonPath('data.roles', ['disciple', 'coach']);
+            ->assertJsonPath('data.roles', ['disciple']);
+
+        // A new coach waits for an admin.
+        $this->putJson('/api/v1/me/roles', [
+            'roles' => ['coach'],
+        ])->assertOk()
+            ->assertJsonPath('data.roles', ['coach'])
+            ->assertJsonPath('data.coach_status', 'pending');
+    }
+
+    public function test_user_cannot_take_two_roles(): void
+    {
+        Sanctum::actingAs(User::factory()->create());
+
+        $this->putJson('/api/v1/me/roles', [
+            'roles' => ['disciple', 'coach'],
+        ])->assertUnprocessable();
     }
 
     public function test_user_cannot_self_assign_staff_roles(): void

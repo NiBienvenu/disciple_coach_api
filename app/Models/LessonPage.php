@@ -12,6 +12,9 @@ class LessonPage extends Model
 
     public const KIND_QUESTION = 'question';
 
+    /** Yes / No style question that is not graded; answers feed the stats. */
+    public const KIND_DECISION = 'decision';
+
     /**
      * @var list<string>
      */
@@ -48,6 +51,17 @@ class LessonPage extends Model
     public function isQuestion(): bool
     {
         return $this->kind === self::KIND_QUESTION;
+    }
+
+    public function isDecision(): bool
+    {
+        return $this->kind === self::KIND_DECISION;
+    }
+
+    /** Pages whose translations carry answer choices. */
+    public function hasChoices(): bool
+    {
+        return $this->isQuestion() || $this->isDecision();
     }
 
     /** Same rule as lesson images: stored as a public path, served as a full URL. */

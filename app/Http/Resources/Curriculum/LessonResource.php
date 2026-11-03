@@ -62,7 +62,7 @@ class LessonResource extends JsonResource
             'video_url' => $page->video_url,
             'title' => $t?->title,
             'body' => $t?->body,
-            'choices' => $page->isQuestion() ? ($t?->choices ?? []) : null,
+            'choices' => $page->hasChoices() ? ($t?->choices ?? []) : null,
             'correct_index' => $page->isQuestion() ? $page->correct_index : null,
         ];
     }

@@ -53,9 +53,11 @@ class AdminController extends Controller
         return ApiResponse::success($this->admin->coachRoster($language));
     }
 
-    public function stats(): JsonResponse
+    public function stats(Request $request): JsonResponse
     {
-        return ApiResponse::success($this->admin->stats());
+        $language = PreferredLanguage::resolve($request->query('lang'))->value;
+
+        return ApiResponse::success($this->admin->stats($language));
     }
 
     /** Is push set up on this server, and how many devices are registered? */

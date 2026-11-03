@@ -71,6 +71,115 @@ class LessonContentSeeder extends Seeder
         $this->command?->info('Lesson pages loaded from '.$root.' (cache cleared)');
     }
 
+    /**
+     * Updates only the text of the given languages from the files, in place.
+     *
+     * Unlike run(), no page is deleted: page ids stay, so answers that point
+     * to a page (faith decisions, lesson quiz answers) and admin images stay
+     * too. A lesson whose page or question count no longer matches its file
+     * (changed by an admin) is left alone.
+     *
+     * @param  list<string>  $languages
+     */
+    public function refreshTexts(array $languages): void
+    {
+        $root = database_path('seeders/content');
+        $levels = json_decode(File::get($root.'/levels.json'), true, 512, JSON_THROW_ON_ERROR)['levels'];
+
+        DB::transaction(function () use ($root, $levels, $languages) {
+            foreach ($levels as $levelData) {
+                $lessons = $this->readLessons($root.'/'.$levelData['slug']);
+                foreach ($lessons as $data) {
+                    $this->refreshLessonTexts($data, $languages);
+                }
+                $level = Level::query()->where('slug', $levelData['slug'])->first();
+                if ($level !== null) {
+                    $this->refreshLevelQuizTexts($level, $lessons, $languages);
+                }
+            }
+        });
+
+        CacheKey::bumpRevision();
+    }
+
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  list<string>  $languages
+     */
+    private function refreshLessonTexts(array $data, array $languages): void
+    {
+        $lesson = Lesson::query()->where('code', (string) $data['code'])->first();
+        if ($lesson === null) {
+            return;
+        }
+
+        $pages = $data['pages'] ?? [];
+        $quiz = $data['quiz'] ?? [];
+        $contentPages = $lesson->pages()->where('kind', LessonPage::KIND_CONTENT)->orderBy('order')->get();
+        $questionPages = $lesson->pages()->where('kind', LessonPage::KIND_QUESTION)->orderBy('order')->get();
+        if ($contentPages->count() !== count($pages) || $questionPages->count() !== count($quiz)) {
+            $this->command?->warn("Skipped {$data['code']}: its pages were changed in the app.");
+
+            return;
+        }
+
+        foreach ($languages as $lang) {
+            $lesson->translations()->where('language', $lang)->update([
+                'title' => $this->tr($data['title'], $lang),
+                'central_idea' => $this->firstParagraph($this->tr($pages[0]['body'] ?? [], $lang)),
+            ]);
+            foreach ($contentPages as $i => $page) {
+                $page->translations()->where('language', $lang)->update([
+                    'title' => $this->tr($pages[$i]['title'] ?? [], $lang) ?: null,
+                    'body' => $this->tr($pages[$i]['body'] ?? [], $lang) ?: null,
+                ]);
+            }
+            foreach ($questionPages as $i => $page) {
+                $question = $quiz[$i];
+                $page->translations()->where('language', $lang)->update([
+                    'title' => $this->tr($question['prompt'], $lang),
+                    'body' => $this->tr($question['explanation'] ?? [], $lang) ?: null,
+                    'choices' => json_encode(array_map(fn ($c) => $this->tr($c, $lang), $question['choices']), JSON_UNESCAPED_UNICODE),
+                ]);
+            }
+        }
+    }
+
+    /**
+     * Same picking as saveLevelQuiz(), text only.
+     *
+     * @param  list<array<string, mixed>>  $lessons
+     * @param  list<string>  $languages
+     */
+    private function refreshLevelQuizTexts(Level $level, array $lessons, array $languages): void
+    {
+        $quiz = Quiz::query()->where('level_id', $level->id)->first();
+        if ($quiz === null || $lessons === []) {
+            return;
+        }
+
+        $perLesson = max(2, (int) ceil(self::LEVEL_QUIZ_TARGET / count($lessons)));
+        $picked = [];
+        foreach ($lessons as $lesson) {
+            foreach (array_slice($lesson['quiz'] ?? [], 0, $perLesson) as $question) {
+                $picked[] = $question;
+            }
+        }
+
+        foreach ($picked as $index => $data) {
+            $question = $quiz->questions()->where('order', $index + 1)->first();
+            if ($question === null || (int) $question->correct_index !== (int) $data['correctIndex']) {
+                continue;
+            }
+            foreach ($languages as $lang) {
+                $question->translations()->updateOrCreate(['language' => $lang], [
+                    'prompt' => $this->tr($data['prompt'], $lang),
+                    'choices' => array_map(fn ($c) => $this->tr($c, $lang), $data['choices']),
+                ]);
+            }
+        }
+    }
+
     /** @return list<array<string, mixed>> */
     private function readLessons(string $dir): array
     {
@@ -173,6 +282,25 @@ class LessonContentSeeder extends Seeder
                     'choices' => array_map(fn ($c) => $this->tr($c, $lang), $question['choices']),
                 ]);
             }
+        }
+
+        // Yes / No decision pages close the lesson; they are not graded.
+        foreach ($data['decision'] ?? [] as $decision) {
+            $this->addDecisionPage($lesson, ++$order, $decision);
+        }
+    }
+
+    /** @param array<string, mixed> $decision */
+    public function addDecisionPage(Lesson $lesson, int $order, array $decision): void
+    {
+        $page = $lesson->pages()->create(['order' => $order, 'kind' => LessonPage::KIND_DECISION]);
+        foreach (self::LANGUAGES as $lang) {
+            $page->translations()->create([
+                'language' => $lang,
+                'title' => $this->tr($decision['prompt'], $lang),
+                'body' => $this->tr($decision['explanation'] ?? [], $lang) ?: null,
+                'choices' => array_map(fn ($c) => $this->tr($c, $lang), $decision['choices']),
+            ]);
         }
     }
 

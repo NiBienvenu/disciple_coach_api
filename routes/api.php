@@ -12,6 +12,7 @@ use App\Http\Controllers\Api\V1\DeviceTokenController;
 use App\Http\Controllers\Api\V1\GoalController;
 use App\Http\Controllers\Api\V1\HealthController;
 use App\Http\Controllers\Api\V1\InviteController;
+use App\Http\Controllers\Api\V1\DecisionController;
 use App\Http\Controllers\Api\V1\LessonController;
 use App\Http\Controllers\Api\V1\LessonQuizAttemptController;
 use App\Http\Controllers\Api\V1\LevelController;
@@ -50,6 +51,9 @@ Route::middleware('throttle:api')->group(function (): void {
     Route::get('/levels/{level}/lessons', [LessonController::class, 'index'])->name('levels.lessons.index');
     Route::get('/lessons/{lesson}', [LessonController::class, 'show'])->name('lessons.show');
     Route::get('/levels/{level}/quiz', [QuizController::class, 'show'])->name('levels.quiz.show');
+
+    // Yes / No decision pages: visitors answer too (random id per phone).
+    Route::post('/lesson-pages/{page}/decision', [DecisionController::class, 'store'])->name('lesson-pages.decision');
 });
 
 Route::middleware(['throttle:api', 'auth:sanctum'])->group(function (): void {

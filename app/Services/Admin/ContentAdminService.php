@@ -158,7 +158,9 @@ class ContentAdminService
                 $page->translations()->updateOrCreate(['language' => $lang], [
                     'title' => isset($t['title']) && trim((string) $t['title']) !== '' ? trim((string) $t['title']) : null,
                     'body' => isset($t['body']) && trim((string) $t['body']) !== '' ? (string) $t['body'] : null,
-                    'choices' => $kind === LessonPage::KIND_QUESTION ? $this->lines($t['choices'] ?? []) : null,
+                    'choices' => in_array($kind, [LessonPage::KIND_QUESTION, LessonPage::KIND_DECISION], true)
+                        ? $this->lines($t['choices'] ?? [])
+                        : null,
                 ]);
             }
 
