@@ -37,6 +37,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('throttle:api')->group(function (): void {
     Route::get('/health', HealthController::class)->name('health');
 
+
     Route::prefix('auth')->group(function (): void {
         Route::post('/register', [AuthController::class, 'register'])->name('auth.register');
         Route::post('/login', [AuthController::class, 'login'])->name('auth.login');

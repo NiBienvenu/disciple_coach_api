@@ -24,7 +24,7 @@ class RelationshipService
                 'disciple:id,name,email,profile_photo',
                 'latestMessage' => fn ($q) => $q->select(array_map(
                     fn (string $c) => 'relationship_messages.'.$c,
-                    ['id', 'relationship_id', 'sender_id', 'body', 'read_at', 'created_at'],
+                    ['id', 'relationship_id', 'sender_id', 'body', 'type', 'attachment_name', 'duration_ms', 'read_at', 'created_at'],
                 )),
             ])
             // Messages from the other person this user hasn't opened yet.

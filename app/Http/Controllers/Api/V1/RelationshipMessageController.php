@@ -40,6 +40,7 @@ class RelationshipMessageController extends Controller
                 RelationshipMessageResource::collection($items),
                 meta: [
                     'unread_count' => $this->messaging->unreadCount($relationship, $request->user()),
+                    'other_read_at' => $this->messaging->otherReadAt($relationship, $request->user()),
                     'has_more' => false,
                 ],
             );
@@ -58,6 +59,7 @@ class RelationshipMessageController extends Controller
             RelationshipMessageResource::collection($paginator->items()),
             meta: [
                 'unread_count' => $result['unread_count'],
+                'other_read_at' => $this->messaging->otherReadAt($relationship, $request->user()),
                 'next_cursor' => $paginator->nextCursor()?->encode(),
                 'prev_cursor' => $paginator->previousCursor()?->encode(),
                 'per_page' => $paginator->perPage(),
@@ -72,10 +74,16 @@ class RelationshipMessageController extends Controller
             throw new AuthorizationException('You are not a party to this relationship.');
         }
 
+        $replyTo = $request->validated('reply_to_id');
+        $duration = $request->validated('duration_ms');
         $message = $this->messaging->send(
             $relationship,
             $request->user(),
             $request->validated('body'),
+            $request->file('file'),
+            $request->validated('kind'),
+            $duration !== null ? (int) $duration : null,
+            $replyTo !== null ? (int) $replyTo : null,
         );
 
         return ApiResponse::success(new RelationshipMessageResource($message), status: 201);

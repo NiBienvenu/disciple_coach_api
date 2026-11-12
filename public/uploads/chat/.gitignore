@@ -1,0 +1,4 @@
+# Uploaded chat files stay on the server, not in git.
+*
+!.gitignore
+!.htaccess
