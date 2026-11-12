@@ -67,6 +67,14 @@ class FcmService
             $stringData[(string) $key] = (string) ($value ?? '');
         }
 
+        $androidNotification = [
+            // High-importance channel created by the app → heads-up banner.
+            'channel_id' => 'disciplecoach_high',
+        ];
+        if (($stringData['tag'] ?? '') !== '') {
+            $androidNotification['tag'] = $stringData['tag'];
+        }
+
         $payload = [
             'message' => [
                 'token' => $token,
@@ -75,11 +83,7 @@ class FcmService
                 'android' => [
                     // High priority wakes the device right away (chat must feel instant).
                     'priority' => 'HIGH',
-                    'notification' => [
-                        // High-importance channel created by the app → heads-up banner.
-                        'channel_id' => 'disciplecoach_high',
-                        'tag' => $stringData['tag'] ?? null,
-                    ],
+                    'notification' => $androidNotification,
                 ],
                 'apns' => [
                     'headers' => ['apns-priority' => '10'],
@@ -101,8 +105,10 @@ class FcmService
             }
 
             // Token no longer valid (app uninstalled / token rotated) → forget it.
-            $status = $response->json('error.status');
-            if ($response->status() === 404 || in_array($status, ['NOT_FOUND', 'UNREGISTERED', 'INVALID_ARGUMENT'], true)) {
+            // Only on a clear "unregistered" answer: a bad payload or a wrong
+            // Firebase project must not wipe every user's devices.
+            $errorCodes = collect($response->json('error.details') ?? [])->pluck('errorCode')->filter()->all();
+            if ($response->status() === 404 || in_array('UNREGISTERED', $errorCodes, true)) {
                 DeviceToken::query()->where('token', $token)->delete();
             }
             if ($response->status() === 401) {
@@ -152,6 +158,41 @@ class FcmService
 
             return false;
         }
+    }
+
+    /**
+     * Checks the whole chain without reaching any phone: key file, Google
+     * login, and a dry-run send. Returns null when all is fine, else why not.
+     */
+    public function diagnose(): ?string
+    {
+        $path = (string) config('services.fcm.credentials');
+        $credentials = $this->credentials();
+        if ($credentials === null) {
+            return "No valid service account file at: {$path}";
+        }
+
+        Cache::forget(self::TOKEN_CACHE_KEY);
+        try {
+            $accessToken = $this->accessToken($credentials);
+        } catch (Throwable $e) {
+            Cache::forget(self::TOKEN_CACHE_KEY);
+
+            return 'Google refused the service account key (deleted or replaced in the console?): '.$e->getMessage();
+        }
+
+        try {
+            $response = Http::withToken($accessToken)->timeout(8)->post(
+                "https://fcm.googleapis.com/v1/projects/{$this->projectId($credentials)}/messages:send",
+                ['validate_only' => true, 'message' => ['topic' => 'curriculum', 'data' => ['type' => 'check']]],
+            );
+        } catch (Throwable $e) {
+            return 'Could not reach FCM: '.$e->getMessage();
+        }
+
+        return $response->successful()
+            ? null
+            : "FCM refused the dry run ({$response->status()}): ".$response->body();
     }
 
     /**

@@ -38,9 +38,15 @@ return [
 
     'fcm' => [
         // Firebase project used for push notifications (FCM HTTP v1).
-        'project_id' => env('FCM_PROJECT_ID', 'disciplecoach-d0b0f'),
-        // Service account JSON downloaded from Firebase console.
-        'credentials' => env('FCM_CREDENTIALS', public_path('app/firebase-service-account.json')),
+        // Must be the same project as the app's google-services.json /
+        // GoogleService-Info.plist, or Google rejects every send.
+        'project_id' => env('FCM_PROJECT_ID', 'disciplecoach-2026'),
+        // Service account JSON downloaded from Firebase console. Best place:
+        // storage/app/private (never served, never committed). The old
+        // public/app path still works so current servers keep running.
+        'credentials' => env('FCM_CREDENTIALS') ?: (is_file(storage_path('app/private/firebase-service-account.json'))
+            ? storage_path('app/private/firebase-service-account.json')
+            : public_path('app/firebase-service-account.json')),
     ],
 
 ];

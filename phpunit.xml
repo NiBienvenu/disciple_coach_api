@@ -30,6 +30,8 @@
         <env name="QUEUE_CONNECTION" value="sync"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="PULSE_ENABLED" value="false"/>
+        <!-- Tests must never send real pushes through Google. -->
+        <env name="FCM_CREDENTIALS" value="/dev/null/no-fcm-in-tests"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
         <env name="NIGHTWATCH_ENABLED" value="false"/>
     </php>
